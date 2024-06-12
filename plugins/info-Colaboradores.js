@@ -47,14 +47,15 @@ let staff = `💫 *EQUIPO STAFF*
 
 await conn.sendMessage(m.chat, { image: pp, gifPlayback: false, caption: staff, mentions: [m.sender, global.conn.user.jid] }, { quoted: fakeChannel }) 
 
-var canalesInfo = [
-{ link: canal1, id: "120363160031023229@newsletter", name: "INFINITY-WA 💫" },
-{ link: canal2, id: "120363169294281316@newsletter", name: "GB - UPDATE ✨" },
-{ link: canal3, id: "120363203805910750@newsletter", name: "Tips sobre GataBot 🤩" } 
+ler canalesInfo = [
+{ link: channel, id: "120363160031023229@newsletter", name: "INFINITY-WA 💫" },
+{ link: channel2, id: "120363169294281316@newsletter", name: "GB - UPDATE ✨" },
+{ link: channel3, id: "120363203805910750@newsletter", name: "Tips sobre GataBot 🤩" } 
 ]
-var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
-var channelRD = canalesInfo[indiceAleatorio]
-var fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: imagen1, sourceUrl: redesYoshi }}}, { quoted: m }
+let indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
+let channelRD = canalesInfo[indiceAleatorio]
+
+let fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: imagen1, sourceUrl: redesYoshi }}}, { quoted: m }
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
