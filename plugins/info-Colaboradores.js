@@ -45,7 +45,7 @@ let staff = `💫 *EQUIPO STAFF*
 
 //await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, estilo)}
 
-await conn.sendMessage(m.chat, {text: staff.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🥷 Developers 👑', body: '💭 Staff Oficial', "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": canalesYoshi, "sourceUrl": canalesYoshi}}}, {quoted: estilo});
+await conn.sendFile(m.chat, {text: staff.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🥷 Developers 👑', body: '💭 Staff Oficial', "containsAutoReply": true, "mediaType": 1, "thumbnail": pp, "mediaUrl": canalesYoshi, "sourceUrl": canalesYoshi}}}, {quoted: estilo});
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
