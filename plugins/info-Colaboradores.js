@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
-let colabs = `🏆 *EQUIPO DE AYUDANTES*
+let staff = `🏆 *EQUIPO DE AYUDANTES*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
 
@@ -43,23 +43,19 @@ let colabs = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, pp, 'colabs.jpg', colabs.trim(),
- fkontak, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `🥷 Developer 👑`,
+await conn.sendMessage(m.chat, { text: staff,
+contextInfo:{
+forwardingScore: 9999999,
+isForwarded: false, 
+"externalAdReply": {
+"showAdAttribution": true,
+"containsAutoReply": true,
+title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
-mediaType: 1,
-sourceUrl: redesYoshi,
-thumbnailUrl: yoshiImg
-//Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
-}}
-}, { mentions: m.sender })
-
+"previewType": "PHOTO",
+thumbnailUrl: yoshiImg, 
+sourceUrl: canalesYoshi}}},
+{ quoted: false})
 }
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
