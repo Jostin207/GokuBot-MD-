@@ -79,7 +79,7 @@ let handler = async (_0x1db94b, {
     async function _0x3f6051() {
       let _0x25ab59 = _0x1db94b.mentionedJid && _0x1db94b.mentionedJid[0x0] ? _0x1db94b.mentionedJid[0x0] : _0x1db94b.fromMe ? _0x15d4c7.user.jid : _0x1db94b.sender;
       let _0x22bb22 = '' + _0x25ab59.split`@`[0x0];
-      if (!_0x1b3c69.existsSync("./GataJadiBot/" + _0x22bb22)) {
+      if (!_0x1b3c69.existsSync("./YoshiJadiBot/" + _0x22bb22)) {
         _0x1b3c69.mkdirSync("./YoshiJadiBot/" + _0x22bb22, {
           'recursive': true
         });
