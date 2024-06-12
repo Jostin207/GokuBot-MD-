@@ -53,7 +53,7 @@ isForwarded: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 "previewType": "PHOTO",
-thumbnailUrl: imagen7, 
+thumbnailUrl: 'https://telegra.ph/file/c366c44e1efae9417a46d.jpg', 
 sourceUrl: canalesYoshi}}},
 { quoted: false})
 }
