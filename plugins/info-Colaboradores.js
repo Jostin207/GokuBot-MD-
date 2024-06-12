@@ -51,11 +51,11 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `Staff`,
-body: `Oficial`,
+title: `🥷 Developer 👑`,
+body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: grupo1,
-thumbnailUrl: imagen2
+sourceUrl: redesYoshi,
+thumbnailUrl: yoshiImg
 //Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
 }}
 }, { mentions: m.sender })
