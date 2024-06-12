@@ -43,19 +43,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, pp, 'yoshiko.mp4', staff, fkontak,
-contextInfo:{
-forwardingScore: 9999999,
-isForwarded: false, 
-"externalAdReply": {
-"showAdAttribution": true,
-"containsAutoReply": true,
-title: `🥷 Developers 👑`,
-body: `💭 Staff Oficial`,
-"previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/c366c44e1efae9417a46d.jpg', 
-sourceUrl: canalesYoshi}}},
-{ quoted: false})
+    await conn.sendFile(m.chat, pp, 'yoshiko.mp4', staff, m, fake)}
 }
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
