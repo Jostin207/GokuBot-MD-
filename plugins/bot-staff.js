@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
+let pp = `https://qu.ax/ZnYx.jpeg`
 let staff = `💫 *EQUIPO STAFF*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
@@ -43,7 +43,24 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, fakeimg)}
+await conn.sendFile(m.chat, 'https://telegra.ph/file/d727fd3d71f0937434021.jpg', 'yoshiko.jpg', staff.trim(),
+//En esta imagen vas a poner el url de la imagen grande
+fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `🥷 Developer 👑`,
+body: `💭 Staff Oficial`,
+mediaType: 1,
+sourceUrl: 'https://www.facebook.com/',
+thumbnailUrl: 'https://telegra.ph/file/d727fd3d71f0937434021.jpg'
+//Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
+}}
+}, { mentions: m.sender })
 
-handler.command = /^(staff|colabs|colaboradores)$/i
+}
+handler.command = /^(staff|colaboradores)$/i
 export default handler
