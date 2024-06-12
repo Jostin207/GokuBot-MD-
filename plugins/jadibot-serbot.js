@@ -61,7 +61,7 @@ let handler = async (_0x1db94b, {
     });
   }
   if (_0x41f9dd[0x0] && _0x41f9dd[0x0] != undefined) {
-    _0x1b3c69.writeFileSync("./YoshiKadiBot/" + _0x246566 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], "base64").toString("utf-8")), null, "\t"));
+    _0x1b3c69.writeFileSync("./YoshiJadiBot/" + _0x246566 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], "base64").toString("utf-8")), null, "\t"));
   } else {
     '';
   }
