@@ -1,6 +1,6 @@
-const handler = async (m,{conn}) => {
-
-let texto = `🏆 *EQUIPO DE AYUDANTES*
+let handler = async (m, { conn, command, usedPrefix }) => {
+let pp = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
+let colabs = `🏆 *EQUIPO DE AYUDANTES*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
 
@@ -43,15 +43,23 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-conn.reply(m.chat, texto, m, fake, )
-
-m.react('👑') 
+await conn.sendFile(m.chat, pp, 'colabs.jpg', colabs.trim(),
+ fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `Staff`,
+body: `Oficial`,
+mediaType: 1,
+sourceUrl: grupo1,
+thumbnailUrl: imagen2
+//Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
+}}
+}, { mentions: m.sender })
 
 }
-
-handler.help = ['colaboradores']
-handler.command = ['colaboradores']
-handler.register = true
-handler.tags = ['info']
-
+handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
