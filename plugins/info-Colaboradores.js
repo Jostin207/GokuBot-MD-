@@ -47,7 +47,7 @@ let staff = `💫 *EQUIPO STAFF*
 
 //await conn.sendMessage(m.chat, { image: pp, gifPlayback: false, caption: staff,
 
-await conn.sendMessage(m.chat, { image: { url: pp }, gifPlayback: true, caption: menu,
+await conn.sendMessage(m.chat, { image: { url: pp }, gifPlayback: true, caption: staff,
 contextInfo: {
 mentionedJid: [m.sender],
 isForwarded: true,
