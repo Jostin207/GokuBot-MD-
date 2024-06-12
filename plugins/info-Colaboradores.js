@@ -45,17 +45,26 @@ let staff = `💫 *EQUIPO STAFF*
 
 //await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, estilo)}
 
-await conn.sendMessage(m.chat, { image: pp, gifPlayback: false, caption: staff, mentions: [m.sender, global.conn.user.jid] }, { quoted: fakeChannel }) 
+//await conn.sendMessage(m.chat, { image: pp, gifPlayback: false, caption: staff,
 
-ler canalesInfo = [
-{ link: channel, id: "120363160031023229@newsletter", name: "INFINITY-WA 💫" },
-{ link: channel2, id: "120363169294281316@newsletter", name: "GB - UPDATE ✨" },
-{ link: channel3, id: "120363203805910750@newsletter", name: "Tips sobre GataBot 🤩" } 
-]
-let indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
-let channelRD = canalesInfo[indiceAleatorio]
-
-let fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: imagen1, sourceUrl: redesYoshi }}}, { quoted: m }
+await conn.sendMessage(m.chat, { image: { url: pp }, gifPlayback: true, caption: menu,
+contextInfo: {
+mentionedJid: [m.sender],
+isForwarded: true,
+forwardedNewsletterMessageInfo: {
+newsletterJid: '120363169294281316@newsletter',
+newsletterName: "GB - UPDATE ✨",
+serverMessageId: -1
+},
+forwardingScore: 999,
+externalAdReply: {
+title: yt,
+body: wm,
+thumbnailUrl: yoshiImg,
+sourceUrl: md,
+mediaType: 1,
+renderLargerThumbnail: false
+}}})
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
