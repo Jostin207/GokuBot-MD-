@@ -43,7 +43,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendMessage(m.chat, { text: staff,
+await conn.sendMessage(m.chat, pp, 'error.jpg', staff,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: false, 
