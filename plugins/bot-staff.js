@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = `https://qu.ax/ZnYx.jpeg`
+let pp = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
 let staff = `💫 *EQUIPO STAFF*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
@@ -52,11 +52,11 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🥷 Developer 👑`,
+title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: 'https://www.facebook.com/',
-thumbnailUrl: 'https://telegra.ph/file/d727fd3d71f0937434021.jpg'
+sourceUrl: redesYoshi,
+thumbnailUrl: yoshiImg
 //Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
 }}
 }, { mentions: m.sender })
