@@ -43,21 +43,8 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, pp, 'yoshiko.mp4', staff, fake,
-contextInfo:{
-forwardingScore: 9999999,
-isForwarded: false, 
-"externalAdReply": {
-"showAdAttribution": true,
-"containsAutoReply": true,
-title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
-body: `✅ Hosting de Calidad`,
-"previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
-//{ quoted: fkontak2})
-)}
-
+await conn.sendFile(m.chat, pp, 'yoshiko.mp4', staff, hola)
+let hola = fake
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
