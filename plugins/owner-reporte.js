@@ -5,11 +5,11 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const teks = `╭━〔  𝐑𝐄𝐏𝐎𝐑𝐓𝐄 ⚙️  〕⬣\n┃🍄 *Cliente:* \n┃✏️ Wa.me/${m.sender.split`@`[0]}\n┃\n┃📮 *Mensaje:*\n┃📩 ${text}\n╰━━━━━━━━━━━━⬣`;
 
 //Usuarios WhatsApp!
-conn.reply('51955918117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, fake, {contextInfo: {mentionedJid: [m.sender]}});
-conn.reply('51948705559@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, fake, {contextInfo: {mentionedJid: [m.sender]}});
+conn.reply('51955918117@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, fkontak, {contextInfo: {mentionedJid: [m.sender]}});
+conn.reply('51948705559@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, fkontak, {contextInfo: {mentionedJid: [m.sender]}});
 
 //Grupo Staff, Mensaje WhatsApp
-conn.reply('120363289173968879@g.us', teks, m, fake, );
+conn.reply('120363289173968879@g.us', m.quoted ? teks + m.quoted.text : teks, fkontak, {contextInfo: {mentionedJid: [m.sender]}});
 
   m.reply(`✅️ *El Reporte Se Envió A Mi Creador, Tendrá Una Respuesta Más Tarde*`);
 };
