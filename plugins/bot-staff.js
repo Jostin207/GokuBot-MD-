@@ -44,7 +44,6 @@ let staff = `💫 *EQUIPO STAFF*
 🏆 *GitHub:* https://github.com/DanixlJs`
 
 await conn.sendFile(m.chat, 'https://telegra.ph/file/d727fd3d71f0937434021.jpg', 'yoshiko.jpg', staff.trim(),
-//En esta imagen vas a poner el url de la imagen grande
 fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -55,9 +54,8 @@ renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: redesYoshi,
-thumbnailUrl: yoshiImg
-//Aquí arriba vas a poner el url de la imagen que irá junto a tu link de tu red social.
+sourceUrl: `${redesYoshi}`,
+thumbnailUrl: `${yoshiImg}`
 }}
 }, { mentions: m.sender })
 
