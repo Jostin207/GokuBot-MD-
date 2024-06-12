@@ -43,26 +43,7 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-//await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, estilo)}
-
-await conn.sendMessage(m.chat, { image: pp, gifPlayback: false, caption: staff,
-contextInfo: {
-mentionedJid: [m.sender],
-isForwarded: true,
-forwardedNewsletterMessageInfo: {
-newsletterJid: '120363169294281316@newsletter',
-newsletterName: "GB - UPDATE ✨",
-serverMessageId: -1
-},
-forwardingScore: 999,
-externalAdReply: {
-title: yt,
-body: wm,
-thumbnailUrl: yoshiImg,
-sourceUrl: md,
-mediaType: 1,
-renderLargerThumbnail: false
-}}})
+await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, estilo)}
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
