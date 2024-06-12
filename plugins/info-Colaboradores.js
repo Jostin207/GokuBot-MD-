@@ -43,7 +43,7 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, fakestaff)}
+await conn.sendFile(m.chat, pp, 'yoshiko.jpg', staff, fakeimg)}
 
 handler.command = /^(staff|colabs|colaboradores)$/i
 export default handler
