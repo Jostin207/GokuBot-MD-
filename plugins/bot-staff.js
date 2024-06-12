@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
+let st = `https://telegra.ph/file/c366c44e1efae9417a46d.jpg`
 let staff = `💫 *EQUIPO STAFF*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
@@ -43,7 +43,7 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, 'https://telegra.ph/file/c366c44e1efae9417a46d.jpg', 'yoshiko.jpg', staff.trim(),
+await conn.sendFile(m.chat, '${st}', 'yoshiko.jpg', staff.trim(),
 fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -54,8 +54,8 @@ renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: `${redesYoshi}`,
-thumbnailUrl: `${yoshiImg}`
+sourceUrl: `${yt}`,
+thumbnailUrl: `${imagen7}`
 }}
 }, { mentions: m.sender })
 
