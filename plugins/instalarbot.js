@@ -6,8 +6,8 @@ import _0xb26b51 from 'pino';
 import 'util';
 import 'ws';
 import { makeWASocket } from '../lib/simple.js';
-let rtx = '' + lenguajeGB.smsIniJadi();
-let rtx2 = '' + lenguajeGB.smsIniJadi2();
+let rtx = '' + lenguajeYL.smsIniJadi();
+let rtx2 = '' + lenguajeYL.smsIniJadi2();
 if (global.conns instanceof Array) {
   console.log();
 } else {
@@ -21,10 +21,10 @@ let handler = async (_0x1db94b, {
   isOwner: _0x51fda8
 }) => {
   if (!global.db.data.settings[_0x15d4c7.user.jid].jadibotmd) {
-    return _0x1db94b.reply('' + lenguajeGB.smsSoloOwnerJB());
+    return _0x1db94b.reply('' + lenguajeYL.smsSoloOwnerJB());
   }
   if (_0x15d4c7.user.jid !== global.conn.user.jid) {
-    return _0x15d4c7.reply(_0x1db94b.chat, lenguajeGB.smsJBPrincipal() + " wa.me/" + global.conn.user.jid.split`@`[0x0] + "&text=" + (_0x16e163 + _0x50429b), _0x1db94b);
+    return _0x15d4c7.reply(_0x1db94b.chat, lenguajeYL.smsJBPrincipal() + " wa.me/" + global.conn.user.jid.split`@`[0x0] + "&text=" + (_0x16e163 + _0x50429b), _0x1db94b);
   }
   const _0x3c1bb8 = _0x41f9dd[0x0] && _0x41f9dd[0x0].includes("--code") ? true : !!(_0x41f9dd[0x1] && _0x41f9dd[0x1].includes("--code"));
   let _0x4c2db5 = _0x1db94b.mentionedJid && _0x1db94b.mentionedJid[0x0] ? _0x1db94b.mentionedJid[0x0] : _0x1db94b.fromMe ? _0x15d4c7.user.jid : _0x1db94b.sender;
@@ -39,21 +39,21 @@ let handler = async (_0x1db94b, {
     }
     console.log(_0x41f9dd[0x0]);
   }
-  if (!_0x1b3c69.existsSync("./GataJadiBot/" + _0x246566)) {
-    _0x1b3c69.mkdirSync('./GataJadiBot/' + _0x246566, {
+  if (!_0x1b3c69.existsSync("./YoshiJadiBot/" + _0x246566)) {
+    _0x1b3c69.mkdirSync('./YoshiJadiBot/' + _0x246566, {
       'recursive': true
     });
   }
   if (_0x41f9dd[0x0] && _0x41f9dd[0x0] != undefined) {
-    _0x1b3c69.writeFileSync("./GataJadiBot/" + _0x246566 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], "base64").toString("utf-8")), null, "\t"));
+    _0x1b3c69.writeFileSync("./YoshiKadiBot/" + _0x246566 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], "base64").toString("utf-8")), null, "\t"));
   } else {
     '';
   }
-  if (_0x1b3c69.existsSync("./GataJadiBot/" + _0x246566 + "/creds.json")) {
-    let _0x566201 = JSON.parse(_0x1b3c69.readFileSync("./GataJadiBot/" + _0x246566 + "/creds.json"));
+  if (_0x1b3c69.existsSync("./YoshiJadiBot/" + _0x246566 + "/creds.json")) {
+    let _0x566201 = JSON.parse(_0x1b3c69.readFileSync("./YoshiJadiBot/" + _0x246566 + "/creds.json"));
     if (_0x566201) {
       if (_0x566201.registered = false) {
-        _0x1b3c69.unlinkSync("./GataJadiBot/" + _0x246566 + "/creds.json");
+        _0x1b3c69.unlinkSync("./YoshiJadiBot/" + _0x246566 + "/creds.json");
       }
     }
   }
@@ -64,12 +64,12 @@ let handler = async (_0x1db94b, {
       let _0x25ab59 = _0x1db94b.mentionedJid && _0x1db94b.mentionedJid[0x0] ? _0x1db94b.mentionedJid[0x0] : _0x1db94b.fromMe ? _0x15d4c7.user.jid : _0x1db94b.sender;
       let _0x22bb22 = '' + _0x25ab59.split`@`[0x0];
       if (!_0x1b3c69.existsSync("./GataJadiBot/" + _0x22bb22)) {
-        _0x1b3c69.mkdirSync("./GataJadiBot/" + _0x22bb22, {
+        _0x1b3c69.mkdirSync("./YoshiJadiBot/" + _0x22bb22, {
           'recursive': true
         });
       }
       if (_0x41f9dd[0x0]) {
-        _0x1b3c69.writeFileSync("./GataJadiBot/" + _0x22bb22 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], 'base64').toString('utf-8')), null, "\t"));
+        _0x1b3c69.writeFileSync("./YoshiJadiBot/" + _0x22bb22 + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(_0x41f9dd[0x0], 'base64').toString('utf-8')), null, "\t"));
       } else {
         '';
       }
@@ -90,12 +90,12 @@ let handler = async (_0x1db94b, {
         'msgRetryCache': _0x3ef11,
         'version': _0x13934b,
         'syncFullHistory': true,
-        'browser': _0x3c1bb8 ? ['Ubuntu', "Chrome", "110.0.5585.95"] : ["GataBot - Sub Bot", 'Chrome', "2.0.0"],
+        'browser': _0x3c1bb8 ? ['Ubuntu', "Chrome", "110.0.5585.95"] : ["YoshikoBot - Sub Bot", 'Chrome', "2.0.0"],
         'defaultQueryTimeoutMs': undefined,
         'getMessage': async _0x348f61 => {
           if (store) {}
           return {
-            'conversation': "GataBot-MD"
+            'conversation': "YoshikoBot-MD"
           };
         }
       };
@@ -152,24 +152,24 @@ let handler = async (_0x1db94b, {
         if (_0x3905e1 === "close") {
           console.log(_0x4981e1);
           if (_0x4981e1 == 0x195) {
-            await _0x1b3c69.unlinkSync("./GataJadiBot/" + _0x22bb22 + "/creds.json");
-            return await _0x1db94b.reply(lenguajeGB.smsreenvia());
+            await _0x1b3c69.unlinkSync("./YoshiJadiBot/" + _0x22bb22 + "/creds.json");
+            return await _0x1db94b.reply(lenguajeYL.smsreenvia());
           }
           if (_0x4981e1 === DisconnectReason.restartRequired) {
             _0x3f6051();
-            return console.log(lenguajeGB.smsConexionreem());
+            return console.log(lenguajeYL.smsConexionreem());
           } else {
             if (_0x4981e1 === DisconnectReason.loggedOut) {
               sleep(0xfa0);
-              return _0x1db94b.reply(lenguajeGB.smsJBConexionClose2());
+              return _0x1db94b.reply(lenguajeYL.smsJBConexionClose2());
             } else {
               if (_0x4981e1 == 0x1ac) {
                 await _0x480a7f(false);
-                return _0x1db94b.reply(lenguajeGB.smsJBConexion());
+                return _0x1db94b.reply(lenguajeYL.smsJBConexion());
               } else {
                 if (_0x4981e1 === DisconnectReason.connectionLost) {
                   await _0x3f6051();
-                  return console.log(lenguajeGB.smsConexionperdida());
+                  return console.log(lenguajeYL.smsConexionperdida());
                 } else {
                   if (_0x4981e1 === DisconnectReason.badSession) {
                     return await _0x1db94b.reply(lenguajeYL.smsJBConexionClose());
