@@ -43,7 +43,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendMessage(m.chat, { text: staff,
+await conn.sendFile(m.chat, media, 'yoshiko.mp4', str, fkontak,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: false, 
