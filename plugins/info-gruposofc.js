@@ -1,4 +1,4 @@
-let media = 'https://qu.ax/mRmA.mp4'
+let media = 'https://telegra.ph/file/72788bb3b7f504b5a5f48.mp4'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🌸 GRUPOS OFICIALES 🌸◞*
 
