@@ -54,7 +54,7 @@ title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
 sourceUrl: `${yt}`,
-thumbnailUrl: `https://qu.ax/ZnYx.jpeg`
+thumbnailUrl: `https://qu.ax/XRLE.jpg`
 }}
 }, { mentions: m.sender })
 
