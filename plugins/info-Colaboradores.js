@@ -53,7 +53,7 @@ isForwarded: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 "previewType": "PHOTO",
-thumbnailUrl: yoshiImg, 
+thumbnailUrl: imagen7, 
 sourceUrl: canalesYoshi}}},
 { quoted: false})
 }
