@@ -38,6 +38,7 @@ handler.rowner = true,
 handler.tags = ['advanced'];
 handler.customPrefix = /=?>|~/;
 handler.command = /(?:)/i;
+handler.disabled = true;
 
 export default handler;
 
