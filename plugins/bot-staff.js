@@ -1,4 +1,4 @@
-/*let handler = async (m, { conn, command, args, usedPrefix }) => {
+let handler = async (m, { conn, command, args, usedPrefix }) => {
 let deve = 'Developer'
 let staff = `💫 *EQUIPO STAFF*
 🥷 *Bot:* ${global.botname}
@@ -63,4 +63,3 @@ thumbnailUrl: `https://qu.ax/XRLE.jpg`
 }
 handler.command = /^(staff|colaboradores)$/i
 export default handler
-*/
