@@ -8,7 +8,7 @@ import fs from 'fs';
 import chalk from 'chalk';
 //import mddd5 from 'md5';
 import ws from 'ws';
-import './config.js'
+import './plugins/bot-allfake.js'
 
 /**
  * @type {import('@adiwajshing/baileys')}  
@@ -446,16 +446,6 @@ if (plugin.register == true && _user.registered == false) {
 fail('unreg', m, this)
 continue
 }
-
-let canal = channel
-let canal2 = channel2
-let canal3 = channel3
-let git = md
-let youtube = yt
-let github = git
-let facebook = fb
-
-let redesYoshi = [canal, canal2, canal3, git, youtube, github, facebook].getRandom()
 
 m.isCommand = true
 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 10
