@@ -10,7 +10,6 @@ El codigo de este archivo fue parchado por:
 Contenido adaptado por:
 - GataNina-Li 
 - elrebelde21
-- AzamiJs
 - Diego-YL-177
 */
 
