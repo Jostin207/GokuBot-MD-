@@ -6,7 +6,7 @@ import path, {join} from 'path';
 import {unwatchFile, watchFile} from 'fs';
 import fs from 'fs';
 import chalk from 'chalk';
-import mddd5 from 'md5';
+//import mddd5 from 'md5';
 import ws from 'ws';
 import './plugins/bot-allfake.js'
 
@@ -241,10 +241,9 @@ if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('restrict' in settings)) settings.restrict = false
-if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
-if (!('antiSpam' in settings)) settings.antiSpam = true 
+if (!('antiSpam' in settings)) settings.antiSpam = false
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = false  
 } else global.db.data.settings[this.user.jid] = {
@@ -252,10 +251,9 @@ self: false,
 autoread: false,
 autoread2: false,
 restrict: false,
-temporal: false,
 antiPrivate: false,
 antiCall: true,
-antiSpam: true,
+antiSpam: false,
 modoia: false, 
 jadibotmd: true,
 }} catch (e) {
