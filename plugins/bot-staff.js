@@ -1,4 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
+let user = global.db.data.users[m.sender]
 let staff = `💫 *EQUIPO STAFF*
 🥷 *Bot:* ${global.botname}
 🪴 *Ofc Bot:* ${ofcbot}
