@@ -44,7 +44,7 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, 'https://telegra.ph/file/c366c44e1efae9417a46d.jpg', 'yoshiko.jpg', staff.trim(),
+await conn.sendFile(m.chat, 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg', 'yoshiko.jpg', staff.trim(),
 fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
