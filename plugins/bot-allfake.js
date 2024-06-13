@@ -85,17 +85,7 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
-global.fakeimg = { key: { fromMe: false, participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { imageMessage: { mimetype: 'image/jpeg', caption: botname, jpegThumbnail: yoshiImg, viewOnce: true }}}
-
-global.fakestaff = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "status@broadcast" } : {})}, message: { "productMessage": { "product": { "productImage":{ "mimetype": "image/jpeg", "jpegThumbnail": yoshiImg }, "title": `${botname}`, "retailerId": "👑 Staff Oficial 💫", "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
-
-global.fakevideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":`${botname}`, "h": `Hmm`,'seconds': '2022', 'caption': `${botname}`, 'jpegThumbnail': yoshiImg}} }
-
-global.fakeyoshi = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"imageMessage": { "title":`${wm}`, "h": `Hmm`,'seconds': '99999', 'imagePlayback': 'true', 'caption': `${botname}\n    ${wm}`, 'jpegThumbnail': yoshiImg }}}
-
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net'}}}
-
-global.faketick = { "key": { "participant": `0@s.whatsapp.net`, "remoteJid": "6287834993722-1621306547@g.us", "fromMe": false, "id": "3B64558B07848BD81108C1D14712018E" }, "message": { "stickerMessage": { "fileSha256": "uZiOJzqOvrOo2WGjnMKgX2MMQMyasT+ZDgqUczpIBmY=", "pngThumbnail": yoshiImg, "mimetype": "image/webp", "height": 64, "width": 64, "directPath": "/v/t62.15575-24/56110107_763365384384977_5720135628188301198_n.enc?oh=450f8f684b06f0ba2dbc9779e5f06774&oe=605B81EE", "fileLength": "60206", "firstFrameLength": 3626, "isAnimated": false } }, "messageTimestamp": "1614070775", "status": "PENDING" }
 
 //global.fake = { contextInfo:{ forwardingScore: 0, externalAdReply: {title: '🌟 Bienvenido ' + nombre, body: team, sourceUrl: yt, thumbnailUrl: yoshiImg }}} //Fake simple
 
