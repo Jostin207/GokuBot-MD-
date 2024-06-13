@@ -1,4 +1,4 @@
-let handler = async (m, { conn, command, userol, usedPrefix }) => {
+let handler = async (m, { conn, command, userol, args, usedPrefix }) => {
 let user = global.db.data.users[m.sender]
 const role = args.slice(1).join(' ');
 let staff = `💫 *EQUIPO STAFF*
