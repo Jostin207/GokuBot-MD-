@@ -6,7 +6,6 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
-import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 global.confirmCode = ""
@@ -34,8 +33,6 @@ global.contactos = [
 global.suittag = ['573012482597']
 global.prems = []
 global.mods = []
-
-global.lenguajeYL = es //idioma determinado de yaeromibot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝗬𝗮𝗲𝗿𝗼𝗺𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
