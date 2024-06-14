@@ -254,7 +254,7 @@ jddt()
 })
 
 } 
-handler.help = [`jadibot`, `jadibot --code`, `serbot``]
+handler.help = [`jadibot`, `jadibot --code`, `serbot`]
 handler.tags = [`jadibot`]
 handler.command = /^(jadibot|serbot)/i
 //handler.register = true
