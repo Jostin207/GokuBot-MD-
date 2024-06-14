@@ -25,7 +25,7 @@ try {
 if ( isOwner || m.fromMe) {
 await m.reply(`╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱🌺⊱╮\n\n${packname}\n*𝚈𝚊 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘 🍒*`)
 let res1 = await conn.groupAcceptInvite(code1)
-await conn.sendMessage(res1, { text: `${packname}\n_🍬 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘_\n\n🧃 *𝙵𝚞𝚎 𝙰𝚐𝚛𝚎𝚐𝚊𝚍𝚊 𝙿𝚘𝚛: @${user}`(user), mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
+await conn.sendMessage(res1, { text: `${packname}\n_🍬 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘_\n\n🧃 *𝙵𝚞𝚎 𝙰𝚐𝚛𝚎𝚐𝚊𝚍𝚊 𝙿𝚘𝚛: @${user}`, mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
 }} catch (e) {
 reportError(e)
 }        
