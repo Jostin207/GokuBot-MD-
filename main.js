@@ -295,15 +295,15 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-//Esto se edita desde el idioma español
-conn.welcome = lenguajeYL['smsWelcome']() 
-conn.bye = lenguajeYL['smsBye']() 
-conn.spromote = lenguajeYL['smsSpromote']() 
-conn.sdemote = lenguajeYL['smsSdemote']() 
-conn.sDesc = lenguajeYL['smsSdesc']() 
-conn.sSubject = lenguajeYL['smsSsubject']() 
-conn.sIcon = lenguajeYL['smsSicon']() 
-conn.sRevoke = lenguajeYL['smsSrevoke']() 
+//Configuracion de los grupos
+conn.welcome = '╔═.✵.════ ✰ ════════╗\n@subject\n╚═══════ ✰ ═════.✵.═╝\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙\n┃ 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾 (𝙰)!!\n┃ @user\n┃ 𝙻𝙴𝙰 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 🥷\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙'
+conn.bye = '╔═.✵.════ ✰ ════════╗\n- *𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸*\n╚═══════ ✰ ═════.✵.═╝\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙\n┃ @user\n┃ 𝙽𝙾 𝙵𝚄𝙴 𝙳𝙸𝙶𝙽𝙾(𝙰) 𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝙰𝚀𝚄𝙸 👋🏻\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙'
+conn.spromote = '❏ 🥷 @user Ahora Es Admin En Este Grupo' 
+conn.sdemote = '❏ 🥷 @user Deja De Ser Admin En Este Grupo'
+conn.sDesc = '❏ 💭 *Se ha modificado la descripción del grupo.*\n\nNueva Descripción: @desc'
+conn.sSubject = '❏ 💭 *Se ha modificado el nombre del grupo.*\nNuevo Nombre: @subject'
+conn.sIcon = '❏ 💭 *Se ha cambiado la foto del grupo.*'
+conn.sRevoke = '❏ 💭 *Se ha actualizado el link del grupo.*\nLink Nuevo: @revoke' 
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
