@@ -35,13 +35,13 @@ global.prems = []
 global.mods = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗮𝗲𝗿𝗼𝗺𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
+global.packname = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑';
-global.wm = '᭥𐨏𝒀𝒂𝒆𝒓𝒐𝒎𝒊𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
-global.titulowm = '𝙔𝙖𝙚𝙧𝙤𝙢𝙞𝘽𝙤𝙩-𝙈𝘿 🌺';
+global.wm = '᭥𐨏𝒀𝒂𝒆𝒎𝒐𝒓𝒊𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
+global.titulowm = '𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 🌺';
 global.titulowm2 = `𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜`
-global.igfg = 'Ofc Diegi';
-global.botname = 'Ⓨ︎ Yaeromi Bot - MD'
+global.igfg = 'Ofc Diego';
+global.botname = 'Ⓨ︎ Yaemori Bot - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego';
 global.vs = '2.0.0';
 
