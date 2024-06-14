@@ -1,4 +1,4 @@
-//import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
+import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {smsg} from './lib/simple.js';
 import {format} from 'util';
 import {fileURLToPath} from 'url';
@@ -13,7 +13,7 @@ import './plugins/bot-allfake.js'
 /**
  * @type {import('@adiwajshing/baileys')}  
  */
-//const { proto } = (await import('@whiskeysockets/baileys')).default
+const { proto } = (await import('@whiskeysockets/baileys')).default
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
 clearTimeout(this)
