@@ -13,8 +13,8 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['573012482597', '👑 Cʀᴇᴀᴅᴏʀ 🪐', true],
-['51935499065', 'Oᴡɴᴇʀ 👑', true],
+['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
+['51935499065', '𝗢𝘄𝗻𝗲𝗿 👑', true],
 ['51948705559'],
 ['573218138672'],
 ['51944167935'],
@@ -35,24 +35,18 @@ global.suittag = ['573012482597']
 global.prems = []
 global.mods = []
 
-global.lenguajeYL = es //idioma de yoshiko
+global.lenguajeYL = es //idioma determinado de yaeromibot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
-global.author = 'Dɪᴇɢᴏ 🍂';
-global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
-global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 🍓';
-global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
-global.igfg = 'Diego Oficial';
-global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
+global.packname = '𝗬𝗮𝗲𝗿𝗼𝗺𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
+global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑';
+global.wm = '᭥𐨏𝒀𝒂𝒆𝒓𝒐𝒎𝒊𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
+global.titulowm = '𝙔𝙖𝙚𝙧𝙤𝙢𝙞𝘽𝙤𝙩-𝙈𝘿 🌺';
+global.titulowm2 = `𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜`
+global.igfg = 'Ofc Diegi';
+global.botname = 'Ⓨ︎ Yaeromi Bot - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego';
-global.vs = '1.0.7';
-
-//• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
-global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.vs = '2.0.0';
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -65,17 +59,17 @@ global.imagen7 = fs.readFileSync('./Menu7.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Yoshiko1
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Yoshiko2
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y YoshikoBot
-global.gp4 = 'https://chat.whatsapp.com/E6LJVwoT9hQ5sn0t3HgeiE' //Curiosity Y Yoshiko
-global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y Yoshiko
+global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Yaeromi1
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Yaeromi2
+global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y YaeromiBot
+global.gp4 = 'https://chat.whatsapp.com/E6LJVwoT9hQ5sn0t3HgeiE' //Curiosity Y YaeromiBot
+global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y YaeromiBot
 global.gp6 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //canal segundario
-global.channel3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+global.channel3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //canal infinity
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
-global.md = 'https://github.com/Diego-YL-177/YoshikoBot-MD' //Github Oficial
+global.md = 'https://github.com/Diego-YL-177/YaeromiBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
@@ -87,10 +81,10 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nYoshiko`;
-global.gt = 'Yoshiko';
-global.yoshiko = 'Yoshiko';
-global.yoshiko = 'https://github.com/Diego-YL-177/YoshikoBot-MD';
+global.wm2 = `${dia} ${fecha}\nYaeromiBot`;
+global.gt = 'YaeromiBot';
+global.yaeromi = 'YaeromiBot';
+global.yaeromi = 'https://github.com/Diego-YL-177/YaeromiBot-MD';
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
@@ -244,7 +238,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 YoshiCoins',
+      money: '👾 YaeromiCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -368,8 +362,8 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 YoshiCoins',
-      tiketcoin: '🎫 Yoshi Tickers',
+      money: '👾 YaeromiCoins',
+      tiketcoin: '🎫 Yaeromi Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
