@@ -56,17 +56,17 @@ global.imagen7 = fs.readFileSync('./Menu7.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Yaeromi1
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Yaeromi2
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y YaeromiBot
-global.gp4 = 'https://chat.whatsapp.com/E6LJVwoT9hQ5sn0t3HgeiE' //Curiosity Y YaeromiBot
-global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y YaeromiBot
+global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Yaemori1
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Yaemori2
+global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y YaemoriBot
+global.gp4 = 'https://chat.whatsapp.com/E6LJVwoT9hQ5sn0t3HgeiE' //Curiosity Y YaemoriBot
+global.gp5 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //Nova Y YaemoriBot
 global.gp6 = 'https://chat.whatsapp.com/KjR8NTfdWwU1a66uDOOGLZ' //Multibots
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //canal segundario
 global.channel3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //canal infinity
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
-global.md = 'https://github.com/Diego-YL-177/YaeromiBot-MD' //Github Oficial
+global.md = 'https://github.com/OfcDiego/YaemoriBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
@@ -78,10 +78,10 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nYaeromiBot`;
-global.gt = 'YaeromiBot';
-global.yaeromi = 'YaeromiBot';
-global.yaeromi = 'https://github.com/Diego-YL-177/YaeromiBot-MD';
+global.wm2 = `${dia} ${fecha}\nYaemoriBot`;
+global.gt = 'YaemoriBot';
+global.yaemori = 'YaemoriBot';
+global.yaemori = 'https://github.com/OfcDiego/YaemoriBot-MD';
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
