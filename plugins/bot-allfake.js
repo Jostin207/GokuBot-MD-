@@ -63,16 +63,16 @@ global.redesYaeromi = [canal, canal2, canal3, grupofb, git, youtube, github, fac
 
 global.canalesYaeromi = [canal, canal2, canal3].getRandom()
 
-var img = fs.readFileSync('./media/menus/Alsombra.jpg');
-var img2 = fs.readFileSync('./media/menus/Yoshi.jpg');
-var img3 = fs.readFileSync('./media/menus/ImagenYoshi.jpg');
-var img4 = fs.readFileSync('./media/menus/YoshiBot.jpg');
-var img5 = fs.readFileSync('./media/menus/Sombra.jpg');
-var img6 = fs.readFileSync('./media/menus/MiniYoshi.jpg');
-var img7 = fs.readFileSync('./media/menus/MiniBot.jpg');
-var img8 = fs.readFileSync('./media/menus/Mini.jpg');
-var img9 = fs.readFileSync('./media/menus/YoshiMejor.jpg');
-var img10 = fs.readFileSync('./media/menus/YoshikoImagen.jpg');
+var img = 'https://qu.ax/dXNm.jpg'
+var img2 = 'https://qu.ax/NeBt.jpg'
+var img3 = 'https://qu.ax/EFKB.jpg'
+var img4 = 'https://qu.ax/pnKB.jpg'
+var img5 = 'https://qu.ax/LuwU.jpg'
+var img6 = 'https://qu.ax/Avth.jpg'
+var img7 = 'https://qu.ax/YsDx.jpg'
+var img8 = 'https://qu.ax/JhJn.jpg'
+var img9 = 'https://qu.ax/TVlC.jpg'
+var img10 = 'https://qu.ax/cMOE.jpg'
 
 global.yaeromiImg = [img, img2, img3, img4, img5, img6, img7, img8, img9, img10].getRandom()
 
