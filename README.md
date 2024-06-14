@@ -1,6 +1,6 @@
-> 🚀🌸 Versión Actual: 1.0.7
+> 🚀🌸 Versión Actual: 1.0.8
 
-## Yoshiko Bot - MD 🌸☄️
+## Yaemori Bot - MD🌸☄️
 
 <p align="center">
 <img src= "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg" alt="Yoshiko" width="900"/>
@@ -14,7 +14,7 @@
 
 
 - ### ⚙️ Configuracion
- Clonar Repo : Yoshiko [Aqui.](https://github.com/Diego-YL-177/YoshikoBot-MD/fork)
+ Clonar Repo : Yaemori [Aqui.](https://github.com/Diego-YL-177/YoshikoBot-MD/fork)
 
 
 - ###  ⌨️ Instalar Por Render
@@ -66,19 +66,18 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd YoshikoBot-MD
+> cd YaemoriBot-MD
 > npm start
 ```
 
 - ### 🌻 Obtener Otro Codigo Qr 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd YoshikoBot-MD
+> cd YaemoriBot-MD
 > rm -rf YoshiSession
-> npm start
-```
+ 𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿``
 
-- ### 🚀 Usar YoshikoBot 24/7 En Termux 
+- ### 🚀 Usar YaemoriBot 24/7 En Termux 
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
