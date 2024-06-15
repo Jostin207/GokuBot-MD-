@@ -62,8 +62,9 @@ const defaultMenu = {
 ┊│ 👑 *Creador:* Ofc Diego
 ┊│ ⏰️ *Actividad:* %muptime
 ┊│ 📇 *Registrados:* %totalreg
-┊│ 🌻 *Versión* 1.0.7
-┊│ 📆 *Fecha* %date
+┊│ 🌻 *Versión:* 1.0.7
+┊│ 📆 *Fecha:* %date
+┊│ 💭 *Baileys:* ^6.7.0
 │└────────────┈ɪ ⳹
 ┗–––––––––––––––––ɪ✥
 %readmore
