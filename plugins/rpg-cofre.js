@@ -9,20 +9,20 @@ const handler = async (m, {isPrems, conn}) => {
   const expp = Math.floor(Math.random() * 5000);
 
   global.db.data.users[m.sender].limit += dia;
-  global.db.data.users[m.sender].money += yoshiko;
+  global.db.data.users[m.sender].money += yaemori;
   global.db.data.users[m.sender].joincount += tok;
   global.db.data.users[m.sender].exp += expp;
 
   const texto = `
-╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃🌹 *Obtienes Un Cofre*
+╭━〔  𝗬𝗔𝗘𝗠𝗢𝗥𝗜 𝗕𝗢𝗧 🌻  〕⬣
+┃✨️ *Obtienes Un Cofre*
 ┃ ${saludo}
 ╰━━━━━━━━━━━━⬣
 
-╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+╭━〔  𝗬𝗔𝗘𝗠𝗢𝗥𝗜 𝗕𝗢𝗧 🌻  〕⬣
 ┃ *${dia} Diamantes* 💎
 ┃ *${tok} Tokens* 🪙
-┃ *${yoshiko} YoshiCoins* 💸
+┃ *${yaemori} BotCoins* 💸
 ┃ *${expp} Exp* ⚡
 ╰━━━━━━━━━━━━⬣`;
 
