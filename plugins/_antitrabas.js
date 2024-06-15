@@ -2,7 +2,7 @@
 // By @NeKosmic || https://github.com/NeKosmic/
 //
 
-/*import * as fs from 'fs';
+import * as fs from 'fs';
 
 export async function before(m, {conn, isAdmin, isBotAdmin, usedPrefix}) {
   if (m.isBaileys && m.fromMe) {
@@ -14,7 +14,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, usedPrefix}) {
   const delet = m.key.participant;
   const bang = m.key.id;
   const name = await conn.getName(m.sender);
-  const fakemek = {'key': {'participant': '0@s.whatsapp.net', 'remoteJid': '0@s.whatsapp.net'}, 'message': {'groupInviteMessage': {'groupJid': '51995386439-1616969743@g.us', 'inviteCode': 'm', 'groupName': 'P', 'caption': '𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝', 'jpegThumbnail': null}}};
+  const fakemek = {'key': {'participant': '0@s.whatsapp.net', 'remoteJid': '0@s.whatsapp.net'}, 'message': {'groupInviteMessage': {'groupJid': '51995386439-1616969743@g.us', 'inviteCode': 'm', 'groupName': 'P', 'caption': packname, 'jpegThumbnail': null}}};
   if (chat.antiTraba && m.text.length > 5000) { // Cantidad máxima de caracteres aceptados en un mensaje//
     if (isAdmin) return conn.sendMessage(m.chat, {text: `El administrador @${m.sender.split('@')[0]} acaba de enviar un texto que contiene muchos caracteres -.-!`, mentions: [m.sender]}, {quoted: fakemek});
     conn.sendMessage(m.chat, `*[ ! ] Se detecto un mensaje que contiene muchos caracteres [ ! ]*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, m);
@@ -30,4 +30,4 @@ export async function before(m, {conn, isAdmin, isBotAdmin, usedPrefix}) {
     } else if (!bot.restrict) return m.reply('[ ! ] Para realizar acciones de eliminación, mi dueño tiene que encender el modo restringido!');
   }
   return !0;
-}*/
+}
