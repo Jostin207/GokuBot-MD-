@@ -1,3 +1,5 @@
+> Retirado.
+
 ## 🌟 STAFF
 <a href="https://github.com/OfcDiego/YaemoriBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/YaemoriBot-MD" /> 
