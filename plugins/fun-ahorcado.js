@@ -1,9 +1,9 @@
 const palabras = [
     "gato",
     "perro",
-    "pájaro",
-    "elefante",
-    "tigre",
+    "loro",
+    "periquitos",
+    "ganzo",
     "ballena",
     "mariposa",
     "tortuga",
@@ -64,7 +64,7 @@ return `${mensaje}\n\n${mostrarAhorcado(intentos)}`
 let handler = async (m, { conn }) => {
 let users = global.db.data.users[m.sender]
 if (gam.has(m.sender)) {
-return conn.reply(m.chat, "Ya tienes un juego en curso. ¡Termina ese primero!", m)
+return conn.reply(m.chat, "Ya tienes un juego en curso. ¡Termina ese primero!", m, fake, )
 }
 let palabra = elegirPalabraAleatoria()
 let letrasAdivinadas = []
@@ -73,7 +73,7 @@ let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
 let ejemplo = `¡Bienvenido al juego del ahorcado! Adivina la palabra:\n\n${mensaje}\n\nIntentos restantes: ${intentos}`
 let instrucciones = `Para adivinar letras, envía una letra a la vez. Por ejemplo, si crees que la letra "a" está en la palabra, envía "a". Si adivinas incorrectamente 6 veces, pierdes el juego.\n\n*NOTA:* *• Lamentamos informarles que este juego no da xp ni botcoins, solo se hizo con el fin de entretener y que sea usado*`
-conn.reply(m.chat, ejemplo + "\n\n" + instrucciones, m)
+conn.reply(m.chat, ejemplo + "\n\n" + instrucciones, m, fake, )
 }
 
 handler.before = async (m, { conn }) => {
@@ -92,15 +92,15 @@ intentos--
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas)
 let respuesta = juegoTerminado(m.sender, mensaje, palabra, letrasAdivinadas, intentos)
 if (respuesta.includes("¡Perdiste!") || respuesta.includes("¡Ganaste!")) {
- conn.reply(m.chat, respuesta, m)
+ conn.reply(m.chat, respuesta, m, fake, )
 } else {
 gam.set(m.sender, { palabra, letrasAdivinadas, intentos })
-conn.reply(m.chat, respuesta + `\n\nIntentos restantes: ${intentos}`, m)
+conn.reply(m.chat, respuesta + `\n\nIntentos restantes: ${intentos}`, m, fake, )
 }
 } else {
 let mensaje = ocultarPalabra(palabra, letrasAdivinadas);
 let respuesta = juegoTerminado(m.sender, mensaje, palabra, letrasAdivinadas, intentos)
-conn.reply(m.chat, respuesta, m)
+conn.reply(m.chat, respuesta, m, fake, )
 gam.delete(m.sender)
 }
 }
