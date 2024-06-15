@@ -484,6 +484,6 @@ _quickTest().then(() => conn.logger.info(chalk.bold(`🔵  H E C H O\n`.trim()))
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
 unwatchFile(file)
-console.log(chalk.bold.greenBright("SE ACTUALIZÓ 'main.js' CON ÉXITO".trim()))
+console.log(chalk.bold.greenBright("SE ACTUALIZÓ 'yaemori.js' CON ÉXITO".trim()))
 import(`${file}?update=${Date.now()}`)
 })
