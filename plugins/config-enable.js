@@ -484,17 +484,10 @@ break
 default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
+} 
+
+conn.reply(m.chat, `*${isEnable ? '✨️' : '💭'} La Función ${type} Se A ${isEnable ? 'Activado' : 'Desactivado'} En ${isAll ? 'El Bot' : isUser ? '' : 'Este Chat.'}*`, m, fake, )
 }
-await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚂𝙷𝙸𝙺𝙾𝙱𝙾𝚃-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━━━━━━━━━━━━━⬣`, fkontak, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: titulowm,
-body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ` + nombre, previewType: 0, thumbnail: yoshiImg, sourceUrl: yt}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
