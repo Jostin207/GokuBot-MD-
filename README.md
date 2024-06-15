@@ -56,7 +56,7 @@ npm start
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/OfcDiego/YaemoriBot-MD/master/bot.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/OfcDiego/YaemoriBot-MD/master/yaemori.sh | bash
 ```
 
 - #### 🌀 Activar En Caso De Detenerse En Termux
