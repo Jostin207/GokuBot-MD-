@@ -29,7 +29,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
 • 10 Diamantes 💎
-• 5 YoshiCoins 💰
+• 5 YaemoriCoins 💰
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
@@ -39,9 +39,9 @@ text: regbot,
 contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
-body: wm, 
-thumbnaiUrl: yoshiImg, 
-sourceUrl: canalesYoshi,
+body: packname, 
+thumbnaiUrl: yaemoriImg, 
+sourceUrl: canalesYaemori,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
@@ -88,11 +88,11 @@ m.react('📩')
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 👑 *Recompensas de la Bot:*
 • 10 Diamantes 💎
-• 5 YoshiCoins 💰
+• 5 YaemoriCoins 💰
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}})
+Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '✅️  R E G I S T R O  ✅️',  body: '👑 Registro Completado', previewType: 0, thumbnail: yaemoriImg, sourceUrl: redesYaemori}}})
 await m.reply(`${sn}`)}
 handler.help = ['reg']
 handler.tags = ['rg']
