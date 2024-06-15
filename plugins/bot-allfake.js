@@ -56,7 +56,7 @@ var canal3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@Yoshiko_team' 
-var github = 'https://github.com/OfcDiegi/YaemoriBot-MD' 
+var github = 'https://github.com/OfcDiego/YaemoriBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
 global.redesYaemori = [canal, canal2, canal3, grupofb, git, youtube, github, facebook].getRandom()
