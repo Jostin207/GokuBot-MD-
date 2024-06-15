@@ -63,16 +63,16 @@ global.redesYaemori = [canal, canal2, canal3, grupofb, git, youtube, github, fac
 
 global.canalesYaemori = [canal, canal2, canal3].getRandom()
 
-var img = 'https://qu.ax/dXNm.jpg'
-var img2 = 'https://qu.ax/NeBt.jpg'
-var img3 = 'https://qu.ax/EFKB.jpg'
-var img4 = 'https://qu.ax/pnKB.jpg'
-var img5 = 'https://qu.ax/LuwU.jpg'
-var img6 = 'https://qu.ax/Avth.jpg'
-var img7 = 'https://qu.ax/YsDx.jpg'
-var img8 = 'https://qu.ax/JhJn.jpg'
-var img9 = 'https://qu.ax/TVlC.jpg'
-var img10 = 'https://qu.ax/cMOE.jpg'
+var img = ''
+var img2 = ''
+var img3 = ''
+var img4 = ''
+var img5 = ''
+var img6 = ''
+var img7 = ''
+var img8 = ''
+var img9 = ''
+var img10 = ''
 
 global.yaemoriImg = [img, img2, img3, img4, img5, img6, img7, img8, img9, img10].getRandom()
 
