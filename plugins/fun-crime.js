@@ -19,8 +19,8 @@ let media = or[Math.floor(Math.random() * 4)]
 global.db.data.users[m.sender].crime = new Date * 1;
 if (media === 'text') return m.reply(`🌟 ${pickRandom(global.robar)} ${exp} XP`).catch(global.db.data.users[m.sender].exp += exp) 
 if (media === 'text2') return m.reply(`🚓 ${pickRandom(global.robmal)} ${exp} XP`).catch(global.db.data.users[m.sender].exp -= crime) 
-if (media === 'text3') return m.reply(`💰 *${pickRandom(global.robar)}*\n\n${diamond} 💎Diamante\n${money} 🌹 YoshiCoins`).catch(global.db.data.users[m.sender].limit += diamond).catch(global.db.data.users[m.sender].money += money)
-if (media === 'text4') return m.reply(`🦋 ${pickRandom(global.robmal)}\n\n${diamond} 💎Diamante\n${money} 🌹 YoshiCoins`).catch(global.db.data.users[m.sender].limit -= diamante).catch(global.db.data.users[m.sender].money -= crime)
+if (media === 'text3') return m.reply(`💰 *${pickRandom(global.robar)}*\n\n${diamond} 💎Diamante\n${money} 🌹 BotCoins`).catch(global.db.data.users[m.sender].limit += diamond).catch(global.db.data.users[m.sender].money += money)
+if (media === 'text4') return m.reply(`🦋 ${pickRandom(global.robmal)}\n\n${diamond} 💎Diamante\n${money} 🌹 BotCoins`).catch(global.db.data.users[m.sender].limit -= diamante).catch(global.db.data.users[m.sender].money -= crime)
 if (media === 'text5') return conn.reply(m.chat, `🍓 le has robado a @${randow.split`@`[0]} 𝑈𝑛𝑎 𝐶𝑎𝑛𝑡𝑖𝑑𝑎𝑑 𝐷𝑒: ${exp} XP`, m, {contextInfo: {mentionedJid: [randow]}}).catch(global.db.data.users[m.sender].exp += exp).catch(global.db.data.users[randow].exp -= crime) 
 } catch (e) {
 console.log(e)}}
