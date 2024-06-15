@@ -7,7 +7,7 @@ let staff = `💫 *EQUIPO STAFF*
 
 👑 *Propietario:*
 
-• Diego-YL-177
+• OfcDiego
 ☘️ *Rol:* Propietario
 ✨️ *Número:* ${creador}
 🏆 *GitHub:* https://github.com/Diego-YL-177
@@ -44,7 +44,7 @@ let staff = `💫 *EQUIPO STAFF*
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
 
-await conn.sendFile(m.chat, 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg', 'yoshiko.jpg', staff.trim(),
+await conn.sendFile(m.chat, 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg', 'yaemori.jpg', staff.trim(),
 fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -55,8 +55,8 @@ renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: `${yt}`,
-thumbnailUrl: `https://qu.ax/XRLE.jpg`
+sourceUrl: `${redesYaemori}`,
+thumbnailUrl: `${yaemoriImg}`
 }}
 }, { mentions: m.sender })
 
