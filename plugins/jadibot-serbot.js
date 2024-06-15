@@ -84,7 +84,7 @@ args[0] ? fs.writeFileSync('./YaemoriJadiBot/' + id + '/creds.json', JSON.string
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
 const msgRetryCache = new NodeCache()
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./YaeromiJadiBot/" + id)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./YaemoriJadiBot/" + id)
 
 const connectionOptions = {
 printQRInTerminal: false,
