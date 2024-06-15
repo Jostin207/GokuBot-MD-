@@ -485,7 +485,6 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 } 
-
 conn.reply(m.chat, `*${isEnable ? '✨️' : '💭'} La Función ${type} Se A ${isEnable ? 'Activado' : 'Desactivado'} En ${isAll ? 'El Bot' : isUser ? '' : 'Este Chat.'}*`, m, fake, )
 }
 
