@@ -1,0 +1,18 @@
+{
+"name": "YoshikoBot-MD",
+"website": "https://github.com/Diego-YL-177",
+"description": "Super Bot WhatsApp",
+"repository": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"logo": "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg",
+"success_url": "https://github.com/Diego-YL-177/YoshikoBot-MD",
+"keywords": [
+"nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
+"termux", "superbot", "multi-device", "md", "official", "javascript", "yoshikobot"],
+"image": "heroku/nodejs",
+"buildpacks": [
+{ "url": "heroku/nodejs" },
+{ "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+{ "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" },
+{ "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick" }    
+]
+}
