@@ -167,7 +167,7 @@ if (!('sDemote' in chat)) chat.sDemote = ''
 if (!('sCondition' in chat)) chat.sCondition = JSON.stringify([{ grupo: { usuario: [], condicion: [], admin: '' }, prefijos: []}])
 if (!('delete' in chat)) chat.delete = true                   
 if (!('modohorny' in chat)) chat.modohorny = false       
-if (!('stickers' in chat)) chat.stickers = true            
+if (!('stickers' in chat)) chat.stickers = false            
 if (!('autosticker' in chat)) chat.autosticker = false      
 if (!('audios' in chat)) chat.audios = true               
 if (!('antiver' in chat)) chat.antiver = true 
@@ -243,7 +243,7 @@ if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('restrict' in settings)) settings.restrict = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
-if (!('antiSpam' in settings)) settings.antiSpam = false
+if (!('antiSpam' in settings)) settings.antiSpam = true
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = false  
 } else global.db.data.settings[this.user.jid] = {
@@ -253,7 +253,7 @@ autoread2: false,
 restrict: false,
 antiPrivate: false,
 antiCall: true,
-antiSpam: false,
+antiSpam: true,
 modoia: false, 
 jadibotmd: true,
 }} catch (e) {
@@ -451,19 +451,19 @@ if (xp > 2000)
 m.reply('Exp limit') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗬𝗼𝘀𝗵𝗶𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yaemoriImg, sourceUrl: redesYaemori }}}, { quoted: m })         
 continue     
 }
 
 m.exp += xp
 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-this.sendMessage(m.chat, {text: `❮💎❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗱𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮💎❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗱𝗶𝗮𝗺𝗮𝗻𝘁𝗲𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yaemoriImg, sourceUrl: redesYaemori }}}, { quoted: m })         
 continue
 }
 
 
 if (plugin.level > _user.level) {
-this.sendMessage(m.chat, {text: `❮📣❯ 𝗥𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹: *${plugin.level}*\n\n• 𝗧𝘂 𝗻𝗶𝘃𝗲𝗹 𝗮𝗰𝘁𝘂𝗮𝗹 𝗲𝘀: *${_user.level}*\n\n• 𝗨𝘀𝗮 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m })         
+this.sendMessage(m.chat, {text: `❮📣❯ 𝗥𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗲𝗹 𝗻𝗶𝘃𝗲𝗹: *${plugin.level}*\n\n• 𝗧𝘂 𝗻𝗶𝘃𝗲𝗹 𝗮𝗰𝘁𝘂𝗮𝗹 𝗲𝘀: *${_user.level}*\n\n• 𝗨𝘀𝗮 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹:\n*${usedPrefix}levelup*`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: packname, previewType: 0, thumbnail: yaemoriImg, sourceUrl: redesYaemori }}}, { quoted: m })         
 continue
 }
 let extra = {
@@ -521,7 +521,7 @@ if (m.limit)
 m.reply('❮💎❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.limit + ' 𝗗𝗶𝗮𝗺𝗮𝗻𝘁𝗲(𝘀)')
 }
 if (m.money)
-m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.money + ' 𝗬𝗼𝘀𝗵𝗶𝗖𝗼𝗶𝗻(𝘀)')  
+m.reply('❮💰❯ 𝗚𝗮𝘀𝘁𝗮𝘀𝘁𝗲 ' + m.money + ' 𝗕𝗼𝘁𝗖𝗼𝗶𝗻(𝘀)')  
 break
 }}} catch (e) {
 console.error(e)
@@ -615,7 +615,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗡𝗮𝘂𝗳𝗿𝗮𝗭𝗮𝗽𝗽-𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗬𝗮𝗲𝗺𝗼𝗿𝗶𝗕𝗼𝘁-𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
@@ -651,10 +651,10 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, packname, '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 💫'].getRandom(),
+"title": [wm, packname, botname].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: redesYoshi }}}, { quoted: fkontak2 })
+sourceUrl: redesYaemori }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
@@ -743,7 +743,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + nombre, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + nombre, thumbnail: yaeromiImg, sourceUrl: canalesYaeromi}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
