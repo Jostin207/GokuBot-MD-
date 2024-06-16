@@ -733,7 +733,7 @@ global.dfail = (type, m, conn) => {
   const msg = {
         rowner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
     owner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
-    mods: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Propietario! 👑*',
+    mods: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Moderadores! 👑*',
     premium: '*🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
     group: '*🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
     private: '*🍉 ¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot! 🍿*',
@@ -743,7 +743,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ' + nombre, thumbnail: yaeromiImg, sourceUrl: canalesYaeromi}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: yaeromiImg, sourceUrl: canalesYaeromi}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
