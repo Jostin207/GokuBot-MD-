@@ -35,13 +35,13 @@ global.prems = []
 global.mods = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
+global.packname = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗠𝗶𝗻𝗶 - 𝗠𝗗 🌸';
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑';
-global.wm = '᭥𐨏𝒀𝒂𝒆𝒎𝒐𝒓𝒊𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
-global.titulowm = '𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 🍓';
+global.wm = '᭥𐨏𝒀𝒂𝒆𝒎𝒐𝒓𝒊 𝑴𝒊𝒏𝒊 - 𝑴𝑫᭢ꪲ';
+global.titulowm = '𝙈𝙞𝙣𝙞 𝘽𝙤𝙩 - 𝙈𝘿🌻';
 global.titulowm2 = `𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜`
 global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜';
-global.botname = 'Ⓨ︎ Yaemori Bot - MD'
+global.botname = 'Ⓨ︎ Yaemori Mini - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego';
 global.vs = '2.0.0';
 
@@ -230,7 +230,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 BotCoins',
+      money: '👾 MiniCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -354,8 +354,8 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 YoshiCoins',
-      tiketcoin: '🎫 Yoshi Tickers',
+      money: '👾 MiniCoins',
+      tiketcoin: '🎫 Mini Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
