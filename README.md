@@ -1,6 +1,6 @@
 > 🚀🌸 Versión Actual: 2.0.0
 
-## Yaemori Bot - MD 🌸☄️
+## Yaemori Mini - MD 🌸☄️
 
 <p align="center">
 <img src= "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg" alt="Yaemori" width="900"/>
