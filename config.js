@@ -6,15 +6,14 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
-import { es } from "./lib/idiomas/total-idiomas.js"
 
 global.botnumber = ""
 global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['573012482597', '👑 Cʀᴇᴀᴅᴏʀ 🪐', true],
-['51935499065', 'Oᴡɴᴇʀ 👑', true],
+['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
+['51935499065', '𝗢𝘄𝗻𝗲𝗿 👑', true],
 ['51948705559'],
 ['573218138672'],
 ['51944167935'],
@@ -35,24 +34,16 @@ global.suittag = ['573012482597']
 global.prems = []
 global.mods = []
 
-global.lenguajeYL = es //idioma de yoshiko
-
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
-global.author = 'Dɪᴇɢᴏ 🍂';
-global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
-global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩-𝙈𝘿 🍓';
-global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
-global.igfg = 'Diego Oficial';
-global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
+global.packname = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 🌸';
+global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑';
+global.wm = '᭥𐨏𝒀𝒂𝒆𝒎𝒐𝒓𝒊𝑩𝒐𝒕-𝑴𝑫᭢ꪲ';
+global.titulowm = '𝙔𝙖𝙚𝙢𝙤𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 🍓';
+global.titulowm2 = `𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜`
+global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜';
+global.botname = 'Ⓨ︎ Yaemori Bot - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego';
 global.vs = '2.0.0';
-
-//• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
-global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -87,10 +78,10 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nYoshiko`;
+global.wm2 = `${dia} ${fecha}\nYaemori`;
 global.gt = 'Yoshiko';
-global.yoshiko = 'Yoshiko';
-global.yoshiko = 'https://github.com/Diego-YL-177/YoshikoBot-MD';
+global.yaemori = 'Yaemori';
+global.yaemori = 'https://github.com/OfcDiego/YaemoriBot-MD';
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
@@ -244,7 +235,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 YoshiCoins',
+      money: '👾 BotCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
