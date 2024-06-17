@@ -1,13 +1,13 @@
-// adartado por mario (Ns: un ladrón de código)
+// adartado por mario
 
 import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
-const owner = 'Diego-YL-177';
+const owner = 'OfcDiego';
 const repo = 'YoshikoBot-MD';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
- conn.sendMessage(m.chat, {text: `*✅️ Comando activado con éxito, te notificaremos cuando se actualize el repositorio.*`}, {quoted: m});  
+ conn.sendMessage(m.chat, {text: `*✅️ Comando activado con éxito, te notificaremos cuando se actualize el repositorio.*`}, {quoted: estilo});  
 try {
   async function checkRepoUpdates() {
     try {
@@ -18,11 +18,11 @@ try {
         previousCommitSHA = sha;
         previousUpdatedAt = message;
         previousCommitUser = login
-        conn.sendMessage(m.chat, {text: `*✅️ ¡El repositorio ha sido actualizado!*\n*- Repositorio:* ${html_url}\n*- Mensaje de commit:* ${message}\n*- Commit por:* ${login}`}, {quoted: m});
+        conn.sendMessage(m.chat, {text: `*✅️ ¡El repositorio ha sido actualizado!*\n*- Repositorio:* ${html_url}\n*- Mensaje de commit:* ${message}\n*- Commit por:* ${login}`}, {quoted: estilo});
       }
     } catch (error) {
       console.error(error)
-      m.reply('*📍 Error Al Verificar El Repositorio*');
+      m.reply('*🏓 Error Al Verificar El Repositorio*');
     }
   }
   setInterval(checkRepoUpdates, 6000);
@@ -30,6 +30,6 @@ try {
 m.reply(e)
 }
 };
-handler.command = /^(actualizacion|actualizaciones)/i;
+handler.command = /^(actualizacion|autoupdate|autoactualizar)/i;
 handler.rowner = true;
 export default handler;
