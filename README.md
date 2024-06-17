@@ -89,23 +89,18 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 ---------
 
 ## `Colaboradores ✨️`
-*
-[`@elrebelde21`](https://github.com/elrebelde21) 
-*
-[`@Zam`](https://github.com/AzamiJs) 
-*
-[`@Alba`](https://github.com/) 
-*
-[`@Danixl`](https://github.com/DanixlJs⁩)
+* [`@elrebelde21`](https://github.com/elrebelde21) 
+* [`@Zam`](https://github.com/AzamiJs) 
+* [`@Alba`](https://github.com/) 
+* [`@Danixl`](https://github.com/DanixlJs⁩)
 
 ### `Creador 👑` 
-[`@OfcDiego`](https://github.com/OfcDiego)
+* [`@OfcDiego`](https://github.com/OfcDiego)
 
 ### `Agradecimientos 🌟`
 * [`@Bruno`](https://github.com/BrunoSobrino)
 * [`@elrebelde21`](https://github.com/elrebelde21)
 * [`@GataDios`](https://github.com/GataNina-Li)
-*
-[`@Zam`](https://github.com/AzamiJs)
+* [`@Zam`](https://github.com/AzamiJs)
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YaemoriBot-MD)**.
