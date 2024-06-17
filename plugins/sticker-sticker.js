@@ -13,11 +13,11 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`*『✦』El video no debe de durar mas de 8 segundos.*`)
 let img = await q.download?.()
 
-if (!img) throw `*『✦』Responda a una imagen, video o gif para convertirlo en sticker.*`
+if (!img) throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`
 
 let out
 try {
-stiker = await sticker(img, false, global.stickwm, global.author2 + '\n\n' + global.author3)
+stiker = await sticker(img, false, global.stickwm, global.wm + global.author)
 } catch (e) {
 console.error(e)
 } finally {
@@ -26,10 +26,10 @@ if (/webp/g.test(mime)) out = await webp2png(img)
 else if (/image/g.test(mime)) out = await uploadImage(img)
 else if (/video/g.test(mime)) out = await uploadFile(img)
 if (typeof out !== 'string') out = await uploadImage(img)
-stiker = await sticker(false, out, global.stickwm, global.author2 + '\n\n' + global.author3)
+stiker = await sticker(false, out, global.stickwm, global.wm + global.author)
 }}
 } else if (args[0]) {
-if (isUrl(args[0])) stiker = await sticker(false, args[0], global.author2 + '\n\n' + global.author3)
+if (isUrl(args[0])) stiker = await sticker(false, args[0], global.wm + global.author)
 
 else return m.reply(`URL invalido`)
 
