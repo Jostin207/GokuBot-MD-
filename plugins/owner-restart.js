@@ -2,7 +2,7 @@ import { spawn } from 'child_process'
 
 var handler = async (m, { conn, isROwner, text }) => {
 
-if (!process.send) throw 'Dont: node main.js\nDo: node index.js'
+if (!process.send) throw 'Dont: node yoshiko.js\nDo: node index.js'
 if (conn.user.jid == conn.user.jid) {
 await conn.reply(m.chat, '🍬 *R E I N I C I A N D O*', m, fake, )
 process.send('reset')
