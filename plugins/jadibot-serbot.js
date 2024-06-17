@@ -141,6 +141,8 @@ console.log(reason)
 if (reason == 405) {
 await fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
 
+return await conn.reply('🏓 *REENVIA EL COMANDO.*')
+
 return await conn.reply(m.chat, '⛔ 𝙲𝚎𝚛𝚛𝚊𝚗𝚍𝚘 :𝚌', fkontak)
 }
 if (reason === DisconnectReason.restartRequired) {
