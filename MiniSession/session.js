@@ -1,1 +1,0 @@
-//session del bot oficial.
