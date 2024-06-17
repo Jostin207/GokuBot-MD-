@@ -38,7 +38,7 @@ else return m.reply(`URL invalido`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: wm, mediaType: 2, sourceUrl: [yt, channel, md, fb].getRandom(), thumbnail: yoshiImg}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: wm, mediaType: 2, sourceUrl: [yt, channel, md, fb].getRandom(), thumbnail: imagen1}}}, { quoted: m })
 
 else throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`
 
