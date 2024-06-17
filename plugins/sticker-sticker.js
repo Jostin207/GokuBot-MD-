@@ -40,7 +40,7 @@ console.error(e)
 if (!stiker) stiker = e
 } finally {
 
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m)
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', null)
 
 else return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`)
 
