@@ -81,9 +81,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 ***
 
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 🥷
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial
 
-<a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial 🥷" src="https://img.shields.io/badge/Bot - Oficial-CCFFOO?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ✨️" src="https://img.shields.io/badge/Bot - Oficial-CCFFOO?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
