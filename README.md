@@ -32,7 +32,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - #### [BOT OFICIAL](https://wa.me/573218138672?text=!menu)
 
 ### Instalar Bot 👑
-- ##### [TUTORIAL SE LA INSTALACIÓN](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+- ##### [TUTORIAL DE LA INSTALACIÓN](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 ### Grupo Del Bot 💭
 - #### [GRUPO OFICIAL](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
