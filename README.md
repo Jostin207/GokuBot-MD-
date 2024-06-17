@@ -28,6 +28,9 @@
 
 - ### 💻 Instalacion Manual Por Termux
 
+[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-00FF00?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
