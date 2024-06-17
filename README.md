@@ -17,8 +17,7 @@
 
 #### `Instalacion Manual Por Termux`
 
-[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+* [`Tutorial`](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
@@ -35,7 +34,7 @@
 ```
 
 ## `Bot Oficial 🥷`
-* [@BotOfc](https://wa.me/573218138672?text=!menu)
+* [`@BotOfc`](https://wa.me/573218138672?text=!menu)
 
 ---------
 
