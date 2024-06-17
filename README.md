@@ -2,7 +2,7 @@
 
 > Bot en creación pronto se agregaran más cosas 
 
-- [x] Interacción con voz y texto
+- [ ] Interacción con voz y texto
 - [x] Configuración de grupo
 - [x] antidelete, antilink, antispam, etc
 - [x] Bienvenida personalizada
@@ -12,7 +12,7 @@
 - [x] SubBot (Jadibot)
 - [ ] Juego RPG
 - [x] Descarga de música y video de YT
-- [ ] Otros
+- [x] Otros
 
 ---------
 
