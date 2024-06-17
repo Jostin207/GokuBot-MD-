@@ -6,7 +6,7 @@
 <img src= "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg" alt="Yoshiko" width="900"/>
 </p>
 
-> [tip]
+> [!TIP]
 > Este Bot Está En Desarrollo Puede Que Tenga Algunos Errores, Este Bot Está Mantenimiento, Si Ves Un Error Contacta Al Creador, Gracias
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
