@@ -89,9 +89,10 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 ---------
 
 ## 🌟 DESARROLLADORES
-<a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
-</a>
+[`@elrebelde21`](https://github.com/elrebelde21)
+[`@Zam`](https://github.com/AzamiJs)
+[`@Alba`](https://github.com/)
+[`@Danixl`](https://github.com/Danixl.Js⁩)
 
 ### `Creador 👑` 
 [`@OfcDiego`](https://github.com/OfcDiego)
