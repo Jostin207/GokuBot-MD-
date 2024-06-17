@@ -1,4 +1,4 @@
-console.log('💭 INICIANDO...')
+console.log('✰ Iniciando La Bot ✰')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
