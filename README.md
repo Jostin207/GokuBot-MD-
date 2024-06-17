@@ -16,7 +16,7 @@
 </p>
 
 # 📖 Características del bot 
-|  Funciones y comandos  |                                           Si | No  | :---------------------------------------------: | :-----------: |
+|  Funciones y comandos  |                                           Si Y No | | :---------------------------------------------: | :-----------: |
 | Crea stickers|✔️|
 | Bienvenida automática|✔️|
 | Anti-Link|✔️|
