@@ -10,7 +10,7 @@
 ### `Creador 👑`
 * [`@OfcDiego`](https://github.com/OfcDiego)
 
-### ~Agradecimientos 🌟`
+### `Agradecimientos 🌟`
 * [`@Bruno`](https://github.com/BrunoSobrino)
 * [`@elrebelde21`](https://github.com/elrebelde21)
 * [`@GataDios`](https://github.com/GataNina-Li)
