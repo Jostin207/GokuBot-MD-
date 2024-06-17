@@ -731,19 +731,19 @@ console.error(e)
 
 global.dfail = (type, m, conn) => {
   const msg = {
-        rowner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
-    owner: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
-    mods: '*🍒 ¡El Uso Del Comando Solo Lo Puede Usar Mi Moderadores! 👑*',
+        rowner: '*🌟 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
+    owner: '*👑 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
+    mods: '*🥷 ¡El Uso Del Comando Solo Lo Puede Usar Mi Moderadores! 👑*',
     premium: '*🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
     group: '*🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
     private: '*🍉 ¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot! 🍿*',
     admin: '*🫐 ¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo! 🍁*',
     botAdmin: '*🌻 !Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin! 🫐*',
-    unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Diego.18',
+    unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Diego.222',
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: yaeromiImg, sourceUrl: canalesYaeromi}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: miniImg, sourceUrl: canalesMini}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
