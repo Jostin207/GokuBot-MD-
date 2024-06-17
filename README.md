@@ -40,7 +40,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ---------
 
-## Colaboradores ✨️
+## `Colaboradores ✨️`
 * [`@elrebelde21`](https://github.com/elrebelde21) 
 * [`@Zam`](https://github.com/AzamiJs) 
 * [`@Alba`](https://github.com/Alba070503) 
@@ -49,10 +49,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 * [`@Katashi`](https://github.com/KatashiFukushima)
 * [`@Ariz`](https://github.com/ArizzVal)
 
-### Creador 👑
+### `Creador 👑`
 * [`@OfcDiego`](https://github.com/OfcDiego)
 
-### Agradecimientos 🌟
+### ~Agradecimientos 🌟`
 * [`@Bruno`](https://github.com/BrunoSobrino)
 * [`@elrebelde21`](https://github.com/elrebelde21)
 * [`@GataDios`](https://github.com/GataNina-Li)
