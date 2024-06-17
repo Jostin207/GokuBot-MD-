@@ -10,14 +10,7 @@
 > [!TIP]
 > Este Bot Está En Desarrollo Puede Que Tenga Algunos Errores, Si Ves Un Error Contacta Al Creador, Gracias.
 
-> Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
-
-- #### [GRUPO OFICIAL](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
-
-
 #### `Instalacion Manual Por Termux 💻`
-
-- ##### [TUTORIAL SE LA INSTALACIÓN](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -35,6 +28,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ## `Bot Oficial 🥷`
 - #### [BOT OFICIAL](https://wa.me/573218138672?text=!menu)
+
+### `Instalar Bot 👑`
+- ##### [TUTORIAL SE LA INSTALACIÓN](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+
+## `Grupo Del Bot 💭`
+- #### [GRUPO OFICIAL](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 ---------
 
