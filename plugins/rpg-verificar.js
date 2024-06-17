@@ -29,7 +29,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
 • 10 Diamantes 💎
-• 5 MiniCoins 💰
+• 5 YoshiCoins 💰
 • 245 Experiencia 💸
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
@@ -40,8 +40,8 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: miniImg, 
-sourceUrl: canalesMini,
+thumbnaiUrl: yoshiImg, 
+sourceUrl: canalesYoshi,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
