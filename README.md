@@ -11,7 +11,7 @@
 - [x] Crear sticker de image/video/gif/url
 - [x] SubBot (Jadibot)
 - [ ] Juego RPG
-- [x] Descargas de música y videos De Yt
+- [x] Descargas de música y video De YT
 - [x] Otros
 
 ---------
