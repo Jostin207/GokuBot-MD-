@@ -46,7 +46,7 @@ else throw `*『✦』Ocurrio un error inesperado, inténtelo de nuevo por favor
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = /^(s|sticker)$/i
 
 export default handler
 
