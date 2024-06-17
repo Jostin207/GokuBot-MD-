@@ -17,7 +17,7 @@
 
 #### `Instalacion Manual Por Termux`
 
-[`TUTORIAL SE LA INSTALACIÓN`](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+- ##### [TUTORIAL SE LA INSTALACIÓN](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
