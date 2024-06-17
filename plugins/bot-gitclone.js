@@ -8,7 +8,7 @@ const handler = async (m, {args, usedPrefix, command}) => {
   const url = `https://api.github.com/repos/${user}/${repo}/zipball`;
   const filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1];
   m.reply(`⏰️ _Espere, El Archivo Se Está Enviando...._`);
-  conn.sendFile(m.chat, url, filename, null, m, fake, );
+  conn.sendFile(m.chat, url, filename, null, m);
 };
 handler.help = ['gitclone <url>'];
 handler.tags = ['downloader'];
