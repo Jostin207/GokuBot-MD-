@@ -1,5 +1,5 @@
 {
-"name": "YaemoriBot-MD",
+"name": "YaemoriMini-MD",
 "version": "2.0.0", 
 "description": "La Mejor Bot De WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/OfcDiego/YaemoriBot-MD",
+"homepage": "https://github.com/OfcDiego/YaemoriMini-MD",
 "author": {
 "name": "Dɪᴇɢᴏ.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/OfcDiego/YaemoriBot-MD.git" },
+"url": "git+https://github.com/OfcDiego/YaemoriMini-MD.git" },
 
 "bugs": {
-"url": "https://github.com/OfcDiego/YaemoriBot-MD/issues" },
+"url": "https://github.com/OfcDiego/YaemoriMini-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
