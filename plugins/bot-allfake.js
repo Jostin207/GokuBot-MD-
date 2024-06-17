@@ -55,7 +55,7 @@ var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M'
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@Yoshiko_team' 
-var github = 'https://github.com/OfcDiego/YaemoriBot-MD' 
+var github = 'https://github.com/OfcDiego/YoshikoBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
 global.redesYoshi = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
