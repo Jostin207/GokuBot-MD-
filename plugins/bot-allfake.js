@@ -31,12 +31,13 @@ let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
-global.yoshiImg = img10
+global.yoshiImg = img11
 
 /*6
 7 
 8
 9
+10
 eliminadas*/
 
 //creador
