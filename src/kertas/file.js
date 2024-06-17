@@ -1,5 +1,0 @@
-/* [
-   {
-      "ome": "multi device"
-  }
-    ]*/
