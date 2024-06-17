@@ -26,7 +26,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-## `Bot Oficial 🥷`
+### `Bot Oficial 🥷`
 - #### [BOT OFICIAL](https://wa.me/573218138672?text=!menu)
 
 ### `Instalar Bot 👑`
