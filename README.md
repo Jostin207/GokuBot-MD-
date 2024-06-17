@@ -92,7 +92,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 * [`@elrebelde21`](https://github.com/elrebelde21) 
 * [`@Zam`](https://github.com/AzamiJs) 
 * [`@Alba`](https://github.com/Alba070503) 
-* [`@Danixl`](https://github.com/DanixIJs⁩)
+* [`@Danixl`](https://github.com/DanixlJs⁩)
 * [`@Gabriel`](https://github.com/glytglobal)
 
 ### `Creador 👑` 
