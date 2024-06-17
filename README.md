@@ -12,7 +12,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-<a href="https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yoshiko-FFD3EF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+[`GRUPO OFICIAL`](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
 #### `Instalacion Manual Por Termux`
