@@ -64,7 +64,7 @@ global.canalesYoshi = [canal, canal2].getRandom()
 
 var img = fs.readFileSync('./src/menus/Bomini.jpg')
 var img2 = fs.readFileSync('./src/menus/Yosh.jpg')
-var img3 = fs.readFileSync('./src/menus/MiniYoshiko.jpg'))
+var img3 = fs.readFileSync('./src/menus/MiniYoshiko.jpg')
 var img4 = fs.readFileSync('./src/menus/MiniBotsito.jpg')
 var img5 = fs.readFileSync('./src/menus/MiniBot.jpg')
 var img6 = fs.readFileSync('./src/menus/BotYoshi.jpg')
