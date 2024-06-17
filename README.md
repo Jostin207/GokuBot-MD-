@@ -19,9 +19,9 @@
 
 * [`Tutorial`](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
+```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
-```bash
 > termux-setup-storage
 
 > apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
