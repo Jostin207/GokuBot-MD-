@@ -12,7 +12,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-### [GRUPO OFICIAL](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
+- #### [GRUPO OFICIAL](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
 #### `Instalacion Manual Por Termux`
