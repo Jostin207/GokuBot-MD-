@@ -10,14 +10,12 @@
 > [!TIP]
 > Este Bot Está En Desarrollo Puede Que Tenga Algunos Errores, Si Ves Un Error Contacta Al Creador, Gracias.
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
-
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
 <a href="https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yoshiko-FFD3EF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-### `Configuracion`
+#### `Configuracion`
  Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 
@@ -30,9 +28,13 @@
 
 ```bash
 > termux-setup-storage
+
 > apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-> git clone https://github.com/OfcDiego/YoshikoBot-MD && > cd YoshikoBot-MD
+
+> git clone https://github.com/OfcDiego/YoshikoBot-MD && cd YoshikoBot-MD
+
 > yarn install && npm install
+
 > npm start
 ```
 
