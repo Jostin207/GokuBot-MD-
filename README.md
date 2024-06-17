@@ -11,12 +11,12 @@
 - [x] Crear sticker de image/video/gif/url
 - [x] SubBot (Jadibot)
 - [ ] Juego RPG
-- [x] DESCARGA DE ARCHIVOS DE YT
+- [x] Descargas De Archivos De Yt
 - [x] Otros
 
 ---------
 
-## `COLABORADORES ✨️`
+## `Colaboradores ✨️`
 * [`@elrebelde21`](https://github.com/elrebelde21) 
 * [`@Zam`](https://github.com/AzamiJs) 
 * [`@Alba`](https://github.com/Alba070503) 
@@ -25,14 +25,13 @@
 * [`@Katashi`](https://github.com/KatashiFukushima)
 * [`@Ariz`](https://github.com/ArizzVal)
 
-### `CREADOR 👑`
+### `Creador 👑`
 * [`@OfcDiego`](https://github.com/OfcDiego)
 
-### `AGRADECIMIENTOS 🌟`
+### `Agradecimientos 🌟`
 * [`@Bruno`](https://github.com/BrunoSobrino)
 * [`@elrebelde21`](https://github.com/elrebelde21)
 * [`@GataDios`](https://github.com/GataNina-Li)
 * [`@Zam`](https://github.com/AzamiJs)
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YaemoriBot-MD)**.
-> Derechos Reservados (R) **[OfcDiego](https://github.com/OfcDiego)**
