@@ -14,7 +14,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Yaeromi\nMini', {
+say('Yaemori\nMini', {
 font: 'block',
 align: 'center',
 colors: ['white']
