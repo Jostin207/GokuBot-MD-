@@ -17,7 +17,7 @@ if (!img) throw `⚠️ *_La conversión ha fallado, intenta enviar primero imag
 
 let out
 try {
-stiker = await sticker(img, false, global.stickwm, global.wm, global.author)
+stiker = await sticker(img, false, global.wm, global.author)
 } catch (e) {
 console.error(e)
 } finally {
@@ -26,7 +26,7 @@ if (/webp/g.test(mime)) out = await webp2png(img)
 else if (/image/g.test(mime)) out = await uploadImage(img)
 else if (/video/g.test(mime)) out = await uploadFile(img)
 if (typeof out !== 'string') out = await uploadImage(img)
-stiker = await sticker(false, out, global.stickwm, global.wm, global.author)
+stiker = await sticker(false, out, global.wm, global.author)
 }}
 } else if (args[0]) {
 if (isUrl(args[0])) stiker = await sticker(false, args[0], global.wm, global.author)
@@ -38,7 +38,7 @@ else return m.reply(`URL invalido`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: botname, mediaType: 2, sourceUrl: redesMini, thumbnail: miniImg}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: botname, mediaType: 2, sourceUrl: redesYoshi, thumbnail: yoshiImg}}}, { quoted: m })
 
 else throw `*『✦』Ocurrio un error inesperado, inténtelo de nuevo por favor.*`
 
