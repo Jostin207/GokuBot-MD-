@@ -28,7 +28,7 @@
 
 - ### 💻 Instalacion Manual Por Termux
 
-[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-00FF00?style=for-the-badge&logo=youtube&logoColor=white)
+[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
@@ -83,7 +83,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
-<a href="https://wa.me/5213511759135?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://wa.me/5213511759135?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FF00?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
