@@ -89,6 +89,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ✨️" src="https://img.shields.io/badge/Bot - Oficial-CCFFOO?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+> [!WARNING]
 > No Spam Al Bot!
 ---------
 
