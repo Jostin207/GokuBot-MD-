@@ -15,10 +15,6 @@
 <a href="https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yoshiko-FFD3EF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-#### `Configuracion`
- Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
-
-
 #### `Instalacion Manual Por Termux`
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-00FFFF?style=for-the-badge&logo=youtube&logoColor=white)
