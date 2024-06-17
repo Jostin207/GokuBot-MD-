@@ -93,10 +93,13 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
 </a>
 
-### ☄️ AGRADECIMIENTOS
-[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
+### `Creador 👑` 
+[`@OfcDiego`](https://github.com/OfcDiego)
 
-### 👑 CREADOR 
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
+### `Agradecimientos 🌟`
+* [`@Bruno`](https://github.com/BrunoSobrino)
+* [`@elrebelde21`](https://github.com/elrebelde21)
+* [`@GataDios`](https://github.com/GataNina-Li)
+[`@Zam`](https://github.com/AzamiJs)
+
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YaemoriBot-MD)**.
