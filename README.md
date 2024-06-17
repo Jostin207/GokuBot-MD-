@@ -34,7 +34,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `Bot Oficial 🥷`
-[`BOT OFICIAL`](https://wa.me/573218138672?text=!menu)
+#### [BOT OFICIAL](https://wa.me/573218138672?text=!menu)
 
 ---------
 
