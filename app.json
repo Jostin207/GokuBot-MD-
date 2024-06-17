@@ -1,13 +1,13 @@
 {
-"name": "YaemoriBot-MD",
+"name": "YaemoriMini-MD",
 "website": "https://github.com/OfcDiego",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/OfcDiego/YaemoriBot-MD",
+"repository": "https://github.com/OfcDiego/YaemoriMini-MD",
 "logo": "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg",
-"success_url": "https://github.com/OfcDiego/YaemoriBot-MD",
+"success_url": "https://github.com/OfcDiego/YaemoriMini-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "yaemoribot"],
+"termux", "superbot", "multi-device", "md", "official", "javascript", "yaemorimini"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
