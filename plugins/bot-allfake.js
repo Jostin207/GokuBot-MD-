@@ -63,16 +63,16 @@ global.redesMini = [canal, canal2, canal3, grupofb, git, youtube, github, facebo
 
 global.canalesMini = [canal, canal2, canal3].getRandom()
 
-var img = 'https://qu.ax/dXNm.jpg'
-var img2 = 'https://qu.ax/NeBt.jpg'
-var img3 = 'https://qu.ax/EFKB.jpg'
-var img4 = 'https://qu.ax/pnKB.jpg'
-var img5 = 'https://qu.ax/LuwU.jpg'
-var img6 = 'https://qu.ax/Avth.jpg'
-var img7 = 'https://qu.ax/YsDx.jpg'
-var img8 = 'https://qu.ax/JhJn.jpg'
-var img9 = 'https://qu.ax/TVlC.jpg'
-var img10 = 'https://qu.ax/cMOE.jpg'
+var img = fs.readFileSync('./Menu.jpg')
+var img2 = fs.readFileSync('./Menu.jpg')
+var img3 = fs.readFileSync('./Menu.jpg')
+var img4 = fs.readFileSync('./Menu.jpg')
+var img5 = fs.readFileSync('./Menu.jpg')
+var img6 = fs.readFileSync('./Menu.jpg')
+var img7 = fs.readFileSync('./Menu.jpg')
+var img8 = fs.readFileSync('./Menu.jpg')
+var img9 = fs.readFileSync('./Menu.jpg')
+var img10 = fs.readFileSync('./Menu.jpg')
 
 global.miniImg = [img, img2, img3, img4, img5, img6, img7, img8, img9, img10].getRandom()
 
