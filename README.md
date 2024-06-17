@@ -2,7 +2,7 @@
 
 > Bot en creación pronto se agregaran más cosas 
 
-- [ ] Interacción con voz y texto
+- [x] Interacción con voz y texto
 - [x] Configuración de grupo
 - [x] antidelete, antilink, antispam, etc
 - [x] Bienvenida personalizada
