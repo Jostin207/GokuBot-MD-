@@ -17,10 +17,10 @@
 
 #### `Instalacion Manual Por Termux`
 
-* [`Tutorial`](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
+* [`TUTORIAL SE LA INSTALACIÓ `](https://youtu.be/jeBYMWndUbQ?si=HO2FCASZX5_vOKip)
 
 ```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 > termux-setup-storage
 
