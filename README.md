@@ -10,6 +10,7 @@
 > [!TIP]
 > Este Bot Está En Desarrollo Puede Que Tenga Algunos Errores, Si Ves Un Error Contacta Al Creador, Gracias.
 
+
 ## Instalacion Por Termux 💻
 
 ```bash
