@@ -10,14 +10,14 @@ try {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
 if (/webp|image|video/g.test(mime)) {
-if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`*『✦』El video no debe de durar mas de 8 segundos.*`)
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`*EL VIDEO NO PUEDE DURA MAS DE 7 SEGUNDOS*`)
 let img = await q.download?.()
 
 if (!img) throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`
 
 let out
 try {
-stiker = await sticker(img, false, global.wm, global.author)
+stiker = await sticker(img, false, global.packname, global.author)
 } catch (e) {
 console.error(e)
 } finally {
@@ -26,10 +26,10 @@ if (/webp/g.test(mime)) out = await webp2png(img)
 else if (/image/g.test(mime)) out = await uploadImage(img)
 else if (/video/g.test(mime)) out = await uploadFile(img)
 if (typeof out !== 'string') out = await uploadImage(img)
-stiker = await sticker(false, out, global.wm, global.author)
+stiker = await sticker(false, out, global.packname, global.author)
 }}
 } else if (args[0]) {
-if (isUrl(args[0])) stiker = await sticker(false, args[0], global.wm, global.author)
+if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
 
 else return m.reply(`URL invalido`)
 
@@ -38,9 +38,9 @@ else return m.reply(`URL invalido`)
 console.error(e)
 if (!stiker) stiker = e
 } finally {
-if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: botname, mediaType: 2, sourceUrl: redesYoshi, thumbnail: yoshiImg}}}, { quoted: m })
+if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: wm, mediaType: 2, sourceUrl: [yt, channel, md, fb].getRandom(), thumbnail: yoshiImg}}}, { quoted: m })
 
-else throw `*『✦』Ocurrio un error inesperado, inténtelo de nuevo por favor.*`
+else throw `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`
 
 
 }}
