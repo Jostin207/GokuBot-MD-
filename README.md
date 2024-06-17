@@ -16,7 +16,7 @@
 </p>
 
 # 📖 Características del bot 
-|  Funciones y comandos  |                                           Si |
+|  Funciones y comandos  |                                           Si | No |
 | :---------------------------------------------: | :-----------: |
 | Crea stickers|✔️|
 | Bienvenida automática|✔️|
@@ -24,12 +24,12 @@
 | Jadibot-vBeta|✔️|
 | Modo Publico/Privado|✔️|
 | Herramientas de configuración|✔️|
-| Creador de logos|✖️|
+| Creador de logos|||✖️|
 | Anime|✔️|
 | Juegos|✔️|
 | Descarga de música/videos|✔️|
 | Chat-Bot|✔️|
-| Botones clásicos|✖️|
+| Botones clásicos|||✖️|
 | Random commands|✔️|
 
 # Se les recomienda instalar uno de estos WhatsApps:
