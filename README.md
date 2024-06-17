@@ -94,6 +94,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 * [`@Alba`](https://github.com/Alba070503) 
 * [`@Danixl`](https://github.com/DanixlJs⁩)
 * [`@Gabriel`](https://github.com/glytglobal)
+* [`@Katashi`](https://github.com/KatashiFukushima)
 
 ### `Creador 👑` 
 * [`@OfcDiego`](https://github.com/OfcDiego)
