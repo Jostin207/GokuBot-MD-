@@ -34,4 +34,4 @@
 * [`@GataDios`](https://github.com/GataNina-Li)
 * [`@Zam`](https://github.com/AzamiJs)
 
-> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YaemoriBot-MD)**.
+> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
