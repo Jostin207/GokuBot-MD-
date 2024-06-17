@@ -108,7 +108,7 @@ Para que no pierda su progreso en Yaemori, estos comandos realizarán un respald
 </a>
 
 ### ☄️ AGRADECIMIENTOS
-[![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
+[![BrunoSobrino](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
 
 ### 👑 CREADOR 
 <a
