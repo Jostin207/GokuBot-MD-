@@ -1,14 +1,14 @@
 import fetch from 'node-fetch';
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
 const handler = async (m, {args, usedPrefix, command}) => {
-  if (!args[0]) throw `🌺 *Envia El Github.*\n\n𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n\n${usedPrefix + command} https://github.com/Diego-YL-177/YoshikoBot-MD`, m, fake, );
-  if (!regex.test(args[0])) throw '*📍 Link Incorrecto!*';
+  if (!args[0]) throw `🏓 *Envia El Github.*\n\n𝐄𝐣𝐞𝐦𝐩𝐥𝐨:\n\n${usedPrefix + command} https://github.com/Diego-YL-177/YoshikoBot-MD`;
+  if (!regex.test(args[0])) throw '*🥷 Link Incorrecto!*';
   let [_, user, repo] = args[0].match(regex) || [];
   repo = repo.replace(/.git$/, '');
   const url = `https://api.github.com/repos/${user}/${repo}/zipball`;
   const filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1];
   m.reply(`⏰️ _Espere, El Archivo Se Está Enviando...._`, m, fake, );
-  conn.sendFile(m.chat, url, filename, null, m);
+  conn.sendFile(m.chat, url, filename, null, m, fake, );
 };
 handler.help = ['gitclone <url>'];
 handler.tags = ['downloader'];
