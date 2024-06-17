@@ -52,16 +52,15 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
 var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' 
-var canal3 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@Yoshiko_team' 
 var github = 'https://github.com/OfcDiego/YaemoriBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
-global.redesYoshi = [canal, canal2, canal3, grupofb, git, youtube, github, facebook].getRandom()
+global.redesYoshi = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
 
-global.canalesYoshi = [canal, canal2, canal3].getRandom()
+global.canalesYoshi = [canal, canal2].getRandom()
 
 var img = fs.readFileSync('./Menu.jpg')
 var img2 = fs.readFileSync('./Menu.jpg')
