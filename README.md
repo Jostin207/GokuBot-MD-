@@ -107,6 +107,10 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ---------
 
+### `Creador 👑`
+<a
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="200" height="200" alt="Diego"/></a>
+
 ## `Colaboradores ✨️`
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD"/> 
@@ -121,8 +125,4 @@ href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" widt
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="70" height="70" alt="Bruno"/></a>
 <a
 href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="70" height="70" alt="GataDios"/></a>
-
-### `Creador 👑`
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="150" height="150" alt="Diego"/></a>
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
