@@ -1,19 +1,16 @@
-import { pinterest } from '@bochilteam/scraper'
-
-var handler = async(m, { conn, text, usedPrefix, command }) => {
-
-if (!text) return conn.reply(m.chat, `🍬 *Debera ingresar un texto*\n\nEjemplo, !${command} Minecraft`, m, fake, )
-m.react('🍬')
-
-const json = await pinterest(text)
-conn.sendFile(m.chat, json.getRandom(), 'pinterest.jpg', `🍬 *Resultado de* ${text}`.trim(), m)
-
-}
-handler.help = ['pinterest']
+import Scraper from "@SumiFX/Scraper"
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
+try {
+m.react(rwait)
+let { dl_url } = await Scraper.pinterest(text)
+await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m)
+m.react('✅️')
+} catch {
+}}
+handler.help = ['pinterest <texto>']
 handler.tags = ['internet']
-handler.command = /^(pinterest)$/i
-
-handler.limit = 3
+handler.command = ['pinterest']
+handler.limit = 1
 handler.register = true
-
 export default handler
