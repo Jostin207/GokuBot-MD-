@@ -1,4 +1,4 @@
-1import fetch from 'node-fetch';
+import fetch from 'node-fetch';
 import axios from 'axios';
 import translate from '@vitalets/google-translate-api';
 import {Configuration, OpenAIApi} from 'openai';
@@ -6,9 +6,10 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return;
-if (!text) return conn.reply(m.chat, `💭 Ingrese una petición para que la IA lo responda, Ejemplo:\n> *${usedPrefix + command} Código de una Calculadora en Js*`, m, fake, )   
+if (!text) return conn.reply(m.chat, `🍃 *Ingrese una petición*\n\n- Ejemplo, !${command} Codigo en Js para un juego de ahorcado`, m, fake, )   
 try {
-m.react('⌛️')
+await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
+m.react('⌛️') 
 conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
@@ -20,12 +21,10 @@ let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${t
 let res = await gpt.json()
 await m.reply(res.data) 
 m.react('✅️')
-} catch{
+} catch {
 }}}
-handler.help = ['chatgpt <texto>', 'ia <texto>']
+handler.help = ['openia', 'chatgpt', 'ia']
 handler.tags = ['ai']
-handler.register = true
-handler.limit = 2
-handler.command = ['ia', 'chatgpt']
+handler.command = /^(openai|chatgpt|ia)$/i
 
 export default handler;
