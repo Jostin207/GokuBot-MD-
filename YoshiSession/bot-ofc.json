@@ -12,5 +12,5 @@
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
-"@whiskeysockets/baileys": "^6.5.0"
+"@whiskeysockets/baileys": "^6.7.5"
 }
