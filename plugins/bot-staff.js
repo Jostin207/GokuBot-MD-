@@ -52,6 +52,7 @@ sourceUrl: redesYoshi,
 thumbnailUrl: img
 }}
 }, { mentions: m.sender })
+m.react('🌟')
 
 }
 handler.help = ['staff']
@@ -59,4 +60,4 @@ handler.command = ['colaboradores', 'staff']
 handler.register = true
 handler.tags = ['info']
 
-handler
+export default handler
