@@ -113,7 +113,8 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ### `Creador 👑`
-* [`@OfcDiego`](https://github.com/OfcDiego)
+<a
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
 
 ### `Agradecimientos 🌟`
 * [`@Bruno`](https://github.com/BrunoSobrino)
