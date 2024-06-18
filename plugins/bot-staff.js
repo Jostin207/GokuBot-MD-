@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = ``
-let stafftxt = `🏆 *EQUIPO DE AYUDANTES*
+let staff = `🏆 *EQUIPO DE AYUDANTES*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
 
@@ -37,7 +37,7 @@ let stafftxt = `🏆 *EQUIPO DE AYUDANTES*
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/Danixl.Js`
-await conn.sendFile(m.chat, pp, 'yoshi.jpg', stafftxt.trim(), fkontak, true, {
+await conn.sendFile(m.chat, pp, 'yoshi.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
