@@ -303,10 +303,10 @@ if (!plugin)
 continue
 if (plugin.disabled)
 continue
-const __filename = join(___dirname, name)
+/*const __filename = join(___dirname, name)
 if (m.sender === this.user.jid) {
 continue
-}
+}*/
 if (typeof plugin.all === 'function') {
 try {
 await plugin.all.call(this, m, {
