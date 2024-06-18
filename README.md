@@ -118,11 +118,7 @@ href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" wi
 
 ### `Agradecimientos 🌟`
 <a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="70" height="70" alt="Mario"/></a> 
+href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="150" height="150" alt="Mario"/></a> 
 <a
-href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="70" height="70" alt="Zam"/></a>
-<a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="70" height="70" alt="Bruno"/></a>
-<a
-href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="70" height="70" alt="GataDios"/></a>
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="150" height="150" alt="Bruno"/></a>
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
