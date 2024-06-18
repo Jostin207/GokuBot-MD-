@@ -50,7 +50,7 @@ else return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero 
 handler.help = ['sticker', 's']
 handler.command = ['sticker', 's']
 handler.tags = ['sticker']
-handler.registrado = true
+//handler.register = true
 
 export default handler
 
