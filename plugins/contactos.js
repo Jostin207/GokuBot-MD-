@@ -6,10 +6,10 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 
 👑 *Propietario:*
 
-• Diego-YL-177
+• OfcDiego
 ☘️ *Rol:* Propietario
 ✨️ *Número:* ${creador}
-🏆 *GitHub:* https://github.com/Diego-YL-177
+🏆 *GitHub:* https://github.com/OfcDiego
 
 💫 *Colaboradores:*
 
