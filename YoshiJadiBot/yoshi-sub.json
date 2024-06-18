@@ -2,8 +2,7 @@
 "name": "SubBot Yoshiko",
 "version": "2.0 (beta)", 
 "sub?": "si"
-"git": "https://github.com/OfcDiego/YoshikoSub-MD"
-},
+"git": "https://github.com/OfcDiego/YoshikoSub-MD" },
 
 "directories": {
 "bot": "sub bot",
