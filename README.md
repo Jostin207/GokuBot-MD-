@@ -109,7 +109,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ### `Creador 👑`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="200" height="200" alt="Diego"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="250" height="250" alt="Diego"/></a>
 
 ## `Colaboradores ✨️`
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
