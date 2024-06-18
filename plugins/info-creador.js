@@ -18,6 +18,6 @@ await conn.sendFile(m.chat, pp, 'yoshiko.jpg', bot, fkontak)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
+handler.command = /^(owner|creator|propietario|dueño|creador)$/i
 
 export default handler
