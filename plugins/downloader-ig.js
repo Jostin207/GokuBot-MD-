@@ -12,7 +12,7 @@ await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✅️ *Su Vi
 handler.help = ['ig <enlace>']
 handler.tags = ['downloader']
 handler.command = ['ig', 'instagram']
-handler.registrado = true 
-handler.diamantes = 1
+handler.register = true
+handler.limit = 1
 
 export default handler
