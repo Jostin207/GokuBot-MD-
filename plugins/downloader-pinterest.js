@@ -5,7 +5,7 @@ try {
 m.react(rwait)
 let { dl_url } = await Scraper.pinterest(text)
 await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m)
-m.react('✅️')
+m.react(done)
 } catch {
 }}
 handler.help = ['pinterest <texto>']
