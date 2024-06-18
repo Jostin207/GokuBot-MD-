@@ -1,4 +1,4 @@
-var handler = async (m, { conn, participants, groupMetadata, usedPrefix, command }) => {
+var handler = async (m, { conn, participants, usedPrefix, command }) => {
     if (!m.mentionedJid[0] && !m.quoted) {
         return conn.reply(m.chat, '✨️ *Etiqueta o responde al mensaje de la persona que quieres eliminar*', m);
     }
@@ -24,7 +24,7 @@ var handler = async (m, { conn, participants, groupMetadata, usedPrefix, command
 
     await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
 
-conn.reply('573012482597@s.whatsapp.net', `💥 Un Admin Acabo De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, fake, );
+//conn.reply('573012482597@s.whatsapp.net', `💥 Un Admin Acabo De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, fake, );
 };
 
 handler.help = ['kick'];
