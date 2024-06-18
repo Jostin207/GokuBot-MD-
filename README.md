@@ -117,9 +117,14 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
 
 ### `Agradecimientos 🌟`
-* [`@Bruno`](https://github.com/BrunoSobrino)
-* [`@elrebelde21`](https://github.com/elrebelde21)
-* [`@GataDios`](https://github.com/GataNina-Li)
-* [`@Zam`](https://github.com/AzamiJs)
+<a
+href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="70" height="70" alt="Mario"/></a> 
+<a
+href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="70" height="70" alt="Zam"/></a>
+<a
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="70" height="70" alt="Bruno"/></a>
+<a
+href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="70" height="70" alt="GataDios"/></a>
+
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
