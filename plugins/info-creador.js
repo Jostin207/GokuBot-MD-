@@ -1,62 +1,23 @@
-import PhoneNumber from 'awesome-phonenumber'
+var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let pp = yoshiImg        
+const bot = `𝑶𝑭𝑪 𝑫𝑰𝑬𝑮𝑶 👑
+*${creadod}*
+༺═──────────────═༻
+𝐵𝑂𝑇 𝑂𝐹𝐶
+*${botofc}*
+*༺═──────────────═༻*
+𝑴𝑰 𝑪𝑶𝑹𝑹𝑬𝑶
+*theyoshikobot@gmail.com*
+༺═──────────────═༻
+ 𝐴𝑆𝐼𝑆𝑇𝐸𝑁𝐶𝐼𝐴
+*${asistencia}*
+༺═──────────────═༻`
 
-let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-//m.react('⚙️')
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-let biografia = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
-let biografiaBot = await conn.fetchStatus(`${conn.user.jid.split('@')[0]}` +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
-let bio = biografia.status?.toString() || 'Sin Biografía'
-let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
-let name = await conn.getName(who)
+await conn.sendFile(m.chat, pp, 'yoshiko.jpg', bot, fkontak)
+}
+handler.help = ['owner', 'creator']
+handler.tags = ['info']
+handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
 
-  await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `👑 Propietario`, `🍂 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yoshiko_team`, bio],
-[`${conn.user.jid.split('@')[0]}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
-], m)
-  //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creador, no hagas spam!!`)
-  } 
-
-handler.help = ["creador","owner"]
-handler.tags = ["owner"]
-handler.command = /^(owner|creador)$/i
 export default handler
-
-async function sendContactArray(conn, jid, data, quoted, options) {
-        if (!Array.isArray(data[0]) && typeof data[0] === 'string') data = [data]
-                let contacts = []
-        for (let [number, name, isi, isi1, isi2, isi3, isi4, isi5] of data) {
-            number = number.replace(/[^0-9]/g, '')
-            let njid = number + '@s.whatsapp.net'
-            let biz = await conn.getBusinessProfile(njid).catch(_ => null) || {}
-            // N:;${name.replace(/\n/g, '\\n').split(' ').reverse().join(';')};;;
-            let vcard = `
-BEGIN:VCARD
-VERSION:3.0
-N:Sy;Bot;;;
-FN:${name.replace(/\n/g, '\\n')}
-item.ORG:${isi}
-item1.TEL;waid=${number}:${PhoneNumber('+' + number).getNumber('international')}
-item1.X-ABLabel:${isi1}
-item2.EMAIL;type=INTERNET:${isi2}
-item2.X-ABLabel:📧 Email
-item3.ADR:;;${isi3};;;;
-item3.X-ABADR:ac
-item3.X-ABLabel:🏷 Region
-item4.URL:${isi4}
-item4.X-ABLabel:Website
-item5.X-ABLabel:${isi5}
-END:VCARD`.trim()
-            contacts.push({ vcard, displayName: name })
-        }
-        return await conn.sendMessage(jid, {
-            contacts: {
-                displayName: (contacts.length > 1 ? `2013 kontak` : contacts[0].displayName) || null,
-                contacts,
-            }
-        },
-        {
-            quoted,
-            ...options
-        })
-        }
