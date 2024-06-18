@@ -1,4 +1,4 @@
-let handler = async (m, { conn, text, groupMetadata }) => {
+let handler = async (m, { conn, text }) => {
 if (!text) return m.reply('🏓 Ingresa un nombre para el grupo.')
 try{
 m.reply('✅️ *CREANDO GRUPO* ✅️')
@@ -8,7 +8,6 @@ m.reply('https://chat.whatsapp.com/' + url)
 } catch (e) {
 m.reply(`✨️ Ocurrió un error inesperado.`)
 }
-conn.reply('573012482597@s.whatsapp.net', `💭 El Moderador ${nombre} Ha Creado Un Grupo Con ${wm}`, m, fake, );
 }
 handler.help = ['grupocrear <nombre>']
 handler.tags = ['mods']
