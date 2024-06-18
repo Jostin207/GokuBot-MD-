@@ -88,7 +88,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 > No Spam Al Bot!
 ---------
-
 ## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
 
 > Bot en creación pronto se agregaran más cosas 
@@ -107,23 +106,22 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ---------
 
-### `Agradecimientos 🌟`
-<a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="140" height="140" alt="Mario"/></a> 
-<a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="140" height="140" alt="Bruno"/></a>
-
 ## `Colaboradores ✨️`
-<a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="140" height="140" alt="Mario"/></a> 
-<a
-href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="140" height="140" alt="Zam"/></a> 
-<a
-href="https://github.com/ArizzVal"><img src="https://github.com/ArizzVal.png" width="140" height="140" alt="Arizz"/></a> 
+* [`@elrebelde21`](https://github.com/elrebelde21) 
+* [`@Zam`](https://github.com/AzamiJs) 
+* [`@Alba`](https://github.com/Alba070503) 
+* [`@Danixl`](https://github.com/DanixlJs⁩)
+* [`@Gabriel`](https://github.com/glytglobal)
+* [`@Katashi`](https://github.com/KatashiFukushima)
+* [`@Ariz`](https://github.com/ArizzVal)
 
-<div align="center">
-  <h1 align="center">Creador 👑</h1>
+### `Creador 👑`
+* [`@OfcDiego`](https://github.com/OfcDiego)
 
-<a href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="230" height="230" alt="OfcDiego"/></a>
+### `Agradecimientos 🌟`
+* [`@Bruno`](https://github.com/BrunoSobrino)
+* [`@elrebelde21`](https://github.com/elrebelde21)
+* [`@GataDios`](https://github.com/GataNina-Li)
+* [`@Zam`](https://github.com/AzamiJs)
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
