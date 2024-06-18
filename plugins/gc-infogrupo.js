@@ -1,6 +1,6 @@
 const handler = async (m, {conn, participants, groupMetadata}) => {
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || `${global.icons}`;
-  const {antiToxic, reaction, antiTraba, delete, antiver, welcome, detect, antiLink, antiLink2, modohorny, autosticker, stickers, audios} = global.db.data.chats[m.chat];
+  const {antiToxic, reaction, antiTraba, delete, antiviewonce, welcome, detect, antiLink, antiLink2, modohorny, autosticker, audios} = global.db.data.chats[m.chat];
   const groupAdmins = participants.filter((p) => p.admin);
   const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n');
   const owner = groupMetadata.owner || groupAdmins.find((p) => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net';
@@ -27,12 +27,11 @@ ${listAdmin}
 ◈ *Modohorny:* ${modohorny ? '✅' : '❌'} 
 ◈ *Autosticker:* ${autosticker ? '✅' : '❌'} 
 ◈ *Audios:* ${audios ? '✅' : '❌'} 
-◈ *Antiver:* ${antiver ? '✅' : '❌'} 
+◈ *Antiver:* ${antibiewonce ? '✅' : '❌'} 
 ◈ *Reacción* ${reaction ? "✅️" : "❌️"}
 ◈ *Delete:* ${delete ? '✅' : '❌'} 
 ◈ *Antitoxic:* ${antiToxic ? '✅' : '❌'} 
 ◈ *Antitraba:* ${antiTraba ? '✅' : '❌'} 
-◈ *Stickers:* ${stickers ? '✅' : '❌'} 
 `.trim();
   conn.sendFile(m.chat, pp, 'img.jpg', text, m, false, {mentions: [...groupAdmins.map((v) => v.id), owner]});
 };
