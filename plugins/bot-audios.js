@@ -64,8 +64,13 @@ let vn = 'https://qu.ax/YsLt.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
-if (chat.audios && m.text.match(/(En caso de una investigación|En caso de una investigacion|fbi|cia|nasa|detective|👤|🕵️‍|♀️🕵️‍♂️)/gi)) {    
+if (chat.audios && m.text.match(/(En caso de una investigación|En caso de una investigacion|cia|nasa|detective|👤|🕵️‍|♀️🕵️‍♂️)/gi)) {    
 let vn = 'https://qu.ax/Syg.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
+
+if (chat.audios && m.text.match(/(fbi|FBI|picus|PICUS|🗣|💻)/gi)) {    
+let vn = 'https://qu.ax/wFbD.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
