@@ -5,6 +5,8 @@ if (!chat.isBanned) return m.reply('╰⊱🌩⊱ 𝗘𝗥𝗥𝗢𝗥 ⊱🌩�
 chat.isBanned = false
 await conn.reply(m.chat, '╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱🌺⊱╮\n\n🍒 *¡LA BOT YA FUÉ DESBANEADA EN ESTE CHAT!*', m)
 }
+handler.help = ['unbanchat'];
+handler.tags = ['mods'];
 handler.command = /^unbanchat|desbanearchat|desbanchat$/i
 handler.mods = true 
 //handler.group = true
