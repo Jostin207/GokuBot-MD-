@@ -17,9 +17,9 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
         await conn.reply(m.chat, `✅️ El usuario *${nametag}* ha sido desbaneado.`, m, { mentionedJid: [user] });
         conn.reply('120363284046748076@g.us', `💭 El usuario *${nametag}* ha sido desbaneado por *${nn}*`, m, fake, );
     } else {
-        await conn.reply(m.chat, '💥 El usuario no está registrado.`, m);
+        await conn.reply(m.chat, `💥 El usuario no está registrado.`, m);
     }
-//};
+};
 handler.help = ['unbanuser <@tag>'];
 handler.command = ['unbanuser'];
 handler.tags = ['mods'];
