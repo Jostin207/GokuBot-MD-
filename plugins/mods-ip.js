@@ -5,7 +5,7 @@
 import axios from 'axios'
 
 let handler = async (m, { conn, text }) => {
-await m.reply("🧑🏻‍💻 Buscando...")
+await m.reply('🧑🏻‍💻 Buscando...', m, fake, )
   if (!text) return conn.reply(m.chat, "🥷 Ingrese una dirección IP válida", m)
 
   axios.get(`http://ip-api.com/json/${text}?fields=status,message,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,isp,org,as,mobile,hosting,query`).then ((res) => {
