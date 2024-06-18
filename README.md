@@ -118,7 +118,9 @@ href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.p
 <a
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="140" height="140" alt="Bruno"/></a>
 
-### `Creador 👑`
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="250" height="250" alt="Diego"/></a>
+<div align="center">
+  <h1 align="center">Creador 👑</h1>
+
+<a href="https://github.com/OfcDiego"><img src="https://github.com/DanielDiod.png" width="230" height="230" alt="OfcDiego"/></a>
+
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
