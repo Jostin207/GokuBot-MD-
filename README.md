@@ -112,15 +112,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD"/> 
 </a>
 
-### `Agradecimientos 🌟`
-<a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="140" height="140" alt="Mario"/></a> 
-<a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="140" height="140" alt="Bruno"/></a>
-
 <div align="center">
   <h1 align="center">Creador 👑</h1>
 
-<a href="https://github.com/OfcDiego"><img src="https://github.com/DanielDiod.png" width="230" height="230" alt="OfcDiego"/></a>
+<a href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="230" height="230" alt="OfcDiego"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
