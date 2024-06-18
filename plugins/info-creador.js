@@ -5,7 +5,7 @@ const bot = `𝑶𝑭𝑪 𝑫𝑰𝑬𝑮𝑶 👑
 *${creadod}*
 ༺═──────────────═༻
 𝐵𝑂𝑇 𝑂𝐹𝐶
-*${botofc}*
+*${ofcbot}*
 *༺═──────────────═༻*
 𝑴𝑰 𝑪𝑶𝑹𝑹𝑬𝑶
 *theyoshikobot@gmail.com*
