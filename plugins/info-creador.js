@@ -7,7 +7,7 @@ const bot = `*_☘️ Hola ${nombre}, Me llamo ${bot} Siempre a disposición par
 ${packname}
 *◎ ${creador}*
 
-https://www.instagram.com/gata_dios`
+${redesYoshi}`
 
 await conn.sendFile(m.chat, pp, 'yoshiko.jpg', bot, fkontak)
 }
