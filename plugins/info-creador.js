@@ -18,7 +18,7 @@ let name = await conn.getName(who)
   } 
 
 handler.help = ["creador","owner"]
-handler.tags = ["owner"]
+handler.tags = ["info"]
 handler.command = /^(owner|creador)$/i
 export default handler
 
