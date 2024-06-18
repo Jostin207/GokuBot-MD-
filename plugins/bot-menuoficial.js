@@ -19,7 +19,7 @@ let tags = {
   'database': 'DATABASE 📚',
   'internet': 'INTERNET 📮', 
   'stalk': 'STALK 📒',
-  'premium': 'USER VIP 👑',
+  'premium': 'PREMIUM 👑',
   'frases': 'FRASES ✏️',
   'downloader': 'DESCARGAS 📥',
   'descargas': 'DESCARGAS 📥',
