@@ -13,5 +13,5 @@ handler.help = ['grupocrear <nombre>']
 handler.tags = ['mods']
 handler.command = ['creargc', 'newgc', 'creargrupo', 'grupocrear']
 handler.mods = true
-handler.registrado = true
+handler.register = true
 export default handler
