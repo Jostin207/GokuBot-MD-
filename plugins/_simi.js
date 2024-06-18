@@ -11,7 +11,7 @@ handler.before = async (m) => {
    try {
     let textodem = m.text;
       const ressimi = await simitalk(textodem);
-      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: m });
+      await m.conn.sendMessage(m.chat, { text: ressimi.resultado.simsimi }, { quoted: fkontak });
   } catch (err) {
 console.log("💭 Error", err)}
 }
