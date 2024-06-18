@@ -256,7 +256,7 @@ jddt()
 handler.help = [`serbot`, `serbot --code`]
 handler.tags = [`jadibot`]
 handler.command = /^(jadibot|serbot)/i
-handler.register = true
+//handler.register = true
 
 export default handler
 
