@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+1import fetch from 'node-fetch';
 import axios from 'axios';
 import translate from '@vitalets/google-translate-api';
 import {Configuration, OpenAIApi} from 'openai';
@@ -24,7 +24,7 @@ m.react('✅️')
 }}}
 handler.help = ['chatgpt <texto>', 'ia <texto>']
 handler.tags = ['ai']
-handler. = true
+handler.register = true
 handler.limit = 2
 handler.command = ['ia', 'chatgpt']
 
