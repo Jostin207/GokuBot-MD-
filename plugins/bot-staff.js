@@ -37,7 +37,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 • Danixl.Js
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
-🏆 *GitHub:* https://github.com/Danixl.Js`
+🏆 *GitHub:* https://github.com/DanixlJs`
 await conn.sendFile(m.chat, pp, 'yoshi.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -45,7 +45,7 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🥷 Developer 👑`,
+title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
 sourceUrl: redesYoshi,
