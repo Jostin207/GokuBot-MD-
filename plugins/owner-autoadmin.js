@@ -1,5 +1,5 @@
 const handler = async (m, {conn, isAdmin, groupMetadata }) => {
-  if (isAdmin) return m.reply('✧ Ya eras Admin del Grupo.');
+  if (isAdmin) return m.reply('☘️ Ya eras Admin del Grupo.');
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
     m.react('✅')
