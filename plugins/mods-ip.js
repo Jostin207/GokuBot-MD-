@@ -27,7 +27,6 @@ Código de Provincia : ${data.region}
 Ciudad : ${data.city}
 Distrito : ${data.district}
 Código Postal : ${res.data.zip}
-Coordenadas : ${data.lat}, ${data.lon}
 Zona Horaria : ${data.timezone}
 ISP : ${data.isp}
 Organización : ${data.org}
