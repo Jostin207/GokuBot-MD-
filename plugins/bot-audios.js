@@ -74,6 +74,11 @@ let vn = 'https://qu.ax/wFbD.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
+if (chat.audios && m.text.match(/(triste|lloro|🥹|🥺|😭)/gi)) {    
+let vn = 'https://qu.ax/hyfK.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
+
 if (chat.audios && m.text.match(/(Eres Fuerte|god|🤜|🤛|🦾|👊)/gi)) {    
 let vn = 'https://qu.ax/lhzq.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
