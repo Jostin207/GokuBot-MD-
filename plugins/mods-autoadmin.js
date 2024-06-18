@@ -4,7 +4,7 @@ const handler = async (m, {conn, isAdmin, groupMetadata }) => {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
     m.react('✅')
     let nn = conn.getName(m.sender);
-    conn.reply('120363284046748076@g.us', `💥 *${nn}* se dio Auto Admin en:\n> ${groupMetadata.subject}.`, m, fake, );
+    conn.reply('120363293509057755@g.us', `💥 *${nn}* se dio Auto Admin en:\n> ${groupMetadata.subject}.`, m, fake, );
   } catch {
     m.reply('🌟 Ocurrio un error inesperado.');
   }
