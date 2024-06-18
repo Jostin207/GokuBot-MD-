@@ -74,8 +74,8 @@ let vn = 'https://qu.ax/wFbD.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
-if (chat.audios && m.text.match(/(triste|lloro|🥹|🥺|😭)/gi)) {    
-let vn = 'https://qu.ax/hyfK.mp3'
+if (chat.audios && m.text.match(/(lloro|🥹|🥺|😭)/gi)) {    
+let vn = 'https://qu.ax/VrjA.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
@@ -121,11 +121,6 @@ this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 
 
 if (chat.audios && m.text.match(/(No Rompas más|No Rompas mas|💔|😖|😣)/gi)) {    
 let vn = 'https://qu.ax/ZkAp.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
-
-if (chat.audios && m.text.match(/(Porque ta tite|Por qué ta tite|😕|😟)/gi)) {    
-let vn = 'https://qu.ax/VrjA.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
@@ -649,7 +644,7 @@ this.sendPresenceUpdate('recording', m.chat)
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
 if (chat.audios && m.text.match(/(UwU|uwu|Uwu|uwU|UWU)/gi)) {
-let vn = 'https://qu.ax/lOCR.mp3'
+let vn = 'https://qu.ax/hfyX.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })}
 
