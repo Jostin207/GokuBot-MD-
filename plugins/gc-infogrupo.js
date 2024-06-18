@@ -27,7 +27,7 @@ ${listAdmin}
 ◈ *Modohorny:* ${modohorny ? '✅' : '❌'} 
 ◈ *Autosticker:* ${autosticker ? '✅' : '❌'} 
 ◈ *Audios:* ${audios ? '✅' : '❌'} 
-◈ *Antiver:* ${antibiewonce ? '✅' : '❌'} 
+◈ *Antiver:* ${antiviewonce ? '✅' : '❌'} 
 ◈ *Reacción* ${reaction ? "✅️" : "❌️"}
 ◈ *Delete:* ${antidelete ? '✅' : '❌'} 
 ◈ *Antitoxic:* ${antiToxic ? '✅' : '❌'} 
