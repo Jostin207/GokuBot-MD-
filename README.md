@@ -3,7 +3,7 @@
 ## Yoshiko Bot - MD 🌸☄️
 
 <p align="center">
-<img src= "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg" alt="Bot" width="900"/>
+<img src= "https://telegra.ph/file/548e13f4035ff724a89b2.jpg" alt="Bot" width="900"/>
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
