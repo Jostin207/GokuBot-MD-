@@ -20,7 +20,7 @@ await sendContactArray(conn, m.chat, [
 ], m)} 
 
 handler.help = ["contactos","contacto"]
-handler.tags = ["owner"]
+handler.tags = ["info"]
 handler.command = /^(contactos|contacto)$/i
 export default handler
 
