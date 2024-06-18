@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = ``
+let pp = 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg'
 let staff = `🏆 *EQUIPO DE AYUDANTES*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
@@ -48,7 +48,7 @@ title: `🥷 Developer 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
 sourceUrl: redesYoshi,
-thumbnailUrl: ''
+thumbnailUrl: 'https://qu.ax/ZzOO.jpg'
 }}
 }, { mentions: m.sender })
 
