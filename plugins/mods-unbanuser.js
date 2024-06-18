@@ -19,7 +19,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
     } else {
         await conn.reply(m.chat, '💥 El usuario no está registrado.`, m);
     }
-};
+//};
 handler.help = ['unbanuser <@tag>'];
 handler.command = ['unbanuser'];
 handler.tags = ['mods'];
