@@ -124,5 +124,5 @@ href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.p
 
 ### `Creador 👑`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="150" height="150" alt="Diego"/></a>
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
