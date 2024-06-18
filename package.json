@@ -38,7 +38,7 @@
   "@vitalets/google-translate-api": "^8.0.0",
   "@whiskeysockets/baileys": "^6.7.5",
   "@xct007/frieren-scraper": "^0.0.2",
-  "@module-yoshiko": "github:OfcDiego/module",
+  "@SumiFX/Scraper": "github:SumiFX/SumiFX-Scraper",
   "acrcloud": "^1.4.0",
   "api-dylux": "^1.5.5",
   "aptoide-scraper": "^1.0.1",
