@@ -38,7 +38,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/Danixl.Js`
-await conn.sendFile(m.chat, `${pp}`, 'yoshi.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, pp, 'yoshi.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -48,8 +48,8 @@ renderLargerThumbnail: false,
 title: `🥷 Developer 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: `${redesYoshi}`,
-thumbnailUrl: `${img}`
+sourceUrl: redesYoshi,
+thumbnailUrl: img
 }}
 }, { mentions: m.sender })
 
@@ -58,3 +58,5 @@ handler.help = ['staff']
 handler.command = ['colaboradores', 'staff']
 handler.register = true
 handler.tags = ['info']
+
+handler
