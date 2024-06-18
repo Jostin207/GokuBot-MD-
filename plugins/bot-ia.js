@@ -14,13 +14,13 @@ conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
 await m.reply(res.gpt)
-m.react('✅️')
+//m.react('✅️')
 } catch {
 try {
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
 let res = await gpt.json()
 await m.reply(res.data) 
-m.react('✅️')
+//m.react('✅️')
 } catch {
 }}}
 handler.help = ['openia', 'chatgpt', 'ia']
