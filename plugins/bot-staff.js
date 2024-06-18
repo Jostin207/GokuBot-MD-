@@ -1,6 +1,6 @@
-const handler = async (m,{conn}) => {
-
-let texto = `🏆 *EQUIPO DE AYUDANTES*
+let handler = async (m, { conn, command, usedPrefix }) => {
+let pp = ``
+let stafftxt = `🏆 *EQUIPO DE AYUDANTES*
 🥷 *Bot:* ${global.botname}
 ☁️ *Versión:* ${global.vs}
 
@@ -37,16 +37,23 @@ let texto = `🏆 *EQUIPO DE AYUDANTES*
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/Danixl.Js`
-
-conn.reply(m.chat, texto, m, fake, )
-
-m.react('👑') 
+await conn.sendFile(m.chat, pp, 'yoshi.jpg', stafftxt.trim(), fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `🥷 Developer 👑`,
+body: `💭 Staff Oficial`,
+mediaType: 1,
+sourceUrl: redesYoshi,
+thumbnailUrl: ''
+}}
+}, { mentions: m.sender })
 
 }
-
 handler.help = ['colaboradores']
 handler.command = ['colaboradores']
 handler.register = true
 handler.tags = ['info']
-
-export default handler
