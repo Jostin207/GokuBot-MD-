@@ -19,7 +19,7 @@ ${gp4}
 🌺 𝐍𝐨𝐯𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
 ${gp5}
 
- *◜🌸 CANALES OFICIALES 🌸◞*
+ *◜🌸 CANAL OFICIAL 🌸◞*
 
 ✨️ 𝐘𝐨𝐬𝐡𝐢𝐤𝐨 𝐁𝐨𝐭 - 𝐌𝐃
 ${channel}`
