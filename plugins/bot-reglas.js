@@ -12,7 +12,7 @@ let reglas = `🌳 *Respeta las reglas de YoshikoBot*\n
 
 ☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Yoshiko.*
 
-https://github.com/Diego-YL-177/YoshikoBot-MD`.trim()
+https://github.com/OfcDiego/YoshikoBot-MD`.trim()
 await conn.reply(m.chat, reglas, m, fake, )
 
 }
