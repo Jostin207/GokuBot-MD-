@@ -1,5 +1,4 @@
-//import Scraper from "@SumiFX/Scraper"
-import Scraper from '@module-yoshiko'
+import Scraper from "@SumiFX/Scraper"
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
 try {
