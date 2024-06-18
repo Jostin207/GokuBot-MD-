@@ -13,7 +13,7 @@ handler.help = ['pinterest']
 handler.tags = ['internet']
 handler.command = /^(pinterest)$/i
 
-handler.limit = true
+handler.limit = 1
 handler.register = true
 
 export default handler
