@@ -15,7 +15,7 @@ await sendContactArray(conn, m.chat, [
 [`595983799436`, 'José Daniel', 'Danichu', '𝗦𝗼𝘆 𝗦𝘁𝗮𝗳𝗳 😊', 'devdanixljs00@gmail.com', '🇵🇾 Paraguay', 'https://github.com/DanixlJs', '✨️ 𝗦𝗼𝘆 𝗢𝘄𝗻𝗲𝗿 𝗗𝗲 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 👑'],
 [`59169082575`, 'Yhair', 'Alba070503', '𝗦𝗼𝘆 𝗦𝘁𝗮𝗳𝗳 😊', 'alba070599@hotmail.com', '🇧🇴 Bolivia', `https://github.com/Alba070503`, 'Soy creador de ShizukaBot-MD y 🍁Rei Ayanami Bot MD 🍁'],
 ['5215610314499', 'Arumi', 'YooKitsune', '𝗦𝗼𝘆 𝗦𝘁𝗮𝗳𝗳 😊', 'thalk8980@gmail.com', '🇲🇽 Mexico', 'https://github.com/ArizzVal', 'Me gusta comer pene'],
-['51939041500', 'Llilmer', 'LlilmerTy', '𝗦𝗼𝘆 𝗦𝘁𝗮𝗳𝗳 😊', 'llilmerlinogarcia0@gmail.com', '🇵🇪 Perú', 'https://github.com/Llilmer-G-Shock', '✨️ 𝗦𝗼𝘆 𝗢𝘄𝗻𝗲𝗿 𝗗𝗲 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 👑']
+['51939041500', 'Llilmer', 'Emc²', '𝗦𝗼𝘆 𝗦𝘁𝗮𝗳𝗳 😊', 'llilmerlinogarcia0@gmail.com', '🇵🇪 Perú', 'https://github.com/Llilmer-G-Shock', '✨️ 𝗦𝗼𝘆 𝗢𝘄𝗻𝗲𝗿 𝗗𝗲 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 👑'],
 [`${conn.user.jid.split('@')[0]}`, `Es Una Bot 🚀`, `${packname}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
 ], m)} 
 
