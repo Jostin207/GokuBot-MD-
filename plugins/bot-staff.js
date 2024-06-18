@@ -53,7 +53,7 @@ thumbnailUrl: ''
 }, { mentions: m.sender })
 
 }
-handler.help = ['colaboradores']
-handler.command = ['colaboradores']
+handler.help = ['staff']
+handler.command = ['colaboradores', 'staff']
 handler.register = true
 handler.tags = ['info']
