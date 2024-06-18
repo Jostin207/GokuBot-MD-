@@ -1,0 +1,38 @@
+// Código gracias a SoIz1 
+// Github: https://github.com/SoIz1
+//Adaptado por KatashiFukushima. Github: https://github.com/KatashiFukushima
+
+import axios from 'axios'
+let handler = async (m, { conn, text }) => {
+await m.reply("Buscando...")
+if (!text) return conn.reply(m.chat, "🧑🏻‍💻 Ingrese una dirección IP válida", m, fake, )
+axios.get(`http://ip-api.com/json/${text}?fields=status,message,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,isp,org,as,mobile,hosting,query`).then ((res) => {
+const data = res.data
+if (String(data.status) !== "success") {
+throw new Error(data.message || "Falló")}
+let ipsearch = `
+*💥 I N F O - I P💥*
+
+IP : ${data.query}
+País : ${data.country}
+Código de País : ${data.countryCode}
+Provincia : ${data.regionName}
+Código de Provincia : ${data.region}
+Ciudad : ${data.city}
+Distrito : ${data.district}
+Código Postal : ${res.data.zip}
+Coordenadas : ${data.lat}, ${data.lon}
+Zona Horaria : ${data.timezone}
+ISP : ${data.isp}
+Organización : ${data.org}
+AS : ${data.as}
+Mobile : ${data.mobile ? "Si" : "No"}
+Hosting : ${data.hosting ? "Si" : "No"}
+`.trim()
+conn.reply(m.chat, ipsearch, m, fake, )})}
+
+handler.help = ['ip <numero ip>')
+handler.tags = ['mods']
+handler.command = /^(ip)$/i
+handler.mods = true
+export default handler
