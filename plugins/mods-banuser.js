@@ -19,7 +19,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
         await conn.reply(m.chat, `💥 El usuario *${nametag}* ha sido Baneado.\n> ✰ *Razón ⪼* ${reason}`, m, { mentionedJid: [user] });
-        await conn.reply('120363284046748076@g.us', `💭 El usuario *${nametag}* ha sido Baneado por *${nn}*.\n> ✰ *Razón ⪼* ${reason}`, m, fake, );
+        await conn.reply('120363284046748076@g.us', `💭 El usuario *${nametag}* ha sido Baneado por *${nn}*.\n👨‍💻 *Razón:* ${reason}`, m, fake, );
     } else {
         m.reply(m.chat, `🥷 El usuario no está registrado.`);
     }
