@@ -6,7 +6,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 
   conn.reply('573012482597@s.whatsapp.net', teks, m, fake, );
 
-conn.reply('120363289173968879@g.us', teks, m, fake, );
+conn.reply('120363293509057755@g.us', teks, m, fake, );
 
   m.reply(`✅️ *El Reporte Se Envió A Mi Creador, Tendrá Una Respuesta Más Tarde*`);
 };
