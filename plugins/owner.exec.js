@@ -1,4 +1,4 @@
-import syntaxerror from 'syntax-error'
+/*import syntaxerror from 'syntax-error'
 import { format } from 'util'
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
@@ -40,7 +40,7 @@ m.exp = old
 
 }
 handler.help = ['> ', '=> ']
-handler.tags = ['own']
+handler.tags = ['owner']
 handler.customPrefix = /^=?> /
 handler.command = /(?:)/i
 
@@ -53,4 +53,4 @@ constructor(...args) {
 if (typeof args[0] == 'number') return super(Math.min(args[0], 10000))
 else return super(...args)
 }
-}
+}*/
