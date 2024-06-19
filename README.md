@@ -117,4 +117,4 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 ### `👑 CREADOR` 
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
-> Copyright (c) 2024 **[Diego-YL-177](https://github.com/OfcDiego/YoshikoBot-MD)**.
+> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
