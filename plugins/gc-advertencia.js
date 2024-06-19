@@ -1,5 +1,6 @@
 const handler = async (m, { conn, text, command, usedPrefix }) => {
 // if (m.mentionedJid.includes(conn.user.jid)) return; // Evitar advertir al bot mismo
+let pp = 'https://i.imgur.com/vWnsjh8.jpg'
 let number, ownerNumber, aa, who;
 if (m.isGroup) { 
 who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text; 
