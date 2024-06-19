@@ -9,7 +9,7 @@ const require = createRequire(__dirname)
 
 var handler = async (m, _2) => {
 var { conn, usedPrefix, noPrefix, args, groupMetadata } = _2
- 
+
 let _return
 let _syntax = ''
 let _text = (/^=/.test(usedPrefix) ? 'return ' : '') + noPrefix
@@ -40,7 +40,7 @@ m.exp = old
 
 }
 handler.help = ['> ', '=> ']
-handler.tags = ['owner']
+handler.tags = ['own']
 handler.customPrefix = /^=?> /
 handler.command = /(?:)/i
 
