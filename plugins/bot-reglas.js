@@ -13,7 +13,7 @@ let reglas = `🌳 *Respeta las reglas de YoshikoBot*\n
 ☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Yoshiko.*
 
 https://github.com/OfcDiego/YoshikoBot-MD`.trim()
-await conn.reply(m.chat, reglas, m, fake, )
+await conn.reply(m.chat, regla, m, fake, )
 
 }
 handler.customPrefix = /reglas|Reglas|reglasbot, botreglas|uso, usobot|uso del bot/i
