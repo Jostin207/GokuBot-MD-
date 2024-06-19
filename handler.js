@@ -735,9 +735,9 @@ console.error(e)
 global.dfail = (type, m, conn) => {
   const msg = {
         rowner: '*🌟 ¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador! ⚽*',
-    owner: '*👑 ¡El Uso Del Comando Solo Lo Puede Usar Mi Creador! 🍬*',
-    mods: '*🥷 ¡El Uso Del Comando Solo Lo Puede Usar Mi Moderadores! 👑*',
-    premium: '*🌺 ¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium! 🍫*',
+    owner: '*👑 *¡Solo el Creador del Bot pueden usar este comando!* 🍬*',
+    mods: '🥷 *¡Solo los Moderadores del Bot pueden usar este comando!* 👑',
+    premium: '*🌺 *¡Solo los usuarios Premium pueden usar este comando!* 🍫*',
     group: '*🍓 ¡Esta Función Solo Se Puede Usar En Grupos! 🌸*',
     private: '*🍉 ¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot! 🍿*',
     admin: '*🫐 ¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo! 🍁*',
