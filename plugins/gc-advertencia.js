@@ -14,7 +14,7 @@ const handler = async (m, {conn, text, command, usedPrefix }) => {
   const dReason = 'Sin motivo';
   const msgtext = text || dReason;
   const sdms = msgtext.replace(/@\d+-?\d* /g, '');
-  const warntext = `🥷 *Etiqueta a algun usuario o responda a un mensaje del grupo*\n\n- 💥 *Ejemplo:*\n*${usedPrefix + command} @tag*`;
+  const warntext = `🥷 *Etiqueta a algun usuario o responda a un mensaje del grupo*\n\n- 💥 *Ejemplo: ${usedPrefix + command} @tag*`;
   if (!who) {
     throw m.reply(warntext, m.chat, {mentions: conn.parseMention(warntext)});
   }
@@ -22,7 +22,7 @@ const handler = async (m, {conn, text, command, usedPrefix }) => {
   await m.reply(
       `${
       user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}*`
-      } Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n- *Advertencias:\n${user.warn}/3*`,
+      } Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n- ☁️ *Advertencias: ${user.warn}/3*`,
       null,
       {mentions: [who]},
   );
