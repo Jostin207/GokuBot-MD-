@@ -3,7 +3,7 @@ let adv = Object.entries(global.db.data.users).filter(user => user[1].warn)
 let warns = global.db.data.users.warn
 let user = global.db.data.users
 
-let caption = `⚠️ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝘼𝘿𝙑𝙀𝙍𝙏𝙄𝘿𝙊𝙎 : 𝙒𝘼𝙍𝙉𝙀𝘿
+let caption = `⚠️ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝘼𝘿𝙑𝙀𝙍𝙏𝙄𝘿𝙊𝙎
 *╭•·–––––––––––––––––––·•*
 │ *Total : ${adv.length} Usuarios* ${adv ? '\n' + adv.map(([jid, user], i) => `
 │
