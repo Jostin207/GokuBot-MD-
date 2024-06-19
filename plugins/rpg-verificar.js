@@ -3,6 +3,8 @@ let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
 let user = global.db.data.users[m.sender]
 let name2 = conn.getName(m.sender)
+const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 if (user.registered === true) throw `*『✦』Ya estas registrado, para volver a registrarte, usa el comando: #unreg*`
 if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
 let [_, name, splitter, age] = text.match(Reg)
@@ -40,7 +42,7 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: imagen1, 
+thumbnaiUrl: (await fetch(pp)).buffer(), 
 sourceUrl: canalesYoshi,
 mediaType: 1,
 showAdAttribution: true,
