@@ -21,7 +21,7 @@ const handler = async (m, {conn, text, command, usedPrefix }) => {
   user.warn += 1;
   await m.reply(
       `${
-      user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}*` `Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n- ☁️ *Advertencias: ${user.warn}/3*`,
+      user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}* Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n- ☁️ *Advertencias: ${user.warn}/3*`,
       null,
       {mentions: [who]},
   );
