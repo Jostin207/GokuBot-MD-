@@ -22,7 +22,7 @@ global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 m.react('📩') 
-let img = await (await fetch(``)).buffer()
+let img = await (await fetch(`https://qu.ax/Uptd.jpg`)).buffer()
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
