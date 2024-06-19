@@ -28,7 +28,7 @@ let txt = `
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
-} else throw '💭 Responda A Un Audio O A Un Video'
+} else throw '💭 Responda A Un Audio O Video'
 }
 handler.command = /^quemusica|quemusicaes|whatmusic$/i
 export default handler
