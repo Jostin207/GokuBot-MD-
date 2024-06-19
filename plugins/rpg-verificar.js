@@ -35,7 +35,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ${packname}`
-await conn.reply(m.chat, packname, regbot, img, img, redesYoshi, fkontak, m)
+await conn.reply(m.chat, packname, regbot, img, img, redesYoshi, m)
 //await m.reply(`${sn}`)        
 }
 handler.help = ['reg']
