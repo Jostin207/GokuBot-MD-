@@ -35,18 +35,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ${packname}`
-conn.sendMessage(m.chat, {
-text: regbot,
-contextInfo: {
-externalAdReply: {
-title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
-body: wm, 
-thumbnaiUrl: img, 
-sourceUrl: canalesYoshi,
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true,
-}}}, { quoted: fkontak })
+await conn.reply(m.chat, packname, regbot, img, img, redesYoshi, m, fkontak)
 //await m.reply(`${sn}`)        
 }
 handler.help = ['reg']
