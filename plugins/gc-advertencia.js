@@ -13,7 +13,7 @@ pconst handler = async (m, { conn, args, text, usedPrefix, command }) => {
         return;
     }
     if (db[user]) {
-        if (!db[user].warn) {
+      w  if (!db[user].warn) {
             db[user].warn = 0;
         }
         if (!db[user].warnRazon) {
@@ -22,7 +22,7 @@ pconst handler = async (m, { conn, args, text, usedPrefix, command }) => {
         db[user].warn += 1;
         db[user].warnRazon = `${reason}`;
         const nametag = await conn.getName(user);
-        await conn.reply(m.chat, `✨️ El usuario *${nametag}* ha sido advertido.\n> 💭 *Advertencias:* ${db[user].warn}\n> ◈ *Razón:* ${reason}`, m, fake, );
+        await conn.reply(m.chat, `✨️ El usuario *${nametag}* ha sido advertido.\n> 💭 *Advertencias:* ${db[user].warn}`, m, fake, );
 let nn = conn.getName(m.sender);       conn.reply('573012482597@s.whatsapp.net', `💌 El usuario *${nametag}* recibió una advertencia de *${nn}*.`, m, fake, );
     } else {
         await conn.reply(m.chat, `🥷 El usuario no está registrado.`, m);
