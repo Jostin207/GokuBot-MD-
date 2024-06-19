@@ -1,4 +1,4 @@
-const handler = async (m, {conn, text, command, usedPrefix }) => {
+/*const handler = async (m, {conn, text, command, usedPrefix }) => {
   if (m.mentionedJid.includes(conn.user.jid)) return;
   const pp = './src/warn.jpg';
   let who;
@@ -49,4 +49,4 @@ handler.command = /^(advertir|advertencia|warn|warning)$/i;
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
-export default handler;
+export default handler;*/
