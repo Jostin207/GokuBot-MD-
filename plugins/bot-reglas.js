@@ -2,7 +2,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-let reglas = `🌳 *Respeta las reglas de YoshikoBot*\n
+let yoshi = `🌳 *Respeta las reglas de YoshikoBot*\n
 ✰ No llamar A La Bot
 ✰ No hacer spam
 ✰ Contacta al creador si es necesario
@@ -13,7 +13,7 @@ let reglas = `🌳 *Respeta las reglas de YoshikoBot*\n
 ☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Yoshiko.*
 
 https://github.com/OfcDiego/YoshikoBot-MD`.trim()
-await conn.reply(m.chat, regla, m, fake, )
+await conn.reply(m.chat, yoshi, m, fake, )
 
 }
 handler.customPrefix = /reglas|Reglas|reglasbot, botreglas|uso, usobot|uso del bot/i
