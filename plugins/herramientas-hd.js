@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: fkontak});
  } catch {
-  return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, fake, )}
+  return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, fake, )
  }
 };
 handler.help = ["remini", "hd", "enhance"];
