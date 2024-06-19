@@ -6,10 +6,8 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return;
-if (!text) return conn.reply(m.chat, `👑 *Ingrese una petición*\n\n- Ejemplo, !${command} Codigo en Js para un juego de ahorcado`, m, fake, )      
+if (!text) return conn.reply(m.chat, `💌 Ingrese una petición para que la AI lo responda, Ejemplo:\n> *${usedPrefix + command} Código de una Calculadora en Js*`, m, fake, )   
 try {
-await m.reply('🌺 *C A R G A N D O*\n- 🍃 Cargando Información')
-//m.react('⌛')
 conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
@@ -18,9 +16,13 @@ await m.reply(res.gpt)
 try {
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
 let res = await gpt.json()
-await m.reply(res.data)
-//m.react('✅')
-} catch {
+await m.reply(res.data) 
+} catch{
 }}}
-handler.command = /^(openai|chatgpt|ia|ai|openai2|chatgpt2|ia2)$/i;
+handler.help = ['chatgpt <texto>', 'ia <texto>']
+handler.tags = ['ai']
+handler.register = true
+handler.limit = 5
+handler.command = ['ia', 'chatgpt']
+
 export default handler;
