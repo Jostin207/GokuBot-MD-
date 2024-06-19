@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: fkontak});
  } catch {
-  throw "✨️ Ocurrió Un Error Inesperado 💌";
+ return m.reply("✨️ Ocurrió Un Error Inesperado 💌");
  }
 };
 handler.help = ["remini", "hd", "enhance"];
