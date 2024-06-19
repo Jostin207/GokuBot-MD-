@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+/*import fetch from 'node-fetch';
 import axios from 'axios';
 import translate from '@vitalets/google-translate-api';
 import {Configuration, OpenAIApi} from 'openai';
@@ -23,4 +23,4 @@ m.react('✅')
 } catch {
 }}}
 handler.command = /^(openai|chatgpt|ia|ai|openai2|chatgpt2|ia2)$/i;
-export default handler;
+export default handler;*/
