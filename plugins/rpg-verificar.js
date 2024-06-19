@@ -46,7 +46,7 @@ mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
 }}}, { quoted: fkontak })
-await m.reply(`AHORA PARA VER MIS COMANDOS ESCRIBE EL COMANDO: /MENU`)        
+//await m.reply(`${sn}`)        
 }
 handler.help = ['reg']
 handler.tags = ['rg']
