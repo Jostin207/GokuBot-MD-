@@ -22,7 +22,6 @@ global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 m.react('📩') 
-let img = await (await fetch(`https://qu.ax/Uptd.jpg`)).buffer()
 let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
@@ -35,7 +34,18 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 12 Tokens 🪙
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ${packname}`
-await conn.reply(m.chat, packname, regbot, img, channel, m)
+conn.sendMessage(m.chat, {
+text: regbot,
+contextInfo: {
+externalAdReply: {
+title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
+body: wm, 
+thumbnaiUrl: yoshiImg, 
+sourceUrl: canalesYoshi,
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: true,
+}}}, { quoted: fkontak })
 //await m.reply(`${sn}`)        
 }
 handler.help = ['reg']
