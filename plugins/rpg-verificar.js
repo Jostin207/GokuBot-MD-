@@ -40,7 +40,7 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: yoshiImg, 
+thumbnaiUrl: imagen1, 
 sourceUrl: canalesYoshi,
 mediaType: 1,
 showAdAttribution: true,
