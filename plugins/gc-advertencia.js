@@ -29,9 +29,9 @@ let nn = conn.getName(m.sender);       conn.reply('573012482597@s.whatsapp.net',
     }
 };
 handler.help = ['advertencia <@tag> <razón>'];
-handler.command = ['advertencia'];
+handler.command = ['advertencia', 'advertir', 'warn'];
 handler.tags = ['group'];
 handler.botAdmin = true;
-handler.Admin = true;
+handler.admin = true;
 handler.group = true;
 export default handler;
