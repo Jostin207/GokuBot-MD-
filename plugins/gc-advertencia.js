@@ -1,4 +1,4 @@
-const handler = async (m, {conn, text, command, usedPrefix, groupMetadata }) => {
+const handler = async (m, {conn, text, command, usedPrefix }) => {
   if (m.mentionedJid.includes(conn.user.jid)) return;
   const pp = './src/warn.jpg';
   let who;
@@ -14,9 +14,7 @@ const handler = async (m, {conn, text, command, usedPrefix, groupMetadata }) => 
   const dReason = 'Sin motivo';
   const msgtext = text || dReason;
   const sdms = msgtext.replace(/@\d+-?\d* /g, '');
-  const warntext = `*Etiqueta a algun usuario o responda a un mensaje del grupo\n\n*Ejemplo:*\n*${
-    usedPrefix + command
-  } @${global.suittag}*`;
+  const warntext = `🥷 *Etiqueta a algun usuario o responda a un mensaje del grupo*\n\n- 💥 *Ejemplo:*\n*${usedPrefix + command} @tag*`;
   if (!who) {
     throw m.reply(warntext, m.chat, {mentions: conn.parseMention(warntext)});
   }
@@ -24,9 +22,7 @@ const handler = async (m, {conn, text, command, usedPrefix, groupMetadata }) => 
   await m.reply(
       `${
       user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}*`
-      } Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n*ADVERTENCIAS ${
-        user.warn
-      }/3*`,
+      } Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n- *Advertencias:\n${user.warn}/3*`,
       null,
       {mentions: [who]},
   );
@@ -45,7 +41,7 @@ const handler = async (m, {conn, text, command, usedPrefix, groupMetadata }) => 
         {mentions: [who]},
     );
     await conn.groupParticipantsUpdate(m.chat, [who], 'remove');
-conn.reply('573012482597@s.whatsapp.net', `💥 El usuario @${who.split`@`[0]} recibió una advertencia en:\n> ${groupMetadata.subject}.`, m, fake, );
+//conn.reply('573012482597@s.whatsapp.net', `💥 El usuario @${who.split`@`[0]} recibió una advertencia en:\n> ${groupMetadata.subject}.`, m, fake, );
   }
   return !1;
 };
