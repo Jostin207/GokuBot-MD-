@@ -42,7 +42,7 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: (await fetch(pp)).buffer(), 
+thumbnaiUrl: pp, 
 sourceUrl: canalesYoshi,
 mediaType: 1,
 showAdAttribution: true,
