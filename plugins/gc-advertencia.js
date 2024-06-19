@@ -44,8 +44,8 @@ const handler = async (m, {conn, text, command, usedPrefix, groupMetadata }) => 
         null,
         {mentions: [who]},
     );
-    conn.reply('573012482597@s.whatsapp.net', `💥 El usuario @${who.split`@`[0]} recibió una advertencia en:\n> ${groupMetadata.subject}.`, m, fake, );
     await conn.groupParticipantsUpdate(m.chat, [who], 'remove');
+conn.reply('573012482597@s.whatsapp.net', `💥 El usuario @${who.split`@`[0]} recibió una advertencia en:\n> ${groupMetadata.subject}.`, m, fake, );
   }
   return !1;
 };
