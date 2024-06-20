@@ -485,7 +485,7 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 }
-conn.reply(m.chat, `*${isEnable ? '💭' : '☁️'} La Función ${type} Se Ha ${isEnable ? 'Activado' : 'Desactivado'} En Este ${isAll ? 'Bot' : isUser ? '' : 'Chat.'}*`, m, fake2, )
+conn.reply(m.chat, `*${isEnable ? '💭' : '☁️'} La Función ${type} Se Ha ${isEnable ? 'Activado' : 'Desactivado'} En Este ${isAll ? 'Bot' : isUser ? '' : 'Chat.'}*`, m, fake, )
 
 }
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
