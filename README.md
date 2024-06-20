@@ -1,6 +1,4 @@
 > 🚀🌸 Versión Actual: 2.0.0
-***
-> 💌 Nota: Yoshiko Aun Está En "Beta" El Cual Podrá Tener Errores, Si Ves Algun Error No Dudes En Contactar A Un Moderador. **[Global.Mods](https://github.com/OfcDiego/YoshikoBot-MD/blob/YoshikoBot-MD/config.js)**.
 
 ## Yoshiko Bot - MD 🌸☄️
 
@@ -9,6 +7,9 @@
 </p>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
+
+[!TIP]
+> 💌 Nota: Yoshiko Aun Está En "Beta" El Cual Podrá Tener Errores, Si Ves Algun Error No Dudes En Contactar A Un Moderador. **[Global.Mods](https://github.com/OfcDiego/YoshikoBot-MD/blob/YoshikoBot-MD/config.js)**.
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
