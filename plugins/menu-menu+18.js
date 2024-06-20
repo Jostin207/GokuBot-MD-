@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `💥 *¡Estos comandos están desactivados!*`; 
   try {
     const pp = 'https://qu.ax/hkkv.jpg';
-    const vn = './media/La biblia.mp3';
+    const vn = 'https://qu.ax/Epen.mp3';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
     const week = d.toLocaleDateString(locale, {weekday: 'long'});
