@@ -16,7 +16,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
         const groupMetadata = await conn.groupGetInviteInfo(inviteCode);
         const groupName = groupMetadata.subject;
         const participantCount = groupMetadata.participants.length;
-        if (isROwner) {
+        if (isMods) {
             await conn.groupAcceptInvite(inviteCode);
             await conn.reply(m.chat, `╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱🌺⊱╮\n\n${packname}\n*𝚈𝚊 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘 💥*`, m);
         } else {
