@@ -9,7 +9,8 @@ try {
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
 let response = `☄️ Descargador De Aptoide 📲\n\n🪐 *Nombre:* ${data5.name}\n🚩 *Package:* ${data5.package}\n🎌 *Actualización:* ${data5.lastup}\n☁️ *Tamaño:* ${data5.size}`
-await conn.sendMessage(m.chat, { text: response, contextInfo: { externalAdReply: { title: data5.name, body: wm, sourceUrl: md, thumbnailUrl: data5.icon, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })   
+await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', response, m, null, rcanal)
+//await conn.sendMessage(m.chat, { text: response, contextInfo: { externalAdReply: { title: data5.name, body: wm, sourceUrl: md, thumbnailUrl: data5.icon, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })   
 
  if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 999) {
 return await conn.reply(m.chat, '🛑 *El archivo es demaciado pesado*', m, rcanal )
