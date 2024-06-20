@@ -8,7 +8,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
     const regex = /https:\/\/chat\.whatsapp\.com\/([0-9A-Za-z]{20,24})/;
     const match = link.match(regex);
     if (!match) {
-        await conn.reply(m.chat, `💭 El Link proporcionado no es un enlace válido de WhatsApp.`, m);
+        await conn.reply(m.chat, `💭 El link no es válido`, m, rcanal);
         return;
     }
     const inviteCode = match[1];
