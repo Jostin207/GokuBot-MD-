@@ -1,4 +1,5 @@
 > 🚀🌸 Versión Actual: 2.0.0
+> 💌 Nota: Yoshiko Aun Está En "Beta" El Cual Podrá Tener Errores, Si Ves Algun Error No Dudes En Contactar A Un Moderador.
 
 ## Yoshiko Bot - MD 🌸☄️
 
