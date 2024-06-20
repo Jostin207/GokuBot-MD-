@@ -26,7 +26,7 @@ let tags = {
   'tools': 'HERRAMIENTAS 🧰',
   'herramientas': 'HERRAMIENTAS 🧰',
   'fun': 'DIVERSIONES ☁️',
- // 'nsfw': 'NSFW 🔞', 
+  'nsfw': 'NSFW 🔞', 
   'image': 'IMAGE 🚩',
   'random': 'RANDOM ☄️',
   'anime': 'ANIMES 🌸',
