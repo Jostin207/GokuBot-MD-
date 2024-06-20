@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = async (m, {command, conn}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '💥 *¡Estos comandos están desactivados!**';
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '💥 *¡Estos comandos están desactivados!*';
 
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/src/JSON/nsfwloli.json`)).data;
