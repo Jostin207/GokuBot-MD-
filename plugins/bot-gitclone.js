@@ -2,8 +2,8 @@ import fetch from 'node-fetch'
 
 let regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
-  let img = 'https://telegra.ph/file/78d5468b09fa913567731.png'
-  let textbot = '*¡Bot Multi Device!*'
+  //let img = 'https://telegra.ph/file/78d5468b09fa913567731.png'
+  let textbot = '¡Bot Multi Device!'
   if (!args[0]) {
     return conn.reply(m.chat, `🚩 Escribe la URL de un repositorio de GitHub que deseas descargar.`, m, rcanal)
   }
@@ -25,11 +25,11 @@ let handler = async (m, { args, usedPrefix, command }) => {
     let type = zipResponse.headers.get('content-type')
     let img = 'https://i.ibb.co/tLKyhgM/file.png'
     let txt = `*乂  G I T H U B  -  D O W N L O A D*\n\n`
-       txt += `        ✩  *Nombre* : ${filename}\n`
-       txt += `        ✩  *Repositorio* : ${user}/${sanitizedRepo}\n`
-       txt += `        ✩  *Creador* : ${repoData.owner.login}\n`
-       txt += `        ✩  *Descripción* : ${repoData.description || 'Sin descripción disponible'}\n`
-       txt += `        ✩  *Url* : ${args[0]}\n\n`
+       txt += `✩  *Nombre* : ${filename}\n`
+       txt += `✩  *Repositorio* : ${user}/${sanitizedRepo}\n`
+       txt += `✩  *Creador* : ${repoData.owner.login}\n`
+       txt += `✩  *Descripción* : ${repoData.description || 'Sin descripción disponible'}\n`
+       txt += `✩  *Url* : ${args[0]}\n\n`
        txt += `🚩 *${textbot}*`
 
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)
