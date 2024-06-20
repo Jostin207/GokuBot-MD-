@@ -2,7 +2,7 @@ import axios from 'axios';
 const { proto, generateWAMessageFromContent, generateWAMessageContent } = (await import('@whiskeysockets/baileys')).default;
 
 let handler = async (m, { conn, text }) => {
-if (!text) return conn.reply(m.chat, '💥 Ingresa un texto para realizar la búsqueda.', m);
+if (!text) return conn.reply(m.chat, '💥 Ingresa un texto para realizar la búsqueda.', m, rcanal);
 
 const createVideo = async (url) => {
     const { videoMessage } = await generateWAMessageContent({ video: { url } }, { upload: conn.waUploadToServer });
