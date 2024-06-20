@@ -6,10 +6,10 @@
 <img src= "https://telegra.ph/file/548e13f4035ff724a89b2.jpg" alt="Bot" width="900"/>
 </p>
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
-
 > [!TIP]
 > 💌 Nota: Yoshiko Aun Está En "Beta" El Cual Podrá Tener Errores, Si Ves Algun Error No Dudes En Contactar A Un Moderador. **[Global.Mods](https://github.com/OfcDiego/YoshikoBot-MD/blob/YoshikoBot-MD/config.js)**.
+
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
