@@ -124,10 +124,10 @@ await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimet
 m.react(done)
 } catch {
 m.react(error)
-await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, fake, ) }}}    
+await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, rcanal, ) }}}    
 }} catch {
 m.react(error)
-return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, fake, )}
+return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, rcanal, )}
 
 }
 handler.help = ['play', 'play2']
