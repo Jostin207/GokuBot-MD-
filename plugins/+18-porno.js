@@ -3,6 +3,8 @@ import fetch from 'node-fetch';
 const handler = async (m, {command, conn}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*🌹 Comando desactivado, Si eres adm usa: !enable modohorny*';
 
+const fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/src/JSON/nsfwloli.json`)).data;
     const haha = await res[Math.floor(res.length * Math.random())];
