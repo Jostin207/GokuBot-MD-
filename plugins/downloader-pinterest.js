@@ -4,7 +4,7 @@ if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
 try {
 m.react(rwait)
 let { dl_url } = await Scraper.pinterest(text)
-await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m, rcanal)
+await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m)
 m.react(done)
 } catch {
 }}
