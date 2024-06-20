@@ -1,39 +1,44 @@
-const { default: makeWASocket, DisconnectReason, useMultiFileAuthState } = await import('@whiskeysockets/baileys');
-const handler = async (m, { conn, args, text, usedPrefix, command, isMods }) => {
-    if (args.length === 0) {
-        await conn.reply(m.chat, `💌 *𝙸𝚗𝚐𝚛𝚎𝚜𝚎 𝙴𝚕 𝙴𝚗𝚕𝚊𝚌𝚎 𝙳𝚎 𝙰𝚕𝚐𝚞𝚗 𝙶𝚛𝚞𝚙𝚘*\n*𝙴𝚓𝚎𝚖𝚙𝚕𝚘:*\n*${usedPrefix + command}* ${gp1}`, m, rcanal);
-        return;
-    }
-    const link = args[0];
-    const regex = /https:\/\/chat\.whatsapp\.com\/([0-9A-Za-z]{20,24})/;
-    const match = link.match(regex);
-    if (!match) {
-        await conn.reply(m.chat, `💭 El link no es válido`, m, rcanal);
-        return;
-    }
-    const inviteCode = match[1];
-    try {
-        const groupMetadata = await conn.groupGetInviteInfo(inviteCode);
-        const groupName = groupMetadata.subject;
-        const participantCount = groupMetadata.participants.length;
-        if (isMods) {
-            await conn.groupAcceptInvite(inviteCode);
-            await conn.reply(m.chat, `╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱🌺⊱╮\n\n${packname}\n*𝚈𝚊 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘 💥*`, m);
-        } else {
-            const GroupId = '120363293509057755@g.us';
-            const displayName = await conn.getName(m.sender);
-let msg = `💌 *INVITACIÓN A GRUPO*\n💥 *Usuario:* @${m.sender.split('@')[0]}\n✨️ *Grupo:* ${groupName}\n☁️ *Participantes:* ${participantCount}\n💖 *Link:*\n${link}`
-let mentionedJid = conn.parseMention(msg)
-            await conn.reply(GroupId, msg, m, fake, { mentions: mentionedJid });
-            await conn.reply(m.chat, `💫 Tu solicitud ha sido enviada a los Moderadores del Bot.`, m, fake, );
-        }
-    } catch (error) {
-        await m.reply(`💥 Ocurrió un error inesperado.`);
-        console.error(error);
-    }
-};
-handler.help = ['join <link>'];
-handler.command = ['join'];
-handler.tags = ['grupo'];
-handler.register = true;
-export default handler;
+import fs from 'fs' 
+import { execSync } from 'child_process'
+import { spawn } from 'child_process'
+import chalk from "chalk" 
+let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
+
+let handler = async (m, { conn, command, usedPrefix, text, isAdmin, isOwner, isROwner, participants, groupMetadata  }) => {
+
+const isCommand1 = /^(join|nuevogrupo|newgrupo|unete)$/i.test(command)
+
+async function reportError(e) {
+await m.reply(`💌 Error`)
+console.log(`💌 Error`)
+console.log(e)
+}
+
+switch (true) {     
+case isCommand1:
+let user = m.sender.split('@')[0] 
+let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
+let [_1, code1] = link.match(linkRegex) || []
+if (!code1) return m.reply(`💌 *𝙸𝚗𝚐𝚛𝚎𝚜𝚎 𝙴𝚕 𝙴𝚗𝚕𝚊𝚌𝚎 𝙳𝚎 𝙰𝚕𝚐𝚞𝚗 𝙶𝚛𝚞𝚙𝚘*\n*𝙴𝚓𝚎𝚖𝚙𝚕𝚘:*\n*${usedPrefix + command}* ${gp1}` + (usedPrefix, command))
+try {      
+if ( isOwner || m.fromMe) {
+await m.reply(`╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱🌺⊱╮\n\n${packname}\n*𝚈𝚊 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘 💥*`)
+let res1 = await conn.groupAcceptInvite(code1)
+await conn.sendMessage(res1, { text: `${packname}\n_☁️ 𝚂𝚎 𝙷𝚊 𝚄𝚗𝚒𝚍𝚘 𝙰𝚕 𝙶𝚛𝚞𝚙𝚘_\n\n👑 *𝙵𝚞𝚎 𝙰𝚐𝚛𝚎𝚐𝚊𝚍𝚊 𝙿𝚘𝚛:* @${user}`, mentions: (await conn.groupMetadata(`${res1}`)).participants.map(v => v.id) }, [user], { quoted: fkontak })
+}} catch (e) {
+reportError(e)
+}        
+break
+
+}}
+handler.help = ['join', 'nuevogrupo'];
+handler.tags = ['mods'];
+handler.command = /^(join|nuevogrupo|newgrupo|unete)$/i
+handler.mods = true 
+
+export default handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+const delay = time => new Promise(res => setTimeout(res, time))
