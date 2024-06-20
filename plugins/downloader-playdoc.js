@@ -6,7 +6,7 @@ import {youtubedl, youtubedlv2} from '@bochilteam/scraper'
 
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 
-if (!text) return conn.reply(m.chat, `🍓 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} Huellas - Maiye Torrex`,  m, fake, )
+if (!text) return conn.reply(m.chat, `💥 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} Huellas - Maiye Torrex`,  m, rcanal, )
 m.react(rwait)
 
 try {
@@ -70,7 +70,7 @@ const infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 const ress = await ytdl.chooseFormat(infoo.formats, {filter: 'audioonly'})
 conn.sendMessage(m.chat, {audio: {url: ress.url}, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4'}, {quoted: fkontak})
 } catch {
-await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, fake, )
+await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, rcanal, )
 }}}}
 
 if (command == 'play4' || command == 'playdoc2') {
