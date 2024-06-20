@@ -14,7 +14,7 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`🥷 El video no puede durar más de 8 segundos.`)
 let img = await q.download?.()
 
-if (!img) return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`)
+if (!img) return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`, m, rcanal)
 
 let out
 try {
@@ -42,7 +42,7 @@ if (!stiker) stiker = e
 
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
 
-else return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`)
+else return m.reply(`⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`, m, rcanal)
 
 
 }}
