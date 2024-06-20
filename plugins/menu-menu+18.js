@@ -68,7 +68,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '💥 *¡Ocurrió Un Error!*', m);
   }
 };
-handler.command = /^(animes|menuanimes)$/i;
+handler.command = /^(menuhorny|hornymenu)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
