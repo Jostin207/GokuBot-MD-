@@ -2,8 +2,7 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `💥 *¡Estos comandos están desactivados!*`; 
   try {
-    const imagen7 = "https://qu.ax/hkkv.jpg"
-    const pp = imagen7;
+    const pp = './src/menus/Imagen+18.jpg';
     // let vn = './media/menu.mp3'
     const d = new Date(new Date + 3600000);
     const locale = 'es';
