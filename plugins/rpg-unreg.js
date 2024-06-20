@@ -3,7 +3,7 @@ let handler = async (m, { conn, text }) => {
 let user = global.db.data.users[m.sender]
 
 user.registered = false
-m.reply(`*『✅』 Usted Ya No Está En Mi Base De Datos*`)
+m.reply(`*『✅』 Usted Ya No Está En Mi Base De Datos*`, m, rcanal)
 
 }
 handler.help = ['unreg']
