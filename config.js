@@ -31,7 +31,7 @@ global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
 global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
 global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
 global.team = '👑 Developed By • ✨ Ofc.Diego'
-global.namecanala = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
+global.namechannel = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.vs = '2.0.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
