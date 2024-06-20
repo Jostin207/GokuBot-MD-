@@ -11,7 +11,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
     //const nn = conn.getName(m.sender);
 
     if (user === conn.user.jid) {
-        return conn.reply(m.chat, '💭 No puedo eliminar el bot del grupo', m);
+        return conn.reply(m.chat, '💭 No puedo eliminar el bot del grupo', m, rcanal, );
     }
 
     if (user === ownerGroup) {
