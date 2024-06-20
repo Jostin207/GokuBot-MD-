@@ -31,8 +31,10 @@ reportError(e)
 break
 
 }}
+handler.help = ['join', 'nuevogrupo'];
+handler.tags = ['mods'];
 handler.command = /^(join|nuevogrupo|newgrupo|unete)$/i
-handler.owner = true
+handler.mods = true 
 
 export default handler
 
