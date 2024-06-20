@@ -15,11 +15,11 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
     }
 
     if (user === ownerGroup) {
-        return conn.reply(m.chat, '💭 No puedo eliminar al propietario del grupo', m);
+        return conn.reply(m.chat, '💭 No puedo eliminar al propietario del grupo', m, rcanal, );
     }
 
     if (user === ownerBot) {
-        return conn.reply(m.chat, '💭 No puedo eliminar al propietario del bot', m);
+        return conn.reply(m.chat, '💭 No puedo eliminar al propietario del bot', m, rcanal );
     }
 
     await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
