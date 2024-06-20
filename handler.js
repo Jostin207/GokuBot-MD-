@@ -745,10 +745,7 @@ global.dfail = (type, m, conn) => {
     unreg: '*🍓 ¡Para Continuar Con Esta Función Es Necesario Registrarse! 🍨*\n\n🍭 !reg nombre.edad\n\n🍫 *Uso Correcto* : !reg Diego.222',
     restrict: '*🍍 ¡Esta Función Fué Deshabilitado Por Mi Desarrollador! 🍬*',
     }[type];
-  const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: yoshiImg, sourceUrl: canalesYoshi}}}}, aa);
-  if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
-};
+    if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
