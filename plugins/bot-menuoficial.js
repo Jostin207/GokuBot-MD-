@@ -184,7 +184,7 @@ m.react('🌸')
 
 //await conn.sendFile(m.chat, imagen1, 'thumbnail.jpg', text.trim(), m, null, rcanal)
 
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": 'https://telegra.ph/file/32103b8335e64d253fa98.jpg', "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: estilo});
+conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + name, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: estilo});
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
