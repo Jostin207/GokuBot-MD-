@@ -11,7 +11,7 @@ await m.react(done)
 await m.react(error)
 }}
 handler.help = ['pinterest *<búsqueda>*']
-handler.tags = ['img']
+handler.tags = ['internet']
 handler.command = ['pinterest']
 handler.register = true 
 handler.limit = 1
