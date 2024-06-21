@@ -8,6 +8,8 @@ import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
 const format = sizeFormatter({ std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B` })
 
+let img = 'https://qu.ax/hJsS.png'
+
 var handler = async (m, { conn }) => {
 
 let timestamp = speed()
@@ -36,7 +38,7 @@ let texto = `☘️ *${global.botname}*
 
 m.react('✈️')
 
-await conn.sendFile(m.chat, texto.trim(), fkontak, true, {
+await conn.sendFile(m.chat, texto, fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -47,7 +49,7 @@ title: packname,
 body: namechannel,
 mediaType: 1,
 sourceUrl: redesYoshi,
-thumbnailUrl: 'https://qu.ax/hJsS.png'
+thumbnailUrl: img
 }}
 }, { mentions: m.sender })
 
