@@ -1,123 +1,114 @@
-> 🚀🌸 Versión Actual: 2.0.0
+## 🤍 Yishiko Bot - MD
 
-## Yoshiko Bot - MD 🌸☄️
+# ![logo](https://telegra.ph/file/548e13f4035ff724a89b2.jpg)
 
-<p align="center">
-<img src= "https://telegra.ph/file/548e13f4035ff724a89b2.jpg" alt="Bot" width="900"/>
-</p>
+Bienvenido al Repositorio oficial de Alisa, si te agrada el Bot puedes darme una estrellita 🌟🤍
 
-> [!TIP]
-> 💌 Nota: Yoshiko Aun Está En "Beta" El Cual Podrá Tener Errores, Si Ves Algun Error No Dudes En Contactar A Un Moderador. **[Global.Mods](https://github.com/OfcDiego/YoshikoBot-MD/blob/YoshikoBot-MD/config.js)**.
+---
+---
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
+## 🌟 NOVEDADES 🌟
 
-> Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
+- Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
+- Se rediseño el Menu.
 
-<a href="https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Yoshiko-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+---
+---
 
+## ⚠️ ATENCIÓN ⚠️
 
-- ### ⚙️ Configuracion
- Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
+- **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
+---
+---
 
-- ###  ⌨️ Instalar Por Render
+## ⚜️ CARACTERÍSTICAS DEL PROYECTO ⚜️
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
+- **Entorno ⪼** NodeJs
+- **Baileys ⪼** MultiDivide ^6.7.5
+- **Comandos de administración ⪼** Alisa cuenta con comandos para administrar tus grupos de manera más fácil.
+- **Comandos de RPG ⪼** También cuenta con comandos para que la diversión nunca falte en tu grupo.
+- **Comandos de Descarga ⪼*** Cuenta con una variedad de comandos para descargar Videos y Audios, así también para buscar imágenes.
+- **Versión Actual ⪼** 2.0.0
+- **Estado ⪼** Público
 
-- ### 📱 Instalar Por Code Space
+---
+---
 
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
-***
+## 👤 COLABORACIÓN 👤
 
-- ### 💻 Instalacion Manual Por Termux
+Si quieres colaborar conmigo, puedes hablarme a mi WhatsApp.
 
-[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/jeBYMWndUbQ?si=64OdhV-vf_w7rLw6)
+[![🤍 OfcDiegi](https://img.shields.io/badge/🤍OfcDiegi-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573218138672)
 
-[`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+---
+---
 
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+## 📝 LICENCIA 📝
+
+Este repositorio está bajo la licencia Apache 2.0, asegúrate de leerla para saber lo que puedes y no puedes hacer con el código fuente.
+
+[![Licencia Apache 2.0](https://img.shields.io/badge/Licencia-Apache%202.0-blue?style=for-the-badge)](LICENSE)
+
+---
+---
+
+## 📥 INSTALACIÓN POR TERMUX 📥
 
 ```bash
-termux-setup-storage
+cd && termux-setup-storage
 ```
+
 ```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+apt-get update -y && apt-get upgrade -y
 ```
+
+```bash
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+```
+
 ```bash
 git clone https://github.com/OfcDiego/YoshikoBot-MD && cd YoshikoBot-MD
 ```
+
 ```bash
-yarn install && npm install
+yarn install
 ```
+
 ```bash
+npm install
+```
+
+```bash
+npm update
+```
+
+```bash
+npm start
+``` 
+
+## Obtener otro QR o Code
+```bash
+cd YoshikoBot-MD
+rm -rf YoshiSession
 npm start
 ```
 
-- #### 🌀 Activar En Caso De Detenerse En Termux
+## Iniciar en caso de que se detenga
+
 ```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd YoshikoBot-MD
-> npm start
+cd YoshikoBot-MD
+npm start
 ```
 
-- ### 🌻 Obtener Otro Codigo Qr 
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd YoshikoBot-MD
-> rm -rf YoshiSession
-> npm start
-```
+---
+---
 
-- ### 🚀 Usar YoshikoBot 24/7 En Termux 
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-``` 
-- ### ✅️ Actualizar Yoshiko 
-> Note Comandos para actualizar Yoshiko - MD de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+## 🍃 AGRADECIMIENTO 🍃
+- @elrebelde21
+- [![GitHub](https://img.shields.io/badge/GitHub-elrebelde21-blue?logo=github)](https://github.com/elrebelde21)
 
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
+---
+---
 
-***
-
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
-
-<a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-> No Spam Al Bot!
----------
-## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
-
-> Bot en creación pronto se agregaran más cosas 
-
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] antidelete, antilink, antispam, etc
-- [x] Bienvenida personalizada
-- [x] Juegos, tictactoe, mate, etc
-- [x] Chatbot (simsimi)
-- [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
-- [ ] Juego RPG
-- [x] Descarga de música y video De YT
-- [x] Otros
-
----------
-
-## `🌟 DESARROLLADORES`
-<a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
-</a>
-
-### `☄️ AGRADECIMIENTOS`
-[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) 
-
-### `👑 CREADOR` 
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
-> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
+*Muchas gracias por Preferirnos 🤍*
