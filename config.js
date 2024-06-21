@@ -22,6 +22,18 @@ global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '59
 global.suittag = ['573012482597']
 global.prems = []
 
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨𝑺◞ • 💌
+global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸'
+global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
+global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐 𝑩𝒐𝒕 - 𝑴𝑫᭢ꪲ'
+global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤 𝘽𝙤𝙩 - 𝙈𝘿 🌻'
+global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
+global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
+global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
+global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
+global.bottext = '👑 Developed By • ✨ Ofc.Diego'
+global.vs = '2.0.0'
+
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu.jpg')
 global.imagen2 = fs.readFileSync('./Menu2.jpg')
