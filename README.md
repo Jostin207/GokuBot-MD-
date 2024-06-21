@@ -23,7 +23,7 @@
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-[![Click Aquí](https://img.shields.io/badge/Click-Aqui-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
+[![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
 - ### ⚙️ Configuracion
