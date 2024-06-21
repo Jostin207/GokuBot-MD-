@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!global.db.data.chats[m.chat].nsfw) return conn.reply(m.chat, `💌 El grupo no admite contenido *Nsfw.*\n\n> Para activarlo un *Administrador* debe usar el comando */nsfw on*`, m, rcanal)
+if (!global.db.data.chats[m.chat].modohorny) return conn.reply(m.chat, `💌 El grupo no admite contenido *Nsfw.*\n\n> Para activarlo un *Administrador* debe usar el comando */nsfw on*`, m, rcanal)
 if (!text) return m.reply('🤍 Ingresa el nombre de la imágen que estas buscando.')
 await m.react(rwait)
 try {
