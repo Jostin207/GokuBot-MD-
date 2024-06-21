@@ -36,7 +36,6 @@ handler.help = ['>', '=>'];
 handler.tags = ['owner'];
 handler.customPrefix = /=?>|~/;
 handler.command = /(?:)/i;
-handler.register = true
 export default handler;
 class CustomArray extends Array {
   constructor(...args) {
