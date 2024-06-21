@@ -149,7 +149,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      limit: '💎 Diamante',
+      limit: '🪙 Centavo',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -242,7 +242,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      limit: '💎',
+      limit: '🪙',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
@@ -335,7 +335,7 @@ global.rpgshop = { // Tienda
     string = string.toLowerCase();
     const emottt = {
       exp: '⚡ Experiencia',
-      limit: '💎 Diamante',
+      limit: '🪙 Centavo',
       diamond: '💎 Diamante',
       joincount: '🪙 Token',
       emerald: '💚 Esmeralda',
@@ -412,7 +412,7 @@ global.rpgshopp = { // Tienda
     string = string.toLowerCase();
     const emotttt = {
       exp: '⚡',
-      limit: '💎',
+      limit: '🪙',
       diamond: '💎+',
       joincount: '🪙',
       emerald: '💚',
