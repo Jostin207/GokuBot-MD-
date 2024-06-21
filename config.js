@@ -32,7 +32,7 @@ global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
 global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
 global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝙊𝙛𝙘𝘿𝙞𝙚𝙜𝙤 - 𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩 🌻🐈'
+global.textbot = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩 : 𝙊𝙛𝙘𝘿𝙞𝙚𝙜𝙤 🌻🐈'
 global.vs = '2.0.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
