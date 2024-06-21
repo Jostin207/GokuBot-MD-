@@ -4,8 +4,8 @@ let toUser = `${m.sender.split("@")[0]}`
 let aa = toUser + '@s.whatsapp.net'        
 let template = (args[0] || '').toLowerCase() 
 if (/comprar|prem1/i.test(command)) {
-var tiempoPremium = 5 * text //tiempo total 
-var tiempoDecretado = 5 * 1 //tiempo decretado 
+var tiempoPremium = 5 * text 
+var tiempoDecretado = 5 * 1 
 const gata = 15
 let user = global.db.data.users[m.sender]
 
