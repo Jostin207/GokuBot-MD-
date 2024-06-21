@@ -1,20 +1,30 @@
 import fetch from 'node-fetch';
-
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!global.db.data.chats[m.chat].modohorny) return conn.reply(m.chat, `💌 El grupo no admite contenido *Nsfw.*\n\n> Para activarlo un *Administrador* debe usar el comando */nsfw on*`, m, rcanal)
-if (!text) return m.reply('🤍 Ingresa el nombre de la imágen que estas buscando.')
-await m.react(rwait)
+const handler = async (m, { conn, args, usedPrefix }) => {
+if (!args[0]) {
+if (!db.data.chats[m.chat].modohorny && m.isGroup) return conn.reply(m.chat, `💌 El grupo no admite contenido *Nsfw.*\n\n> Para activarlo un *Administrador* debe usar el comando ${usedPrefix}*`, m, rcanal)
+await conn.reply(m.chat, '🤍 Ingresa un tag para realizar la búsqueda.', m, rcanal);
+return;
+}
+const tag = args[0];
+const url = `https://rule34.xxx/index.php?page=dapi&s=post&q=index&json=1&tags=${tag}`;
 try {
-let { dl_url } = await Starlights.rule34(text)
+const response = await fetch(url);
+const data = await response.json();
+if (!data || data.length === 0) {
+await conn.reply(m.chat, `💌 No hubo resultados para *${tag}*`, m, rcanal);
+return;
+}
+const randomIndex = Math.floor(Math.random() * data.length);
+const randomImage = data[randomIndex];
+const imageUrl = randomImage.file_url;
 await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', `*Resultados De:* ${text}`, m, null, rcanal)
-await m.react(done)
-} catch {
-await m.react(error)
-}}
-handler.help = ['rule34 *<búsqueda>*']
-handler.tags = ['nsfw']
-handler.command = ['rule34', 'r34']
-handler.register = true 
-//handler.limit = 2
-handler.group = true 
-export default handler
+} catch (error) {
+console.error(error);
+await m.reply('💥 Ocurrió un error inesperado.');
+}};
+handler.help = ['r34 <tag>'];
+handler.command = ['r34', 'rule34'];
+handler.tags = ['nsfw'];
+handler.register = true;
+//handler.limit = 2;
+export default handler;
