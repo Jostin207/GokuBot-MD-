@@ -6,12 +6,16 @@
 <img src= "https://telegra.ph/file/548e13f4035ff724a89b2.jpg" alt="Bot" width="900"/>
 </p>
 
+***
+
 > [!TIP]
 > Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
 > Se rediseño el Menu.
 
 > [!WARNING]
 > **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
+
+***
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
