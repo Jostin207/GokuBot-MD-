@@ -1,16 +1,18 @@
 import Scraper from "@SumiFX/Scraper"
+
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
+if (!text) return m.reply(`👑 Ingresa un texto para realizar la búsqueda`)
+await m.react(rwait)
 try {
-m.react(rwait)
-let { dl_url } = await Scraper.pinterest(text)
-await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m, rcanal)
-m.react(done)
+let { dl_url } = await Starlights.pinterest(text)
+await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', `*Resultado:* ${text}`, m, null, rcanal)
+await m.react(done)
 } catch {
+await m.react(error)
 }}
-handler.help = ['pinterest <texto>']
-handler.tags = ['internet']
+handler.help = ['pinterest *<búsqueda>*']
+handler.tags = ['img']
 handler.command = ['pinterest']
+handler.register = true 
 handler.limit = 1
-handler.register = true
 export default handler
