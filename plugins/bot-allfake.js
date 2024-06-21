@@ -114,7 +114,7 @@ global.readMore = more.repeat(850)
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net'}}}
 
 let canalId = ["120363314021119064@newsletter", "120363263466636910@newsletter"]
-let canalNombre = [`${global.packname}`, `${global.team}`]
+let canalNombre = ["᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐 𝑩𝒐𝒕 - 𝑴𝑫᭢ꪲ", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
 async function getRandomChannel() {
 let randomIndex = Math.floor(Math.random() * canalId.length)
 let id = canalId[randomIndex]
