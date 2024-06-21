@@ -1,28 +1,15 @@
-import { totalmem, freemem } from 'os'
-import os from 'os'
-import util from 'util'
-import osu from 'node-os-utils'
-import { performance } from 'perf_hooks'
-import { sizeFormatter } from 'human-readable'
-import speed from 'performance-now'
-import { spawn, exec, execSync } from 'child_process'
+let handler = async (m, { conn, command, usedPrefix }) => {
+let pp = 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg'
 const format = sizeFormatter({ std: 'JEDEC', decimalPlaces: 2, keepTrailingZeroes: false, render: (literal, symbol) => `${literal} ${symbol}B` })
-
-let img = 'https://qu.ax/hJsS.png'
-
-var handler = async (m, { conn }) => {
-
 let timestamp = speed()
 let latensi = speed() - timestamp
-
 let _muptime = process.uptime() * 1000
 let muptime = clockString(_muptime)
-
 let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
-
-let texto = `☘️ *${global.botname}*
+let img = 'https://qu.ax/ZzOO.jpg'
+let speed = `☘️ *${global.botname}*
 🚀 *Velocidad:*
 → ${latensi.toFixed(4)}
 
@@ -34,11 +21,8 @@ let texto = `☘️ *${global.botname}*
 → ${groups.length} *Grupos*
 
 🏆 *Servidor:*
-➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
-
-m.react('✈️')
-
-await conn.sendFile(m.chat, texto, fkontak, true, {
+➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`
+await conn.sendFile(m.chat, 'yoshi.jpg', speed.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -52,16 +36,12 @@ sourceUrl: redesYoshi,
 thumbnailUrl: img
 }}
 }, { mentions: m.sender })
+m.react('✈️')
 
 }
 handler.help = ['speed']
-handler.tags = ['info']
-handler.command = ['speed']
+handler.command = ['speed', 'velocidad']
 handler.register = true
-export default handler
+handler.tags = ['info']
 
-function clockString(ms) {
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+export default handler
