@@ -24,7 +24,7 @@ ${gp6}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
-✨️${namechannel}
+✨️ ${namechannel}
 ${channel}`
 m.react('🔵') 
     await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, estilo)}
