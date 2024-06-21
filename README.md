@@ -1,4 +1,4 @@
-## 🤍 Yishiko Bot - MD
+## 🤍 Yoshiko Bot - MD
 
 # ![logo](https://telegra.ph/file/548e13f4035ff724a89b2.jpg)
 
