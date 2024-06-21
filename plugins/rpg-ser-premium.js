@@ -14,7 +14,7 @@ if (isNaN(text)) return conn.reply(m.chat, `$𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.limit < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('limit')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('limit')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.limit -= gata * text
 
-var tiempo = 300000 * text //180000 3min | 300000 5 min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 300000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -36,8 +36,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem2/i.test(command)) {
-var tiempoPremium = 15 * text //tiempo total 
-var tiempoDecretado = 15 * 1 //tiempo decretado 
+var tiempoPremium = 15 * text 
+var tiempoDecretado = 15 * 1 
 const gata = 35
 let user = global.db.data.users[m.sender]
 
@@ -46,7 +46,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.kyubi < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('kyubi')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('kyubi')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.kyubi -= gata * text
 
-var tiempo = 900000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 900000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -67,8 +67,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem3/i.test(command)) {
-var tiempoPremium = 30 * text //tiempo total 
-var tiempoDecretado = 30 * 1 //tiempo decretado 
+var tiempoPremium = 30 * text 
+var tiempoDecretado = 30 * 1 
 const gata = 25
 let user = global.db.data.users[m.sender]
 
@@ -77,7 +77,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.emerald < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('emerald')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('emerald')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.emerald -= gata * text
 
-var tiempo = 1800000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 1800000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -98,8 +98,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem4/i.test(command)) {
-var tiempoPremium = 1 * text //tiempo total 
-var tiempoDecretado = 1 * 1 //tiempo decretado 
+var tiempoPremium = 1 * text 
+var tiempoDecretado = 1 * 1 
 const gata = 50
 let user = global.db.data.users[m.sender]
 
@@ -108,7 +108,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.trash < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('trash')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('trash')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.trash -= gata * text
 
-var tiempo = 3600000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 3600000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -129,8 +129,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
 if (/prem5/i.test(command)) {
-var tiempoPremium = 3 * text //tiempo total 
-var tiempoDecretado = 3 * 1 //tiempo decretado 
+var tiempoPremium = 3 * text 
+var tiempoDecretado = 3 * 1 
 const gata = 40
 let user = global.db.data.users[m.sender]
 
@@ -139,7 +139,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.berlian < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('berlian')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('berlian')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.berlian -= gata * text
 
-var tiempo = 10800000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 10800000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -161,8 +161,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 
 
 if (/prem6/i.test(command)) {
-var tiempoPremium = 7 * text //tiempo total 
-var tiempoDecretado = 7 * 1 //tiempo decretado 
+var tiempoPremium = 7 * text 
+var tiempoDecretado = 7 * 1 
 const gata = 70
 let user = global.db.data.users[m.sender]
 
@@ -171,7 +171,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.joincount < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('joincount')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('joincount')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.joincount -= gata * text
 
-var tiempo = 25200000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 25200000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -193,8 +193,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 
 
 if (/prem7/i.test(command)) {
-var tiempoPremium = 24 * text //tiempo total 
-var tiempoDecretado = 24 * 1 //tiempo decretado 
+var tiempoPremium = 24 * text 
+var tiempoDecretado = 24 * 1  decretado 
 const gata = 65
 let user = global.db.data.users[m.sender]
 
@@ -203,7 +203,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.diamond < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('diamond')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 *${rpgshopp.emoticon('diamond')}* 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.diamond -= gata * text
 
-var tiempo = 86400000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 86400000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
@@ -225,8 +225,8 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 
 
 if (/prem8/i.test(command)) {
-var tiempoPremium = 3 * text //tiempo total 
-var tiempoDecretado = 3 * 1 //tiempo decretado 
+var tiempoPremium = 3 * text  
+var tiempoDecretado = 3 * 1 
 const gata = 80
 let user = global.db.data.users[m.sender]
 
@@ -235,7 +235,7 @@ if (isNaN(text)) return conn.reply(m.chat, `𝙎𝙊𝙇𝙊 𝙎𝙀 𝘼𝘾�
 if (user.gold < gata) return conn.reply(m.chat, `𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 *${rpgshop.emoticon('gold')}* 𝙋𝘼𝙍𝘼 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 🎟️ 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝘾𝙊𝙈𝙋𝙍𝙀 ${rpgshopp.emoticon('gold')} 𝙀𝙉 𝙇𝘼 𝙏𝙄𝙀𝙉𝘿𝘼 𝙐𝙎𝘼𝙉𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}buy* 𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝙑𝙀𝙉𝘿𝙀𝙍 𝙋𝘼𝙍𝘼 𝙊𝘽𝙏𝙀𝙉𝙀𝙍 𝙂𝘼𝙉𝘼𝙉𝘾𝙄𝘼𝙎 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 *${usedPrefix}sell*`, fkontak, m)
 user.gold -= gata * text
 
-var tiempo = 259200000 * text //180000 3min | 900000 15min | 1800000 30min | 3600000 1h | 10800000 3h | 25200000 7h | 86400000 24h | 259200000 3d  
+var tiempo = 259200000 * text 
 var now = new Date() * 1
 if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
