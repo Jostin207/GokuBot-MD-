@@ -28,9 +28,9 @@ ${gp6}
 ${channel}`
 m.react('🤍') 
 
-//     await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
+//await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
 
-return conn.reply(m.chat, colab, pp, m, rcanal, )
+//await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
