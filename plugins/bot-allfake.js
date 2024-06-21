@@ -35,13 +35,24 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/51939041500'
-global.namechannel = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.canalid = '120363314021119064@newsletter'
 global.idcanal = '120363263466636910@newsletter'
 global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
 global.colab2 = '𝐍𝐨𝐯𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
 global.colab3 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
 global.colab4 = '𝐒𝐡𝐢𝐳𝐮𝐤𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
+
+//nombre del bot
+global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸'
+global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
+global.wm = '᭥𐨏𝒀𝒐𝒔𝒉𝒊𝒌𝒐 𝑩𝒐𝒕 - 𝑴𝑫᭢ꪲ'
+global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤 𝘽𝙤𝙩 - 𝙈𝘿 🌻'
+global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
+global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
+global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
+global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
+global.bottext = '👑 Developed By • ✨ Ofc.Diego'
+global.vs = '2.0.0'
 
 //Reacciones De Comandos.!
 global.rwait = '⏰'
