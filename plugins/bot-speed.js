@@ -36,7 +36,7 @@ let texto = `☘️ *${global.botname}*
 
 m.react('✈️')
 
-await conn.sendFile(m.chat, pp, 'yoshi.jpg', texto.trim(), fkontak, true, {
+await conn.sendFile(m.chat, texto.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
