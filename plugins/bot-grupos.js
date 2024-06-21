@@ -2,10 +2,10 @@ let pp = './Menu.jpg'
 let handler = async (m, { conn, command }) => {
 let str = `*◜🌸 GRUPOS OFICIALES 🌸◞*
 
-👑 ${packname} 1
+👑 ${wm} 1
 ${gp1}
 
-👑 ${packname} 2
+👑 ${wm} 2
 ${gp2}
 
  *◜🌸 COLABORACIÓN 🌸◞*
