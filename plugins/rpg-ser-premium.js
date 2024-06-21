@@ -23,7 +23,6 @@ const imgpre = [
 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg', 
 'https://i.imgur.com/oUAGYc2.jpg',
 'https://i.imgur.com/i0pccuo.jpg'];
-//let imgpre = 'https://logowiki.net/wp-content/uploads/imgp/Premium-Logo-1-5365.jpg' 
 
 await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃🎟️ 𝙐𝙨𝙩𝙚𝙙 𝙖𝙝𝙤𝙧𝙖 𝙚𝙨 𝙥𝙧𝙚𝙢𝙞𝙪𝙢!!!*
