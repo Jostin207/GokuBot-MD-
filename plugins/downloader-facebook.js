@@ -42,7 +42,7 @@ let res = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=BrunoSobrino
 let _json = await res.json()
 vid = _json.result[0]
 if (vid == '' || !vid || vid == null) vid = _json.result[1]
-await conn.sendFile(m.chat, vid, 'error.mp4', `${message}`, m)
+await conn.sendFile(m.chat, vid, 'error.mp4', `${message}`, m, null, rcanal)
 } catch (error1) {
 try {
 const d2ata = await facebook.v1(args[0])
@@ -66,7 +66,7 @@ handler.tags = ['descargas']
 handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 
 handler.register = true
-handler.limit = 1
+//handler.limit = 1
 
 export default handler
 
