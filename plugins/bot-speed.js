@@ -47,7 +47,7 @@ title: packname,
 body: namechannel,
 mediaType: 1,
 sourceUrl: redesYoshi,
-thumbnailUrl: img
+thumbnailUrl: 'https://qu.ax/hJsS.png'
 }}
 }, { mentions: m.sender })
 
