@@ -1,6 +1,6 @@
 let pp = './Menu.jpg'
 let handler = async (m, { conn, command }) => {
-let str = `*◜🌸 GRUPOS OFICIALES 🌸◞*
+let colab = `*◜🌸 GRUPOS OFICIALES 🌸◞*
 
 👑 ${wm} 1
 ${gp1}
@@ -27,7 +27,10 @@ ${gp6}
 ✨️ ${namechannel}
 ${channel}`
 m.react('🤍') 
-    await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
+
+//     await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
+
+return conn.reply(m.chat, colab, m, rcanal, )
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
