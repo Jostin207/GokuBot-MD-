@@ -38,6 +38,10 @@ global.asistencia = 'Wa.me/51939041500'
 global.namechannel = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.idcanal = '120363263466636910@newsletter'
 global.bottext = 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre
+global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
+global.colab2 = '𝐍𝐨𝐯𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
+global.colab3 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
+global.colab4 = '𝐒𝐡𝐢𝐳𝐮𝐤𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭'
 
 //Reacciones De Comandos.!
 global.rwait = '⏰'
