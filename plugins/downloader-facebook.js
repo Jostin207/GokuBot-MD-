@@ -55,7 +55,7 @@ await conn.sendFile(m.chat, r2es, 'error.mp4', `${message}`, m)
 try {
 var get = await fetch(`https://api.botcahx.live/api/dowloader/fbdown?url=${args[0]}&apikey=QaepQXxR`)
 var js = await get.json()
-await conn.sendFile(m.chat, js.result.HD, 'error.mp4', `${message}`, m)
+await conn.sendFile(m.chat, js.result.HD, 'error.mp4', `${message}`, m, null, rcanal)
 } catch (e) {
 reportError(e)}
 }}}
