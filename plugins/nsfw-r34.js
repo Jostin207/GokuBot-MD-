@@ -1,3 +1,5 @@
+//Creditos: https://github.com/DanixlJs
+
 import fetch from 'node-fetch';
 const handler = async (m, { conn, args, usedPrefix }) => {
 if (!args[0]) {
