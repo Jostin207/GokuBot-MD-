@@ -2,9 +2,8 @@
 
 # ![logo](https://telegra.ph/file/548e13f4035ff724a89b2.jpg)
 
-Bienvenido al Repositorio oficial de Alisa, si te agrada el Bot puedes darme una estrellita 🌟🤍
+Bienvenido al Repositorio oficial de Yoshiko, si te agrada el Bot puedes darme una estrellita 🌟🤍
 
----
 ---
 
 ## 🌟 NOVEDADES 🌟
@@ -13,13 +12,11 @@ Bienvenido al Repositorio oficial de Alisa, si te agrada el Bot puedes darme una
 - Se rediseño el Menu.
 
 ---
----
 
 ## ⚠️ ATENCIÓN ⚠️
 
 - **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
----
 ---
 
 ## ⚜️ CARACTERÍSTICAS DEL PROYECTO ⚜️
@@ -33,7 +30,6 @@ Bienvenido al Repositorio oficial de Alisa, si te agrada el Bot puedes darme una
 - **Estado ⪼** Público
 
 ---
----
 
 ## 👤 COLABORACIÓN 👤
 
@@ -42,7 +38,6 @@ Si quieres colaborar conmigo, puedes hablarme a mi WhatsApp.
 [![🤍 OfcDiegi](https://img.shields.io/badge/🤍OfcDiegi-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/573218138672)
 
 ---
----
 
 ## 📝 LICENCIA 📝
 
@@ -50,7 +45,6 @@ Este repositorio está bajo la licencia Apache 2.0, asegúrate de leerla para sa
 
 [![Licencia Apache 2.0](https://img.shields.io/badge/Licencia-Apache%202.0-blue?style=for-the-badge)](LICENSE)
 
----
 ---
 
 ## 📥 INSTALACIÓN POR TERMUX 📥
@@ -102,13 +96,11 @@ npm start
 ```
 
 ---
----
 
 ## 🍃 AGRADECIMIENTO 🍃
 - @elrebelde21
 - [![GitHub](https://img.shields.io/badge/GitHub-elrebelde21-blue?logo=github)](https://github.com/elrebelde21)
 
----
 ---
 
 *Muchas gracias por Preferirnos 🤍*
