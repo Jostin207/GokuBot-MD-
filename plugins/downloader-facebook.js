@@ -50,7 +50,7 @@ let r2es = ''
 if (d2ata.urls && d2ata.urls.length > 0) {
 r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`
 }
-await conn.sendFile(m.chat, r2es, 'error.mp4', `${message}`, m)
+await conn.sendFile(m.chat, r2es, 'error.mp4', `${message}`, m, null, rcanal)
 } catch (error2) {
 try {
 var get = await fetch(`https://api.botcahx.live/api/dowloader/fbdown?url=${args[0]}&apikey=QaepQXxR`)
