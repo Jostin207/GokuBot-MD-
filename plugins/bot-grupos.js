@@ -10,24 +10,24 @@ ${gp2}
 
  *◜🌸 COLABORACIÓN 🌸◞*
 
-🌺 ${colab1}
+💖 ${colab1}
 ${gp3}
 
-🌺 ${colab2}
+💖 ${colab2}
 ${gp4}
 
-🌺 𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+💖 ${colab3}
 ${gp5}
 
-🌺 𝐒𝐡𝐢𝐳𝐮𝐤𝐚𝐁𝐨𝐭 & 𝐘𝐨𝐬𝐡𝐢𝐤𝐨𝐁𝐨𝐭
+💖 ${colab4}
 ${gp6}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
 ✨️ ${namechannel}
 ${channel}`
-m.react('🔵') 
-    await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, estilo)}
+m.react('🤍') 
+    await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
