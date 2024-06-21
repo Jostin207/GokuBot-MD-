@@ -30,7 +30,7 @@ m.react('🤍')
 
 //     await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
 
-return conn.reply(m.chat, colab, m, rcanal, )
+return conn.reply(m.chat, colab, pp, m, rcanal, )
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
