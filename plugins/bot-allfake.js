@@ -57,7 +57,7 @@ global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
 var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
-var canal2 = 'https://whatsapp.com/channel/0029VadaeMwAe5Vv33lYRG2J' 
+var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' 
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@Yoshiko_team' 
