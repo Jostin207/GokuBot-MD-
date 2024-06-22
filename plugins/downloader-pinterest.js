@@ -5,7 +5,7 @@ try {
 m.react(rwait)
 let { dl_url } = await Scraper.pinterest(text)
 //await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', `💌 *Resultados De:* ${text}\n${global.textbot}`, m, null, rcanal)
-await conn.sendCarousel(chat, '💗 *Resultados de Pinterest*', 'Imágenes', '✨ Imágenes de Pinterest', dl_url)
+await conn.sendCarousel(m.chat, '💗 *Resultados de Pinterest*', dl_url)
 m.react(done)
 } catch {
 m.react(error)
