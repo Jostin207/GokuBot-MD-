@@ -16,8 +16,7 @@ const { data } = await axios.get(`https://apis-starlights-team-cbb6f3a3.koyeb.ap
 const results = data.data;
 if (!results.length) return conn.reply(m.chat, '💌 No se encontraron resultados.', m);
 shuffleArray(results);
-const selectedResults = results.slice(0, 7);
-const push = await Promise.all(selectedResults.map(async (result) => ({
+//const selectedResults = results.slice(0, 7); const push = await Promise.all(selectedResults.map(async (result) => ({
 body: { text: null },
 footer: { text: global.dev },
 header: {
