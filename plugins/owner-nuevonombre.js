@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `💌 *Que Nombre Deseas Ponerme?*`, m, rcanal)
+  if (!text) throw conn.reply(m.chat, `💌 *Que Nombre Deseas Ponerme?*`, m, rcanal)
   try {
     await conn.updateProfileName(text)
     m.reply('✅️ *Nombre Cambiado Con Éxito*')
