@@ -193,7 +193,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 
 if (/prem7/i.test(command)) {
 var tiempoPremium = 24 * text 
-var tiempoDecretado = 24 * 1  decretado 
+var tiempoDecretado = 24 * 1   
 const gata = 65
 let user = global.db.data.users[m.sender]
 
