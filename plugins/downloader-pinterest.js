@@ -29,7 +29,12 @@ sections
 async function sendGoogleCarousel(conn, chat, query, usedPrefix) {
 let images = await getGoogleImages(query);
 const messages = images.map((image) => [ null, null, 
-image, ]
+image, 
+[['u', usedPrefix + `pinterest ${query}`], ['Buscar con Google 🌐', usedPrefix + `image2 ${query}`]],
+null, 
+[['🔗 Enlace de imagen', image]], 
+[['DDDDD', sections]]
+])
 if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
 try {
 m.react(rwait)
