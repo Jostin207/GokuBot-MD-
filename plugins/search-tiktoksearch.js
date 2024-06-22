@@ -34,7 +34,7 @@ footer: { text: null },
 header: { hasMediaAttachment: false },
 carouselMessage: { cards: push }}}}};
 const msg = generateWAMessageFromContent(m.chat, msgContent, {});
-await conn.sendCarousel(chat, '🤩 *Resultados de Google*', 'Imágenes', '✅ Imágenes de Google', message)
+await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
 } catch (error) {
 console.log(error);
 }};
