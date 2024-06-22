@@ -25,7 +25,7 @@ contacto@cafirexos.com
 🧑‍💻 *Contacto (Diego Flores)*
 https://wa.me/50497150165`
 
-let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
+/*let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
 
 ¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
 
@@ -53,7 +53,7 @@ https://discord.com/invite/vgfpe4Nwd8
 • https://www.facebook.com/elrebelde21
 • wa.me/573147616444
 
-No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
+No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` */
 
 if (command == 'cafirexos') {
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'cafi.jpg', cafirexostxt.trim(), fkontak, true, {
@@ -72,7 +72,7 @@ thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci
 }, { mentions: m.sender })
 }
 
-if (command == 'infinity' || command == 'infinityWa' || command == 'infohost' || command == 'hosting') {
+/*if (command == 'infinity' || command == 'infinityWa' || command == 'infohost' || command == 'hosting') {
  await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
@@ -85,7 +85,7 @@ body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
 sourceUrl: redesYoshi}}},
-{ quoted: fkontak})
+{ quoted: fkontak})*/
 }}
 
 handler.command = /^(cafirexos|infohost|hosting|infinitywa|infinity)$/i
