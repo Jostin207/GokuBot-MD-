@@ -85,8 +85,8 @@ body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
 sourceUrl: redesYoshi}}},
-{ quoted: fkontak})*/
-}}
+{ quoted: fkontak})
+}}*/
 
 handler.command = /^(cafirexos|infohost|hosting|infinitywa|infinity)$/i
 export default handler
