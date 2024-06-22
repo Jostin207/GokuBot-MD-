@@ -2,10 +2,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) conn.reply(m.chat, '💌 *Que Nombre Deseas Ponerme?*', m, rcanal)
   try {
     await conn.updateProfileName(text)
-    throw '✅️ *Nombre Cambiado Con Éxito*'
+    throw conn.reply(m.chat, '✅️ *Nombre Cambiado Con Éxito*', m, rcanal)
   } catch (e) {
     console.log(e)
-    m.reply(m.chat, '🤍 Ocurrió Un Error¡!', m, rcanal)
+    throw '🤍 Ocurrió Un Error¡!'
   }
 }
 handler.help = ['nuevonombre <teks>']
