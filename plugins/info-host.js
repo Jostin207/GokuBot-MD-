@@ -1,55 +1,79 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-            const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
-let txt = `*\`💫 Te presentamos un nuevo hosting: "Infinity-Wa Host"\`*
+let cafirexostxt = `
+_Optimice la implementación de *YoshikoBot* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
-*¿Muy lento tu nokia y necesitas tener activo tu bot 24/7?*
+🔵 \`\`\`Información del Host\`\`\`
 
-> *Te tenemos la mejor opción para mantener activo tu bot 24/7, a precios muy accesibles. Es muy barato y todos pueden comprar.*
+💻 *Página*
+https://www.cafirexos.com
 
-*🚩Precios :*
-* 1GB, 100 CPU = 1Dolar
-* 2GB, 120 CPU = 2Dolar
-* 3GB, 140 CPU = 3Dolar
-* 4GB, 175 CPU = 4Dolar
-* 5GB, 200 CPU = 5 Dólar. 
+✨ *Dashboard*
+https://dash.cafirexos.com
+
+⚙️ *Panel*
+https://panel.cafirexos.com
+
+📢 *Canal de WhatsApp*
+https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
+
+💥 *Grupo de WhatsApp*
+https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
+
+📧 *Correo*
+contacto@cafirexos.com
+
+🧑‍💻 *Contacto (Diego Flores)*
+https://wa.me/50497150165`
+
+let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
+
+¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
+
+🖥️ *Totalmente compatible con YoshikoBot:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de YoshikoBot y Infinity-Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
 
 🟢 \`\`\`Información del Host\`\`\`
 
 💻 *Página:*
-https://live.panel-infinitywa.store
+https://www.infinity-wa.xyz/
 
 *🟢 Dashboard:*
 https://dashboard.infinitywa.xyz
 
-*⚙️ Bot de Support: exclusivo para host*
-https://wa.me/message/FETBF7YBO37CG1
+⚙️ *Panel*
+https://dashboard.infinitywa.xyz
 
-🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A
-
-💚 *Grupo:*
+💥 *Grupo Support whatsapp:*
 https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
 
-🛍️ *Método de pago:*
-*• PayPal :* paypal.me/OfcGB
-*• Mercado pago, alías:* OficialGB
-*• Naranja x, alías:* OficialGL
-*• Yape (Perú) :* +51948705559
-*• Uala:* thelolibotm.uala
-*• DolarApp:* $oficialgb
-*• Pago con tarjeta:* wa.me/390684003755
+*🟣 Discord:*
+https://discord.com/invite/vgfpe4Nwd8
 
-*• Link de pago:*
-• _link.mercadopago.com.ar/h0sting_
-• _https://payment-link.astropay.com/RbMJ_
-*• Patreon:*_patreon.com/Infinity_wa_hosting_
-*• Kofi:* _https://ko-fi.com/infinitywa_
 
-*\`💙 Contactanos para más información o alquidir los servicios:\`*
+🗣📲 *Contacto:*
 • https://www.facebook.com/elrebelde21
-• wa.me/527294888993
-• wa.me/5492964650915` 
-await conn.sendMessage(m.chat, { text: txt,
+• wa.me/573147616444
+
+No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
+
+if (command == 'cafirexos') {
+await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'cafi.jpg', cafirexostxt.trim(), fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `🔵 C A F I R E X O S 🔵`,
+body: `✅ Hosting de Calidad`,
+mediaType: 1,
+sourceUrl: redesYoshi,
+thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
+}}
+}, { mentions: m.sender })
+}
+
+if (command == 'infinity' || command == 'infinityWa' || command == 'infohost' || command == 'hosting') {
+ await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 9999999,
 isForwarded: false, 
@@ -60,10 +84,9 @@ title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'}}},
-{ quoted: fkontak2})
-}
-handler.tags =['info'] 
-handler.help = ['infinity', 'host', 'hosting'] 
-handler.command = /^(infinity|infinityWa|host|hosting)$/i
+sourceUrl: redesYoshi}}},
+{ quoted: fkontak})
+}}
+
+handler.command = /^(cafirexos|infohost|hosting|infinitywa|infinity)$/i
 export default handler
