@@ -153,10 +153,12 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ☄️ AGRADECIMIENTOS
+
 <a
 href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/32103b8335e64d253fa98.jpg" width="100" height="100" alt="Diego"/></a>
 
 👑 CREADOR
+
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
 
