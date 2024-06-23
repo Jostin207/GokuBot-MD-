@@ -11,7 +11,7 @@
 [![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
-💻 INSTALAR POR TERMUX
+💻 INSTALACION MANUAL POR TERMUX
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/jeBYMWndUbQ?si=64OdhV-vf_w7rLw6)
@@ -67,9 +67,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ***
 
-##### ☂️ ACTIVA EN HEROKU ☂️
-> para usuarios del heroku
-
+#### ☂️ ACTIVA EN HEROKU ☂️
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/YoshikoBot-MD)
 
 #### Heroku Buildpack
@@ -78,8 +76,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
-
-##### 💙 ACTIVAR EN FLAREXCLOUD
+#### 💙 ACTIVAR EN FLAREXCLOUD
 > Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
@@ -91,13 +88,10 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - **Discord:** [`Aquí`](https://discord.flarex.cloud)
 - **Contacto:** [`hi@flarex.cloud`](mailto:hi@flarex.cloud) / [`support@flarex.cloud`](mailto:support@flarex.cloud) / [`partnerships@flarex.cloud`](mailto:partnerships@flarex.cloud)
 
-
 #### 🟢 ACTIVAR EN CODES SPACES 
-
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YoshikoBot-MD&ref=main&geo=UsEast)
 
 #### 🤍 ACTIVAR EN RENDER
-
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
 
 ***
