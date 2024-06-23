@@ -28,15 +28,6 @@
  Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 
-- ###  ⌨️ Instalar Por Render
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
-
-- ### 📱 Instalar Por Code Space
-
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=738341999&ref=master&geo=UsEast)
-***
-
 - ### 💻 Instalacion Manual Por Termux
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
@@ -77,6 +68,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf YoshiSession
 > npm start
 ```
+***
 
 #### `☂️ ACTIVA EN HEROKU ☂️`
 para usuarios del heroku
@@ -89,8 +81,6 @@ para usuarios del heroku
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
-***
------
 
 ### 💙 FlarexCloud
 > Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
@@ -103,11 +93,16 @@ para usuarios del heroku
 - **Game Panel:** [`Aquí`](https://gamepanel.flarex.cloud)
 - **Discord:** [`Aquí`](https://discord.flarex.cloud)
 - **Contacto:** [`hi@flarex.cloud`](mailto:hi@flarex.cloud) / [`support@flarex.cloud`](mailto:support@flarex.cloud) / [`partnerships@flarex.cloud`](mailto:partnerships@flarex.cloud)
-----
+
 
 🟢 ACTIVAR EN CODES SPACES 
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YoshikoBot-MD&ref=main&geo=UsEast)
+
+🤍 ACTIVAR EN RENDER
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
+
 
 - ### 🚀 Usar YoshikoBot 24/7 En Termux 
 ```bash
