@@ -11,6 +11,7 @@
 [![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
+
 💻 INSTALACION MANUAL POR TERMUX
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
@@ -55,7 +56,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 💖 YOSHIKO 24/7 (TERMUX)
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-``` 
+```
+
 🐶 ACTUALIZAR YOSHIKO 
 > Note Comandos para actualizar Yoshiko - MD de forma automática
 ```bash
@@ -77,8 +79,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 #### 💙 ACTIVAR EN FLAREXCLOUD
-> Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
-
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
 ### Información sobre FlarexCloud
 
