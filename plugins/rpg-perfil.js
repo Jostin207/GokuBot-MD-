@@ -12,7 +12,7 @@ let noprem = `
 🤍 *Nombre:* ${username}
 💥 *Tag:* @${who.replace(/@.+/, '')}
 🌀 *Registrado:* ${registered ? '✅': '❌'}
-🍂 *Edad:* ${registered ? age : ''}
+🍂 *Edad:* ${registered ? edad : ''}
 
 👑 *RECURSOS*
 🪙 *Centavos:* ${limit}
