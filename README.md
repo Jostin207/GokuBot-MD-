@@ -121,7 +121,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - [x] Descarga de música y video De YT
 - [x] Otros
 
-## `🌟 DESARROLLADORES`
+### `🌟 DESARROLLADORES`
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
 </a>
