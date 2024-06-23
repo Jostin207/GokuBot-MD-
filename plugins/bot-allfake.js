@@ -102,28 +102,28 @@ global.readMore = more.repeat(850)
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net'}}}
 
-let canalesId = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
-let namechannel = ["ೄྀ уσѕнιкσ вσт  м∂​᭄", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
+let canalId = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
+let canalNombre = ["ೄྀ уσѕнιкσ вσт  м∂​᭄", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
 async function getcanales() {
-let indexdev = Math.floor(Math.random() * canalesId.length)
-let canalid = canalesId[indexdev]
-let name = namechannel[indexdev]
-return { canalid, name }
+let randomIndex = Math.floor(Math.random() * canalId.length)
+let id = canalId[randomIndex]
+let nombre = canalNombre[randomIndex]
+return { canalId, canalNombre }
 } 
-let channellink = await getcanales()
+let randomChannel = await getRandomChannel()
 
 global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: channellink.canalesId,
+newsletterJid: randomChannel.id,
 serverMessageId: 100,
-newsletterName: channellink.name,
+newsletterName: randomChannel.nombre,
 },
 },
 }
 
-global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channellink.canales, serverMessageId: '', newsletterName: channellink.name }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m } //fake con reenviado de canal
+global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: randomChannel.id, serverMessageId: '', newsletterName: randomChannel.nombre }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: yoshiImg, thumbnail: yoshiImg, sourceUrl: redesYoshi }}}, { quoted: m } //fake con reenviado de canal
 }
 
 export default handler
