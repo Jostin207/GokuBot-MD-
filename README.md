@@ -65,7 +65,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-☂️ ACTIVA EN HEROKU ☂️
+### ☂️ ACTIVA EN HEROKU ☂️
 > para usuarios del heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/YoshikoBot-MD)
@@ -77,8 +77,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 
-
-💙 FLAREXCLOUD
+### 💙 ACTIVAR EN FLAREXCLOUD
 > Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
@@ -91,11 +90,11 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - **Contacto:** [`hi@flarex.cloud`](mailto:hi@flarex.cloud) / [`support@flarex.cloud`](mailto:support@flarex.cloud) / [`partnerships@flarex.cloud`](mailto:partnerships@flarex.cloud)
 
 
-🟢 ACTIVAR EN CODES SPACES 
+### 🟢 ACTIVAR EN CODES SPACES 
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YoshikoBot-MD&ref=main&geo=UsEast)
 
-🤍 ACTIVAR EN RENDER
+### 🤍 ACTIVAR EN RENDER
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
 
