@@ -22,8 +22,6 @@
 
 Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
-<b><details><summary>🤍 Instalación En Termux</summary></b>
-
 💻 INSTALAR POR TERMUX
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
@@ -78,10 +76,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-</details>
-
-<b><details><summary>☁️ Instalación Servidores</summary></b>
-
 ☂️ ACTIVA EN HEROKU ☂️
 > para usuarios del heroku
 
@@ -114,8 +108,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 🤍 ACTIVAR EN RENDER
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
-
-</details>
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
