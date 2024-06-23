@@ -1,5 +1,5 @@
 const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) => {
-    let user;
+    let use;
     let reason;
     let db = global.db.data.users;
     if (m.quoted) {
