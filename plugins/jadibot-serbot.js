@@ -46,7 +46,7 @@ if (global.conns instanceof Array) console.log()
 else global.conns = []
 
 let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner }) => {
-if (!global.db.data.settings[conn.user.jid].jadibotmd && isROwner) {
+if (!global.db.data.settings[conn.user.jid].jadibotmd) {
 m.reply('👑 Este Comando está deshabilitado por mi creador.')
 return
 }
