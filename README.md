@@ -11,8 +11,6 @@
 > [!IMPORTANT]
 > **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
-<b><details><summary>💥 Configuraciones</summary></b>
-
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
@@ -23,8 +21,6 @@
 ⚙️ CONFIGURACIÓN
 
 Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
-
-</details>
 
 <b><details><summary>🤍 Instalación En Termux</summary></b>
 
