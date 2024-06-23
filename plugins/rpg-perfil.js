@@ -7,8 +7,10 @@ let { premium, level, limit, role, exp, register, regtime } = global.db.data.use
 let username = conn.getName(who)
 let noprem = `
 💌 *PERFIL DE USUARIO*
-🤍 *Nombre ⪼* ${username}
-💥 *Tag ⪼* @${who.replace(/@.+/, '')}
+🤍 *Nombre:* ${username}
+💥 *Tag:* @${who.replace(/@.+/, '')}
+🌀 *Registrado:* ${registered ? '✅': '❌'}
+🍂 *Edad:* ${registered ? age : ''}
 
 👑 *RECURSOS*
 🪙 *Centavos:* ${limit}
@@ -21,7 +23,8 @@ let noprem = `
 `.trim()
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
 │⧼👤⧽ *ᴜsᴜᴀʀɪᴏ:* 「${username}」
-│⧼🍃⧽ *ᴇᴅᴀᴅ:* ${register ? edad : ''}
+│⧼🍃⧽ *ᴇᴅᴀᴅ:* ${registered ? edad : ''}
+│⧼💌⧽ *Registrado:* ${registered ? '✅': '❌'}
 │⧼🔱⧽ *ʀᴏʟ:* ${user.role}
 ╰───⪨
 
