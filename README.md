@@ -121,16 +121,16 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - [x] Descarga de música y video De YT
 - [x] Otros
 
-### `🌟 DESARROLLADORES`
+### `🌟 Desarrolladores`
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
 </a>
 
-### `☄️ AGRADECIMIENTOS`
+### `☄️ Agradecimientos`
 <a
 href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/32103b8335e64d253fa98.jpg" width="100" height="100" alt="Diego"/></a>
 
-## `👑 CREADOR`
+## `👑 Creador`
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
 
