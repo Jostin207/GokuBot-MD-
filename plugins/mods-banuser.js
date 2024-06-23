@@ -4,9 +4,12 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
     let db = global.db.data.users;
     if (m.quoted) {
         user = m.quoted.sender;
+    } else if (args.length >= 1) {
+        user = args[0].replace('@', '') + '@s.whatsapp.net';
+       // user = m.quoted.sender;
         reason = args.join(' ');
     } else if (args.length >= 2) {
-        user = args[0].replace('@', '') + '@s.whatsapp.net';
+       // user = args[0].replace('@', '') + '@s.whatsapp.net';
         reason = args.slice(1).join(' ');
     } else {
         await conn.reply(m.chat, `🌟 Etiqueta al usuario que quieras Banear.`, m);
