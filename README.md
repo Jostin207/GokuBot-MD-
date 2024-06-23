@@ -65,7 +65,9 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-### ☂️ ACTIVA EN HEROKU ☂️
+***
+
+##### ☂️ ACTIVA EN HEROKU ☂️
 > para usuarios del heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/YoshikoBot-MD)
@@ -77,7 +79,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 
-### 💙 ACTIVAR EN FLAREXCLOUD
+##### 💙 ACTIVAR EN FLAREXCLOUD
 > Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
@@ -90,19 +92,23 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - **Contacto:** [`hi@flarex.cloud`](mailto:hi@flarex.cloud) / [`support@flarex.cloud`](mailto:support@flarex.cloud) / [`partnerships@flarex.cloud`](mailto:partnerships@flarex.cloud)
 
 
-### 🟢 ACTIVAR EN CODES SPACES 
+#### 🟢 ACTIVAR EN CODES SPACES 
 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YoshikoBot-MD&ref=main&geo=UsEast)
 
-### 🤍 ACTIVAR EN RENDER
+#### 🤍 ACTIVAR EN RENDER
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
+
+***
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
 <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
+
+***
 
 ## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
 
@@ -119,6 +125,8 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - [ ] Juego RPG
 - [x] Descarga de música y video De YT
 - [x] Otros
+
+*** 
 
 ### `🌟 DESARROLLADORES`
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
