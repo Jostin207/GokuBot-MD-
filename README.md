@@ -4,11 +4,11 @@
 
 # ![logo](https://telegra.ph/file/32103b8335e64d253fa98.jpg)
 
-> [!WARNING]
+> [!NOTE]
 >Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
 >Se rediseño el Menu.
 
-> [!]
+> [!IMPORTANT]
 > **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
 <b><details><summary>💥 Configuraciones</summary></b>
