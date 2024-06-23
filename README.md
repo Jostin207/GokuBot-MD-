@@ -25,7 +25,7 @@
 
 
 ⚙️ CONFIGURACIÓN
- Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
+- Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 </details>
 
