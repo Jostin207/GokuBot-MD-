@@ -16,12 +16,6 @@ ${gp3}
 💖 ${colab2}
 ${gp4}
 
-💖 ${colab3}
-${gp5}
-
-💖 ${colab4}
-${gp6}
-
  *◜🌸 CANAL OFICIAL 🌸◞*
 
 ✨️ ${namechannel}
