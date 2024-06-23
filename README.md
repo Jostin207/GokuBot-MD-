@@ -4,18 +4,18 @@
 
 # ![logo](https://telegra.ph/file/32103b8335e64d253fa98.jpg)
 
-***
+<b><details><summary> 🐶 Notas</summary></b>
 
 > [!NOTE]
 > Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
 > Se rediseño el Menu.
 
-***
-
 > [!IMPORTANT]
 > **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
-***
+</details>
+
+<b><details><summary>💥 Configuraciones</summary></b>
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
@@ -24,8 +24,10 @@
 [![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 
-- ### ⚙️ Configuracion
+⚙️ CONFIGURACIÓN
  Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
+
+</details>
 
 <b><details><summary>🤍 Instalación En Termux</summary></b>
 
@@ -119,7 +121,10 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 🤍 ACTIVAR EN RENDER
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
+
 </details>
+
+<b><details><summary>👑 Creadores & Otros</summary></b>
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
@@ -145,16 +150,19 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 ---------
 
-## `🌟 DESARROLLADORES`
+🌟 DESARROLLADORES
 <a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
 </a>
 
-### `☄️ AGRADECIMIENTOS`
+☄️ AGRADECIMIENTOS
 <a
 href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/32103b8335e64d253fa98.jpg" width="100" height="100" alt="Diego"/></a>
 
-### `👑 CREADOR` 
+👑 CREADOR
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
+
+</details>
+
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
