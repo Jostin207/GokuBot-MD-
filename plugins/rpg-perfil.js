@@ -18,8 +18,8 @@ let noprem = `
 💫 *Experiencia:* ${exp}
 ✨️ *Rango:* ${role}
 
-💌 *Registrado ⪼* ${registrado ? '✅': '❌'}
-💖 *Premium ⪼* ${premium ? '✅': '❌'}
+💌 *Registrado:* ${registered ? '✅': '❌'}
+💖 *Premium:* ${premium ? '✅': '❌'}
 `.trim()
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
 │⧼👤⧽ *ᴜsᴜᴀʀɪᴏ:* 「${username}」
