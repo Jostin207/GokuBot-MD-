@@ -10,7 +10,7 @@ let apuesta = parseInt(args[0])
 let users = global.db.data.users[m.sender]
 let time = users.lastslot + 10000
 if (new Date - users.lastslot < 10000) throw `🕒 Espere *${msToTime(time - new Date())}* Para Usar De Nuevo`
-if (apuesta < 100) throw '🤍 Lo Míniml Para Apostar Es 100 *XP*'
+if (apuesta < 10) throw '🤍 Lo Mínimo Para Apostar Es 100 *XP*'
 if (users.exp < apuesta) {
 throw `⚠️ No Tienes Sufuciente *XP*`
 }
