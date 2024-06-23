@@ -44,9 +44,8 @@ let rtx2 = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗬𝗼𝘀𝗵𝗶𝗸�
 
 if (global.conns instanceof Array) console.log()
 else global.conns = []
-
-let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner }) => {
-if (!global.db.data.settings[conn.user.jid].jadibotmd) {
+let handler = async (m, { conn, args, usedPrefix, command, isOwner, isROwner}) => {
+if (!global.db.data.settings[conn.user.jid].modejadibot && !isROwner) {
 m.reply('👑 Este Comando está deshabilitado por mi creador.')
 return
 }
