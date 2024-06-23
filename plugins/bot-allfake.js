@@ -105,7 +105,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 let canales = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
 let namechannel = ["ೄྀ уσѕнιкσ вσт  м∂​᭄", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
 async function getcanales() {
-let indexdev = Math.floor(Math.random() * canalId.length)
+let indexdev = Math.floor(Math.random() * canales.length)
 let canalid = canales[indexdev]
 let name = namechannel[indexdev]
 return { canalid, name }
