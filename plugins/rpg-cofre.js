@@ -20,8 +20,8 @@ const handler = async (m, {isPrems, conn}) => {
 ╰━━━━━━━━━━━━⬣
 
 ╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃ *${dia} Diamantes* 💎
-┃ *${tok} Tokens* 🪙
+┃ *${dia} Centavos* 🪙
+┃ *${tok} Tokens* 💰
 ┃ *${yoshiko} YoshiCoins* 💸
 ┃ *${expp} Exp* ⚡
 ╰━━━━━━━━━━━━⬣`;
