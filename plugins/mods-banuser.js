@@ -14,7 +14,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
     }
     if (user === isROwner) return m.reply('💫 No puedes banear a mi Creador.');
     if (db[user]) {
-        db[user].banned = true
+        db[user].banned = true;
         db[user].banRazon = `${reason}`;
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
