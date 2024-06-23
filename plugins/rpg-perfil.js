@@ -5,7 +5,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/32103b8335e64d253fa98.jpg')
 let { premium, level, limit, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
-user.age = age
+username.age = age
 age = parseInt(age)
 let noprem = `
 💌 *PERFIL DE USUARIO*
