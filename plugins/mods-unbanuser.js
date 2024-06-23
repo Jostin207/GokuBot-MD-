@@ -10,7 +10,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command }) => {
         return;
     }
     if (db[user]) {
-        db[user].baneado = false;
+        db[user].banned = false;
         db[user].banRazon = '';
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
