@@ -6,12 +6,10 @@
 
 <b><details><summary> 🐶 Notas</summary></b>
 
-> [!NOTE]
-> Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
+Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
 > Se rediseño el Menu.
 
-> [!IMPORTANT]
-> **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
+**Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
 </details>
 
@@ -25,7 +23,7 @@
 
 
 ⚙️ CONFIGURACIÓN
-- Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
+Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 </details>
 
