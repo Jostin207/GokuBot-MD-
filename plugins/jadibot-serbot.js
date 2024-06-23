@@ -79,7 +79,7 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./jadibts/'+ id)){
+if (!fs.existsSync('./YoshiJadiBot/'+ id)){
 fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })
 }
 args[0] ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
