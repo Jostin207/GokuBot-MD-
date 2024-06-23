@@ -4,23 +4,12 @@
 
 # ![logo](https://telegra.ph/file/32103b8335e64d253fa98.jpg)
 
-> [!NOTE]
->Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
->Se rediseño el Menu.
-
-> [!IMPORTANT]
-> **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
-
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
 [![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
-
-⚙️ CONFIGURACIÓN
-
-Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 💻 INSTALAR POR TERMUX
 
@@ -86,6 +75,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 |--------|--------|
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+
 
 
 💙 FLAREXCLOUD
