@@ -39,7 +39,7 @@ if (users[user].banned === true) conn.reply(m.chat, `☄️ *No es necesario vol
 users[user].banned = true
 usr = m.sender.split('@')[0]     
 await conn.reply(m.chat, '✅ *Usuario baneado con éxito*', m, { mentions: [user] })   
-await conn.reply('573012482597@s.whatsapp.net', `💭 El usuario *${nametag}* ha sido Baneado por *${nn}*.\n👨‍💻 *Razón:* ${reason}`, m, fake, );
+await conn.reply('573012482597@s.whatsapp.net', `💭 El usuario *${nametag}* ha sido Baneado por *${nn}*.`, m, fake, );
 }} catch (e) {
 await conn.reply(m.chat, '🛑 *Ocurrió un fallo*', m, fake, )
 console.log(e) 
