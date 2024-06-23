@@ -10,8 +10,6 @@
 
 [![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
-
-
 💻 INSTALACION MANUAL POR TERMUX
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
