@@ -79,6 +79,13 @@ global.db.chain = chain(global.db.data);
 };
 loadDatabase();
 
+// Inicialización de conexiones globales
+if (global.conns instanceof Array) {
+console.log('Conexiones ya inicializadas...');
+} else {
+global.conns = [];
+}
+
 /* ------------------------------------------------*/
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, '/db/chatgpt.json')));
@@ -266,6 +273,50 @@ console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA:
 }}
 }
 process.on('uncaughtException', console.error)
+
+/* ------------------------------------------------*/
+/* Código reconexión de sub-bots fases beta */
+/* Echo por: https://github.com/elrebelde21 */
+
+async function connectSubBots() {
+const subBotDirectory = './YoshiJadiBot';
+if (!existsSync(subBotDirectory)) {
+console.log('No se encontraron ningun sub-bots.');
+return;
+}
+
+const subBotFolders = readdirSync(subBotDirectory).filter(file => 
+statSync(join(subBotDirectory, file)).isDirectory()
+);
+
+const botPromises = subBotFolders.map(async folder => {
+const authFile = join(subBotDirectory, folder);
+if (existsSync(join(authFile, 'creds.json'))) {
+return await connectionUpdate(authFile);
+}
+});
+
+const bots = await Promise.all(botPromises);
+global.conns = bots.filter(Boolean);
+console.log(chalk.bold.greenBright(`✅ TODOS LOS SUB-BOTS SE HAN INICIADO CORRECTAMENTE`))
+}
+
+(async () => {
+global.conns = [];
+
+const mainBotAuthFile = 'YoshiSession';
+try {
+const mainBot = await connectionUpdate(mainBotAuthFile);
+global.conns.push(mainBot);
+console.log(chalk.bold.greenBright(`✅ BOT PRINCIPAL INICIANDO CORRECTAMENTE`))
+
+await connectSubBots();
+} catch (error) {
+console.error(chalk.bold.cyanBright(`❌ OCURRIÓ UN ERROR AL INICIAR EL BOT PRINCIPAL: `, error))
+}
+})();
+
+/* ------------------------------------------------*/
 
 let isInit = true
 let handler = await import('./handler.js')
