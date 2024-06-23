@@ -27,8 +27,9 @@
 - ### ⚙️ Configuracion
  Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
+<b><details><summary>🤍 Instalación En Termux</summary></b>
 
-- ### 💻 Instalacion Manual Por Termux
+💻 INSTALAR POR TERMUX
 
 [![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/jeBYMWndUbQ?si=64OdhV-vf_w7rLw6)
@@ -53,7 +54,7 @@ yarn install && npm install
 npm start
 ```
 
-- #### 🌀 Activar En Caso De Detenerse En Termux
+✨️ ACTIVAR EN TERMUX EN CASO DE DETENERSE
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -61,17 +62,33 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-- ### 🌻 Obtener Otro Codigo Qr 
+🌻 OBTENER OTRO CODIGO QR
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd YoshikoBot-MD
 > rm -rf YoshiSession
 > npm start
 ```
-***
 
-#### `☂️ ACTIVA EN HEROKU ☂️`
-para usuarios del heroku
+💖 YOSHIKO 24/7 (TERMUX)
+```bash
+> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+``` 
+🐶 ACTUALIZAR YOSHIKO 
+> Note Comandos para actualizar Yoshiko - MD de forma automática
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/update.sh | bash
+```
+Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+
+> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
+
+</details>
+
+<b><details><summary>☁️ Instalación Servidores</summary></b>
+
+☂️ ACTIVA EN HEROKU ☂️
+> para usuarios del heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/YoshikoBot-MD)
 
@@ -82,7 +99,7 @@ para usuarios del heroku
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 
-### 💙 FlarexCloud
+💙 FLAREXCLOUD
 > Empiece a usar FlarexCloud para activar **YoshikoBot-MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
@@ -102,22 +119,7 @@ para usuarios del heroku
 🤍 ACTIVAR EN RENDER
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
-
-
-- ### 🚀 Usar YoshikoBot 24/7 En Termux 
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-``` 
-- ### ✅️ Actualizar Yoshiko 
-> Note Comandos para actualizar Yoshiko - MD de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
-
-***
+</details>
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
