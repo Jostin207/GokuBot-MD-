@@ -7,10 +7,14 @@ const handler = async (m, {conn, command, args}) => {
     global.db.data.users[m.sender].exp -= xpperlimit * count;
     global.db.data.users[m.sender].limit += count;
     conn.reply(m.chat, `
-┌◈ ━━━━━━━ ⸙ ━━━━━━━ ◈
-╏✤➻ *🍁 𝖢𝗈𝗆𝗉𝗋𝖺 𝖭𝗈𝗆𝗂𝗇𝖺𝗅* : + ${count}🪙
-╏✤➻ *🍁 𝖦𝖺𝗌𝗍𝖺𝖽𝗈* : -${xpperlimit * count} XP
-└◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`, m);
+╔═══════⩽✰⩾═══════╗
+║                                𝐍𝐨𝐭𝐚 𝐃𝐞 𝐏𝐚𝐠𝐨 
+╠═══════⩽✰⩾═══════╝
+║╭──────────────┄
+║│ *Compra Nominal* : + ${count}🪙
+║│ *Gastado* : -${xpperlimit * count} XP
+║╰──────────────┄
+╚═══════⩽✰⩾═══════╝`, m);
   } else conn.reply(m.chat, `😔 Lo siento, no tienes suficiente *XP* para comprar *${count}* Centavos🪙`, m);
 };
 handler.help = ['Buy', 'Buyall'];
