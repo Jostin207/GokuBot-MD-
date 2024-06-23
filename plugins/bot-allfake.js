@@ -106,9 +106,9 @@ let canales = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
 let namechannel = ["ೄྀ уσѕнιкσ вσт  м∂​᭄", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
 async function getcanales() {
 let indexdev = Math.floor(Math.random() * canalId.length)
-let Idcanal = canales[indexdev]
+let canalid = canales[indexdev]
 let name = namechannel[indexdev]
-return { Idcanal, name }
+return { canalid, name }
 } 
 let channellink = await getcanales()
 
