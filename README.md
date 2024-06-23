@@ -123,7 +123,7 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ### `☄️ AGRADECIMIENTOS`
-[![elrebelde21](https://github.com/elrebelde21.png?size=100)](https://github.com/elrebelde21) 
+[![elrebelde21](https://telegra.ph/file/32103b8335e64d253fa98.jpg?size=100)](https://github.com/elrebelde21) 
 
 ### `👑 CREADOR` 
 <a
