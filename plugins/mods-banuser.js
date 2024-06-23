@@ -14,6 +14,7 @@ number = text
 user = conn.user.jid.split`@`[0] + '@s.whatsapp.net'
 bot = conn.user.jid.split`@`[0] 
 bant = `☄️ *Etiquete a una persona*\n\nEjemplo, !${command} @${global.suittag}`
+const nn = conn.getName(m.sender);
 if (!text && !m.quoted) return conn.reply(m.chat, bant, m, { mentions: [user] })               
 try {
 if(text) {
