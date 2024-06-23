@@ -2,9 +2,9 @@ let reg = 60
 
 var handler = async (m, { conn, args, usedPrefix, command }) => {
 
-let fa = `*⚠️ CUANTO QUIERES APOSTAR?*
+let fa = `*💌 Cuanto Quieres Apostar?*
 
-❕ EJEMPLO:
+❕ Ejemplo:
 *${usedPrefix + command}* 100`.trim()
 if (!args[0]) throw fa
 if (isNaN(args[0])) throw fa
@@ -12,12 +12,11 @@ let apuesta = parseInt(args[0])
 let users = global.db.data.users[m.sender]
 let time = users.lastslot + 10000
 if (new Date - users.lastslot < 10000) throw `*⏰ ESPERE ${msToTime(time - new Date())} PARA USAR DE NUEVO*`
-if (apuesta < 30) throw '*⚠️ LO MÍNIMO PARA APOSTAR ES 30 XP*'
+if (apuesta < 30) throw '*🤍 LO MÍNIMO PARA APOSTAR ES 30 XP*'
 if (users.exp < apuesta) {
 throw `*⚠️ NO TIENES SUFICIENTE XP*`
 }
-
-let emojis = ["🍩", "🌟", "🧃"]
+let emojis = ['🍒', '🍋', '🍉', '🍇', '⭐']
 let a = Math.floor(Math.random() * emojis.length)
 let b = Math.floor(Math.random() * emojis.length)
 let c = Math.floor(Math.random() * emojis.length)
