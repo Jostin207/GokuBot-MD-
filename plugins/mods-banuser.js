@@ -6,7 +6,6 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
         user = m.quoted.sender;
     } else if (args.length >= 1) {
         user = args[0].replace('@', '') + '@s.whatsapp.net';
-       usuario = m.quoted.sender;
         reason = args.join(' ');
     } else if (args.length >= 2) {
         reason = args.slice(1).join(' ');
@@ -17,7 +16,7 @@ const handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) =
     if (user === isROwner) return m.reply('💫 No puedes banear a mi Creador.');
     if (db[user]) {
         db[user].banned = true;
-        db[usuario].banRazon = `${reason}`;
+        db[user].banRazon = `${reason}`;
         const nametag = await conn.getName(user);
         const nn = conn.getName(m.sender);
         await conn.reply(m.chat, `💥 El usuario *${nametag}* ha sido Baneado.\n> ✰ *Razón:* ${reason}`, m, { mentionedJid: [user] });
