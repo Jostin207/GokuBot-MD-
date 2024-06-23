@@ -102,11 +102,11 @@ global.readMore = more.repeat(850)
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: yoshiImg, sellerJid: '0@s.whatsapp.net'}}}
 
-let canales = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
+let canalesId = ["120363263466636910@newsletter", "120363314021119064@newsletter"]
 let namechannel = ["ೄྀ уσѕнιкσ вσт  м∂​᭄", "♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎"]
 async function getcanales() {
-let indexdev = Math.floor(Math.random() * canales.length)
-let canalid = canales[indexdev]
+let indexdev = Math.floor(Math.random() * canalesId.length)
+let canalid = canalesId[indexdev]
 let name = namechannel[indexdev]
 return { canalid, name }
 } 
@@ -116,7 +116,7 @@ global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: channellink.canales,
+newsletterJid: channellink.canalesId,
 serverMessageId: 100,
 newsletterName: channellink.name,
 },
