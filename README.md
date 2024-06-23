@@ -7,7 +7,9 @@
 <b><details><summary> 🐶 Notas</summary></b>
 
 Se agregó una protección para que el Bot no responda a sus propios mensajes y este genere Spam.
-> Se rediseño el Menu.
+Se rediseño el Menu.
+
+***
 
 **Si vas a instalar el Bot, te recomiendo usar otro número ya que no vas a poder ejecutar Comandos desde el número del Bot por la protección antes mencionado.**
 
@@ -23,6 +25,7 @@ Se agregó una protección para que el Bot no responda a sus propios mensajes y 
 
 
 ⚙️ CONFIGURACIÓN
+
 Clonar Repo : Yoshiko [Aqui.](https://github.com/OfcDiego/YoshikoBot-MD/fork)
 
 </details>
