@@ -367,15 +367,15 @@ if (opcion == '1') {
 txt = `*『 SER BOT CON CÓDIGO QR 』*\n
 ✦ *Versión de ${wm} »* *\`2.0.0\`*
 ✦ *Versión de JadiBot »* *\`2.1\`*
-✦ *Descripción »* _${description}_\n
+✦ *Descripción »* _${wm}_\n
 *No sólo el diseño del mensaje se ha renovado. ✨ ¡Disfruta de ${name}!*\n
 > ➡️ *Usando otro celular o en la PC escanea este código QR para convertirte en Sub Bot de ${name} 🐈*\n\n*1️⃣ Diríjase a los tres puntos en la esquina superior derecha*\n*2️⃣ Ir a la opción "Dispositivos vinculados" y use el botón "Vincular un dispositivo"*\n*3️⃣ Escanee este codigo QR para iniciar sesión*\n\n> 📢 *¡Este código QR expira en 50 segundos!*\n
 ⚠️ _*Como medida de seguridad y para no generar spam, este mensaje será eliminado en 50 segundos*_`
 } else {  
 txt = `*『 SER BOT CON CÓDIGO DE 8 DÍGITOS 』*\n
-✦ *Versión de ${name} »* *\`2.0.0\`*
+✦ *Versión de ${wm} »* *\`2.0.0\`*
 ✦ *Versión de JadiBot »* *\`2.1\`*
-✦ *Descripción »* _${description}_\n
+✦ *Descripción »* _${wm}_\n
 *No sólo el diseño del mensaje se ha renovado. ✨ ¡Disfruta de ${wm}!*\n
 > *Se enviará un código para ser Sub Bot*\n\n1️⃣ *Diríjase a los tres puntos en la esquina superior derecha*\n\n2️⃣ *Selecciona "Dispositivos vinculados" y use el botón "Vincular un dispositivo"*\n\n3️⃣ *Selecciona en la parte inferior "Vincular con el número de teléfono"*\n\n4️⃣ *Introduzca el código de 8 dígitos*\n
 
