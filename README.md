@@ -125,8 +125,6 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 
 </details>
 
-<b><details><summary>👑 Creadores & Otros</summary></b>
-
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
 <a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
@@ -155,15 +153,11 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 </a>
 
 ☄️ AGRADECIMIENTOS
-
 <a
 href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/32103b8335e64d253fa98.jpg" width="100" height="100" alt="Diego"/></a>
 
 👑 CREADOR
-
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
-
-</details>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
