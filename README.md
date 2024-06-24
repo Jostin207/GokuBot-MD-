@@ -137,4 +137,4 @@ href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" wi
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
 
-## **`¡GRACIAS POR PREFERIRNOS! 🐶`**
+**`¡GRACIAS POR PREFERIRNOS! 🐶`**
