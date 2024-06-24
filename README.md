@@ -136,3 +136,5 @@ href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/32103b83
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Diego"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
+
+## **`¡GRACIAS POR PREFERIRNOS! 🐶`**
