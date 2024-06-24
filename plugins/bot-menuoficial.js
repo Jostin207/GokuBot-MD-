@@ -11,68 +11,51 @@ let tags = {
   'rg': 'REGISTRO 📇',
   'sticker': 'STICKER ✨️',
   'xp': 'EXP 🏷',
-  'calculator': 'CALCULATOR 💻',
   'fix': 'FIXMSGESPERA ☁️',
   'group': 'GRUPOS 🌩',
   'grupo': 'GRUPOS 🌩',
-  'buscadores': 'BUSCADORES 🔍',
   'database': 'DATABASE 📚',
   'internet': 'INTERNET 📮', 
-  'stalk': 'STALK 📒',
-  'premium': 'PREMIUM 👑',
-  'frases': 'FRASES ✏️',
   'downloader': 'DESCARGAS 📥',
   'descargas': 'DESCARGAS 📥',
   'tools': 'HERRAMIENTAS 🧰',
-  'herramientas': 'HERRAMIENTAS 🧰',
-  'fun': 'DIVERSIONES ☁️',
   'nsfw': 'NSFW 🔞', 
-  'image': 'IMAGE 🚩',
-  'random': 'RANDOM ☄️',
-  'anime': 'ANIMES 🌸',
   'owner': 'CREADOR 👑', 
   'mods': 'MODERADORES 👑',
   'audio': 'EFECTO AUDIOS 🍂', 
   'info': 'INFORAMACIÓN 🍭',
   'ai': 'AI 🌹',
-  'adm': 'ADMINISTRADOR 🎌',
-  'General': 'GENERAL 🔮',
-  'maker': 'MAKER 🌳',
   'transformador': 'CONVERTIDORES 🚩',
 }
 
 const defaultMenu = {
   before: `> %greeting %taguser
 
-┌–––––––––––––––––ɪ✥
-│『 *INFO USER 🍒* 』
-└┬❖
-┌┤
-┊│ 🌸 *Cliente:* %name
-┊│ 🧃 *Exp:* %exp
-┊│ 💎 *Diamantes:* %diamond
-┊│ 🍓 *Nivel:* %level
-┊│ ⚓ *Rango:* %role
-│└────────────┈ɪ ⳹
-┗–––––––––––––––––ɪ✥
+╭───────────────────
+│⊷〘 *INFO USER* 💫 〙⊷
+├───────────────────
+│ 💌 *Cliente:* %name
+│ ✨️ *Exp:* %exp
+│ 💎 *Diamantes:* %diamond
+│ 🤍 *Nivel:* %level
+│ ⚓ *Rango:* %role
+╰───────────────────
 
-┌–––––––––––––––––ɪ✥
-│『 *INFO BOT ✨️* 』
-└┬❖
-┌┤
-┊│ 👑 *Creador:* Ofc Diego
-┊│ ⏰️ *Actividad:* %muptime
-┊│ 📇 *Registrados:* %totalreg
-┊│ 🌻 *Versión* 2.0.0
-┊│ 📆 *Fecha* %date
-│└────────────┈ɪ ⳹
-┗–––––––––––––––––ɪ✥
+╭───────────────────
+│⊷〘 *INFO BOT* 🤍 〙⊷
+├───────────────────
+│ 👑 *Creador:* Ofc Diego 
+│ ⏰️ *Actividad:* %muptime
+│ 📇 *Registrados:* %totalreg
+│ 💥 *Versión* 2.0.0
+│ 📆 *Fecha* %date
+╰───────────────────
 %readmore
          *乂 ⺀ ʟɪꜱᴛᴀ - ᴄᴏᴍᴀɴᴅᴏꜱ ⺀ 乂*
 `.trimStart(),
-  header: '┌–––––––––––––––––ɪ✥\n│『 *%category* 』\n└┬❖\n┌┤',
-  body: '┊│ 🌸 %cmd\n',
-  footer: '│└────────────┈ɪ ⳹\n┗–––––––––––––––––ɪ✥',
+  header: '╭───────────────────\n│⊷〘 *%category* 〙⊷\n├───────────────────',
+  body: '│ 💫 %cmd\n',
+  footer: '╰───────────────────',
   after: '',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -174,7 +157,7 @@ const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ?
 
 const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + name, sourceUrl: redesYoshi, thumbnail: await (await fetch(pp)).buffer() }}})
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + name, sourceUrl: redes, thumbnail: await (await fetch(pp)).buffer() }}})
 
 //await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, fake,)
 
