@@ -130,7 +130,7 @@ href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/3acbe549
 
 ### `👑 CREADOR`
 <a
-href="https://github.com/OfcDiego"><img src="https://telegra.ph/file/84c68e7f8267304e0a2db.jpg" width="120" height="120" alt="Diego"/></a>
+href="https://github.com/OfcDiego"><img src="https://telegra.ph/file/84c68e7f8267304e0a2db.jpg" width="130" height="130" alt="Diego"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/EmiliaRezero-MD)**.
 
