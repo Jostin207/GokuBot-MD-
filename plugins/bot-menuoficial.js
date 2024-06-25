@@ -170,7 +170,7 @@ await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 
 
 m.react('🌸') 
 
-await conn.sendMessage(m.chat, { video: gif, caption: text.trim(), gifPlayback: true, mentions: [m.sender] }, "MessageVideo", { mimetype: "gif", quoted: estilo })
+await conn.sendMessage(m.chat, { video: gif, caption: text.trim(), gifPlayback: true, mentions: [m.sender] }, "MessageVideo", { mimetype: "gif", quoted: fkontak })
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
     throw e
