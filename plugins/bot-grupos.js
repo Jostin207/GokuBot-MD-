@@ -1,4 +1,4 @@
-let pp = `${global.vid}`
+let pp = './Menu.jpg'
 let handler = async (m, { conn, command }) => {
 let colab = `*◜🌸 GRUPOS OFICIALES 🌸◞*
 
