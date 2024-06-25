@@ -39,8 +39,8 @@ let crm3 = 'SBpbmZvLWRvbmFyLmpz'
 let crm4 = 'IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz'
 let drm1 = ''
 let drm2 = ''
-let rtx = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🍂\n\n🚀 *Escanea Este Codigo QR Para Convertirte En Un Sub Bot Temporal.*\n\n🎌 *Pasos Para Escanear:*\n\n1. Diríjase a los tres puntos ubicado en la esquina superior derecha.\n\n2. Ir a la opción dispositivos vinculados.\n\n3. Da Click En Vincular Dispositivo & escanea este codigo qr.\n\n📢 *Aviso:* Este Código QR Expira En 45 Segundos.\n\n𝗕𝘆: ${packname}`
-let rtx2 = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🍂\n\n🚀 *Utilice Este Codigo Para Convertirte En Un Sub Bot Temporal.*\n\n🎌 *Pasos Para Vincular:*\n\n1. Diríjase a los tres punto en la esquina superior derecha.\n\n2. Ir a la opción dispositivos vinculados.\n\n3. Da click en vincular con codigo de telefono & pega el código a continuación.\n\n𝗕𝘆: ${packname}`
+let rtx = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 🤍\n\n🚀 *Escanea Este Codigo QR Para Convertirte En Un Sub Bot Temporal.*\n\n🎌 *Pasos Para Escanear:*\n\n1. Diríjase a los tres puntos ubicado en la esquina superior derecha.\n\n2. Ir a la opción dispositivos vinculados.\n\n3. Da Click En Vincular Dispositivo & escanea este codigo qr.\n\n📢 *Aviso:* Este Código QR Expira En 45 Segundos.\n\n𝗕𝘆: ${packname}`
+let rtx2 = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 🤍\n\n🚀 *Utilice Este Codigo Para Convertirte En Un Sub Bot Temporal.*\n\n🎌 *Pasos Para Vincular:*\n\n1. Diríjase a los tres punto en la esquina superior derecha.\n\n2. Ir a la opción dispositivos vinculados.\n\n3. Da click en vincular con codigo de telefono & pega el código a continuación.\n\n𝗕𝘆: ${packname}`
 
 if (global.conns instanceof Array) console.log()
 else global.conns = []
@@ -61,15 +61,15 @@ args[0] = args[0].replace('--code', '').trim()
 if (args[1]) args[1] = args[1].replace('--code', '').trim()
 if (args[0] == '') args[0] = undefined
 console.log(args[0])}
-if (!fs.existsSync('./YoshiJadiBot/'+ id)){
-fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })}
-args[0] && args[0] != undefined ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
+if (!fs.existsSync('./ZeroJadiBot/'+ id)){
+fs.mkdirSync('./ZeroJadiBot/'+ id, { recursive: true })}
+args[0] && args[0] != undefined ? fs.writeFileSync('./ZeroJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
 
-if (fs.existsSync('./YoshiJadiBot/' + id + '/creds.json')) {
-let creds = JSON.parse(fs.readFileSync("./YoshiJadiBot/" + id + "/creds.json"))
+if (fs.existsSync('./ZeroJadiBot/' + id + '/creds.json')) {
+let creds = JSON.parse(fs.readFileSync("./ZeroJadiBot/" + id + "/creds.json"))
 if (creds) {
 if (creds.registered = false) {
-fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
+fs.unlinkSync('./ZeroJadiBot/' + id + '/creds.json')
 }}}
 
 const comb = Buffer.from(crm1 + crm2 + crm3 + crm4, 'base64')
@@ -78,15 +78,15 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./YoshiJadiBot/'+ id)){
-fs.mkdirSync('./YoshiJadiBot/'+ id, { recursive: true })
+if (!fs.existsSync('./ZeroJadiBot/'+ id)){
+fs.mkdirSync('./ZeroJadiBot/'+ id, { recursive: true })
 }
-args[0] ? fs.writeFileSync('./YoshiJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
+args[0] ? fs.writeFileSync('./ZeroJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
 
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
 const msgRetryCache = new NodeCache()
-const { state, saveState, saveCreds } = await useMultiFileAuthState("./YoshiJadiBot/" + id)
+const { state, saveState, saveCreds } = await useMultiFileAuthState("./ZeroJadiBot/" + id)
 
 const connectionOptions = {
 printQRInTerminal: false,
@@ -96,14 +96,14 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['Yoshiko (Sub-Bot)', 'Edge', '2.0.0'],
+browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['Emilia Sub-Bot', 'Edge', '2.0.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'YoshikoBot-MD',
+conversation: 'EmiliaRezero-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
@@ -138,7 +138,7 @@ const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.erro
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
-await fs.unlinkSync('./YoshiJadiBot/' + id + '/creds.json')
+await fs.unlinkSync('./ZeroJadiBot/' + id + '/creds.json')
 
 return await conn.reply('🏓 *REENVIA EL COMANDO.*')
 }
@@ -169,7 +169,7 @@ global.conns.push(conn)
 await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
 await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
 await sleep(5000)
-if (!args[0]) parentw.sendMessage(m.sender, {text : '*SU TOKEN DE SUB-BOT*\n' + usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./YoshiJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
+if (!args[0]) parentw.sendMessage(m.sender, {text : '🤍 *SU TOKEN DE SUB-BOT ES:*\n' + usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./ZeroJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
 
 }}
 setInterval(async () => {
