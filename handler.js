@@ -184,7 +184,7 @@ if (!('antiDiscord' in chat)) chat.antiDiscord = false
 if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true  
+if (!('reaction' in chat)) chat.reaction = false  
 if (!('viewonce' in chat)) chat.viewonce = true       
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
@@ -223,7 +223,7 @@ antiDiscord: false,
 antiThreads: false,
 antiTwitch: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: true,
 modoadmin: false,
 antitoxic: false,
@@ -734,7 +734,7 @@ console.error(e)
 }}
 
 global.dfail = (type, m, conn) => {
-  const msg = {
+    const msg = {
         rowner: '✰ *¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
     owner: '✰ *¡Solo el Creador del Bot pueden usar este comando!*',
     mods: '✰ *¡Solo los Moderadores del Bot pueden usar este comando!*',
