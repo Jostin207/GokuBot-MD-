@@ -134,4 +134,4 @@ href="https://github.com/OfcDiego"><img src="https://telegra.ph/file/84c68e7f826
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/EmiliaRezero-MD)**.
 
-*`¡GRACIAS POR PREFERIRNOS! 💖`*
+**`¡GRACIAS POR PREFERIRNOS! 💖`**
