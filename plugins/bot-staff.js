@@ -48,7 +48,7 @@ renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
 body: `💭 Staff Oficial`,
 mediaType: 1,
-sourceUrl: redesYoshi,
+sourceUrl: redes,
 thumbnailUrl: img
 }}
 }, { mentions: m.sender })
