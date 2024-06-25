@@ -46,7 +46,7 @@ else return conn.reply(m.chat, '⚠️ *_La conversión ha fallado, intenta envi
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = ['s', 'sticker', 'stiker']
 
 export default handler
 
