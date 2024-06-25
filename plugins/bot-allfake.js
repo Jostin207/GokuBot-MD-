@@ -63,7 +63,7 @@ global.redes = [canal, canal2, grupofb, git, youtube, github, facebook].getRando
 
 global.canales = [canal, canal2].getRandom()
 
-//Imagen & Video
+//Imagen
 let category = "imagen"
 const db = './media/database/db.json'
 const db_ = JSON.parse(fs.readFileSync(db))
