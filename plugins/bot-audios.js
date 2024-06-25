@@ -22,7 +22,7 @@ if (chat.audios && m.text.match(/(bienvenido|🥳|🤗)/gi)) {
 //let vn = './media/Bienvenido.mp3'
 let vn = 'https://qu.ax/cUYg.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
-conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": packname, "body": botname, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": yoshiImg, "sourceUrl": redesYoshi, "showAdAttribution": true}}, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: estilo })}
+conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": packname, "body": botname, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": icons, "sourceUrl": redes, "showAdAttribution": true}}, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: estilo })}
 
 if (chat.audios && m.text.match(/(Blackpink in your area|blackpink in your area|in your area|In your area)/gi)) {    
 let vn = 'https://qu.ax/pavq.mp3'
