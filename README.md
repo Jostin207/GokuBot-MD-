@@ -1,6 +1,6 @@
 > 🚀🌸 Versión Actual: 2.0.0
 
-## Emilia Re: Zero - MD 🌸☄️
+## **🤍 Emilia Re: Zero - MD**
 
 # ![logo](https://telegra.ph/file/3c09f2f5d04966069da58.jpg)
 
