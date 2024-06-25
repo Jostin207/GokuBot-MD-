@@ -1,0 +1,16 @@
+{
+"name": "SubBot Emilia",
+"version": "2.0 (beta)", 
+"sub?": "si"
+"git": "https://github.com/OfcDiego/ReZeroSub-MD" },
+
+"directories": {
+"bot": "sub bot",
+"menu": "submenu",
+"plugins": "subplugins" },
+
+"license": "GPL-3.0-or-later",
+"dependencies": {
+"@adiwajshing/keyed-db": "^0.2.4",
+"@whiskeysockets/baileys": "^6.7.5"
+}
