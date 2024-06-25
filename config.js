@@ -23,16 +23,16 @@ global.suittag = ['573012482597']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗 🌸'
+global.packname = '𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗 '
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = 'ೄྀ уσѕнιкσ вσт  м∂᭄'
-global.titulowm = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤 𝘽𝙤𝙩 - 𝙈𝘿 🌻'
+global.wm = 'ೄྀ 𝙴𝙼𝙸𝙻𝙸𝙰 𝚁𝙴𝚉𝙴𝚁𝙾 - 𝙼𝙳᭄'
+global.titulowm = '𝙀𝙢𝙞𝙡𝙞𝙖 𝙍𝙚𝙯𝙚𝙧𝙤 - 𝙈𝘿 🌻'
 global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
 global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
-global.botname = 'Ⓨ︎ Yoshiko Bot - MD'
+global.botname = 'Ⓔ︎ Emilia Re:zero - MD'
 global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝙔𝙤𝙨𝙝𝙞𝙠𝙤𝘽𝙤𝙩 : 𝙊𝙛𝙘𝘿𝙞𝙚𝙜𝙤 🌻🐈'
+global.textbot = '𝙀𝙢𝙞𝙡𝙞𝙖𝙕𝙚𝙧𝙤 : 𝙊𝙛𝙘𝘿𝙞𝙚𝙜𝙤 🌻🐈'
 global.vs = '2.0.0'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -41,13 +41,13 @@ global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Yoshiko
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Yoshiko
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Yoshiko
-global.gp4 = 'https://chat.whatsapp.com/GvJAupaHXTQDNivZIa2l5D' //Alisa Kujou Y Yoshiko
+global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Emilia
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Emilia
+global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Emilia
+global.gp4 = 'https://chat.whatsapp.com/GvJAupaHXTQDNivZIa2l5D' //Alisa Kujou Y Emilia
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
-global.md = 'https://github.com/OfcDiego/YoshikoBot-MD' //Github Oficial
+global.md = 'https://github.com/OfcDiego/EmiliaRezero-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
@@ -59,10 +59,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nYoshiko`;
-global.gt = 'Yoshiko';
-global.yoshiko = 'Yoshiko';
-global.yoshiko = 'https://github.com/OfcDiego/YoshikoBot-MD';
+global.wm2 = `${dia} ${fecha}\nEmilia`;D';
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
@@ -216,7 +213,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 YoshiCoins',
+      money: '👾 ZeroCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -340,8 +337,8 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 YoshiCoins',
-      tiketcoin: '🎫 Yoshi Tickers',
+      money: '👾 ZeroCoins',
+      tiketcoin: '🎫 Zero Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
