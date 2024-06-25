@@ -658,7 +658,7 @@ mentionedJid:[user],
 "title": [wm, packname, botname].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: redesYoshi }}}, { quoted: fkontak2 })
+sourceUrl: redes }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
