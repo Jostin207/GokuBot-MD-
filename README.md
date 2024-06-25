@@ -1,4 +1,4 @@
-> **💫💖 Versión Actual: 2.0.0**
+> **💫💖 Versión Actual:** 2.0.0
 
 ## **🤍 Emilia Re: Zero - MD**
 
