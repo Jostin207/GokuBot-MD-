@@ -150,7 +150,14 @@ throw false
 }}
 chat.antiLink2 = isEnable 
 break
-
+case 'autobio':
+isAll = true
+if (!(isOwner)) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.autoBio = isEnable
+break
 case 'antitiktok': case 'antitk': case 'antitik':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
