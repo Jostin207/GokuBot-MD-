@@ -66,7 +66,7 @@ renderLargerThumbnail: false,
 title: `🔵 C A F I R E X O S 🔵`,
 body: `✅ Hosting de Calidad`,
 mediaType: 1,
-sourceUrl: redesYoshi,
+sourceUrl: redes,
 thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
 }}
 }, { mentions: m.sender })
@@ -84,7 +84,7 @@ title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
 body: `✅ Hosting de Calidad`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: redesYoshi}}},
+sourceUrl: redes}}},
 { quoted: fkontak})
 }}
 
