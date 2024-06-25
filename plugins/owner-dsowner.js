@@ -11,7 +11,7 @@ return conn.reply(m.chat, '💌 *Utiliza este comando directamente en el número
 await conn.reply(m.chat, '✨️ *Iniciando proceso de eliminación de todos los archivos de sesión, excepto el archivo creds.json...*', m, fake, )
 m.react(rwait)
 
-let sessionPath = './YoshiSession/'
+let sessionPath = './ZeroSession/'
 
 try {
 
