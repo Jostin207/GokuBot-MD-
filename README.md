@@ -12,7 +12,7 @@
 
 [![Click Aquí](https://img.shields.io/badge/Grupo-Emilia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
-💻 INSTALACION MANUAL POR TERMUX
+💻 **INSTALACION MANUAL POR TERMUX**
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
@@ -34,7 +34,7 @@ yarn install && npm install
 npm start
 ```
 
-✨️ ACTIVAR EN TERMUX EN CASO DE DETENERSE
+✨️ **ACTIVAR EN TERMUX EN CASO DE DETENERSE**
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -42,7 +42,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-🌻 OBTENER OTRO CODIGO QR
+🌻 **OBTENER OTRO CODIGO QR**
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd EmiliaRezero-MD
@@ -50,12 +50,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-💖 EMILIA 24/7 (TERMUX)
+💖 **EMILIA 24/7 (TERMUX)**
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ```
 
-🐶 ACTUALIZAR EMILIA 
+🐶 **ACTUALIZAR EMILIA**
 > Note Comandos para actualizar Emilia - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/EmiliaRezero-MD/master/update.sh | bash
