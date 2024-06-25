@@ -17,9 +17,9 @@ global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 
 𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒂𝒏𝒐𝒔🚀
 
-✫ Wa.me/573012482597
-᯽ Diego-YL-177
+✫ ${global.creador}
+᯽ OfcDiego
 ✫ Correo electronico: 
-theyoshikobot@gmail.com
+theemiliarezero@gmail.com
 
-✰ 𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁 - 𝗠𝗗 🪐`;
+✰ ${global.packname}`;
