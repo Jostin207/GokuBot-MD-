@@ -119,16 +119,16 @@ Para que no pierda su progreso en Zero, estos comandos realizarán un respaldo d
 
 *** 
 
-### `🌟 DESARROLLADORES`
+### **`🌟 DESARROLLADORES`**
 <a href="https://github.com/OfcDiego/EmiliaRezero-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/EmiliaRezero-MD" /> 
 </a>
 
-### `☄️ AGRADECIMIENTOS`
+### **`☄️ AGRADECIMIENTOS`**
 <a
 href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="120" height="120" alt="Agradecimientos"/></a>
 
-### `👑 CREADOR`
+### **`👑 CREADOR`**
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
 
