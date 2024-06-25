@@ -14,9 +14,6 @@
 
 💻 INSTALACION MANUAL POR TERMUX
 
-[![blog](https://img.shields.io/badge/Instalacion-Yoshiko-0000FF?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/jeBYMWndUbQ?si=64OdhV-vf_w7rLw6)
-
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
