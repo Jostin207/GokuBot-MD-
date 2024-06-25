@@ -5,7 +5,7 @@ let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
 const owner = 'OfcDiego';
-const repo = 'YoshikoBot-MD';
+const repo = 'EmiliaRezero-MD';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
  conn.sendMessage(m.chat, {text: `*✅️ Comando activado con éxito, te notificaremos cuando se actualize el repositorio.*`}, {quoted: estilo});  
 try {
