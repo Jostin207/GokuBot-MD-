@@ -1,4 +1,4 @@
-const handler = m => m
+/*const handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
 let _uptime = process.uptime() * 1000
@@ -18,4 +18,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [d, ' : ', h, ' : ', m, ' : ', s].map(v => v.toString().padStart(2, 0)).join('') 
-}
+}*/
