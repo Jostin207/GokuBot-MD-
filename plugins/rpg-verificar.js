@@ -17,7 +17,7 @@ user.age = age
 user.regTime = + new Date
 user.registered = true
 global.db.data.users[m.sender].money += 600
-global.db.data.users[m.sender].diamond += 10
+global.db.data.users[m.sender].limit += 10
 global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 5
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
@@ -28,10 +28,10 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 「✨️」𝗘𝗱𝗮𝗱: ${age} años
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• 10 Diamantes 💎
-• 5 YoshiCoins 💰
+• 10 Centavos 🪙
+• 5 YoshiCoins 🌟
 • 245 Experiencia 💸
-• 12 Tokens 🪙
+• 12 Tokens 💰
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ${packname}`
 conn.sendMessage(m.chat, {
@@ -40,8 +40,8 @@ contextInfo: {
 externalAdReply: {
 title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
 body: wm, 
-thumbnaiUrl: yoshiImg, 
-sourceUrl: canalesYoshi,
+thumbnaiUrl: icons, 
+sourceUrl: canales,
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true,
