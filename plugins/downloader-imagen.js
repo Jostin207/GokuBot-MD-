@@ -1,6 +1,6 @@
 import {googleImage} from '@bochilteam/scraper';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (!text) throw `*🚩 Uso Correcto: ${usedPrefix + command} Yoshiko*`;
+  if (!text) throw `*🚩 Uso Correcto: ${usedPrefix + command} Re:zero*`;
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
