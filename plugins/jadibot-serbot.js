@@ -169,7 +169,7 @@ global.conns.push(conn)
 await parentw.sendMessage(m.chat, {text : args[0] ? `🌺 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🍄 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
 await parentw.sendMessage(m.chat, {text : `🍂 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
 await sleep(5000)
-/*if (!args[0]) parentw.sendMessage(m.sender, {text : '*SU TOKEN DE SUB-BOT*\n' + usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./YoshiJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })*/
+if (!args[0]) parentw.sendMessage(m.sender, {text : '*SU TOKEN DE SUB-BOT*\n' + usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./YoshiJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
 
 }}
 setInterval(async () => {
