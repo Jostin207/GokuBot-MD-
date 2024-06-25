@@ -172,7 +172,7 @@ m.react('🌸')
 
 //await conn.sendMessage(m.chat, { video: gif, caption: text.trim(), gifPlayback: true, mentions: [m.sender] }, "MessageVideo", { mimetype: "gif", quoted: fkontak })
 
-conn.sendMessage(m.chat, { video: { url: gif }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
+conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
