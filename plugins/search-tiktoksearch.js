@@ -10,7 +10,7 @@ const randomResult = getRandomElement(results);
 const videoUrl = randomResult.nowm;
 await conn.sendFile(m.chat, videoUrl, 'tts.mp4', `✰ *Resultados de:* ${text}`, m);
 } catch (error) {
-    console.log(error);
+console.log(error);
 }};
 
 handler.command = ['tiktoksearch'];
