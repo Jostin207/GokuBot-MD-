@@ -126,7 +126,7 @@ Para que no pierda su progreso en Zero, estos comandos realizarán un respaldo d
 
 ### `☄️ AGRADECIMIENTOS`
 <a
-href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/3acbe549b7554f6859234.jpg" width="110" height="110" alt="Diego"/></a>
+href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/3acbe549b7554f6859234.jpg" width="120" height="120" alt="Diego"/></a>
 
 ### `👑 CREADOR`
 <a
