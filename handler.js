@@ -246,6 +246,7 @@ if (!('antiCall' in settings)) settings.antiCall = true
 if (!('antiSpam' in settings)) settings.antiSpam = true
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = false  
+if (!('autobio' in settings)) settings.autobio = false
 } else global.db.data.settings[this.user.jid] = {
 self: false,
 autoread: false,
@@ -256,6 +257,7 @@ antiCall: true,
 antiSpam: true,
 modoia: false, 
 jadibotmd: true,
+autobio: false,
 }} catch (e) {
 console.error(e)
 }
