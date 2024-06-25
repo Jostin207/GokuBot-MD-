@@ -22,7 +22,7 @@ ${gp4}
 ${channel}`
 m.react('🤍') 
 
-//await conn.sendFile(m.chat, pp, 'yoshiko.jpg', str, rcanal)}
+//await conn.sendFile(m.chat, pp, 'zero.jpg', str, rcanal)}
 
 await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
 
