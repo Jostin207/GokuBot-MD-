@@ -184,7 +184,7 @@ if (!('antiDiscord' in chat)) chat.antiDiscord = false
 if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = false  
+if (!('reaction' in chat)) chat.reaction = true  
 if (!('viewonce' in chat)) chat.viewonce = true       
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
@@ -223,7 +223,7 @@ antiDiscord: false,
 antiThreads: false,
 antiTwitch: false,
 antifake: false,
-reaction: false,
+reaction: true,
 viewonce: true,
 modoadmin: false,
 antitoxic: false,
@@ -584,8 +584,8 @@ let settingsREAD = global.db.data.settings[this.user.jid] || {}
 if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify)/gi)) {
-let emot = pickRandom(["🎉", "🪐", "🌌", "🔄", "✅", "🍾", "🍁", "🛡️", "🤖", "⬇️", "🌆", "🎋", "👀", "🗂️", "🏙️", "🎬", "🥃", "📦", "🎶", "🍹", "☎️", "⏱️", "💻", "🧊", "⛔", "🍵", "🏆", "🗃️", "📤", "❕", "👑", "💎", "🔇", "🎵", "🔈", "🔉", "🧢", "🔊", "📢", "📣", "📯", "🔔", "🔕", "🎧", "📲", "🔋", "💽", "📸", "📷", "📚", "📘", "📗", "📖", "💵", "💶", "💷", "💸", "💰", "💴", "🏷️", "📑", "💳", "🧾", "✉️", "📩", "📫", "🫣", "📉", "💼", "💹", "📥", "🔒", "🔓", "🔏", "🔐", "🔑", "⚔️", "🦯", "⚒️", "📈", "🗡️", "🎊", "🎁", "🏅", "🥇", "🥈", "🥉", "🎖️", "🏆", "🎗️", "🧿", "🔮", "🎰", "🕹️", "♟️", "🃏", "🎯", "🎲", "🧩", "🍷", "🍸", "🍺", "🧃", "☕", "🍮", "🍂", "🌵", "💩", "🌏", "🌐", "🌎", "🌍", "🌃", "🎡", "🌇", "🛰️", "🛸", "🇦🇷", "🇧🇷", "🇧🇾", "🇧🇼", "🏳️‍🌈", "🇨🇨", "🇪🇸", "🇲🇽", "🇺🇸", "⚠️", "🚫", "🚳", "🔞", "📵", "🚱", "🚭", "🚯", "☢️", "🥛", "🍿", "🧈", "🥫", "🍱", "🍣", "🍤", "🍲", "🌭", "🥪", "🌮", "🌯", "🥙", "🍔", "🍟", "🥓", "🥨", "🥐", "🥖", "🍞", "🍕", "🌶️", "🌽", "🥕", "🍅", "🥥", "🥑", "🍐", "🧄", "🍏", "🥞", "🧇", "🍖", "🍗", "🥩", "🥣"])
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|emilia|zero|a|s)/gi)) {
+let emot = pickRandom(["🤍", "🐶", "☁️", "✨️", "💖", "💥", "💫", "💌", "💭", "👑"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -619,7 +619,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗬𝗮𝗲𝗺𝗼𝗿𝗶𝗕𝗼𝘁-𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
