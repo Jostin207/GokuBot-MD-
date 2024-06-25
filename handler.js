@@ -658,7 +658,7 @@ mentionedJid:[user],
 "title": [wm, packname, botname].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: redesYoshi }}}, { quoted: fkontak2 })
+sourceUrl: redes }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
@@ -746,7 +746,7 @@ global.dfail = (type, m, conn) => {
     unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.222',
     restrict: '✰ *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
     }[type];
-    if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre,, thumbnail: icons, sourceUrl: global.channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
+    if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: global.channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
  
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
