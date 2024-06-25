@@ -734,19 +734,19 @@ console.error(e)
 }}
 
 global.dfail = (type, m, conn) => {
-const msg = {
-rowner: '✰ *¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
-owner: '✰ *¡Solo el Creador del Bot pueden usar este comando!*',
-mods: '✰ *¡Solo los Moderadores del Bot pueden usar este comando!*',
-premium: '✯ *¡Solo los usuarios Premium pueden usar este comando!*',
-group: '✰ *¡Esta Función Solo Se Puede Usar En Grupos!*',
-private: '✰ *¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
-admin: '✰ *¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
-botAdmin: '✰ *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
-unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.222',
-restrict: '✰ *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
+        rowner: '👑 *¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
+    owner: '👑 *¡El Uso Del Comando Solo Lo Puede Usar Mi Creador!*',
+    mods: '💖 *¡El Uso Del Comando Solo Lo Puede Usar Mis Moderadores!*',
+    premium: '🌺 *¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium!*',
+    group: '🤍 *¡Esta Función Solo Se Puede Usar En Grupos!*',
+    private: '💥 *¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
+    admin: '💫 *¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
+    botAdmin: '🤍 *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
+unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
+restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
-if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
+if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: gataImg.getRandom(), sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
+
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
 unwatchFile(file);
