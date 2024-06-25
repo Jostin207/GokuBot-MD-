@@ -25,7 +25,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/OfcDiego/EmiliaRezero-MD && cd YoshikoBot-MD
+git clone https://github.com/OfcDiego/EmiliaRezero-MD && cd EmiliaRezero-MD
 ```
 ```bash
 yarn install && npm install
