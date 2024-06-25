@@ -3,7 +3,7 @@ const handler = async (m, {usedPrefix}) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
   else who = m.sender;
   const name = conn.getName(who);
-  m.reply(`╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+  m.reply(`╭━〔  ${global.packname}  〕⬣
 ┋💌 *Usuario:* ${name}
 ┋🪙 *Centavos*: ${global.db.data.users[who].limit} 🪙
 ┋💰 *Experiencia:* ${global.db.data.users[who].exp}
