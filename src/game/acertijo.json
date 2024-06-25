@@ -214,5 +214,125 @@
     {
        "question": "No lo puedes ver, pero no puedes vivir sin él. ¿Qué es?",
        "response": "El aire"
-}
+    },
+    {
+        "question": "¿Qué es lo que siempre está delante de ti, pero no puedes ver?",
+        "response": "El futuro"
+    },
+    {
+        "question": "¿Qué tiene un ojo pero no puede ver?",
+        "response": "Una aguja"
+    },
+    {
+        "question": "¿Qué tiene un corazón que no late?",
+        "response": "Una alcachofa"
+    },
+    {
+        "question": "¿Qué pasa si tiras una piedra roja al mar azul?",
+        "response": "Se moja"
+    },
+    {
+        "question": "¿Qué se puede romper sin tocarlo?",
+        "response": "Una promesa"
+    },
+    {
+        "question": "¿Qué tiene cabeza, cola, pero no tiene cuerpo?",
+        "response": "Una moneda"
+    },
+    {
+        "question": "¿Qué es tan frágil que solo con decir su nombre lo rompes?",
+        "response": "El silencio"
+    },
+    {
+        "question": "¿Qué es lo que cuanto más crece, más baja?",
+        "response": "La temperatura"
+    },
+    {
+        "question": "¿Qué tiene cuatro patas al amanecer, dos al mediodía y tres al anochecer?",
+        "response": "El ser humano"
+    },
+    {
+        "question": "¿Qué es lo que sube y nunca baja?",
+        "response": "Tu edad"
+    },
+    {
+        "question": "¿Qué tiene una cama pero no duerme, y un río pero no bebe?",
+        "response": "Un mapa"
+    },
+    {
+        "question": "¿Qué es lo que si lo nombras desaparece?",
+        "response": "El silencio"
+    },
+    {
+        "question": "¿Qué va hacia arriba y hacia abajo sin moverse?",
+        "response": "Una escalera"
+    },
+    {
+        "question": "¿Qué cosa siempre cae y nunca se lastima?",
+        "response": "La lluvia"
+    },
+    {
+        "question": "¿Qué palabra se escribe incorrectamente en todos los diccionarios?",
+        "response": "Incorrectamente"
+    },
+    {
+        "question": "¿Qué animal lleva siempre una espada?",
+        "response": "El pez espada"
+    },
+    {
+        "question": "¿Qué tiene ciudades, pero no casas; bosques, pero no árboles; y ríos, pero no agua?",
+        "response": "Un mapa"
+    },
+    {
+        "question": "¿Qué puedes atrapar pero no lanzar?",
+        "response": "Un resfriado"
+    },
+    {
+        "question": "¿Qué se vuelve más grande cuanto más le quitas?",
+        "response": "Un agujero"
+    },
+    {
+        "question": "¿Qué es negro cuando es limpio y blanco cuando está sucio?",
+        "response": "Una pizarra"
+    },
+    {
+        "question": "¿Qué tiene dientes pero no puede morder?",
+        "response": "Un peine"
+    },
+    {
+        "question": "¿Qué tiene muchos llaves pero no puede abrir ninguna puerta?",
+        "response": "Un piano"
+    },
+    {
+        "question": "¿Qué tiene un cuello pero no una cabeza?",
+        "response": "Una botella"
+    },
+    {
+        "question": "¿Qué es lo que mientras más quitas, más grande se hace?",
+        "response": "Un agujero"
+    },
+    {
+        "question": "¿Qué tiene una cara, dos manos, pero no brazos ni piernas?",
+        "response": "Un reloj"
+    },
+    {
+        "question": "¿Qué corre pero nunca camina, tiene una boca pero nunca habla?",
+        "response": "Un río"
+    },
+    {
+        "question": "¿Qué es algo que puedes llenar con más y más, pero siempre cabe en un rincón?",
+        "response": "El bolsillo"
+    },
+    {
+        "question": "¿Qué es lo que tiene un anillo pero no dedos?",
+        "response": "Un teléfono"
+    },
+    {
+        "question": "¿Qué tiene raíces que nadie ve, es más alto que los árboles, sube, sube y nunca crece?",
+        "response": "Una montaña"
+    },
+    {
+        "question": "¿Qué tiene una sola letra y pesa mucho?",
+        "response": "Una tonelada"
+    }
 ]
