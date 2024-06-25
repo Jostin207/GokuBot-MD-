@@ -10,9 +10,9 @@ let love = `❤️ *${text1}* tu oportunidad de enamorarte de *${text2}* es de *
 m.reply(love, null, { mentions: conn.parseMention(love) })
 
 }
-handler.help = ['ship']
+handler.help = ['ship', 'love']
 handler.tags = ['fun']
-handler.command = /^(ship)$/i
+handler.command = /^(ship|love)$/i
 
 handler.register = true
 
