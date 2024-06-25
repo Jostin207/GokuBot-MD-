@@ -1,16 +1,16 @@
 > 🚀🌸 Versión Actual: 2.0.0
 
-## Yoshiko Bot - MD 🌸☄️
+## Emilia Re: Zero - MD 🌸☄️
 
-# ![logo](https://telegra.ph/file/32103b8335e64d253fa98.jpg)
+# ![logo](https://telegra.ph/file/3c09f2f5d04966069da58.jpg)
 
-*DIFRUTA DE ESTE QUERIDO BOT!! 🐶*
+*DIFRUTA DE ESTE QUERIDO BOT!! 🤍*
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
 
 > Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
 
-[![Click Aquí](https://img.shields.io/badge/Grupo-Yoshiko-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
+[![Click Aquí](https://img.shields.io/badge/Grupo-Emilia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 💻 INSTALACION MANUAL POR TERMUX
 
@@ -28,7 +28,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/OfcDiego/YoshikoBot-MD && cd YoshikoBot-MD
+git clone https://github.com/OfcDiego/EmiliaRezero-MD && cd YoshikoBot-MD
 ```
 ```bash
 yarn install && npm install
@@ -41,15 +41,15 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd YoshikoBot-MD
+> cd EmiliaRezero-MD
 > npm start
 ```
 
 🌻 OBTENER OTRO CODIGO QR
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd YoshikoBot-MD
-> rm -rf YoshiSession
+> cd EmiliaRezero-MD
+> rm -rf ZeroSession
 > npm start
 ```
 
@@ -59,18 +59,18 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 🐶 ACTUALIZAR YOSHIKO 
-> Note Comandos para actualizar Yoshiko - MD de forma automática
+> Note Comandos para actualizar Emilia - MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/YoshikoBot-MD/master/update.sh | bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/EmiliaRezero-MD/master/update.sh | bash
 ```
-Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+Para que no pierda su progreso en Zero, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
 ***
 
 #### ☂️ ACTIVA EN HEROKU ☂️
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/YoshikoBot-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/EmiliaRezero-MD)
 
 #### Heroku Buildpack
 | BuildPack | LINK |
@@ -89,10 +89,10 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 - **Contacto:** [`hi@flarex.cloud`](mailto:hi@flarex.cloud) / [`support@flarex.cloud`](mailto:support@flarex.cloud) / [`partnerships@flarex.cloud`](mailto:partnerships@flarex.cloud)
 
 #### 🟢 ACTIVAR EN CODES SPACES 
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YoshikoBot-MD&ref=main&geo=UsEast)
+[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/EmiliaRezero-MD&ref=main&geo=UsEast)
 
 #### 🤍 ACTIVAR EN RENDER
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%YoshikoBot-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%EmiliaRezero-MD) 
 
 ***
 
@@ -123,8 +123,8 @@ Para que no pierda su progreso en Yoshiko, estos comandos realizarán un respald
 *** 
 
 ### `🌟 DESARROLLADORES`
-<a href="https://github.com/OfcDiego/YoshikoBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/YoshikoBot-MD" /> 
+<a href="https://github.com/OfcDiego/EmiliaRezero-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=OfcDiego/EmiliaRezero-MD" /> 
 </a>
 
 ### `☄️ AGRADECIMIENTOS`
@@ -137,4 +137,4 @@ href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" wi
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/YoshikoBot-MD)**.
 
-**`¡GRACIAS POR PREFERIRNOS! 🐶`**
+**`¡GRACIAS POR PREFERIRNOS! 💖`**
