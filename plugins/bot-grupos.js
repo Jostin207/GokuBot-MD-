@@ -26,7 +26,7 @@ m.react('🤍')
 
 //await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
 
- conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
+await conn.sendFile(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
