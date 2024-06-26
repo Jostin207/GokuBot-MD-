@@ -181,7 +181,7 @@ forwardedNewsletterMessageInfo: {
 newsletterJid: '120363263466636910@newsletter',
 newsletterName: packname,
 serverMessageId: -1
-}}}, { quoted: estilo })
+}}}, { quoted: fkontak })
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
