@@ -1,4 +1,3 @@
-let pp = './Menu.jpg'
 let handler = async (m, { conn, command }) => {
 let colab = `*◜💙 GRUPOS OFICIALES 💙◞*
 
@@ -20,11 +19,7 @@ ${gp4}
 
 ✨️ ${namechannel}
 ${channel}`
-m.react('😻') 
-
-//await conn.sendFile(m.chat, pp, 'zero.jpg', str, rcanal)}
-
-//await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
+m.react('🤍') 
 
   let category = "video"
   const db = './media/database/db.json'
@@ -36,8 +31,7 @@ m.react('😻')
 
 conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
 
-handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
+handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
 handler.register = true
-handler.exp = 33
 
 export default handler
