@@ -30,7 +30,7 @@ let pp1 = vid
 let pp2 = pp1
 let pp3 = pp2
 
-conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3].getRandom() }, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })
+conn.sendMessage(m.chat, { video: { url: [pp1, pp2, pp3].getRandom() }, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
