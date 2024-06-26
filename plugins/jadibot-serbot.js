@@ -17,7 +17,7 @@ return
 }
 let parentw = args[0] && args[0] == "plz" ? conn : await global.conn
 if (!(args[0] && args[0] == 'plz' || (await global.conn).user.jid == conn.user.jid)) {
-return m.reply("🤍 Este comando solo puede ser usado en el bot principal.\n> https://wa.me/" + global.conn.user.jid.split`@`[0x0] + "?text=" + usedPrefix + "qr")
+return m.reply("「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me" + global.conn.user.jid.split`@`[0x0] + "?text=" + usedPrefix + "qr")
 }
 async function serbot() {
 let serbotFolder = crypto.randomBytes(10).toString('hex').slice(0, 8)
@@ -59,7 +59,7 @@ conn.isInit = true
 }
 if (qr) {
 let txt = `𝗦𝗲𝗿 𝗝𝗮𝗱𝗶𝗯𝗼𝘁 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 🤍\n\n🚀 *Escanea Este Codigo QR Para Convertirte En Un Sub Bot Temporal.*\n\n🎌 *Pasos Para Escanear:*\n\n1. Diríjase a los tres puntos ubicado en la esquina superior derecha.\n\n2. Ir a la opción dispositivos vinculados.\n\n3. Da Click En Vincular Dispositivo & escanea este codigo qr.\n\n📢 *Aviso:* Este Código QR Expira En 45 Segundos.\n\n𝗕𝘆: ${packname}`
-let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m)
+let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, rcanal)
 setTimeout(() => {
 parentw.sendMessage(m.chat, { delete: sendQR.key })
 }, 30000)
