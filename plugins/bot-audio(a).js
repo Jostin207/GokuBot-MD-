@@ -1,4 +1,4 @@
-const handler = async (m, {conn}) => {
+/*const handler = async (m, {conn}) => {
   if (!db.data.chats[m.chat].audios) return;
   if (!db.data.settings[conn.user.jid].audios && !m.isGroup) return;
   //const s = seconds: '1934.4'
@@ -8,4 +8,4 @@ const handler = async (m, {conn}) => {
 };
 handler.customPrefix = /ª|a|A/
 handler.command = /^(a|ª|A?$)/
-export default handler;
+export default handler;*/
