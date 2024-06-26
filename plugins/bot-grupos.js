@@ -24,7 +24,17 @@ m.react('🤍')
 
 //await conn.sendFile(m.chat, pp, 'zero.jpg', str, rcanal)}
 
-await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
+//await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
+
+await conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender], contextInfo: {
+mentionedJid: await conn.parseMention(text),
+isForwarded: true,
+forwardingScore: 1, 
+forwardedNewsletterMessageInfo: {
+newsletterJid: '120363263466636910@newsletter',
+newsletterName: packname,
+serverMessageId: -1
+}}}, { quoted: estilo })
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
