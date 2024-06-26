@@ -10,7 +10,7 @@ console.log()
 } else {
 global.conns = []
 }
-let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner isROwner }) => {
+let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner, isPrems, isROwner }) => {
 if (!global.db.data.settings[conn.user.jid].jadibotmd && !isRowner ) {
 conn.reply(m.chat, '🤍 Este Comando está deshabilitado por mi creador.', m, rcanal)
 return
