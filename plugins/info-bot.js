@@ -16,9 +16,6 @@ conn.reply(m.chat, `*pervertido* 🫣`, m, fake, )
 if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rrocito* 🍚`, m, fake, )
 }
-if (/^bug$/i.test(m.text)) {
-conn.reply(m.chat, `*tu mamá we* 😹`, m, fake, )
-}
 if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, fake, )
 }
