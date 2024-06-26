@@ -172,7 +172,15 @@ m.react('🌸')
 
 //await conn.sendMessage(m.chat, { video: gif, caption: text.trim(), gifPlayback: true, mentions: [m.sender] }, "MessageVideo", { mimetype: "gif", quoted: fkontak })
 
-conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
+await conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender], contextInfo: {
+mentionedJid: await conn.parseMention(menu),
+isForwarded: true,
+forwardingScore: 1, 
+forwardedNewsletterMessageInfo: {
+newsletterJid: '120363263466636910@newsletter',
+newsletterName: packname,
+serverMessageId: -1
+}}}, { quoted: estilo })
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
