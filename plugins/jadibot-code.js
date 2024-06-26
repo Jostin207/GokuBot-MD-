@@ -13,7 +13,7 @@ import { makeWASocket } from '../lib/simple.js';
 if (!(global.conns instanceof Array)) global.conns = [];
 let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => {
 if (!global.db.data.settings[conn.user.jid].jadibotmd ) {
-m.reply('👑 Este Comando está deshabilitado por mi creador.')
+m.reply('🤍 Este Comando está deshabilitado por mi creador.')
 return
 }
 let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn;
