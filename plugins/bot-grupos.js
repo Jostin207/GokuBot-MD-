@@ -20,13 +20,13 @@ ${gp4}
 
 ✨️ ${namechannel}
 ${channel}`
-m.react('🤍') 
+m.react('😻') 
 
 //await conn.sendFile(m.chat, pp, 'zero.jpg', str, rcanal)}
 
 //await conn.sendFile(m.chat, pp, 'thumbnail.jpg', colab.trim(), m, null, rcanal)}
 
-conn.sendMessage(m.chat, { video: { url: vid }, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
+conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
