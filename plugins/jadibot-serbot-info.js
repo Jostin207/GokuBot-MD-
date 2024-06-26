@@ -14,7 +14,7 @@ const replyMessage = message.length === 0 ? "" : message
 const totalUsers = uniqueUsers.size;
 const responseMessage = `${` 💙 *S E R B O T - J A D I B O T* 💙\n\n${replyMessage.trim()}`.trim()}`
 
-let img = await (await fetch(`${icons}`)).buffer()
+let img = await (await fetch(`https://telegra.ph/file/feaf7c2729379803d80ea.jpg`)).buffer()
 
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }
