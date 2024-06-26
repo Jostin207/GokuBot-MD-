@@ -8,7 +8,7 @@ global.conns.forEach((conn) => {
 if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
 uniqueUsers.set(conn.user.jid.replace(/[^0-9]/g, ''), conn.user)}})
 
-const message = Array.from(uniqueUsers.values()).map((user, index) => `╭─⬣「 ${packname} 」⬣\n│⁖ฺ۟̇࣪·֗٬̤⃟🌸 *${index + 1}.-* @${user.jid.replace(/[^0-9]/g, '')}\n│❀ *Link:* https://wa.me/${user.jid.replace(/[^0-9]/g, '')}\n│❀ *Nombre:* ${user.name || '𝚂𝚄𝙱-𝙱𝙾𝚃'}\n╰─⬣\n`).join('\n')
+const message = Array.from(uniqueUsers.values()).map((user, index) => `╭─⬣「 *Emilia Re:zero* 🤍 」⬣\n│⁖ฺ۟̇࣪·֗٬̤⃟🌸 *${index + 1}.-* @${user.jid.replace(/[^0-9]/g, '')}\n│❀ *Link:* https://wa.me/${user.jid.replace(/[^0-9]/g, '')}\n│❀ *Nombre:* ${user.name || '𝚂𝚄𝙱-𝙱𝙾𝚃'}\n╰─⬣\n`).join('\n')
 
 const replyMessage = message.length === 0 ? "" : message
 const totalUsers = uniqueUsers.size;
