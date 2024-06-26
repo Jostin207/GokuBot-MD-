@@ -34,7 +34,7 @@ forwardedNewsletterMessageInfo: {
 newsletterJid: '120363263466636910@newsletter',
 newsletterName: packname,
 serverMessageId: -1
-}}}, { quoted: estilo })
+}}}, { quoted: estilo })}
 
 handler.command = /^grupos|linkyl|gruposofc|gruposoficiales$/i
 handler.register = true
