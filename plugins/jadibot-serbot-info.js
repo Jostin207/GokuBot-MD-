@@ -1,23 +1,22 @@
 import ws from 'ws'
+import fetch from 'node-fetch'
 
-async function handler(m, { conn: stars, usedPrefix }) {
-  let uniqueUsers = new Map()
+async function handler(m, { conn: _envio, usedPrefix }) {
+const uniqueUsers = new Map()
 
-  global.conns.forEach((conn) => {
-    if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
-      uniqueUsers.set(conn.user.jid, conn)
-    }
-  })
+global.conns.forEach((conn) => {
+if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
+uniqueUsers.set(conn.user.jid.replace(/[^0-9]/g, ''), conn.user)}})
 
-  let users = [...uniqueUsers.values()]
+const message = Array.from(uniqueUsers.values()).map((user, index) => `╭─⬣「 ${packname} 」⬣\n│⁖ฺ۟̇࣪·֗٬̤⃟🌸 *${index + 1}.-* @${v.user.jid.replace(/[^0-9]/g, '')}\n│❀ *Link:* https://wa.me/${user.jid.replace(/[^0-9]/g, '')}\n│❀ *Nombre:* ${user.name || '𝚂𝚄𝙱-𝙱𝙾𝚃'}\n╰─⬣\n`).join('\n')
 
-  let message = users.map((v, index) => `╭─⬣「 ${packname} 」⬣\n│⁖ฺ۟̇࣪·֗٬̤⃟🌸 *${index + 1}.-* @${v.user.jid.replace(/[^0-9]/g, '')}\n│❀ *Link:* https://wa.me/${v.user.jid.replace(/[^0-9]/g, '')}\n│❀ *Nombre:* ${v.user.name || '𝚂𝚄𝙱-𝙱𝙾𝚃'}\n╰─⬣`).join('\n\n')
+const replyMessage = message.length === 0 ? "" : message
+const totalUsers = uniqueUsers.size;
+const responseMessage = `${` 💙 *S E R B O - J A D I B O T* 💙\n\n${replyMessage.trim()}`.trim()}`
 
-  let replyMessage = message.length === 0 ? '' : message
-  let totalUsers = users.length
-  let responseMessage = `╭━〔 𝐒𝐔𝐁-𝐁𝐎𝐓𝐒 𝐘𝐎𝐒𝐇𝐈𝐊𝐎 ✏️ 〕⬣\n┃	*𝚃𝙾𝚃𝙰𝙻 𝙳𝙴 𝚂𝚄𝙱𝙱𝙾𝚃𝚂* : ${totalUsers || '0'}\n╰━━━━━━━━━━━━⬣\n\n${replyMessage.trim()}`.trim()
+let img = await (await fetch(`${global.vid}`)).buffer()
 
-  await stars.sendMessage(m.chat, { text: responseMessage, mentions: stars.parseMention(responseMessage) }, { quoted: fkontak })
+await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }
 
 handler.command = ['listjadibot', 'bots']
