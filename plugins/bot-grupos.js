@@ -27,9 +27,9 @@ m.react('🤍')
   const random = Math.floor(Math.random() * db_.links[category].length)
   const rlink = db_.links[category][random]
   const response = await fetch(vid)
-  const gif = await response.buffer()
+  const botvid = await response.buffer()
 
-conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: estilo })}
+conn.sendMessage(m.chat, { video: botvid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: estilo })}
 
 handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
 handler.register = true
