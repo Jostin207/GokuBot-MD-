@@ -29,7 +29,7 @@ m.react('🤍')
   const response = await fetch(vid)
   const gif = await response.buffer()
 
-conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: estilo })}
+conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
 
 handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
 handler.register = true
