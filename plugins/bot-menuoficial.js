@@ -9,6 +9,7 @@ let tags = {
   'jadibot': 'SER JADIBOTS 🤖',
   'rpg': 'ECONOMIA 🪙',
   'rg': 'REGISTRO 📇',
+  'fun': 'JUEGOS 😼',
   'sticker': 'STICKER ✨️',
   'xp': 'EXP 🏷',
   'fix': 'FIXMSGESPERA ☁️',
