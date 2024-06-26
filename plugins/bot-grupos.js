@@ -29,7 +29,17 @@ m.react('🤍')
   const response = await fetch(vid)
   const gif = await response.buffer()
 
-conn.sendMessage(m.chat, { video: vid, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: fkontak })}
+//conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: estilo })}
+
+await conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender], contextInfo: {
+mentionedJid: await conn.parseMention(colab),
+isForwarded: true,
+forwardingScore: 1, 
+forwardedNewsletterMessageInfo: {
+newsletterJid: '120363263466636910@newsletter',
+newsletterName: packname,
+serverMessageId: -1
+}}}, { quoted: estilo })}
 
 handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
 handler.register = true
