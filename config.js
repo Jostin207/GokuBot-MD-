@@ -39,6 +39,7 @@ global.vs = '2.0.0'
 global.imagen1 = fs.readFileSync('./Menu.jpg')
 global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
+global.catalogo = fs.readFileSync('./media/database/catalogo.png')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Emilia
