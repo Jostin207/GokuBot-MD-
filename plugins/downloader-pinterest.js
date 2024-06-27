@@ -7,7 +7,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
 m.react(rwait)
 let { dl_url } = await Scraper.pinterest(text)
 await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', `💌 *Resultados De:* ${text}\n${global.textbot}`, m, null, rcanal)
