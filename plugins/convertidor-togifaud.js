@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   const q = m.quoted || m;
   const mime = (q.msg || q).mimetype || '';
   if (!/(mp4)/.test(mime)) throw `*☄️ El Tipo De Archivo ${mime} No Es Correcto, Responda A Un Video Que Desee Convertir En Gif Con Audio*`;
-  conn.reply(m.chat, wait, m, {
+conn.reply(m.chat, wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
