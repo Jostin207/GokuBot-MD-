@@ -1,4 +1,4 @@
-const handler = m => m
+/*const handler = m => m
 handler.all = async function (m) {
 //if (!db.data.chats[m.chat].autobio && m.isGroup) throw `${global.wm} EL AUTOBIO ESTÁ DESACTIVADO, ACTIVALO USANDO #on autobio`
 //if (db.data.settings[this.user.jid].autobio) {
@@ -20,4 +20,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [d, ' : ', h, ' : ', m, ' : ', s].map(v => v.toString().padStart(2, 0)).join('') 
-}
+}*/
