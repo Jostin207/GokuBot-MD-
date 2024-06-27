@@ -8,7 +8,7 @@ const handler = async (m, {command, conn}) => {
   title: packname,
   body: wm,
   previewType: 0, thumbnail: icons,
-  sourceUrl: redes }}})
+  sourceUrl: channel }}})
 
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json`)).data;
