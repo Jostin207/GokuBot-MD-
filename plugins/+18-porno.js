@@ -3,6 +3,13 @@ import fetch from 'node-fetch';
 const handler = async (m, {command, conn}) => {
   if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '💥 *¡Estos comandos están desactivados!*';
 
+  conn.reply(m.chat, wait, m, {
+  contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+  title: packname,
+  body: wm,
+  previewType: 0, thumbnail: icons,
+  sourceUrl: redes }}})
+
   if (command == 'nsfwloli') {
     const res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json`)).data;
     const haha = await res[Math.floor(res.length * Math.random())];
