@@ -10,6 +10,12 @@ return;
 const use = args[0];
 const url = `https://rule34.xxx/index.php?page=dapi&s=post&q=index&json=1&tags=${use}`;
 try {
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
 const response = await fetch(url);
 const data = await response.json();
 if (!data || data.length === 0) {
