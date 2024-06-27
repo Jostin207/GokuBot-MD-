@@ -7,7 +7,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
 let { dl_url } = await Scraper.igdl(args[0])
 await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✅️ *Su Video De Instagram*\n${botname}` }, { quoted: fkontak})
 } catch (e) {
