@@ -12,7 +12,13 @@ let name = await conn.getName(who)
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
 if (!mime) throw '🚩 Responda a una imagen o un video'
-m.react('✏️') 
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
+m.react(rwait) 
 let media = await q.download()
 let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
 let link = await (isTele ? uploadImage : uploadFile)(media)
@@ -21,6 +27,7 @@ let info = ` *📎 Enlace:*\n${link}\n
 *🚀 Expiración:*\n ${isTele ? '☁️ No Expira' : '🛑 Desconocido'}\n
 *🍁 Acortado:*\n${await shortUrl(link)}`
 
+m.react(donde)
 conn.reply(m.chat, info, m, { contextInfo: { externalAdReply :{ mediaUrl: yt, mediaType: 2, title: wm, body: team, thumbnail: await(await fetch(link)).buffer(), sourceUrl: link}}})
 
 }
