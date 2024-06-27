@@ -1,5 +1,7 @@
 const handler = m => m
 handler.all = async function (m) {
+let setting = global.db.data.settings[this.user.jid]
+if (!setting.autobio) {
 
 let _uptime = process.uptime() * 1000
 let _muptime
