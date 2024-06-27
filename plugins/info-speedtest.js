@@ -7,7 +7,7 @@ const handler = async (m) => {
     title: packname,
     body: wm,
     previewType: 0, thumbnail: icons,
-    sourceUrl: redes }}})
+    sourceUrl: channel }}})
   let o;
   try {
     o = await exec('python3 speed.py');
