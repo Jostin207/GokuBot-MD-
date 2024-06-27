@@ -15,7 +15,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
 const response = await fetch(url);
 const data = await response.json();
 if (!data || data.length === 0) {
