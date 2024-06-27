@@ -21,7 +21,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
   title: packname,
   body: wm,
   previewType: 0, thumbnail: icons,
-  sourceUrl: redes }}})
+  sourceUrl: channel }}})
     let [repoResponse, zipResponse] = await Promise.all([
       fetch(repoUrl),
       fetch(zipUrl),
