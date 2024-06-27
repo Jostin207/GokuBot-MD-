@@ -2,7 +2,7 @@ import cp from 'child_process';
 import {promisify} from 'util';
 const exec = promisify(cp.exec).bind(cp);
 const handler = async (m) => {
-      conn.reply(m.chat, wait, m, {
+    conn.reply(m.chat, wait, m, {
     contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
     title: packname,
     body: wm,
