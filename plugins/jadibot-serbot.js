@@ -35,7 +35,7 @@ conn.reply(m.chat, '🤍 Este Comando está deshabilitado por mi creador.', m, r
 return
 }
 let parentw = conn
-if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`, m, fake)
+if (conn.user.jid !== global.conn.user.jid) return parentw.reply(m.chat, `「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`, m, rcanal)
 const mcode = args[0] && args[0].includes('--code') ? true : args[1] && args[1].includes('--code') ? true : false
 
 
