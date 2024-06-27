@@ -16,7 +16,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
 
 const yt_play = await search(args.join(' '))
 let additionalText = ''
