@@ -16,6 +16,12 @@ const handler = async (m, {args, usedPrefix, command}) => {
     await m.reply('*Traducción:* ' + result.text);
   } catch {
     try {
+    conn.reply(m.chat, wait, m, {
+    contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+    title: packname,
+    body: wm,
+    previewType: 0, thumbnail: icons,
+    sourceUrl: redes }}})
       const lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=${lolkeysapi}&text=${text}`);
       const loll = await lol.json();
       const result2 = loll.result.translated;
