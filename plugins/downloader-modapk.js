@@ -6,6 +6,13 @@ if (!text) return conn.reply(m.chat, '🚩 *Ingrese el nombre de la apk para des
 
 try {
 
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
+
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
 let response = `☄️ Descargador De Aptoide 📲\n\n🪐 *Nombre:* ${data5.name}\n🚩 *Package:* ${data5.package}\n🎌 *Actualización:* ${data5.lastup}\n☁️ *Tamaño:* ${data5.size}`
