@@ -1,7 +1,7 @@
 const handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
-if (db.data.serrings[this.user.jid].autobio) {
+if (db.data.serrings[this.user.jid].autobio)
 
 let _uptime = process.uptime() * 1000
 let _muptime
