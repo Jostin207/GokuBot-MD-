@@ -17,7 +17,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
 m.react(rwait) 
 let media = await q.download()
 let isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
