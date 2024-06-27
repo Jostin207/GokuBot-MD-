@@ -6,7 +6,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   title: packname,
   body: wm,
   previewType: 0, thumbnail: icons,
-  sourceUrl: redes }}})
+  sourceUrl: channel }}})
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
