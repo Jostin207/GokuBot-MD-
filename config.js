@@ -25,7 +25,7 @@ global.prems = []
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packname = '𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗 🤍'
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = 'ೄྀ 𝙴𝙼𝙸𝙻𝙸𝙰 𝚁𝙴𝚉𝙴𝚁𝙾 - 𝙼𝙳᭄'
+global.wm = 'ೄྀ ємιℓια яє:zєяσ - м∂ ᭄'
 global.titulowm = '𝙀𝙢𝙞𝙡𝙞𝙖 𝙍𝙚𝙯𝙚𝙧𝙤 - 𝙈𝘿 🌻'
 global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
 global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
