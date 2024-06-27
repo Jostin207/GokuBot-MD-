@@ -12,7 +12,7 @@ setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
 let bio = `『${global.packname}』 |「🕒」𝐀𝐜𝐭𝐢𝐯𝐚: ${uptime} |「</>」 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝: OfcDiego 👑` 
 await this.updateProfileStatus(bio).catch(_ => _)
-setting.status = new Date() * 1
+setting.autobio = new Date() * 1
 } 
 export default handler
 function clockString(ms) {
