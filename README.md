@@ -76,8 +76,6 @@ Para que no pierda su progreso en Zero, estos comandos realizarán un respaldo d
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ### 🧡 INFINITY-HOST 🧡
-> Activar **Emilia Re:zero - MD** 24/7 activo en Infinity-Host
-
 <a href="https://dashboard.infinitywa.xyz"><img src="https://qu.ax/XLCK.jpg" height="125px"></a>
 ### Información del Host
 
@@ -87,7 +85,6 @@ Para que no pierda su progreso en Zero, estos comandos realizarán un respaldo d
 - **Grupo de WhatsApp:** [`Aquí`](https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A)
 - **Support:** [`Bot exclusivo`](https://wa.me/message/FETBF7YBO37CG1)
-> Cuando mi bot esté en infinity host, subiré tutorial!
 
 #### 💙 ACTIVAR EN FLAREXCLOUD
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
