@@ -1,5 +1,5 @@
 let handler = (m, { usedPrefix, command, text }) => {
-    if (!text) throw `Ejemplo:\n${usedPrefix + command} 2000 06 09`
+    if (!text) conn.reply(m.chat, `Ejemplo:\n${usedPrefix + command} 2000 06 09`, m, fake)
 
     const date = new Date(text)
     if (date == 'Fecha invalida, prueba con el siguiente formato AAAA MM DD Ejemplo: 2003 02 07 ') throw date
