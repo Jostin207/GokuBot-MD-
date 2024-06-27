@@ -16,9 +16,9 @@ if (!global.db.data.settings[conn.user.jid].jadibotmd && !isROwner ) {
 conn.reply(m.chat, '🤍 Este Comando está deshabilitado por mi creador.', m, rcanal)
 return
 }
-/*let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn;
+let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn;
 if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-return m.reply(`「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`);*/
+//return m.reply(`「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`);
 }
 async function serbot() {
 let authFolderB = crypto.randomBytes(10).toString('hex').slice(0, 8);
