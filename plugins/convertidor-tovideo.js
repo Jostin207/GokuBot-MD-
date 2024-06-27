@@ -6,6 +6,12 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   if (!/webp/.test(mime)) throw `*🛑 Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
   const media = await m.quoted.download();
   let out = Buffer.alloc(0);
+  conn.reply(m.chat, wait, m, {
+  contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+  title: packname,
+  body: wm,
+  previewType: 0, thumbnail: icons,
+  sourceUrl: channel }}})
   if (/webp/.test(mime)) {
     out = await webp2mp4(media);
   } else if (/audio/.test(mime)) {
