@@ -1,7 +1,7 @@
 const handler = m => m
 handler.all = async function (m) {
 //if (!db.data.chats[m.chat].stickers && m.isGroup) throw `${global.wm} EL AUTOBIO ESTÁ DESACTIVADO, ACTIVALO USANDO #on autobio`
-if (db.data.settings[this.user.jid].autobio) {
+if (db.data.setting[this.user.jid].autobio) {
 return
 }
 
