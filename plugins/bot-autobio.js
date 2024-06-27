@@ -1,8 +1,7 @@
 const handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
-if (!db.data.chats[m.chat].game) 
-
+if (db.data.serrings[this.user.jid].autobio) {
 
 let _uptime = process.uptime() * 1000
 let _muptime
