@@ -49,6 +49,8 @@ global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.espera = conn.reply(m.chat, wait, m, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true, title: packname, body: wm, previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
