@@ -8,7 +8,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttributio
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: channel }}})
   const media = await q.download();
   conn.sendMessage(m.chat, {video: media, gifPlayback: true, caption: '*☁️ La Musica Se Reproduce Cuando Abras El Archivo*'}, {quoted: m});
 };
