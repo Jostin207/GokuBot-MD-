@@ -4,6 +4,13 @@ var handler = async (m, { text, conn, args, command, usedPrefix }) => {
 
 if (!text) return conn.reply(m.chat, `💌 *Escriba el título de algún vídeo de Youtube*\n\nEjemplo, !${command} Emilia Re:zero`, m, rcanal, )
 
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
+
 let results = await yts(text)
 let tes = results.all
 let teks = results.all.map(v => {
