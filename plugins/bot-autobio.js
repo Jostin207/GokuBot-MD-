@@ -3,8 +3,6 @@ handler.all = async function (m) {
 //if (!db.data.chats[m.chat].stickers && m.isGroup) throw `${global.wm} EL AUTOBIO ESTÁ DESACTIVADO, ACTIVALO USANDO #on autobio`
 if (db.data.settings[this.user.jid].autobio) {
 
-}
-
 let _uptime = process.uptime() * 1000
 let _muptime
 if (process.send) { process.send('uptime')
