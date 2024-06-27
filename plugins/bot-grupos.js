@@ -31,6 +31,8 @@ m.react('🤍')
 
 //conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender] }, { quoted: estilo })}
 
+let estilo = { key: {participant: `0@s.whatsapp.net`, ...("6289643739077-1613049930@g.us" ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title": wm, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': 'Emilia estuvo aquí ^~^', 'jpegThumbnail': icons }}}
+
 await conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: colab.trim(), mentions: [m.sender], contextInfo: {
 mentionedJid: await conn.parseMention(colab),
 isForwarded: true,
