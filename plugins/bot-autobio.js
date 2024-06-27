@@ -2,7 +2,7 @@ const handler = m => m
 handler.all = async function (m) {
 let setting = global.db.data.settings[this.user.jid]
 
-//if (db.data.settings[this.user.jid].autobio) {
+if (db.data.settings[this.user.jid].autobio) {
 
 let _uptime = process.uptime() * 1000
 let _muptime
@@ -12,7 +12,7 @@ setTimeout(resolve, 2000) }) * 1000}
 let uptime = clockString(_uptime)
 let bio = `『${global.packname}』 |「🕒」𝐀𝐜𝐭𝐢𝐯𝐚: ${uptime} |「</>」 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝: OfcDiego 👑` 
 await this.updateProfileStatus(bio).catch(_ => _)
-setting.autobio = new Date() * 1
+//setting.status = new Date() * 1
 } 
 export default handler
 function clockString(ms) {
