@@ -3,6 +3,12 @@ import { webp2png } from '../lib/webp2mp4.js'
 var handler = async (m, { conn, usedPrefix, command }) => {
 
 const notStickerMessage = `*🌳 Responda a una imagen*`
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: channel }}})
 if (!m.quoted) throw notStickerMessage 
 const q = m.quoted || m
 let mime = q.mediaType || ''
