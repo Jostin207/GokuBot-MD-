@@ -11,12 +11,12 @@ m.react(rwait)
 
 try {
 
-conn.reply(m.chat, wait, m, {
+/* conn.reply(m.chat, wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: redes }}})
+sourceUrl: redes }}}) */
 
 const yt_play = await search(args.join(' '))
 let additionalText = ''
