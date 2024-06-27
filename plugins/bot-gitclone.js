@@ -16,6 +16,12 @@ let handler = async (m, { args, usedPrefix, command }) => {
   let zipUrl = `https://api.github.com/repos/${user}/${sanitizedRepo}/zipball`
   await m.react('🕓')
   try {
+  conn.reply(m.chat, wait, m, {
+  contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+  title: packname,
+  body: wm,
+  previewType: 0, thumbnail: icons,
+  sourceUrl: redes }}})
     let [repoResponse, zipResponse] = await Promise.all([
       fetch(repoUrl),
       fetch(zipUrl),
