@@ -1,7 +1,6 @@
-/*const handler = m => m
+const handler = m => m
 handler.all = async function (m) {
-//if (!db.data.chats[m.chat].autobio && m.isGroup) throw `${global.wm} EL AUTOBIO ESTÁ DESACTIVADO, ACTIVALO USANDO #on autobio`
-//if (db.data.settings[this.user.jid].autobio) {
+if (!db.data.chats[m.chat].game) // throw `𝙀𝙨𝙩𝙚 𝙟𝙪𝙚𝙜𝙤𝙨 𝙚𝙨𝙩𝙖 𝙙𝙚𝙨𝙖𝙘𝙩𝙞𝙫𝙖𝙙𝙤 𝙥𝙤𝙧 𝙡𝙤𝙨 𝙖𝙙𝙢𝙞𝙣𝙨 𝙙𝙚𝙡 𝙂𝙧𝙪𝙥𝙤 𝙨𝙞 𝙩𝙪 𝙚𝙧𝙚𝙨 𝙖𝙙𝙢𝙞𝙣𝙨 𝙮 𝙦𝙪𝙞𝙚𝙧𝙚 𝙖𝙘𝙩𝙞𝙫𝙖𝙧𝙡𝙤 𝙪𝙨𝙖𝙧: #enable juegos` 
 
 let _uptime = process.uptime() * 1000
 let _muptime
@@ -20,4 +19,4 @@ function clockString(ms) {
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [d, ' : ', h, ' : ', m, ' : ', s].map(v => v.toString().padStart(2, 0)).join('') 
-}*/
+}
