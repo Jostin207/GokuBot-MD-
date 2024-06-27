@@ -67,6 +67,12 @@ return text;
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) throw `╰⊱❗️⊱ *ACCIÓN MAL USADA* ⊱❗️⊱╮\n\n👑 *DEBE DE USAR EL COMANDO COMO EN ESTE EJEMPLO:*\n${usedPrefix + command} *tu foto*`
 try {
+conn.reply(m.chat, wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: wm,
+previewType: 0, thumbnail: icons,
+sourceUrl: redes }}})
 m.react(rwait)
 let songInfo = await spotifyxv(text)
 if (!songInfo.length) throw `*No se encontró la canción*`
