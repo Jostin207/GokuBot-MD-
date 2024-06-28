@@ -15,8 +15,7 @@ await m.react(rwait)
 const yt = await fg.yta(urls[0], q)
 let { title, dl_url, size } = yt 
 
-//if (size.split('MB')[0] >= limit) return 
-conn.reply(m.chat, `✨️ El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal) 
+//if (size.split('MB')[0] >= limit) return conn.reply(m.chat, `✨️ El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal) 
 conn.reply(m.chat, `⏱️ *Descargando El Audio*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
