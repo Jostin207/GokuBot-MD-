@@ -31,6 +31,7 @@ const time = dd.toLocaleString('en-US', {
     });
 
 function clockString(ms) {
+ms = Number(ms);
   let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
