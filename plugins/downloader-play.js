@@ -2,16 +2,16 @@ import fetch from "node-fetch"
 import yts from "yt-search"
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-  if (!text) throw `*Que estás Buscando*\n\n*Ejemplo:*\n*${usedPrefix + command}* Illenium - From The Ashes`
+if (!text) return conn.reply(m.chat, `💌 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} Distancia - Kimberly Contreraxx`,  m, rcanal, )
 conn.reply(m.chat, global.wait, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
-    try {
-    let yt_play = await search(args.join(" "))
-    let img = await (await fetch(`${yt_play[0].image}`)).buffer()
+try {
+let yt_play = await search(args.join(" "))
+let img = await (await fetch(`${yt_play[0].image}`)).buffer()
 let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
 > 🌩 τιτυℓο:
 > • ${yt_play[0].title}
@@ -47,37 +47,36 @@ sourceUrl: `${yt_play[0].url}`,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: fkontak})
-//await m.react('✅')
 } catch {
-await m.reply(`✘ Ocurrío un error`)
-}}
+await m.reply(`✘ Ocurrío un error`)}}
+
 handler.help = ['play *<búsqueda>*', 'play2 *<busqueda>*']
 handler.tags = ['downloader']
 handler.command = ['play', 'play2']
 export default handler
 
 async function search(query, options = {}) {
-  let search = await yts.search({ query, hl: "es", gl: "ES", ...options });
-  return search.videos;
+let search = await yts.search({ query, hl: "es", gl: "ES", ...options });
+return search.videos;
 }
 
 function MilesNumber(number) {
-  let exp = /(\d)(?=(\d{3})+(?!\d))/g;
-  let rep = "$1.";
-  let arr = number.toString().split(".");
-  arr[0] = arr[0].replace(exp, rep);
-  return arr[1] ? arr.join(".") : arr[0];
+let exp = /(\d)(?=(\d{3})+(?!\d))/g;
+let rep = "$1.";
+let arr = number.toString().split(".");
+arr[0] = arr[0].replace(exp, rep);
+return arr[1] ? arr.join(".") : arr[0];
 }
 
 function secondString(seconds) {
-  seconds = Number(seconds);
-  var d = Math.floor(seconds / (3600 * 24));
-  var h = Math.floor((seconds % (3600 * 24)) / 3600);
-  var m = Math.floor((seconds % 3600) / 60);
-  var s = Math.floor(seconds % 60);
-  var dDisplay = d > 0 ? d + (d == 1 ? ":" : ":") : "";
-  var hDisplay = h > 0 ? h + (h == 1 ? ":" : ":") : "";
-  var mDisplay = m > 0 ? m + (m == 1 ? ":" : ":") : "";
-  var sDisplay = s > 0 ? s + (s == 1 ? "" : "") : "";
-  return dDisplay + hDisplay + mDisplay + sDisplay;
+seconds = Number(seconds);
+var d = Math.floor(seconds / (3600 * 24));
+var h = Math.floor((seconds % (3600 * 24)) / 3600);
+var m = Math.floor((seconds % 3600) / 60);
+var s = Math.floor(seconds % 60);
+var dDisplay = d > 0 ? d + (d == 1 ? ":" : ":") : "";
+var hDisplay = h > 0 ? h + (h == 1 ? ":" : ":") : "";
+var mDisplay = m > 0 ? m + (m == 1 ? ":" : ":") : "";
+var sDisplay = s > 0 ? s + (s == 1 ? "" : "") : "";
+return dDisplay + hDisplay + mDisplay + sDisplay;
 }
