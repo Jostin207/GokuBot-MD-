@@ -38,7 +38,7 @@ await m.reply(`✘ Ocurrío un error`)
 }}}
 handler.help = ['Video']
 handler.tags = ['downloader']
-handler.customPrefix = /^(Video|video|vídeo|Vídeo)/
+handler.customPrefix = /^(1|video)/
 handler.command = new RegExp
 
 export default handler
