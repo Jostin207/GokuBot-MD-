@@ -16,11 +16,11 @@ ${global.md}`.trim()
 await conn.reply(m.chat, zero, m, fake, )
 
 }
-handler.customPrefix = /reglas|Reglas|reglasbot, botreglas|uso, usobot|uso del bot/i
+handler.help = ['botreglas']
+handler.tags = ['main']
+handler.customPrefix = /botreglas|Reglas|reglas|usodelbot/i
 handler.command = new RegExp
-
 handler.register = true
-
 export default handler
 
 const more = String.fromCharCode(8206)
