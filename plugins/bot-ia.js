@@ -6,8 +6,8 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avion de papel`, m, rcanal)
-await m.react(mensaje)
+if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal)
+await m.react('💬')
 try {
 let { msg } = await Starlights.openAi(text)
 await conn.reply(m.chat, msg, m, rcanal)
