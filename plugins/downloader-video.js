@@ -23,16 +23,17 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `${title}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: m })
-//await m.react('✅')
+await m.react(done)
 } catch {
 try {
+await m.react(rwait)
 let yt = await fg.ytmp4(urls[0], q)
 let { title, size, dl_url } = yt
 
 if (size.split('MB')[0] >= limit) return m.reply(`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`) 
 
 await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `${title}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
-//await m.react('✅')
+await m.react(done)
 } catch {
 await m.reply(`✘ Ocurrío un error`)
 }}}
