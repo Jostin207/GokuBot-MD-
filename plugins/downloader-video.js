@@ -3,7 +3,7 @@ import yts from 'yt-search'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let limit = 350
 let handler = async (m, { conn, text, isPrems, isOwner, usedPrefix, command }) => {
-if (!m.quoted) return m.reply('Etiqueta el mensaje que contenga el resultado de YouTube Play.')
+if (!m.quoted) return conn.reply(m.chat, 'Etiqueta el mensaje que contenga el resultado de YouTube Play.', m, rcanal)
 if (!m.quoted.text.includes(`${packname}`)) return conn.reply(m.chat, 'Etiqueta el mensaje que contenga el resultado de YouTube Play.', m, rcanal)
 if (!m.quoted.isBaileys) return conn.reply(m.chat, 'Etiqueta un mensaje mio que contenga el resultado de YouTube Play.', m, rcanal)
 let urls = m.quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
