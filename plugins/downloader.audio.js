@@ -11,6 +11,7 @@ if (!urls) return m.reply('×')
 if (urls.length < text) return m.reply('Resultado no Encontrado.')
 let q = '128kbps'
 try {
+await m.react(rwait)
 const yt = await fg.yta(urls[0], q)
 let { title, dl_url, size } = yt 
 
@@ -23,7 +24,7 @@ previewType: 0, thumbnail: icons,
 sourceUrl: redes }}})
 
 await conn.sendMessage(m.chat, { audio: { url: dl_url }, fileName: title + '.mp3', mimetype: 'audio/mp4' }, { quoted: fkontak })
-//await m.react('✅')
+await m.react(done)
 } catch {
 try {
 let yt = await fg.ytmp3(urls[0], q)
@@ -32,7 +33,7 @@ let { title, size, dl_url } = yt
 if (size.split('MB')[0] >= limit) return m.reply(`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`) 
 
 await conn.sendMessage(m.chat, { audio: { url: dl_url }, fileName: title + '.mp3', mimetype: 'audio/mp4' }, { quoted: fkontak })
-//await m.react('✅')
+await m.react(done)
 } catch {
 await m.reply(`✘ Ocurrío un error`)
 }}}
