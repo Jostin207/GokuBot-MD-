@@ -16,7 +16,7 @@ let txt = `*乂  S C R I P T  -  M A I N*\n\n`
     txt += `> 🚩 *${packname}*`
 let img = await (await fetch(imagen1)).buffer()
 
-await conn.reply(m.chat, botname, textbot, txt, img, img, redes, m, rcanal)
+await conn.reply(m.chat, botname, textbot, txt, img, img, redes, m)
 } catch {
 await m.react('✖️')
 }}
