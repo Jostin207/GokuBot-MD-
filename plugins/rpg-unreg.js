@@ -7,7 +7,7 @@ return conn.reply(m.chat, `*『✅』 Usted Ya No Está En Mi Base De Datos*`, m
 
 }
 handler.help = ['unreg']
-handler.tags = ['xp']
+handler.tags = ['rg']
 handler.command = /^unreg(ister)?$/i
 handler.register = true
 export default handler
