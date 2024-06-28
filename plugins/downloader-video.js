@@ -4,7 +4,7 @@ import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let limit = 350
 let handler = async (m, { conn, text, isPrems, isOwner, usedPrefix, command }) => {
 if (!m.quoted) return m.reply('Etiqueta el mensaje que contenga el resultado de YouTube Play.')
-if (!m.quoted.text.includes("𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲,𝘇𝗲𝗿𝗼 | 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗩𝗶𝗱𝗲𝗼")) return m.reply('Etiqueta el mensaje que contenga el resultado de YouTube Play.')
+if (!m.quoted.text.includes(`${packname}`)) return m.reply('Etiqueta el mensaje que contenga el resultado de YouTube Play.')
 if (!m.quoted.isBaileys) return m.reply('Etiqueta un mensaje mio que contenga el resultado de YouTube Play.')
 let urls = m.quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
 if (!urls) return m.reply('×')
