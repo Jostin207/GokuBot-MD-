@@ -15,12 +15,11 @@ let yt_play = await search(args.join(" "))
 let img = await (await fetch(`${yt_play[0].image}`)).buffer()
 
 let txt = `*乂  Y O U T U B E  -  P L A Y*\n\n`
-txt += `        ✩   *Título* : ${vid.title}\n`
-txt += `        ✩   *Duración* : ${vid.timestamp}\n`
-txt += `        ✩   *Visitas* : ${vid.views}\n`
-txt += `        ✩   *Autor* : ${vid.author.name}\n`
-txt += `        ✩   *Publicado* : ${eYear(vid.ago)}\n`
-txt += `        ✩   *Url* : ${'https://youtu.be/' + vid.videoId}\n\n`
+txt += `        ✩   *Título* : ${yt_play[0].title}\n`
+txt += `        ✩   *Duración* : ${secondString(yt_play[0].duration.seconds)}\n`
+txt += `        ✩   *Autor* : ${yt_play[0].author.name}\n`
+txt += `        ✩   *Publicado* : ${yt_play[0].ago}\n`
+txt += `        ✩   *Url* : ${yt_play[0].url}\n\n`
 txt += `✨️ *Nota:* Para descargar responde a este mensaje con *1* o *2*.\n\n`
 txt += `*1:* Video\n*2:* Audio`
 
