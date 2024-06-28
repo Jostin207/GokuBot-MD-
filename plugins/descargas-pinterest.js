@@ -16,7 +16,7 @@ m.react(done)
 m.react(error)
 }}
 handler.help = ['pinterest <texto>']
-handler.tags = ['internet']
+handler.tags = ['buscador', 'descargas']
 handler.command = ['pinterest']
 handler.limit = 1
 handler.register = true
