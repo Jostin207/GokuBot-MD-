@@ -11,6 +11,7 @@ if (!urls) return m.reply('×')
 if (urls.length < text) return m.reply('Resultado no Encontrado.')
 let q = urls[1] || '480p'
 try {
+await m.react(rwait)
 const yt = await fg.ytv(urls[0], q)
 let { title, dl_url, size } = yt 
 
@@ -26,7 +27,6 @@ await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `${title}`, mi
 await m.react(done)
 } catch {
 try {
-await m.react(rwait)
 let yt = await fg.ytmp4(urls[0], q)
 let { title, size, dl_url } = yt
 
