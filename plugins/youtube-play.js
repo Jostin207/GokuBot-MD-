@@ -62,7 +62,7 @@ await m.react(done)
 await m.reply(`✘ Ocurrío un error`)}}
 
 handler.help = ['play *<búsqueda>*', 'play2 *<busqueda>*']
-handler.tags = ['downloader']
+handler.tags = ['descargas', 'youtube']
 handler.command = ['play', 'play2']
 handler.register = true
 export default handler
