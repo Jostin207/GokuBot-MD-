@@ -58,6 +58,6 @@ m.react('🌟')
 handler.help = ['staff']
 handler.command = ['colaboradores', 'staff']
 handler.register = true
-handler.tags = ['info']
+handler.tags = ['main']
 
 export default handler
