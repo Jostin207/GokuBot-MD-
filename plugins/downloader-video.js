@@ -16,7 +16,7 @@ let { title, dl_url, size } = yt
 
 if (size.split('MB')[0] >= limit) return m.reply(`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`) 
 
-conn.reply(m.chat, `Descargando Video`, m, {
+conn.reply(m.chat, `⏱️ *Descargando El Video*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
