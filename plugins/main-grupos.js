@@ -41,6 +41,8 @@ newsletterName: packname,
 serverMessageId: -1
 }}}, { quoted: estilo })}
 
+handler.tags = ['main']
+handler.help = ['grupos']
 handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
 handler.register = true
 
