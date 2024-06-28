@@ -1,7 +1,6 @@
 let handler = async (m, { usedPrefix, command }) => {
 let uptime = await process.uptime()
-let runtime = `
-${global.wm} |『 *Tiempo Activa* 』
+let runtime = `『 *Tiempo Activa* 』
 
 ✰ 𝗧𝗶𝗲𝗺𝗽𝗼 𝗔𝗰𝘁𝗶𝘃𝗮: ${rTime(uptime)}`
 conn.reply(m.chat, runtime, m, { contextInfo: { externalAdReply: { mediaUrl: false, mediaType: 1, description: false, title: packname, body: dev, previewType: 0, thumbnail: icons, sourceUrl: channel}}})
@@ -27,9 +26,9 @@ function rTime(seconds) {
   var h = Math.floor((seconds % (3600 * 24)) / 3600);
   var m = Math.floor((seconds % 3600) / 60);
   var s = Math.floor(seconds % 60);
-  var dDisplay = d > 0 ? d + (d == 1 ? " dia, " : " Dias, ") : "";
-  var hDisplay = h > 0 ? h + (h == 1 ? " hora, " : " Horas, ") : "";
-  var mDisplay = m > 0 ? m + (m == 1 ? " minuto, " : " Minutos, ") : "";
-  var sDisplay = s > 0 ? s + (s == 1 ? " segundo" : " Segundos") : "";
+  var dDisplay = d > 0 ? d + (d == 1 ? " dia, " : ": ") : "";
+  var hDisplay = h > 0 ? h + (h == 1 ? " hora, " : ": ") : "";
+  var mDisplay = m > 0 ? m + (m == 1 ? " minuto, " : ": ") : "";
+  var sDisplay = s > 0 ? s + (s == 1 ? " segundo" : " ") : "";
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
