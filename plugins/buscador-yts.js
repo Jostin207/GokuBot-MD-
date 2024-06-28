@@ -25,7 +25,7 @@ conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, fkontak, m)
 
 }
 handler.help = ['ytsearch']
-handler.tags = ['internet']
+handler.tags = ['buscador']
 handler.command = /^playlist|ytbuscar|yts(earch)?$/i
 
 handler.register = true
