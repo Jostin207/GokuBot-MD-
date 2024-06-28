@@ -23,7 +23,7 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 
-await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: { externalAdReply: { title: `${yt_play[0].title}`, body: dev, thumbnailUrl: `${yt_play[0].url}`, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })    
+await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: 'audio/mpeg', contextInfo: { externalAdReply: { title: `😺 Tu Musica`, body: dev, thumbnailUrl: `${yt}`, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: fkontak })   
 await m.react(done)
 } catch {
 try {
