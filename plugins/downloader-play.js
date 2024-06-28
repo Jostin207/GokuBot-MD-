@@ -12,7 +12,15 @@ sourceUrl: channel }}})
 try {
 let yt_play = await search(args.join(" "))
 let img = await (await fetch(`${yt_play[0].image}`)).buffer()
-let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
+
+let txt = `${packname}\n\n`
+       txt += `> 🌩 τιτυℓο: ${yt_play[0].title}\n\n`
+       txt += `> 🍇 ժմɾαcíօ́ղ: ${secondString(yt_play[0].duration.seconds)}\n\n`
+       txt += `> 🌦 ρυϐℓιϲα∂ο єи:   ${yt_play[0].ago}\n\n`
+       txt += `> 🍭 єиℓαϲє: ${'https://youtu.be/' + yt_play[0].videoId}\n\n`
+       txt += `> Para descargar responde a este mensaje con *Video* o *Audio*.`
+
+/* let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
 > 🌩 τιτυℓο:
 > • ${yt_play[0].title}
 > ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
@@ -32,7 +40,7 @@ let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
 > • ${secondString(yt_play[0].duration.seconds)}
 ・₊✧。..・★🎸🎧°⋆♡₊˚ 🔮
 
-> Para descargar responde a este mensaje con *Video* o *Audio*.`
+> Para descargar responde a este mensaje con *Video* o *Audio*.` */
 await conn.sendMessage(m.chat, {
 text: txt,
 contextInfo: { 
