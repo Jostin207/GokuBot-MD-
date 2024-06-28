@@ -23,7 +23,7 @@ title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
-await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✨️ *Tu video de Youtube*\n${packname}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
+await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✨️ *Tu video de Youtube*\n${wm}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
 await m.react(done)
 } catch {
 try {
@@ -32,7 +32,7 @@ let { title, size, dl_url } = yt
 
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat, `✨️ El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, rcanal) 
 
-await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✨️ *Tu video de Youtube*\n${packname}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
+await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: `✨️ *Tu video de Youtube*\n${wm}`, mimetype: 'video/mp4', fileName: `${title}` + `.mp4`}, {quoted: fkontak })
 await m.react(done)
 } catch {
 await m.reply(`✘ *Ocurrío un error*`)
