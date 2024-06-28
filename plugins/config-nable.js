@@ -27,8 +27,8 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 • 𝗠𝗼𝗱𝗼 𝗵𝗼𝘁
 *${usedPrefix + command} modohorny*
 
-• 𝗥𝗲𝗮𝗰𝗰𝗶𝗼𝗻 𝗰𝗼𝗻 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀
-*${usedPrefix + command} stickers*
+• 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮
+*${usedPrefix + command} status*
 
 • 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗿 𝗷𝘂𝗲𝗴𝗼𝘀
 *${usedPrefix + command} game*
@@ -150,7 +150,7 @@ throw false
 }}
 chat.antiLink2 = isEnable 
 break
-case 'autobiografia': case 'bio': case 'biografia': case 'autobio': 
+case 'autobiografia': case 'bio': case 'biografia': case 'status': 
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
@@ -248,15 +248,6 @@ throw false
 chat.modohorny = isEnable          
 break
 
-case 'stickers':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.stickers = isEnable          
-break
-
 case 'game': case 'juegos': case 'fun':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
@@ -273,15 +264,6 @@ global.dfail('admin', m, conn)
 throw false
 }}
 chat.game2 = isEnable          
-break
-
-case 'temporal':
-isAll = true
-if (!isOwner) {
-global.dfail('owner', m, conn)
-throw false
-}
-bot.temporal = isEnable
 break
 
 case 'autolevelup': case 'autonivel': case 'nivelautomatico':
