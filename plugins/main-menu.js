@@ -5,7 +5,6 @@ import { xpRange } from '../lib/levelling.js'
 
 let tags = {
   'main': 'INFO ⚙️',
-  'search': 'BUSQUEDAS 🔍',
   'jadibot': 'SER JADIBOTS 🤖',
   'rpg': 'ECONOMIA 🪙',
   'rg': 'REGISTRO 📇',
@@ -16,7 +15,7 @@ let tags = {
   'group': 'GRUPOS 🌩',
   'grupo': 'GRUPOS 🌩',
   'database': 'DATABASE 📚',
-  'buscador': 'BUSCADORES 💥', 
+  'buscador': 'BUSQUEDAS 🔍', 
   'descargas': 'DESCARGAS 📥',
   'youtube': 'YOUTUBE PLAY 📥',
   'tools': 'HERRAMIENTAS 🧰',
