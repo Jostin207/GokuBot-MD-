@@ -15,7 +15,9 @@ let txt = `*乂  S C R I P T  -  M A I N*\n\n`
     txt += `        ✩   *Stars* : ${json.stargazers_count}\n\n`
     txt += `> 🚩 *${packname}*`
 
-await conn.reply(m.chat, botname, textbot, txt, img, img, redes, m)
+let img = imagen1
+
+await conn.reply(m.chat, packname, wm, txt, img, img, redes, m)
 } catch {
 await m.react('✖️')
 }}
