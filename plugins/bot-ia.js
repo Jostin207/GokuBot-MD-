@@ -6,7 +6,7 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return;
-if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal) 
+if (!text) return conn.reply(m.chat, `*🤍 Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal)  
 try {
 conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
@@ -16,7 +16,7 @@ await conn.reply(m.chat, res.gpt, m, rcanal)
 try {
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
 let res = await gpt.json()
-await conn.reply(m.chat, res.gpt, m, rcanal)
+await conn.reply(m.chat, res.data, m, rcanal) 
 } catch{
 }}}
 handler.help = ['chatgpt <texto>', 'ia <texto>']
