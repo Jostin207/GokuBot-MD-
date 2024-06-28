@@ -55,6 +55,8 @@ m.react('🕒')
     }
   }
 };
+handler.tags = ['descargas']
+handler.help = ['tiktok']
 handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
 handler.register = true
 export default handler;
