@@ -10,7 +10,7 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
     try {
-    let ytmsg  = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐏𝐥𝐚𝐲\n' + packname, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
+    let ytmsg  = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐏𝐥𝐚𝐲', orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
     let yt_play = await search(args.join(" "))
     let img = await (await fetch(`${yt_play[0].image}`)).buffer()
     let txt = `*Emilia* | 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐏𝐥𝐚𝐲\n\n`
@@ -29,7 +29,7 @@ title: wm,
 body: packname,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: linkgc,
+sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: ytmsg})
