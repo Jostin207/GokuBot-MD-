@@ -16,7 +16,7 @@ console.log(error);
 handler.command = ['tiktoksearch'];
 handler.help = ['tiktoksearch <texto>'];
 handler.register = true;
-handler.tags = ['search'];
+handler.tags = ['buscador'];
 handler.limit = 1;
 
 export default handler;
