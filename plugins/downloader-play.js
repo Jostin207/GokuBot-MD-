@@ -10,6 +10,7 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 try {
+await m.react(rwait)
 let yt_play = await search(args.join(" "))
 let img = await (await fetch(`${yt_play[0].image}`)).buffer()
 
@@ -56,6 +57,7 @@ sourceUrl: `${yt_play[0].url}`,
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: fkontak})
+await m.react(done)
 } catch {
 await m.reply(`✘ Ocurrío un error`)}}
 
