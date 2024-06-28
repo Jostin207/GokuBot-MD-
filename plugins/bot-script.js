@@ -17,7 +17,7 @@ let txt = `*乂  S C R I P T  -  M A I N*\n\n`
 
 let img = imagen1
 
-await conn.reply(m.chat, packname, wm, txt, img, img, redes, m)
+await sendrezero(m.chat, packname, wm, txt, img, img, redes, m)
 } catch {
 await m.react('✖️')
 }}
