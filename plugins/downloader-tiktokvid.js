@@ -1,7 +1,7 @@
 import Starlights from '@StarlightsTeam/Scraper'
 
 let handler = async (m, { conn, usedPrefix, command, text, args }) => {
-  if (!text) return conn.reply(m.chat, '✨️ Ingresa un texto junto al comando.\nEjemplo: *${usedPrefix + command}* Emilia Re:zero Edit', m, rcanal)
+  if (!text) return conn.reply(m.chat, '✨️ Ingresa un texto junto al comando.\nEjemplo: *#tiktokvid* Emilia Re:zero Edits', m, rcanal)
   await m.react(rwait)
   try {
     let { title, author, duration, views, likes, comments_count, share_count, download_count, published, dl_url } = await Starlights.tiktokvid(text)
