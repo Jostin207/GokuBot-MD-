@@ -33,7 +33,7 @@ _*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
   }
 };
 handler.help = ['mediafire'].map((v) => v + ' <url>');
-handler.tags = ['downloader'];
+handler.tags = ['descargas'];
 handler.command = /^(mediafire|mediafiredl|dlmediafire)$/i;
 export default handler;
 
