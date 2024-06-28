@@ -16,7 +16,7 @@ let tags = {
   'group': 'GRUPOS 🌩',
   'grupo': 'GRUPOS 🌩',
   'database': 'DATABASE 📚',
-  'internet': 'INTERNET 📮', 
+  'buscador': 'BUSCADORES 💥', 
   'downloader': 'DESCARGAS 📥',
   'descargas': 'DESCARGAS 📥',
   'tools': 'HERRAMIENTAS 🧰',
