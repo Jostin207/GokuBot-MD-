@@ -36,6 +36,6 @@ conn.sendFile(m.chat, pp, 'perfil.jpg', `${premium ? prem.trim() : noprem.trim()
 handler.help = ['profile']
 handler.register = true
 //handler.group = true
-handler.tags = ['rpg']
+handler.tags = ['rg']
 handler.command = ['profile', 'perfil']
 export default handler
