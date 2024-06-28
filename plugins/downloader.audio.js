@@ -38,7 +38,7 @@ await m.reply(`✘ Ocurrío un error`)
 }}}
 handler.help = ['Audio']
 handler.tags = ['downloader']
-handler.customPrefix = /^(2|audio)/
+handler.customPrefix = /^(2|audio|Audio)/
 handler.command = new RegExp
 
 export default handler
