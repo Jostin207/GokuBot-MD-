@@ -4,25 +4,17 @@ import translate from '@vitalets/google-translate-api';
 import {Configuration, OpenAIApi} from 'openai';
 const configuration = new Configuration({organization: global.openai_org_id, apiKey: global.openai_key});
 const openaiii = new OpenAIApi(configuration);
-const handler = async (m, {conn, text, usedPrefix, command}) => {
-if (usedPrefix == 'a' || usedPrefix == 'A') return;
-if (!text) return conn.reply(m.chat, `💌 Ingrese una petición para que la AI lo responda, Ejemplo:\n> *${usedPrefix + command} Código de una Calculadora en Js*`, m, rcanal, )   
-try {
-conn.sendPresenceUpdate('composing', m.chat);
-let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
-let res = await gpt.json()
-await m.reply(res.gpt)
-} catch {
-try {
-let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
-let res = await gpt.json()
-await m.reply(res.data) 
-} catch{
-}}}
-handler.help = ['chatgpt <texto>', 'ia <texto>']
-handler.tags = ['ai']
-handler.register = true
-handler.limit = 5
-handler.command = ['ia', 'chatgpt']
 
-export default handler;
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avion de papel`, m, rcanal)
+await m.react(mensaje)
+try {
+let { msg } = await Starlights.openAi(text)
+await conn.reply(m.chat, msg, m, rcanal)
+} catch {
+}}
+handler.help = ['ia *<petición>*']
+handler.tags = ['ai']
+handler.command = /^(|ia|chatgpt|gpt)$/i
+handler.register = true
+export default handler
