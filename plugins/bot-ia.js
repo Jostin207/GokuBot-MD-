@@ -4,17 +4,25 @@ import translate from '@vitalets/google-translate-api';
 import {Configuration, OpenAIApi} from 'openai';
 const configuration = new Configuration({organization: global.openai_org_id, apiKey: global.openai_key});
 const openaiii = new OpenAIApi(configuration);
-
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal)
-await m.react('💬')
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+if (usedPrefix == 'a' || usedPrefix == 'A') return;
+if (!text) return conn.reply(m.chat, `*✨️ Ingrese su petición*\n*🪼 Ejemplo de uso:* ${usedPrefix + command} Como hacer un avión de papel`, m, rcanal) 
 try {
-let { msg } = `${text}`
-await conn.reply(m.chat, msg, m, rcanal)
+conn.sendPresenceUpdate('composing', m.chat);
+let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
+let res = await gpt.json()
+await conn.reply(m.chat, res.gpt, m, rcanal)
 } catch {
-}}
-handler.help = ['ia *<petición>*']
+try {
+let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
+let res = await gpt.json()
+await conn.reply(m.chat, res.gpt, m, rcanal)
+} catch{
+}}}
+handler.help = ['chatgpt <texto>', 'ia <texto>']
 handler.tags = ['ai']
-handler.command = /^(|ia|chatgpt|gpt)$/i
 handler.register = true
-export default handler
+handler.limit = 5
+handler.command = ['ia', 'chatgpt']
+
+export default handler;
