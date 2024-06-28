@@ -18,6 +18,7 @@ let tags = {
   'database': 'DATABASE 📚',
   'buscador': 'BUSCADORES 💥', 
   'descargas': 'DESCARGAS 📥',
+  'youtube': 'YOUTUBE PLAY 📥',
   'tools': 'HERRAMIENTAS 🧰',
   'nsfw': 'NSFW 🔞', 
   'owner': 'CREADOR 👑', 
