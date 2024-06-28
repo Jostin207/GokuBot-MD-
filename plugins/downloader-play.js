@@ -10,7 +10,6 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
     try {
-    let ytmsg  = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝐘𝐨𝐮𝐭𝐮𝐛𝐞 𝐏𝐥𝐚𝐲', orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
     let yt_play = await search(args.join(" "))
     let img = await (await fetch(`${yt_play[0].image}`)).buffer()
     let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮\n`
@@ -39,19 +38,19 @@ contextInfo: {
 forwardingScore: 9999, 
 isForwarded: true, 
 externalAdReply: {
-title: wm,
-body: packname,
+title: `${yt_play[0].title}`,
+body: dev,
 thumbnailUrl: img,
 thumbnail: img,
-sourceUrl: redes,
+sourceUrl: `${yt_play[0].url}`,
 mediaType: 1,
 renderLargerThumbnail: true
-}}}, { quoted: ytmsg})
+}}}, { quoted: fkontak})
 //await m.react('✅')
 } catch {
 await m.reply(`✘ Ocurrío un error`)
 }}
-handler.help = ['play *<búsqueda>*']
+handler.help = ['play *<búsqueda>*', 'play2 *<busqueda>*']
 handler.tags = ['downloader']
 handler.command = ['play', 'play2']
 export default handler
