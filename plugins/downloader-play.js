@@ -19,7 +19,7 @@ let txt = `${packname}\n\n`
        txt += `🍇 ժմɾαcíօ́ղ:\n${secondString(yt_play[0].duration.seconds)}\n\n`
        txt += `🌦 ρυϐℓιϲα∂ο єи:\n${yt_play[0].ago}\n\n`
        txt += `🍭 єиℓαϲє:\n${'https://youtu.be/' + yt_play[0].videoId}\n\n`
-       txt += `⚠️ *NOTA:*\n🤍 Para descargar responde a este mensaje con *1* o *2*.\n\n`
+       txt += `⚠️ *Nota:* Para descargar responde a este mensaje con *1* o *2*.\n\n`
        txt += `*1:* Video\n*2:* Audio`
 
 /* let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
