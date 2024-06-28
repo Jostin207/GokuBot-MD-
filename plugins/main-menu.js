@@ -17,7 +17,6 @@ let tags = {
   'grupo': 'GRUPOS 🌩',
   'database': 'DATABASE 📚',
   'buscador': 'BUSCADORES 💥', 
-  'downloader': 'DESCARGAS 📥',
   'descargas': 'DESCARGAS 📥',
   'tools': 'HERRAMIENTAS 🧰',
   'nsfw': 'NSFW 🔞', 
