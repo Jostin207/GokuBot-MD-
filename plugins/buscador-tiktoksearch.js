@@ -15,13 +15,13 @@ txt += `\n`
 txt += `✰ *Titulo:* ${video.title}\n`
 txt += `✯ *Duración:* ${video.duration} segundos\n`
 txt += `✰ *Link:* ${video.url}\n`
-txt += `✰ *Autor:* ${video.author.username || "×"}\n`
+txt += `✰ *Autor:* ${video.author.username || '*Udefined*'}\n`
 txt += `✰ *Views:* ${video.play}\n`
 txt += `✰ *Corazones:* ${video.like}\n\n`
 }
 const url = 'https://i.imgur.com/BO4TfMR.png'
 const responseImg = await axios.get(url, { responseType: 'arraybuffer' })
-await conn.sendFile(m.chat, responseImg.data, "thumbnail.png", txt, m, rcanal)
+await conn.sendFile(m.chat, responseImg.data, 'thumbnail.png', txt, m, rcanal)
 await m.react(done)
 } catch (e) {
 console.error(e)
