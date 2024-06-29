@@ -1,4 +1,4 @@
-import Scraper from '@SumiFX/Scraper'
+/*import Scraper from '@SumiFX/Scraper'
 let handler = async (m, {conn, text}) => {
     try {
     if (!text) return conn.reply(m.chat, '🧡 Ingresa un texto para realizar la busqueda.', m, rcanal)
@@ -16,4 +16,4 @@ handler.help = ['tiktoksearch <texto>']
 handler.command = ['tiktokvid', 'tiktoksearch', 'ttv']
 handler.register = true
 handler.tags = ['buscador']
-export default handler
+export default handler*/
