@@ -31,7 +31,7 @@ await m.react(done)
 await m.react(error)
 }}
 handler.help = ['tourl']
-handler.tags = ['tools']
+handler.tags = ['transformador']
 handler.command = /^(tourl|upload)$/i
 export default handler
 
