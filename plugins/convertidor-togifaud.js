@@ -16,6 +16,6 @@ conn.sendMessage(m.chat, { video: media, gifPlayback: true, caption: listo }, { 
 await m.react(done)
 }
 handler.help = ['togifaud']
-handler.tags = ['tools']
+handler.tags = ['transformador']
 handler.command = ['togifaud']
 export default handler
