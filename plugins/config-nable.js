@@ -30,9 +30,6 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 • 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮
 *${usedPrefix + command} status*
 
-• 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗿 𝗷𝘂𝗲𝗴𝗼𝘀
-*${usedPrefix + command} game*
-
 • 𝗦𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲
 *${usedPrefix + command} autolevelup*
 
@@ -76,11 +73,7 @@ ${usedPrefix + command} antillamar*
 *${usedPrefix + command} gconly*
 
 • 𝙉𝙤 𝙝𝙖𝙗𝙡𝙖𝙧 𝙖𝙡 𝙗𝙤𝙩 𝙚𝙣 𝙥𝙧𝙞𝙫𝙖𝙙𝙤
-*${usedPrefix + command} antiprivado*
-
-• 𝘾𝙝𝙖𝙩𝙜𝙥𝙩 𝙖𝙪𝙩𝙤𝙢𝙖𝙩𝙞𝙘𝙤
-*${usedPrefix + command} modoia*
-  `.trim();
+*${usedPrefix + command} antiprivado*`.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
@@ -246,24 +239,6 @@ global.dfail('admin', m, conn)
 throw false
 }}
 chat.modohorny = isEnable          
-break
-
-case 'game': case 'juegos': case 'fun':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.game = isEnable          
-break
-
-case 'ruleta': case 'game2':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.game2 = isEnable          
 break
 
 case 'autolevelup': case 'autonivel': case 'nivelautomatico':
@@ -452,15 +427,7 @@ global.dfail('admin', m, conn)
 throw false
 }}
 chat.simi = isEnable
-break
-case 'modoia': case 'chatgpt': case 'ia':
-isAll = true;
-if (!isOwner) {
-global.dfail('owner', m, conn);
-throw false;
-}
-bot.modoia = isEnable;      
-break;      
+break      
 
 case 'swonly': case 'statusonly':
 isAll = true
