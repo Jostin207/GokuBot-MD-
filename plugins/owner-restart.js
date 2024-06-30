@@ -4,7 +4,7 @@ var handler = async (m, { conn, isROwner, text }) => {
 
 if (!process.send) throw 'Dont: node rezero.js\nDo: node index.js'
 if (conn.user.jid == conn.user.jid) {
-await conn.reply(m.chat, '⁖💚꙰ *R E I N I C I A N D O* ⁖💚꙰', m, rcanal, )
+await conn.reply(m.chat, '⁖💚꙰  *R E I N I C I A N D O* ⁖💚꙰', m, rcanal, )
 process.send('reset')
 } else throw 'eh'
 
