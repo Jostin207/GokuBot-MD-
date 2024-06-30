@@ -1,9 +1,9 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = 'https://telegra.ph/file/553daf0dbd34612a197bc.jpg'
 let img = 'https://qu.ax/ZzOO.jpg'
-let staff = `🏆 *EQUIPO DE AYUDANTES*
-🥷 *Bot:* ${global.botname}
-☁️ *Versión:* ${global.vs}
+let staff = `⁖🩵꙰  *EQUIPO DE AYUDANTES*
+⁖🧡꙰  *Bot:* ${global.botname}
+⁖💜꙰  *Versión:* ${global.vs}
 
 👑 *Propietario:*
 
@@ -12,7 +12,7 @@ let staff = `🏆 *EQUIPO DE AYUDANTES*
 ✨️ *Número:* ${creador}
 🏆 *GitHub:* https://github.com/OfcDiego
 
-💫 *Colaboradores:*
+⁖❤️꙰  *Colaboradores:*
 
 • ArizzVal
 ☘️ *Rol:* Developer
