@@ -1,9 +1,9 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
-const handler = async (m, {command, conn}) => {
-  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '💥 *¡Estos comandos están desactivados!*';
+const handler = async (m, {command, text, conn}) => {
+  if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '⁖💚꙰  *¡Estos comandos están desactivados!*';
 
-  conn.reply(m.chat, wait, m, {
+  conn.reply(m.chat, `⁖🧡꙰  *Enviando ${text}...*`, m, {
   contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
   title: packname,
   body: wm,
