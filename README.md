@@ -1,6 +1,6 @@
 > 💫💖 Versión Actual: 2.0.0
 
-### ⁖💚꙰༻ 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗 ⁖💚꙰༻
+## **🤍 Emilia Re: Zero - MD**
 
 # ![logo](https://telegra.ph/file/3c09f2f5d04966069da58.jpg)
 
@@ -146,3 +146,4 @@ href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" wi
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/EmiliaRezero-MD)**.
 
 **`¡GRACIAS POR PREFERIRNOS! 💖`**
+⁖💚꙰  *`¡EMILIA RE:ZERO - MD!`*  ⁖💚꙰
