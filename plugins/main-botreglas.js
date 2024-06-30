@@ -2,15 +2,15 @@ let handler = async (m, { conn, usedPrefix, command}) => {
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-let zero = `🌳 *Respeta las reglas de Emilia Re:zero*\n
+let zero = `⁖🩵꙰  *Respeta las reglas de Emilia Re:zero*\n
 ✰ No llamar A La Bot
 ✰ No hacer spam
 ✰ Contacta al creador si es necesario
 ✰ Pedir permiso para añadir la bot a un grupo
 
-🏷 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas de la bot, seras bloqueado.*
+⁖❤️꙰  𝗡𝗼𝘁𝗮: *Si no cumples con las reglas de la bot, seras bloqueado.*
 
-☁️ 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Emilia.*
+⁖💚꙰  𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Emilia.*
 
 ${global.md}`.trim()
 await conn.reply(m.chat, zero, m, fake, )
