@@ -13,11 +13,11 @@ const handler = async (m, {conn, usedPrefix}) => {
   const _clue = json.response;
   const clue = _clue.replace(/[A-Za-z]/g, '_');
   const caption = `
-ⷮ☁️ *ACERTIJOS*
-🤍 *${json.question}*
+ⷮ⁖💚꙰  *ACERTIJOS*
+⁖💜꙰  *${json.question}*
 
-💥 *Tiempo:* ${(timeout / 1000).toFixed(2)} Segundos
-💌 *Premio:* *+${poin}* Centavos 🪙`.trim();
+⁖❤️꙰  *Tiempo:* ${(timeout / 1000).toFixed(2)} Segundos
+⁖🩵꙰  *Premio:* *+${poin}* Centavos 🪙`.trim();
   conn.tekateki[id] = [
     await conn.reply(m.chat, caption, m), json,
     poin,
