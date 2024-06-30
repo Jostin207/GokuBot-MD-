@@ -34,7 +34,7 @@ yarn install && npm install
 npm start
 ```
 
-✨️ ACTIVAR EN TERMUX EN CASO DE DETENERSE
+⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -42,7 +42,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-🌻 OBTENER OTRO CODIGO QR
+⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd EmiliaRezero-MD
