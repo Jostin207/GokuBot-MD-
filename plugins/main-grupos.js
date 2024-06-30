@@ -1,18 +1,18 @@
 let handler = async (m, { conn, command }) => {
 let colab = `*◜💙 GRUPOS OFICIALES 💙◞*
 
-👑 ${wm} 1
+⁖💚꙰ ${wm} 1
 ${gp1}
 
-👑 ${wm} 2
+⁖💚꙰ ${wm} 2
 ${gp2}
 
  *◜🤍 COLABORACIÓN 🤍◞*
 
-💖 ${colab1}
+⁖🧡꙰ ${colab1}
 ${gp3}
 
-💖 ${colab2}
+⁖🧡꙰ ${colab2}
 ${gp4}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
