@@ -15,11 +15,16 @@ let results = await yts(text)
 let tes = results.all
 let teks = results.all.map(v => {
 switch (v.type) {
-case 'video': return `🤍 *Título:* ${v.title}
-🔗 *Enlace:* ${v.url}
-⏰️ *Duración:* ${v.timestamp}
-☁️ *Subido:* ${v.ago}
-👀 *Vistas:* ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
+case 'video': return `⁖❤️꙰༻ *Título:* 
+» ${v.title}
+⁖🩵꙰༻ *Enlace:* 
+» ${v.url}
+⁖💜꙰༻ *Duración:*
+» ${v.timestamp}
+⁖💚꙰༻ *Subido:* 
+» ${v.ago}
+⁖🧡꙰༻ *Vistas:* 
+» ${v.views}`}}).filter(v => v).join('\n\n••••••••••••••••••••••••••••••••••••\n\n')
 
 conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, fkontak, m)
 
