@@ -17,7 +17,7 @@ conn.reply(m.chat, bot, m, rcanal, )
         throw new Error(data.message || "Falló")
       }
     let ipsearch = `
-⁖💚꙰  *I N F O - I P*  ⁖💚꙰
+⁖💚꙰  *I N F O - I P* ⁖💚꙰
 
 IP : ${data.query}
 País : ${data.country}
