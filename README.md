@@ -50,12 +50,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-💖 EMILIA 24/7 (TERMUX)
+⁖💜꙰  **`EMILIA 24/7 (TERMUX)`** ⁖💜꙰
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ```
 
-🐶 ACTUALIZAR EMILIA 
+⁖🩵꙰  **`ACTUALIZAR EMILIA`** ⁖🩵꙰
 > Note Comandos para actualizar Emilia - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/EmiliaRezero-MD/master/update.sh | bash
