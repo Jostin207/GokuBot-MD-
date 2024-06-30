@@ -1,8 +1,8 @@
 import Scraper from "@SumiFX/Scraper"
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) return m.reply('👑 Ingresa un texto para realizar la búsqueda.')
+if (!text) return m.reply('⁖🧡꙰  Ingresa un texto para realizar la búsqueda.')
 try {
-conn.reply(m.chat, wait, m, {
+conn.reply(m.chat, '⁖💚꙰  *Descargando su imagen...*', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
