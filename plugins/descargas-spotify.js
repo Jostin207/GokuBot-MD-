@@ -79,17 +79,17 @@ if (!songInfo.length) throw `*No se encontró la canción*`
 let res = songInfo[0]
 let fileSizeInMB = (await getBuffer(res.url)).length / (1024 * 1024)
 let shortURL = await getTinyURL(res.url)
-const info = `✨ _*TITULO*_ :
+const info = `⁖💚꙰  _*TITULO*_ :
 _${res.name}_
 
-🗣️ _*ARTISTA*_ :
+⁖💜꙰  _*ARTISTA*_ :
 » _${res.artista.join(', ')}_
 
-🌐 _*LINK*_ :
+⁖❤️꙰  _*LINK*_ :
 » _${shortURL}_
 
-🎶 *Enviando Canción....*
-${wm}`
+⁖🧡꙰  *Enviando Canción....*
+${global.wm}`
 
 let resImg = await fetch(res.imagen)
 let thumbb = await resImg.buffer()
