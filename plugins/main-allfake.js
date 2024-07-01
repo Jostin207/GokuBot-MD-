@@ -94,7 +94,7 @@ isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: '120363263466636910@newsletter',
 serverMessageId: 100,
-newsletterName: global.wm,
+newsletterName: 'Luffy Bot - Channel 🚩',
 },
 },
 }
