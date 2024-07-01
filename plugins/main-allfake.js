@@ -35,9 +35,9 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/51939041500'
-global.namechannel = '🤍 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
-global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐄𝐦𝐢𝐥𝐢𝐚𝐑𝐞𝐳𝐞𝐫𝐨'
-global.colab2 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐄𝐦𝐢𝐥𝐢𝐚𝐑𝐞𝐳𝐞𝐫𝐨'
+global.namechannel = '✨️ 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
+global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭'
+global.colab2 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭'
 
 //Reacciones De Comandos.!
 global.rwait = '⏱️'
@@ -45,10 +45,10 @@ global.done = '✅'
 global.error = '✖️'
 
 //sms espera
-global.wait = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waittt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitttt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
+global.wait = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.waitt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.waittt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.waitttt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
@@ -56,7 +56,7 @@ var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M'
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@OfcDiego' 
-var github = 'https://github.com/OfcDiego/EmiliaRezero-MD' 
+var github = 'https://github.com/OfcDiego/LuffyBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
 global.redes = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
