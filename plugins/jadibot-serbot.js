@@ -46,15 +46,15 @@ args[0] = args[0].replace('--code', '').trim()
 if (args[1]) args[1] = args[1].replace('--code', '').trim()
 if (args[0] == '') args[0] = undefined
 console.log(args[0])}
-if (!fs.existsSync('./ZeroJadiBot/'+ id)){
-fs.mkdirSync('./ZeroJadiBot/'+ id, { recursive: true })}
-args[0] && args[0] != undefined ? fs.writeFileSync('./ZeroJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
+if (!fs.existsSync('./LuffyJadiBot/'+ id)){
+fs.mkdirSync('./LuffyJadiBot/'+ id, { recursive: true })}
+args[0] && args[0] != undefined ? fs.writeFileSync('./LuffyJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, '\t')) : ''
 
-if (fs.existsSync('./ZeroJadiBot/' + id + '/creds.json')) {
-let creds = JSON.parse(fs.readFileSync("./ZeroJadiBot/" + id + "/creds.json"))
+if (fs.existsSync('./LuffyJadiBot/' + id + '/creds.json')) {
+let creds = JSON.parse(fs.readFileSync("./LuffyJadiBot/" + id + "/creds.json"))
 if (creds) {
 if (creds.registered = false) {
-fs.unlinkSync('./ZeroJadiBot/' + id + '/creds.json')
+fs.unlinkSync('./LuffyJadiBot/' + id + '/creds.json')
 }}}
 
 const comb = Buffer.from(crm1 + crm2 + crm3 + crm4, 'base64')
@@ -63,10 +63,10 @@ const drmer = Buffer.from(drm1 + drm2, `base64`)
 async function jddt() {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
 let id = `${who.split`@`[0]}`
-if (!fs.existsSync('./ZeroJadiBot/'+ id)){
-fs.mkdirSync('./ZeroJadiBot/'+ id, { recursive: true })
+if (!fs.existsSync('./LuffyJadiBot/'+ id)){
+fs.mkdirSync('./LuffyJadiBot/'+ id, { recursive: true })
 }
-args[0] ? fs.writeFileSync('./ZeroJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
+args[0] ? fs.writeFileSync('./LuffyJadiBot/' + id + '/creds.json', JSON.stringify(JSON.parse(Buffer.from(args[0], 'base64').toString('utf-8')), null, `\t`)) : ''
 
 let { version, isLatest } = await fetchLatestBaileysVersion()
 const msgRetry = (MessageRetryMap) => { }
@@ -81,14 +81,14 @@ msgRetry,
 msgRetryCache,
 version,
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['Emilia Sub-Bot', 'Edge', '2.0.0'],
+browser: mcode ? ['Ubuntu', 'Edge', '110.0.1587.56'] : ['Luffy Sub-Bot', 'Edge', '2.0.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 const msg = store.loadMessage(key.remoteJid, key.id)
 return msg.message && undefined
 } return {
-conversation: 'EmiliaRezero-MD',
+conversation: 'LuffyBot-MD',
 }}}
 
 let conn = makeWASocket(connectionOptions)
@@ -123,7 +123,7 @@ const reason = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.erro
 if (connection === 'close') {
 console.log(reason)
 if (reason == 405) {
-await fs.unlinkSync('./ZeroJadiBot/' + id + '/creds.json')
+await fs.unlinkSync('./LuffyJadiBot/' + id + '/creds.json')
 
 return await conn.reply('🤍 *REENVIA EL COMANDO.*')
 }
@@ -154,7 +154,7 @@ global.conns.push(conn)
 await parentw.sendMessage(m.chat, {text : args[0] ? `💖 𝚅𝚊𝚕𝚎, 𝚏𝚞𝚎 𝚝𝚘𝚍𝚘 𝚞𝚗 𝚎𝚡𝚒𝚝𝚘 𝚊𝚑𝚘𝚛𝚊 𝚎𝚛𝚎𝚜 𝚞𝚗𝚊 𝚂𝚞𝚋-𝙱𝚘𝚝 :𝟹` : `🤍 𝙻𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝 𝚎𝚜𝚝𝚊 𝚊𝚌𝚝𝚒𝚟𝚊, 𝚞𝚜𝚎 𝚜𝚞 (𝙸𝙳) 𝚙𝚊𝚛𝚊 𝚊𝚌𝚝𝚒𝚟𝚊𝚛 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚕𝚊 𝚜𝚞𝚋-𝚋𝚘𝚝`}, { quoted: fkontak })
 await parentw.sendMessage(m.chat, {text : `💥 𝙻𝚊 𝚋𝚘𝚝 𝚢𝚊 𝚎𝚜𝚝𝚊 𝚌𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚊, 𝚎𝚜𝚙𝚎𝚛𝚎 𝚞𝚗 𝚖𝚘𝚖𝚎𝚗𝚝𝚘...`}, { quoted: fkontak })
 await sleep(5000)
-if (!args[0]) parentw.sendMessage(m.sender, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./ZeroJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
+if (!args[0]) parentw.sendMessage(m.sender, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./LuffyJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
 
 }}
 setInterval(async () => {
