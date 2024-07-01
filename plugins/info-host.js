@@ -70,8 +70,8 @@ isForwarded: false,
 { quoted: fkontak})
 }
 }
-handler.tags =['info'] 
-handler.help = ['infinity', 'flarex'] 
-handler.command = ['infinity', 'flarex']
-handler.registrado = true
+handler.tags =['main'] 
+handler.help = ['flarex'] 
+handler.command = ['infinty', 'flarex']
+handler.register = true
 export default handler
