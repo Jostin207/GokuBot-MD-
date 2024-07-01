@@ -38,7 +38,7 @@ let staff = `⁖🩵꙰  *EQUIPO DE AYUDANTES*
 ☘️ *Rol:* Developer
 ✨️ *Número:* Wa.me/595983799436
 🏆 *GitHub:* https://github.com/DanixlJs`
-await conn.sendFile(m.chat, pp, 'yoshi.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, pp, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
