@@ -5,11 +5,11 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
 sudo dnf clean all -y
 
-RUN git clone https://github.com/OfcDiego/EmiliaRezero-MD
+RUN git clone https://github.com/OfcDiego/LuffyBot-MD
 
-WORKDIR /root/EmiliaRezero-MD
+WORKDIR /root/LuffyBot-MD
 
-COPY ./root/EmiliaRezero-MD
+COPY ./root/LuffyBot-MD
 
 RUN yarn install
 
