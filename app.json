@@ -1,13 +1,13 @@
 {
-"name": "Emilia Re:zero - MD",
+"name": "Luffy Bot - MD",
 "website": "https://github.com/OfcDiego",
-"description": "Super Bot WhatsApp",
-"repository": "https://github.com/OfcDiego/EmiliaRezero-MD",
+"description": "El Mejor Bot De WhatsApp",
+"repository": "https://github.com/OfcDiego/LuffyBot-MD",
 "logo": "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg",
-"success_url": "https://github.com/OfcDiego/EmiliaRezero-MD",
+"success_url": "https://github.com/OfcDiego/LuffyBot-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "emilia"],
+"termux", "superbot", "multi-device", "md", "official", "javascript", "luffy"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
