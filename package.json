@@ -1,7 +1,7 @@
 {
-"name": "Emilia Re:zero - MD",
-"version": "2.0.0", 
-"description": "La Mejor Bot De WhatsApp",
+"name": "Luffy Bot - MD",
+"version": "2.0.1", 
+"description": "El Mejor Bot De WhatsApp",
 "main": "index.js",
 "type": "module",
 
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/OfcDiego/EmiliaRezero-MD",
+"homepage": "https://github.com/OfcDiego/LuffyBot-MD",
 "author": {
 "name": "Dɪᴇɢᴏ.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/OfcDiego/EmiliaRezero-MD.git" },
+"url": "git+https://github.com/OfcDiego/LuffyBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/OfcDiego/EmiliaRezero-MD/issues" },
+"url": "https://github.com/OfcDiego/LuffyBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
   "@adiwajshing/keyed-db": "^0.2.4",
