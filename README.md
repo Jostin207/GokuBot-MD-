@@ -1,6 +1,6 @@
-> Versión Actual: 2.0.1
+> 🚀 Versión Actual: 2.0.1
 
-# **🤍 Luffy Bot - MD**
+## **🤍 Luffy Bot - MD**
 
 ![logo](https://telegra.ph/file/604edc4dd94fab51496f1.jpg)
 
@@ -78,7 +78,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/LuffyBot-MD&ref=main&geo=UsEast)
 
 #### 🤍 ACTIVAR EN RENDER
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%20LuffyBot-MD) 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%LuffyBot-MD) 
 
 ***
 
