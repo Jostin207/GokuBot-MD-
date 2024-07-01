@@ -43,7 +43,7 @@ serverMessageId: -1
 
 handler.tags = ['main']
 handler.help = ['grupos']
-handler.command = /^grupos|linkre|rezerogp|gpemilia|gruposofc|gruposoficiales$/i
+handler.command = /^grupos|gruposluffy|linkre|luffygp|gpluffy|gruposofc|gruposoficiales$/i
 handler.register = true
 
 export default handler
