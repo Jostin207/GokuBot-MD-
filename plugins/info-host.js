@@ -1,92 +1,77 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
-let cafirexostxt = `
-_Optimice la implementación de *Luffy* mediante la integración en un servicio de alojamiento de alto rendimiento._
+let handler = async (m, { conn, command }) => {
+if (command === 'infinity') {
+let txt = `🥲 No estamos en Infinity-Host 🥲`
+/*let txt = `*INFINITY HOST* 🚩
+*¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
+Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad de servicios para poner tus proyectos y que estos estén 24/7 Activos.
 
 🔵 \`\`\`Información del Host\`\`\`
 
-💻 *Página*
-https://www.cafirexos.com
+🏳 *PRECIOS*
+- *1GB, 100CPU* = 1dolar
+- *2GB, 120CPU* = 2dolar
+- *3GB, 140CPU* = 3dolar
+- *4GB, 175CPU* = 4dolar
+- *5GB, 200CPU* = 5dolar
 
-✨ *Dashboard*
-https://dash.cafirexos.com
+💥 *Página:* https://www.infinity-wa.xyz
 
-⚙️ *Panel*
-https://panel.cafirexos.com
+✨️ *Dashboard:* https://dashboard.infinitywa.xyz
 
-📢 *Canal de WhatsApp*
-https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q
+💫 *Panel:* https://store.panel-infinitywa.store
 
-💥 *Grupo de WhatsApp*
-https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
+🚩 *Discord:* https://discord.com/invite/vgfpe4Nwd8
 
-📧 *Correo*
-contacto@cafirexos.com
+😺 *Grupo:* https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
 
-🧑‍💻 *Contacto (Diego Flores)*
-https://wa.me/50497150165`
-
-let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
-
-¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
-
-🖥️ *Totalmente compatible con Luffy* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de Luffy y Infinity-Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
-
-🟢 \`\`\`Información del Host\`\`\`
-
-💻 *Página:*
-https://www.infinity-wa.xyz/
-
-*🟢 Dashboard:*
-https://dashboard.infinitywa.xyz
-
-⚙️ *Panel*
-https://dashboard.infinitywa.xyz
-
-💥 *Grupo Support whatsapp:*
-https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
-
-*🟣 Discord:*
-https://discord.com/invite/vgfpe4Nwd8
-
-
-🗣📲 *Contacto:*
-• https://www.facebook.com/elrebelde21
-• wa.me/573147616444
-
-No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀`
-
-if (command == 'cafirexos') {
-await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'cafi.jpg', cafirexostxt.trim(), fkontak, true, {
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply: {
-showAdAttribution: true,
-renderLargerThumbnail: false,
-title: `🔵 C A F I R E X O S 🔵`,
-body: `✅ Hosting de Calidad`,
-mediaType: 1,
-sourceUrl: redes,
-thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png'
-}}
-}, { mentions: m.sender })
-}
-
-if (command == 'infinity' || command == 'infinityWa' || command == 'infohost' || command == 'hosting') { 
+*¿Qué esperas para Adquirir sus servicios? Únete a esta familia :)*`*/
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
-forwardingScore: 9999999,
+forwardingScore: 1,
 isForwarded: false, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘𝐖𝐀-𝐇𝐎𝐒𝐓 🤖`,
-body: `✅ Hosting de Calidad`,
+"title": `♾️ INFINITY - HOST ♾️`,
+"body": `✅ HOSTIN DE CALIDAD ✅`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/EQTd.jpg', 
-sourceUrl: redes}}},
+"thumbnailUrl": 'https://qu.ax/EQTd.jpg', 
+"sourceUrl": 'https://dashboard.infinitywa.xyz'}}},
 { quoted: fkontak})
-}}
+}
+if (command === 'flarex') {
+let txt = `*FLAREX CLOUD* 🚩
+*¿Quieres un Host de calidad y con bajos precios?*
+Pues te presento a *FlarexCloud*, un hosting de calidad con servidores dedicados y precios por debajo de 1USD, estos servidores están destinados a ofrecerte un Uptime 24/7 para que puedas alojar tus proyectos y qué estos funcionen de manera eficaz.
 
-handler.command = /^(cafirexos|infohost|hosting|infinitywa|infinity)$/i
+🟢 \`\`\`Información del Host\`\`\`
+
+💫 *Página:* https://www.flarex.cloud
+
+💙 *Game Panel:* https://gamepanel.flarex.cloud
+
+☁️ *Discord:* https://discord.flarex.cloud
+
+🤍 *Grupo:* https://whatsapp.flarex.cloud
+
+> *Únete a está comunidad y disfruta de un servicio de calidad :D*`
+await conn.sendMessage(m.chat, { text: txt,
+contextInfo:{
+forwardingScore: 1,
+isForwarded: false, 
+"externalAdReply": {
+"showAdAttribution": true,
+"containsAutoReply": true,
+"title": `🟣 FLAREX CLOUD 🟣`,
+"body": `✅ HOSTIN DE CALIDAD ✅`,
+"previewType": "PHOTO",
+"thumbnailUrl": 'https://telegra.ph/file/8f789f212b6cd978cd45d.jpg', 
+"sourceUrl": 'https://www.flarex.cloud'}}},
+{ quoted: fkontak})
+}
+}
+handler.tags =['info'] 
+handler.help = ['infinity', 'flarex'] 
+handler.command = ['infinity', 'flarex']
+handler.registrado = true
 export default handler
