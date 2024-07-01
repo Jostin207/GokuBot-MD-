@@ -8,7 +8,7 @@ let tags = {
   'jadibot': 'SER JADIBOTS 🤖',
   'rpg': 'ECONOMIA 🪙',
   'rg': 'REGISTRO 📇',
-  'fun': 'JUEGOS 😼',
+  'fun': 'JUEGOS ☁️',
   'sticker': 'STICKER ✨️',
   'xp': 'EXP 🏷',
   'fix': 'FIXMSGESPERA ☁️',
@@ -45,6 +45,7 @@ const defaultMenu = {
 │⊷〘 *INFO BOT* 🤍 〙⊷
 ├───────────────────
 │ 👑 *Creador:* Ofc Diego 
+│ 🚩 *Bot:* LuffyBot-MD
 │ ⏰️ *Actividad:* %muptime
 │ 📇 *Registrados:* %totalreg
 │ 💥 *Versión* 2.0.0
