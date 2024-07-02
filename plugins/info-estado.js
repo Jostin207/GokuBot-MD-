@@ -9,7 +9,7 @@ m.react('⚙️')
 💭 *Tipo:* ${sbot}
 🥷 *Bot Uso:* Publico
 👑 *Owner:* Ofc.Diego`;
-      conn.reply(m.chat, str, m, fake, )
+    conn.reply(m.chat, str, m, rcanal, )
 };
 
 handler.help = ['estado'];
