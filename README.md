@@ -2,7 +2,7 @@
 
 ## **`💙 Luffy Bot - MD`**
 
-![logo](https://telegra.ph/file/604edc4dd94fab51496f1.jpg)
+![logo](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
