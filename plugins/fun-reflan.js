@@ -1,6 +1,6 @@
 import fs from 'fs';
 const timeout = 60000;
-const poin = 10;
+const poin = 2;
 const handler = async (m, {conn, usedPrefix}) => {
   conn.tekateki = conn.tekateki ? conn.tekateki : {};
   const id = m.chat;
@@ -13,11 +13,11 @@ const handler = async (m, {conn, usedPrefix}) => {
   const _clue = json.response;
   const clue = _clue.replace(/[A-Za-z]/g, '_');
   const caption = `
-ⷮ🚩 *REFLANS*
+ⷮ🚩 *Completa el reflan*
 🐢 *${json.question}*
 
-💥 *Tiempo:* ${(timeout / 1000).toFixed(2)} Segundos
-꙰✨️ *Premio:* *+${poin}* Centavos 🪙`.trim();
+✨️ *Tienes:* ${(timeout / 1000).toFixed(2)} De Segundos`
+🍬 Cofre: ${poin} Dulce.trim();
   conn.tekateki[id] = [
     await conn.reply(m.chat, caption, m), json,
     poin,
