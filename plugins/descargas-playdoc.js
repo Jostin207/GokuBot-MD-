@@ -110,11 +110,11 @@ const n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, {document: {url: n2}, fileName: `${n}.mp4`, mimetype: 'video/mp4', thumbnail: await fetch(n4)}, {quoted: fkontak})
 } catch {
 
-await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, fake, )
+await conn.reply(m.chat, '🌟 *Ocurrió un fallo*', m, rcanal, )
 }}}}
 
 } catch {
-return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, fake, )}
+return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, rcanal, )}
 
 }
 handler.help = ['play3', 'play4']
