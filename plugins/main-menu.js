@@ -47,7 +47,7 @@ const defaultMenu = {
 │  ≡◦ 🚩 *Bot:* LuffyBot-MD
 │  ≡◦ ⏰️ *Actividad:* %muptime
 │  ≡◦ 📇 *Registrados:* %totalreg
-│  ≡◦ 💥 *Versión* %vs
+│  ≡◦ 💥 *Versión* %version
 │  ≡◦ 📆 *Fecha* %date
 ╰──⬣
 
