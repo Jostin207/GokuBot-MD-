@@ -742,7 +742,10 @@ botAdmin: '🤍 *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea A
 unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
 restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
-if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
+
+if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react(error))
+
+// if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
 
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
