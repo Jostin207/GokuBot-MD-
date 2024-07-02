@@ -23,7 +23,7 @@ let tags = {
   'info': 'Información 🐢',
   'fun': 'Diversión 🎲',
   'nsfw': 'Nsfw 🔞', 
-  'owner': 'Creador 😺', 
+  'owner': 'Creador 👑', 
   'mods': 'Staff Luffy 🚩',
   'audio': 'Audios 🔉', 
   'ai': 'Ai 🌹',
@@ -185,7 +185,7 @@ newsletterName: packname,
 serverMessageId: -1
 }}}, { quoted: fkontak }) */
 
-await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), m, null, rcanal)
+await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), m, fkontak, rcanal)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
