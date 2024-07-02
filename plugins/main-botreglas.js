@@ -18,8 +18,7 @@ await conn.reply(m.chat, luffy, m, fake, )
 }
 handler.help = ['botreglas']
 handler.tags = ['main']
-handler.customPrefix = /botreglas|Reglas|reglas|usodelbot/i
-handler.command = new RegExp
+handler.command = ['botreglas', 'reglasdelbot', 'reglasbot', 'reglas']
 handler.register = true
 export default handler
 
