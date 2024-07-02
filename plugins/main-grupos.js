@@ -4,13 +4,19 @@ let colab = `*◜💙 GRUPOS OFICIALES 💙◞*
 ⁖💚꙰  ${packname} 
 ${gp1}
 
+⁖💚꙰  ${packname} 2
+${gp2}
+
  *◜🤍 COLABORACIÓN 🤍◞*
 
 ⁖🧡꙰  ${colab1}
-${gp2}
+${gp3}
 
 ⁖🧡꙰  ${colab2}
-${gp3}
+${gp4}
+
+⁖🧡꙰  ${colab3}
+${gp5}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
