@@ -100,7 +100,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: packname,
 body: '💖 Luffy Bot',
-mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icons,
+mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: 'https://qu.ax/vQmu.jpg',
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
