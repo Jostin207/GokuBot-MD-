@@ -742,16 +742,15 @@ botAdmin: '🤍 *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea A
 unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
 restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
-
-if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react(error))}
-
-// if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react(error))}
-
+if (msg) return conn.reply(m.chat, msg, m,).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
+
+// NO TOCAR
 watchFile(file, async () => {
 unwatchFile(file);
 console.log(chalk.green('Actualizando "handler.js"'));
 if (global.reloadHandler) console.log(await global.reloadHandler());
+
 if (global.conns && global.conns.length > 0 ) {
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 for (const userr of users) {
