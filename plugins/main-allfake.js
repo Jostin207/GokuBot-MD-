@@ -109,8 +109,6 @@ renderLargerThumbnail: false
 },
 },
 }
-
-global.fake = global.rcanal
 }
 
 export default handler
