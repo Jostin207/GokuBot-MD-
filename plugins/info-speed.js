@@ -36,7 +36,7 @@ let texto = `☘️ *${global.botname}*
 
 m.react('✈️')
 
-conn.reply(m.chat, texto, m, rcanal, )
+conn.reply(m.chat, texto, m, fake, )
 
 }
 handler.help = ['speed']
