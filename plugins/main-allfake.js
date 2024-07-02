@@ -99,7 +99,7 @@ newsletterName: 'Luffy Bot - Channel 🚩',
 externalAdReply: {
 showAdAttribution: true,
 title: packname,
-body: '💖 Luffy Bot',
+body: '🚩 Luffy Bot Canal 🐢',
 mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: 'https://qu.ax/vQmu.jpg',
 sourceUrl: redes,
 mediaType: 1,
