@@ -100,13 +100,12 @@ externalAdReply: {
 showAdAttribution: true,
 title: packname,
 body: '💖 Luffy Bot',
-mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icons,
+mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: 'https://qu.ax/vQmu.jpg',
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
 },
 },
-}
 }
 
 global.fake = { contextInfo: { mentionedJid: conn.parseMention(wm), forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363263466636910@newsletter', serverMessageId: '', newsletterName: global.wm }, externalAdReply: { title: packname, body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ` + nombre, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: icons, thumbnail: icons, sourceUrl: redes }}}, { quoted: m } //fake con reenviado de canal
