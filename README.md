@@ -11,7 +11,7 @@
 [![Click Aquí](https://img.shields.io/badge/Grupo-Luffy-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
 > [!WARNING]
-> Este bot no instala en termux por problemas de $~ yarn, estaremos arreglando el problema.
+> Este bot no instala en termux por problemas de `$~ yarn`, estaremos arreglando el problema.
 
 ⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
