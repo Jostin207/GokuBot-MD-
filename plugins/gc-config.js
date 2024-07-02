@@ -8,7 +8,7 @@ return conn.reply(`⁖🧡꙰  Elija una opción.\n\n*${usedPrefix + command}* a
 await conn.groupSettingUpdate(m.chat, isClose)}
 
 handler.help = ['group *abrir/cerrar*']
-handler.tags = ['group']
+handler.tags = ['grupo']
 handler.command = ['group'] 
 handler.admin = true
 handler.botAdmin = true
