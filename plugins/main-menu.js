@@ -4,27 +4,30 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'Info ⚙️',
-  'jadibot': 'Ser Jadibots 🤖',
-  'rpg': 'Economia 🪙',
-  'rg': 'Registro 📇',
-  'fun': 'Juegos ☁️',
-  'sticker': 'Stickers ✨️',
+  'main': 'Info 📚',
+  'buscador': 'Busquedas 🔎',
+  'fun': 'Juegos 🎮',
+  'jadibot': 'Sub Bots 🤖',
+  'rpg': 'RPG 🌠',
+  'rg': 'Registro 📁',
   'xp': 'Exp 🏷',
-  'fix': 'Fixmsgespera ☁️',
-  'grupo': 'Grupos 🌩',
-  'database': 'Database 📚',
-  'buscador': 'Busquedas 🔍', 
+  'sticker': 'Stickers 🏞',
+  'database': 'Database ✨️',
+  'fix': 'Fixmsgespera 💭',
+  'grupo': 'Grupos 👥',
+  'logo': 'Logo - Maker 🎨',
+  'nable': 'On / Off 📴', 
   'descargas': 'Descargas 📥',
   'youtube': 'Youtube Play 📥',
-  'tools': 'Herramientas 🧰',
+  'tools': 'Herramientas 🔧',
+  'info': 'Información 🐢',
+  'fun': 'Diversión 🎲',
   'nsfw': 'Nsfw 🔞', 
-  'owner': 'Propietario 👑', 
-  'mods': 'Staff 👑',
-  'audio': 'Efecto Audios 🍂', 
-  'info': 'Información 🍭',
+  'owner': 'Creador 😺', 
+  'mods': 'Staff Luffy 🚩',
+  'audio': 'Audios 🔉', 
   'ai': 'Ai 🌹',
-  'transformador': 'Convertidores 🚩',
+  'transformador': 'Convertidores 💠',
 }
 
 const defaultMenu = {
@@ -52,7 +55,7 @@ const defaultMenu = {
 %readmore
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
-\t\t\t*L I S T A  -  M E N Ú S* 
+\t\t\t*L I S T A  - D E -  C O M A N D O S* 
 `.trimStart(),
   header: '╭──⬣「 *%category* 」⬣',
   body: '│  ≡◦ %cmd\n',
