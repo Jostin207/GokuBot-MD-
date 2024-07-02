@@ -36,8 +36,9 @@ global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/51939041500'
 global.namechannel = '✨️ 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
-global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭'
-global.colab2 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐋𝐮𝐟𝐟𝐲𝐁𝐨𝐭'
+global.colab1 = '𝗚𝗮𝘁𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
+global.colab2 = '𝗔𝗹𝘆𝗮𝗦𝗮𝗻 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
+global.colab3 = '𝗦𝗵𝗶𝘇𝘂𝗸𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 
 //Reacciones De Comandos.!
 global.rwait = '⏱️'
