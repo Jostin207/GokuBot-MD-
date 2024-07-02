@@ -182,7 +182,7 @@ newsletterName: packname,
 serverMessageId: -1
 }}}, { quoted: fkontak }) */
 
-await conn.sendFile(m.chat, gif, 'luffy.jpg', gifPlayback: true, text.trim(), m, null, rcanal)
+await conn.sendFile(m.chat, gif, gifPlayback: true, text.trim(), m, null, rcanal)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
