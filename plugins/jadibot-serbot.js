@@ -58,7 +58,8 @@ if (isNewLogin) {
 conn.isInit = true
 }
 if (qr) {
-let txt = `✨◌*̥₊ LᴜғғʏBᴏᴛ-MD ◌❐⚡༉`
+let txt = '`🚩 S E R B O T - S U B B O T 🚩`\n\n*Escanea este QR para ser en un Sub Bot*\n `Pasos para escanear`\n`1` : Haga click en los 3 puntos\n`2` : Toque dispositivos vinculados\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.
+
 let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
 setTimeout(() => {
 parentw.sendMessage(m.chat, { delete: sendQR.key })
