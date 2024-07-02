@@ -74,7 +74,7 @@ return console.log(await creloadHandler(true).catch(console.error))
 delete global.conns[i]
 global.conns.splice(i, 1)
 if (code !== DisconnectReason.connectionClosed) {
-await parentw.reply(conn.user.jid, "🚩 Conexión perdida con el servidor.", m)
+await parentw.reply(conn.user.jid, "✨️ Conexión perdida con el servidor.", m)
 }
 }
 if (global.db.data == null) {
@@ -83,14 +83,12 @@ loadDatabase()
 if (connection == "open") {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.reply(m.chat, args[0] ? '🐢 Conectado con éxito al WhatsApp.' : '✨️ Vinculaste un Sub-Bot con éxito.', m, rcanal)
+await parentw.reply(m.chat, args[0] ? '🐢 Conectado con éxito al WhatsApp.' : '🚩 Vinculaste un Sub-Bot con éxito.', m, rcanal)
 await sleep(5000)
 if (args[0]) {
 return
 }
-await parentw.reply(conn.user.jid, `🚩 *para volver a vincular un sub Bot use tu token*`, m, rcanal)
-
-if (!args[0]) parentw.sendMessage(m.sender, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./LuffyJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
+await parentw.reply(conn.user.jid, `🚩 *Para volver a vincular un sub Bot use su token`, m, rcanal)
 }
 }
 const timeoutId = setTimeout(() => {
