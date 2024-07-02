@@ -74,7 +74,7 @@ return console.log(await creloadHandler(true).catch(console.error))
 delete global.conns[i]
 global.conns.splice(i, 1)
 if (code !== DisconnectReason.connectionClosed) {
-await parentw.reply(conn.user.jid, "✨️ Conexión perdida con el servidor.", m)
+await parentw.reply(conn.user.jid, "🚩 Conexión perdida con el servidor.", m)
 }
 }
 if (global.db.data == null) {
