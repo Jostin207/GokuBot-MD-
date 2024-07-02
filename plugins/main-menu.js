@@ -184,7 +184,7 @@ serverMessageId: -1
 
 // await conn.sendFile(m.chat, gif, 'luffy.jpg', text.trim(), m, null, rcanal)
 
-await conn.sendFile(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender], m, null, rcanal)
+await conn.sendFile(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender], rcanal)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
