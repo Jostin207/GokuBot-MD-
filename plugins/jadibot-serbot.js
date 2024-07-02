@@ -59,7 +59,7 @@ conn.isInit = true
 }
 if (qr) {
 let txt = `✨◌*̥₊ LᴜғғʏBᴏᴛ-MD ◌❐⚡༉`
-let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, rcanal)
+let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
 setTimeout(() => {
 parentw.sendMessage(m.chat, { delete: sendQR.key })
 }, 30000)
