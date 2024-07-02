@@ -743,9 +743,9 @@ unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!
 restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
 
-if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react(error))
+if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react(error))}
 
-// if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
+// if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react(error))}
 
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
