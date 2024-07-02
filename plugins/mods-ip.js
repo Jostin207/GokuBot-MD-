@@ -35,7 +35,7 @@ Mobile : ${data.mobile ? "Si" : "No"}
 Hosting : ${data.hosting ? "Si" : "No"}
 `.trim()
 
-conn.reply(m.chat, ipsearch, m, fake, )
+conn.reply(m.chat, ipsearch, m, rcanal, )
 })
 }
 
