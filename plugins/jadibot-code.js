@@ -13,12 +13,12 @@ import { makeWASocket } from '../lib/simple.js';
 if (!(global.conns instanceof Array)) global.conns = [];
 let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner, isROwner }) => {
 if (!global.db.data.settings[_conn.user.jid].modejadibot && !isROwner) {
-conn.reply(m.chat, '', m, rcanal)
+conn.reply(m.chat, '🚩 Este Comando está deshabilitado por mi creador.', m, rcanal)
 return
 }
 let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn;
 if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-return m.reply(``);
+return conn.reply(m.chat, `「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix + command}`, m, rcanal);
 }
 async function serbot() {
 let authFolderB = crypto.randomBytes(10).toString('hex').slice(0, 8);
@@ -38,7 +38,7 @@ const methodCode = !!phoneNumber || process.argv.includes("code");
 const MethodMobile = process.argv.includes("mobile");
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver));
-const connectionOptions = {logger: pino({ level: 'silent' }),printQRInTerminal: false,mobile: MethodMobile,browser: ["Ubuntu", "Chrome", "20.0.04"], 
+const connectionOptions = {logger: pino({ level: 'silent' }),printQRInTerminal: false,mobile: MethodMobile,browser: ['Ubuntu', 'Edge', '110.0.1587.56'], 
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
