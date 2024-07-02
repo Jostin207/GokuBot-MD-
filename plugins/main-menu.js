@@ -12,7 +12,6 @@ let tags = {
   'sticker': 'Stickers ✨️',
   'xp': 'Exp 🏷',
   'fix': 'Fixmsgespera ☁️',
-  'group': 'Grupos 🌩',
   'grupo': 'Grupos 🌩',
   'database': 'Database 📚',
   'buscador': 'Busquedas 🔍', 
