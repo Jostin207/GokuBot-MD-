@@ -94,8 +94,4 @@
   "yt-search": "^2.10.3",
   "ytdl-core": "^4.11.4",
   "sharp": "^0.32.6"
-  "sharp": {
-   "optional": true
-   }},
-  "packageManager": "yarn@1.22.19"
-}
+}}
