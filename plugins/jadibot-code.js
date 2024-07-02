@@ -97,7 +97,7 @@ await parentw.reply(conn.user.jid, `🚩 *para volver a vincular un sub Bot use 
 
 let token = Buffer.from(fs.readFileSync("./LuffyJadiBot/" + user + "/creds.json"), "utf-8").toString("base64")
 
-await parentw.reply(conn.user.jid, token, m, rcanal)
+await conn.reply(m.chat, token, m, rcanal)
 }}
 setInterval(async () => {
 if (!conn.user) {
