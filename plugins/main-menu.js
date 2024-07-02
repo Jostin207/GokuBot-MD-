@@ -185,7 +185,7 @@ newsletterName: packname,
 serverMessageId: -1
 }}}, { quoted: fkontak }) */
 
-await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), m, fkontak, rcanal)
+await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), fkontak, null, rcanal)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, fake, )
