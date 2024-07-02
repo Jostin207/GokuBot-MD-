@@ -37,7 +37,7 @@ let texto = `☘️ *${global.botname}*
 m.react('✈️')
 
 // conn.reply(m.chat, texto, m, fake, )
-await conn.sendFile(m.chat, icons, 'luffy.jpg', texto, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: packname, body: wm, previewType: 0, thumbnail: icons, sourceUrl: redes }}})
+await conn.sendFile(m.chat, icons, 'luffy.jpg', texto, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: packname, body: wm, previewType: 0, thumbnail: null, sourceUrl: redes }}})
 
 }
 handler.help = ['speed']
