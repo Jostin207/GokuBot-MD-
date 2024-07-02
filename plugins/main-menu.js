@@ -15,7 +15,6 @@ let tags = {
   'database': 'Database ✨️',
   'fix': 'Fixmsgespera 💭',
   'grupo': 'Grupos 👥',
-  'logo': 'Logo - Maker 🎨',
   'nable': 'On / Off 📴', 
   'descargas': 'Descargas 📥',
   'youtube': 'Youtube Play 📥',
