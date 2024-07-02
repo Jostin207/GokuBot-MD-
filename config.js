@@ -42,8 +42,10 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Luffy
-global.gp2 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
-global.gp3 = 'https://chat.whatsapp.com/GvJAupaHXTQDNivZIa2l5D' //Alisa Kujou Y Luffy
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk'
+global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
+global.gp4 = 'https://chat.whatsapp.com/GvJAupaHXTQDNivZIa2l5D' //Alisa Kujou Y Luffy
+global.gp5 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //ShizukaBot Y Luffy
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
 global.md = 'https://github.com/OfcDiego/LuffyBot-MD' //Github Oficial
