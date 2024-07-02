@@ -1,6 +1,6 @@
 var handler = async (m, { conn, command, text }) => {
 
-if (!text) return conn.reply(m.chat, '⁖🧡꙰  *Escribe el nombre de dos personas para calcular su amor*`, m, fake, )
+if (!text) return conn.reply(m.chat, '⁖🧡꙰  *Escribe el nombre de dos personas para calcular su amor*', m, fake, )
 let [text1, ...text2] = text.split(' ')
 
 text2 = (text2 || []).join(' ')
