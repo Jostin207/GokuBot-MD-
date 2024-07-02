@@ -95,7 +95,7 @@ await sleep(5000);
 if (args[0]) return;
 await parentw.reply(conn.user.jid, `🚩 *para volver a vincular un sub Bot use tu token*`, m, rcanal)
 
-if (!args[0]) parentw.sendMessage(m.sender, {text : usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./LuffyJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, { quoted: fkontak })
+await parentw.reply(conn.user.jid, usedPrefix + command + ' ' + Buffer.from(fs.readFileSync('./LuffyJadiBot/' + id + '/creds.json'), 'utf-8').toString('base64')}, m, rcanal)
 }}
 setInterval(async () => {
 if (!conn.user) {
