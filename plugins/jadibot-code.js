@@ -94,11 +94,10 @@ await parent.reply(m.chat, args[0] ? '🐢 Conectado con éxito al WhatsApp.' : 
 await sleep(5000);
 if (args[0]) return;
 await parentw.reply(conn.user.jid, `🚩 *para volver a vincular un sub Bot use tu token*`, m, rcanal)
-
+}}
 let token = Buffer.from(fs.readFileSync("./LuffyJadiBot/" + user + "/creds.json"), "utf-8").toString("base64")
 
 await conn.reply(m.chat, token, m, rcanal)
-}}
 setInterval(async () => {
 if (!conn.user) {
 try { conn.ws.close(); } catch { }conn.ev.removeAllListeners();
