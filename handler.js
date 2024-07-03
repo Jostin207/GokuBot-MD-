@@ -379,7 +379,8 @@ typeof plugin.command === 'string' ? // String?
 plugin.command === command :
 false
 
-if (!isAccept) 
+if (!isAccept) {
+if (!isAccept) this.reply(m.chat, `El comando *${command}* no es válido.\nUse *!menu* para ver mis comandos.`, m)}
 continue
 m.plugin = name
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
