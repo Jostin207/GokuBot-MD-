@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-console.log(chalk.cyan(`Bot: ${name}\nDescripción: ${descripcion}\nVersión: ${version}\nCreador: ${author}\nCorreo: theluffybot@gmail.com`));
+console.log(chalk.cyan(`Bot: ${name}\nDescripción: ${descripcion}\nVersión: ${version}\nCreador: OfcDiego\nCorreo: theluffybot@gmail.com`));
 var isRunning = false;
 function start(file) {
 if (isRunning) return;
