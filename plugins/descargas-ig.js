@@ -1,4 +1,4 @@
-import Scraper from '@SumiFX/Scraper'
+// import Scraper from '@SumiFX/Scraper'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) return m.reply('💥 Ingresa un enlace de Instagram.')
 try {
