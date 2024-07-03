@@ -19,6 +19,6 @@ handler.help = ['ig <enlace>']
 handler.tags = ['descargas']
 handler.command = ['ig', 'instagram']
 handler.register = true
-handler.limit = 1
+handler.estrellas = 1
 
 export default handler
