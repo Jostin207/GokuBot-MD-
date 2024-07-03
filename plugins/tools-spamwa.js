@@ -18,5 +18,5 @@ handler.command = /^spam(wa)?$/i;
 handler.group = false;
 handler.premium = true;
 // handler.private = true
-// handler.limit = true
+// handler.estrellas = true
 export default handler;
