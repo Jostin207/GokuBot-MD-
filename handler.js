@@ -48,7 +48,7 @@ m = smsg(this, m) || m
 if (!m)
 return
 m.exp = 0
-m.limit = false
+m.estrellas = false
 m.money = false
 try {
 // TODO: use loop to insert data instead of this
