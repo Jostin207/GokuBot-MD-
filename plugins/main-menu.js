@@ -27,6 +27,7 @@ let tags = {
   'audio': 'Audios 🔉', 
   'ai': 'Ai 🌹',
   'transformador': 'Convertidores 💠',
+  '', 'Otras Funciones 🏳',
 }
 
 const defaultMenu = {
