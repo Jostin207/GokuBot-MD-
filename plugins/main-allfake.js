@@ -59,8 +59,9 @@ var git = 'https://github.com/OfcDiego'
 var youtube = 'https://www.youtube.com/@OfcDiego' 
 var github = 'https://github.com/OfcDiego/LuffyBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
+let tiktok = 'https://tiktok.com/@theluffybot'
 
-global.redes = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
+global.redes = [canal, canal2, grupofb, git, youtube, github, facebook, tiktok].getRandom()
 
 global.canales = [canal, canal2].getRandom()
 
