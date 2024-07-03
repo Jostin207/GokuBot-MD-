@@ -24,7 +24,7 @@ await conn.reply(m.chat, res.data, m, rcanal)
 handler.help = ['chatgpt <texto>', 'ia <texto>']
 handler.tags = ['ai']
 handler.register = true
-handler.limit = 5
+handler.estrellas = 5
 handler.command = ['ia', 'chatgpt']
 
 export default handler;
