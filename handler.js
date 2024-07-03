@@ -380,6 +380,7 @@ plugin.command === command :
 false
 
 if (!isAccept)
+if (!isAccept) this.reply(m.chat, `El comando *${command}* no es válido.\nUse *!menu* para ver mis comandos.`, m)
 continue
 m.plugin = name
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
@@ -404,7 +405,7 @@ global.db.data.users[m.sender].spam = new Date * 1
 
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
-let exotico = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
+let luffy = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
 if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && luffy) return   
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { //número bot owner
 fail('owner', m, this)
