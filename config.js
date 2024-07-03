@@ -50,6 +50,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal
 global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
 global.md = 'https://github.com/OfcDiego/LuffyBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
+global.tiktok = 'https://tiktok.com/@theluffybot' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
