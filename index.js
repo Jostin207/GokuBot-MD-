@@ -23,6 +23,11 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
+say(`Developed By • Ofc.Diego`, {
+font: 'console',
+align: 'center',
+colors: ['yellow']
+});
 console.log(chalk.cyan(`Bot: ${name}\nDescripción: ${description}\nVersión: ${version}\nCreador: OfcDiego\nCorreo: theluffybot@gmail.com`));
 var isRunning = false;
 function start(file) {
