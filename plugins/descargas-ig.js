@@ -1,6 +1,5 @@
 import fetch from 'node-fetch'
 import axios from 'axios'
-import { instagram } from '@xct007/frieren-scraper'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) return m.reply('💥 Ingresa un enlace de Instagram.')
 try {
