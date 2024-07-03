@@ -7,10 +7,11 @@ let b = text.split('|')
 for (let c = 0; c < b.length; c++) {
 a.push([b[c]])
                         }
-                        return conn.sendPoll(m.chat, `📊 *Encuesta para:*\n\n${text}`, a, m)
+                        return conn.sendPoll(m.chat, `${packname}`, a, m)
 }
 handler.help = ['encuesta <text|text2>']
 handler.tags = ['grupo'] 
 handler.command = ['poll', 'encuesta'] 
+handler.group = true
 
 export default handler
