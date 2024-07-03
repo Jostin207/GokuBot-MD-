@@ -405,7 +405,7 @@ global.db.data.users[m.sender].spam = new Date * 1
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
 let exotico = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && rezero) return   
+if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && luffy) return   
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { //número bot owner
 fail('owner', m, this)
 continue
