@@ -37,7 +37,7 @@ const defaultMenu = {
 ╭──⬣「 *Info User* 」⬣
 │  ≡◦ 💌 *Cliente:* %name
 │  ≡◦ ⚡️ *Exp:* %exp
-│  ≡◦ 🍓 *Fresas:* %limit
+│  ≡◦ 🍒 *Cerezas:* %limit
 │  ≡◦ 🐢 *Nivel:* %level
 │  ≡◦ ⚓ *Rango:* %role
 ╰──⬣
