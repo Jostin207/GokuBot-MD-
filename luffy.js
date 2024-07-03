@@ -347,8 +347,8 @@ conn.ev.off('creds.update', conn.credsUpdate)
 }
 
 //Config de los grupos
-conn.welcome = `*• Holaa :D Bienvenido/a al grupo!!*\n*━━━━━━━━━━━━━━━━*\n\n🎋 *• Nombre:* @user\n🕒 *• Hora:* ${bottime}\n🗓️ *• Fecha:* ${botdate}\n\n- *recuerda leer las reglas del grupo* -`
-conn.bye = `*👋 Hasta pronto, no te extrañaremos XD!!*\n*━━━━━━━━━━━━━━━━*\n\n🎋 *• Nombre:* @user\n🕒 *• Hora:* ${bottime}\n🗓️ *• Fecha:* ${botdate}\n\n- *Salúdame a Maradona bro* -` 
+conn.welcome = '*• Holaa :D Bienvenido/a al grupo!!*\n*━━━━━━━━━━━━━━━━*\n\n🎋 *• Nombre:* @user\n🕒 *• Hora:* ${bottime}\n🗓️ *• Fecha:* ${botdate}\n\n- *recuerda leer las reglas del grupo* -'
+conn.bye = '*👋 Hasta pronto, no te extrañaremos XD!!*\n*━━━━━━━━━━━━━━━━*\n\n🎋 *• Nombre:* @user\n🕒 *• Hora:* ${bottime}\n🗓️ *• Fecha:* ${botdate}\n\n- *Salúdame a Maradona bro* -'
 conn.spromote = '❏ 💭 @user Ahora es admi en este grupo'
 conn.sdemote = '❏ 💭 @user Joderte ya no eres admin'
 conn.sDesc = '❏ 💭 *Se ha modificado la descripción del grupo.*\n\nNueva Descripción: @desc'
