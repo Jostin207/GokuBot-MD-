@@ -1,4 +1,4 @@
-import Starlights from '@StarlightsTeam/Scraper'
+/* import Starlights from '@StarlightsTeam/Scraper'
 let listo = '🚩 Tu video de instagram'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) return conn.reply(m.chat, '🚩 Ingresa un enlace de Instagram.', m, rcanal)
@@ -10,7 +10,7 @@ body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 let { dl_url } = await Starlights.igdl(args[0])
-await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: listo }, { quoted: fkontal})
+await conn.sendMessage(m.chat, { video: { url: dl_url }, caption: listo }, { quoted: fkontak})
 } catch (e) {
   console.log(e)
   m.reply('🚩 Ocurrió un error inesperado.')
@@ -20,4 +20,4 @@ handler.tags = ['descargas']
 handler.command = ['ig', 'instagram']
 handler.register = true
 handler.estrellas = 1
-export default handler
+export default handler */
