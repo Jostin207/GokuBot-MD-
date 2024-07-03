@@ -26,7 +26,7 @@ if (!fs.existsSync("./LuffyJadiBot/" + authFolderB)) {
 fs.mkdirSync("./LuffyJadiBot/" + authFolderB, { recursive: true });
 }
 if (args[0]) {
-fs.writeFileSync("./LuffyJadiBot/" + authFolderB + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(args[0], "base64").toString("utf-8")), null, '\t'));
+fs.writeFileSync(`${folderSub}/creds.json`, Buffer.from(args[0], 'base64').toString('utf-8'))
 }
 const { state, saveState, saveCreds } = await useMultiFileAuthState(`./LuffyJadiBot/${authFolderB}`);
 const msgRetryCounterMap = (MessageRetryMap) => { };
