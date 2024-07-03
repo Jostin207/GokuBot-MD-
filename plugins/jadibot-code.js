@@ -28,7 +28,7 @@ fs.mkdirSync("./LuffyJadiBot/" + authFolderB, { recursive: true });
 if (args[0]) {
 fs.writeFileSync("./LuffyJadiBot/" + authFolderB + "/creds.json", JSON.stringify(JSON.parse(Buffer.from(args[0], "base64").toString("utf-8")), null, '\t'));
 }
-const { state, saveState, saveCreds } = await useMultiFileAuthState(`./JadiBotSessions/${authFolderB}`);
+const { state, saveState, saveCreds } = await useMultiFileAuthState(`./LuffyJadiBot/${authFolderB}`);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache();
 const { version } = await fetchLatestBaileysVersion();
