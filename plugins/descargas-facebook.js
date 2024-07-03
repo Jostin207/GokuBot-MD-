@@ -72,7 +72,7 @@ handler.tags = ['descargas']
 handler.command = /^(facebook|fb|facebookdl|fbdl)$/i
 
 handler.register = true
-handler.limit = 1
+handler.estrellas = 1
 
 export default handler
 
