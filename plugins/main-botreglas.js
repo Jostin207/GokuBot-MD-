@@ -13,7 +13,7 @@ let luffy = `⁖🩵꙰  *Respeta las reglas de LuffyBot*\n
 ⁖💚꙰  𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de Luffy.*
 
 ${global.md}`.trim()
-await conn.reply(m.chat, luffy, m, fake, )
+await conn.reply(m.chat, luffy, m, rcanal, )
 
 }
 handler.help = ['botreglas']
