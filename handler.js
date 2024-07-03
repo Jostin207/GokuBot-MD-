@@ -381,7 +381,7 @@ false
 
 // if (!isAccept) !
 if (!isAccept) conn.reply(m.chat, `El comando *${command}* no es válido.\nUse *!menu* para ver mis comandos.`, m)
-continue
+// continue
 m.plugin = name
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
 let chat = global.db.data.chats[m.chat]
