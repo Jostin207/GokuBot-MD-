@@ -7,13 +7,12 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline';
 import yargs from 'yargs';
 import chalk from 'chalk';
-console.log('\n➤ Archivo en Ejecución: index.js\n\n╭───────────────────╼\n│❀ Iniciando Luffy Bot - MD\n╰───────────────────╼');
+console.log('\n✰ Iniciando LuffyBot ✰');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Alisa\nKujou', {
 say('Luffy\nBot-MD', {
 font: 'block',
 align: 'center',
@@ -24,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-console.log(chalk.green(`╭───────────────────╼\n│❀ INFO OWNER\n│◈ Developed: ${author}\n│◈ GitHub: https://github.com/OfcDiego\n│\n│❀ INFO BOT\n│◈ Nombre: ${name}\n│◈ Versión: ${version}\n│◈ Descripción: ${description}\n│◈ Baileys: ^6.7.2\n╰───────────────────╼`));
+console.log(chalk.cyan(`Bot: ${name}\nDescripción: ${descripcion}\nVersión: ${version}\nCreador: ${author}\nCorreo: theluffybot@gmail.com`));
 var isRunning = false;
 function start(file) {
 if (isRunning) return;
