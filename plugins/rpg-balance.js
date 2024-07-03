@@ -5,7 +5,7 @@ const handler = async (m, {usedPrefix}) => {
   const name = conn.getName(who);
   m.reply(`╭━〔  ${global.packname}  〕⬣
 ┋💌 *Usuario:* ${name}
-┋🌟 *Estrella*: ${global.db.data.users[who].estrellas} 🌟
+┋🌟 *Estrellas*: ${global.db.data.users[who].estrellas} 🌟
 ┋💰 *Experiencia:* ${global.db.data.users[who].exp}
 ╰━━━━━━━━━━━━⬣
 
