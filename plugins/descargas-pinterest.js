@@ -18,6 +18,6 @@ m.react(error)
 handler.help = ['pinterest <texto>']
 handler.tags = ['buscador', 'descargas']
 handler.command = ['pinterest']
-handler.limit = 1
+handler.estrellas = 1
 handler.register = true
 export default handler
