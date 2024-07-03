@@ -34,6 +34,6 @@ handler.tags = ['buscador']
 handler.command = /^playlist|ytbuscar|yts(earch)?$/i
 
 handler.register = true
-handler.limit = true
+handler.estrellas = 1
 
 export default handler
