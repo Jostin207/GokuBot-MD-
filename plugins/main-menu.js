@@ -32,33 +32,32 @@ let tags = {
 const defaultMenu = {
   before: `*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
-“ hello *%name*, Cómo se encuentra el día de hoy? ”
+“ Hola *%name*, mi nombre es *LuffyBot*, Cómo se encuentra el día de hoy?  ”
 
-╭──⬣「 *Info User* 」⬣
-│  ≡◦ 💌 *Cliente:* %name
-│  ≡◦ ⚡️ *Exp:* %exp
-│  ≡◦ 🌟 *Estrellas:* %estrellas
-│  ≡◦ 🐢 *Nivel:* %level
-│  ≡◦ ⚓ *Rango:* %role
-╰──⬣
+*╭──⬣「 Info User 」⬣*
+*│* ✰ 💌 *Cliente:* %name
+*│* ✰ ⚡️ *Exp:* %exp
+*│* ✰ 🌟 *Estrellas:* %estrellas
+*│* ✰ 🐢 *Nivel:* %level
+*│* ✰ ⚓ *Rango:* %role
+*╰──⬣*
 
-╭──⬣「 *Info Bot* 」⬣
-│  ≡◦ 👑 *Creador:* Ofc Diego 
-│  ≡◦ 🚩 *Bot:* LuffyBot-MD
-│  ≡◦ ⏰️ *Actividad:* %muptime
-│  ≡◦ 📇 *Registrados:* %totalreg
-│  ≡◦ 💥 *Versión* %version
-│  ≡◦ 📆 *Fecha* %date
-╰──⬣
+*╭──⬣「 Info Bot 」⬣*
+*│* ✰ ⚡️ *Bot:* Luffy Bot - MD 
+*│* ✰ 🚩 *Modo* Público
+*│* ✰ 📚 *Baileys:* Multi Device
+*│* ✰ ⏱️ *Tiempo Activo:* %muptime
+*│* ✰ 👤 *Usuarios:* %totalreg
+*╰──⬣*
 
 %readmore
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-  header: '╭──⬣「 *%category* 」⬣',
-  body: '│  ≡◦ %cmd\n',
-  footer: '╰──⬣\n',
+  header: '*╭──⬣「 %category 」⬣*',
+  body: '*│*  ≡◦ %cmd\n',
+  footer: '*╰──⬣*\n',
   after: '',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
