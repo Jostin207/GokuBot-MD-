@@ -23,7 +23,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
   if (isNaN(estrellas) || estrellas <= 0) return conn.reply(m.chat, `🚩 Por favor, ingresa una cantidad válida para la apuesta.`, m, rcanal)
 
-  if (limit > 50) return conn.reply(m.chat, "🚩 La cantidad máxima de apuesta es de 50 *🌟 Estrellas*.", m, rcanal)
+  if (estrellas > 50) return conn.reply(m.chat, "🚩 La cantidad máxima de apuesta es de 50 *🌟 Estrellas*.", m, rcanal)
 
   if (!(color === 'black' || color === 'red')) return conn.reply(m.chat, "🚩 Debes apostar a un color válido: *black* o *red*.", m, rcanal)
 
@@ -43,10 +43,10 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
     if (win) {
       users.estrellas += estrellas
-      conn.reply(m.chat, `🚩 ¡Ganaste! Obtuviste ${estrellas} *🌟 Estrellas*. Total: ${users.limit} *🌟 Estrellas*.`, m, rcanal)
+      conn.reply(m.chat, `🚩 ¡Ganaste! Obtuviste ${estrellas} *🌟 Estrellas*. Total: ${users.estrellas} *🌟 Estrellas*.`, m, rcanal)
     } else {
       users.estrellas -= estrellas
-      conn.reply(m.chat, `🚩 Perdiste. Se restaron ${limit} *🌟 Estrellas*. Total: ${users.limit} *🌟 Estrellas*.`, m, rcanal)
+      conn.reply(m.chat, `🚩 Perdiste. Se restaron ${estrellas} *🌟 Estrellas*. Total: ${users.estrellas} *🌟 Estrellas*.`, m, rcanal)
     }
 
 
