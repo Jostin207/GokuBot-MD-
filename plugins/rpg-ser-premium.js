@@ -91,7 +91,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃*
 *┃✨ 𝙉𝙤𝙢𝙗𝙧𝙚:* » ${user.name}
 *┃💰 𝙋𝙖𝙜𝙤:* »  -${gata * text} ${rpgshopp.emoticon('estrellas')}
-*┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.limit + gata} ${rpgshopp.emoticon('estrellas')}
+*┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.estrellas + gata} ${rpgshopp.emoticon('estrellas')}
 *┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.estrellas} ${rpgshopp.emoticon('estrellas')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
@@ -123,7 +123,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃✨ 𝙉𝙤𝙢𝙗𝙧𝙚:* » ${user.name}
 *┃💰 𝙋𝙖𝙜𝙤:* »  -${gata * text} ${rpgshopp.emoticon('estrellas')}
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.estrellas + gata} ${rpgshopp.emoticon('estrellas')}
-*┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.limit} ${rpgshopp.emoticon('estrellas')}
+*┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.estrellas} ${rpgshopp.emoticon('estrellas')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
@@ -154,7 +154,7 @@ await conn.reply(m.chat, `*╭┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╮*
 *┃✨ 𝙉𝙤𝙢𝙗𝙧𝙚:* » ${user.name}
 *┃💰 𝙋𝙖𝙜𝙤:* »  -${gata * text} ${rpgshopp.emoticon('estrellas')}
 *┃👝 𝙏𝙚𝙣𝙞́𝙖:* » ${user.estrellas + gata} ${rpgshopp.emoticon('estrellas')}
-*┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.limit} ${rpgshopp.emoticon('estrellas')}
+*┃🛄 𝙇𝙚 𝙦𝙪𝙚𝙙𝙖𝙣:* » ${user.estrellas} ${rpgshopp.emoticon('estrellas')}
 *┃🕐 𝙏𝙞𝙚𝙢𝙥𝙤:* » ${tiempoPremium} min
 *╰┈┈┈┈┈◈ 🌟 ◈┈┈┈┈┈╯*\n\n💖 *Ahora tiene Premium por lo tanto no va tener límites.*\n\n${dev}`, fkontak, { mentions: [aa,] })}
 
