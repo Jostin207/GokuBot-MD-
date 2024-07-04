@@ -34,30 +34,34 @@ const defaultMenu = {
 
 “ Hola *%name*, mi nombre es *LuffyBot*, Cómo se encuentra el día de hoy?  ”
 
-*╭──⬣「 Info User 」⬣*
-*│* ✰ 💌 *Cliente:* %name
-*│* ✰ ⚡️ *Exp:* %exp
-*│* ✰ 🌟 *Estrellas:* %estrellas
-*│* ✰ 🐢 *Nivel:* %level
-*│* ✰ ⚓ *Rango:* %role
-*╰──⬣*
+*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
+*┃* 			*INFO USER*
+*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
+*┃* ✰ 💌 *Cliente:* %name
+*┃* ✰ ⚡️ *Exp:* %exp
+*┃* ✰ 🌟 *Estrellas:* %estrellas
+*┃* ✰ 🐢 *Nivel:* %level
+*┃* ✰ ⚓ *Rango:* %role
+*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*
 
-*╭──⬣「 Info Bot 」⬣*
-*│* ✰ ⚡️ *Bot:* Luffy Bot - MD 
-*│* ✰ 🚩 *Modo* Público
-*│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ ⏱️ *Tiempo Activo:* %muptime
-*│* ✰ 👤 *Usuarios:* %totalreg
-*╰──⬣*
+*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
+*┃* 			*INFO BOT*
+*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
+*┃* ✰ *💫 Bot* : Luffy Bot - MD
+*┃* ✰ *🍬 Modo* : Público
+*┃* ✰ *📚 Baileys* : Multi Device
+*┃* ✰ *⏱ Tiempo Activo* : %muptime
+*┃* ✰ *👤 Usuarios* : %totalreg
+*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*
 
 %readmore
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-  header: '*╭──⬣「 %category 」⬣*',
-  body: '*│* %cmd\n',
-  footer: '*╰──⬣*\n',
+  header: '*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*\n*┃* 			*%category*\n*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*',
+  body: '*┃* %cmd\n',
+  footer: '*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*\n',
   after: '',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
