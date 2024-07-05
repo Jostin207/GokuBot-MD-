@@ -4,29 +4,28 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'Info 📚',
-  'buscador': 'Busquedas 🔎',
-  'fun': 'Juegos 🎮',
-  'jadibot': 'Sub Bots 🤖',
-  'rpg': 'RPG 🌠',
-  'rg': 'Registro 📁',
-  'xp': 'Exp 🏷',
-  'sticker': 'Stickers 🏞',
-  'database': 'Database ✨️',
-  'fix': 'Fixmsgespera 💭',
-  'grupo': 'Grupos 👥',
-  'nable': 'On / Off 📴', 
-  'descargas': 'Descargas 📥',
-  'youtube': 'Youtube Play 📥',
-  'tools': 'Herramientas 🔧',
-  'info': 'Información 🐢',
-  'fun': 'Diversión 🎲',
-  'nsfw': 'Nsfw 🔞', 
-  'owner': 'Creador 👑', 
-  'mods': 'Staff Luffy 🚩',
-  'audio': 'Audios 🔉', 
-  'ai': 'Ai 🌹',
-  'transformador': 'Convertidores 💠',
+  'main': 'INFO',
+  'buscador': 'BUSQUEDAS',
+  'fun': 'JUEGOS',
+  'jadibot': 'SUB BOTS',
+  'rpg': 'RPG',
+  'rg': 'REGISTRO',
+  'xp': 'EXP',
+  'sticker': 'STICKERS',
+  'database': 'DATABASE',
+  'fix': 'FIXMSGESPERA',
+  'grupo': 'GRUPOA',
+  'nable': 'ON / OFF', 
+  'descargas': 'DESCARGAS',
+  'youtube': 'YOUTUBE - PLAY',
+  'tools': 'HERRAMIENTAS',
+  'info': 'INFORMACIÓN',
+  'nsfw': 'NSFW', 
+  'owner': 'CREADOR', 
+  'mods': 'STAFF - LUFFY',
+  'audio': 'AUDIOS', 
+  'ai': 'AI',
+  'transformador': 'CONVERTIDORES',
 }
 
 const defaultMenu = {
@@ -35,7 +34,7 @@ const defaultMenu = {
 “ Hola *%name*, mi nombre es *LuffyBot*, Cómo se encuentra el día de hoy?  ”
 
 *┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
-*┃* 	   		*INFO USER*
+*┃* 	   	 	*INFO USER*
 *┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
 *┃* ✰ 💌 *Cliente:* %name
 *┃* ✰ ⚡️ *Exp:* %exp
@@ -45,7 +44,7 @@ const defaultMenu = {
 *┗━━━━━━━━⧔✰⧕━━━━━━━━┛*
 
 *┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
-*┃* 	   		*INFO BOT*
+*┃* 	   	 	*INFO BOT*
 *┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
 *┃* ✰ *💫 Bot* : Luffy Bot - MD
 *┃* ✰ *🍬 Modo* : Público
@@ -59,7 +58,7 @@ const defaultMenu = {
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-  header: '*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*\n*┃* 			   *%category*\n*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*',
+  header: '*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*\n*┃* 			    *%category*\n*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*',
   body: '*┃* %cmd\n',
   footer: '*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*\n',
   after: '',
