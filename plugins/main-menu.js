@@ -4,28 +4,28 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'main': 'INFO',
-  'buscador': 'BUSQUEDAS',
-  'fun': 'JUEGOS',
-  'jadibot': 'SUB BOTS',
-  'rpg': 'RPG',
-  'rg': 'REGISTRO',
-  'xp': 'EXP',
-  'sticker': 'STICKERS',
-  'database': 'DATABASE',
-  'fix': 'FIXMSGESPERA',
-  'grupo': 'GRUPOA',
-  'nable': 'ON / OFF', 
-  'descargas': 'DESCARGAS',
-  'youtube': 'YOUTUBE - PLAY',
-  'tools': 'HERRAMIENTAS',
-  'info': 'INFORMACIÓN',
-  'nsfw': 'NSFW', 
-  'owner': 'CREADOR', 
-  'mods': 'STAFF - LUFFY',
-  'audio': 'AUDIOS', 
-  'ai': 'AI',
-  'transformador': 'CONVERTIDORES',
+  'main': 'Info 📚',
+  'buscador': 'Busquedas 🔎',
+  'fun': 'Juegos 🎮',
+  'jadibot': 'Sub Bots 🤖',
+  'rpg': 'RPG 🌠',
+  'rg': 'Registro 📁',
+  'xp': 'Exp 🏷',
+  'sticker': 'Stickers 🏞',
+  'database': 'Database ✨️',
+  'fix': 'Fixmsgespera 💭',
+  'grupo': 'Grupos 👥',
+  'nable': 'On / Off 📴', 
+  'descargas': 'Descargas 📥',
+  'youtube': 'Youtube Play 📥',
+  'tools': 'Herramientas 🔧',
+  'info': 'Información 🐢',
+  'nsfw': 'Nsfw 🔞', 
+  'owner': 'Creador 👑', 
+  'mods': 'Staff Luffy 🚩',
+  'audio': 'Audios 🔉', 
+  'ai': 'Ai 🌹',
+  'transformador': 'Convertidores 💠',
 }
 
 const defaultMenu = {
@@ -33,34 +33,30 @@ const defaultMenu = {
 
 “ Hola *%name*, mi nombre es *LuffyBot*, Cómo se encuentra el día de hoy?  ”
 
-*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
-*┃* 	     	 	*INFO USER*
-*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
-*┃* ✰ 💌 *Cliente:* %name
-*┃* ✰ ⚡️ *Exp:* %exp
-*┃* ✰ 🌟 *Estrellas:* %estrellas
-*┃* ✰ 🐢 *Nivel:* %level
-*┃* ✰ ⚓ *Rango:* %role
-*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*
+*╭──⬣「 Info User 」⬣*
+*│* ✰ 💌 *Cliente:* %name
+*│* ✰ ⚡️ *Exp:* %exp
+*│* ✰ 🌟 *Estrellas:* %estrellas
+*│* ✰ 🐢 *Nivel:* %level
+*│* ✰ ⚓ *Rango:* %role
+*╰──⬣*
 
-*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*
-*┃* 	     	 	*INFO BOT*
-*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*
-*┃* ✰ *💫 Bot* : Luffy Bot - MD
-*┃* ✰ *🍬 Modo* : Público
-*┃* ✰ *📚 Baileys* : Multi Device
-*┃* ✰ *⏱ Tiempo Activo* : %muptime
-*┃* ✰ *👤 Usuarios* : %totalreg
-*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*
+*╭──⬣「 Info Bot 」⬣*
+*│* ✰ ⚡️ *Bot:* Luffy Bot - MD 
+*│* ✰ 🚩 *Modo* Público
+*│* ✰ 📚 *Baileys:* Multi Device
+*│* ✰ ⏱️ *Tiempo Activo:* %muptime
+*│* ✰ 👤 *Usuarios:* %totalreg
+*╰──⬣*
 
 %readmore
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-  header: '*┏━━━━━━━━⧔✰⧕━━━━━━━━┓*\n*┃* 			      *%category*\n*┣━━━━━━━━⧔✰⧕━━━━━━━━┛*',
-  body: '*┃* %cmd\n',
-  footer: '*┗━━━━━━━━⧔✰⧕━━━━━━━━┛*\n',
+  header: '*╭──⬣「 %category 」⬣*',
+  body: '*│* %cmd\n',
+  footer: '*╰──⬣*\n',
   after: '',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
