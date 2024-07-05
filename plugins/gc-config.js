@@ -3,7 +3,7 @@ const isClose = { 'open': 'not_announcement', 'close': 'announcement', 'abierto'
 if (isClose === undefined) { return conn.reply(m.chat, `*Elija una opción para configurar el grupo*\n\nEjemplo:\n*○ !${command} abrir*\n*○ !${command} cerrar*\n*○ !${command} bloquear*\n*○ !${command} desbloquear*`, m, rcanal, )}
 await conn.groupSettingUpdate(m.chat, isClose)
 { 
-// conn.reply(m.chat, '✅ *Configurado correctamente*', m, rcanal, )
+conn.reply(m.chat, '✅ *LISTO*', m, rcanal, )
 await m.react(done)
 }}
 handler.help = ['group abrir / cerrar']
