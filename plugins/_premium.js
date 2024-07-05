@@ -1,4 +1,4 @@
-const handler = (m) => m;
+/* const handler = (m) => m;
 
 export async function all(m) {
   for (const user of Object.values(global.db.data.users)) {
@@ -15,7 +15,7 @@ export async function all(m) {
   }
 }
 
-/* let handler = m => m
+let handler = m => m
 
 export async function all(m) {
   let user = global.db.data.users[m.sender]
