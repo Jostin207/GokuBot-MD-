@@ -1,4 +1,4 @@
-00import pkg from '@whiskeysockets/baileys'
+import pkg from '@whiskeysockets/baileys'
 import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
@@ -89,16 +89,16 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-let icono = [
-'https://qu.ax/repp.jpg', 
-'https://qu.ax/ljre.jpg', 
-'https://qu.ax/vQmu.jpg', 
-'https://qu.ax/SHbs.jpg', 
-'https://qu.ax/sVjE.jpg', 
-'https://qu.ax/STrL.jpg', 
-'https://qu.ax/AwKr.jpg', 
-'https://qu.ax/zLSn.jpg'
-].getRandom()
+let icon1 = 'https://qu.ax/repp.jpg'
+let icon2 = 'https://qu.ax/ljre.jpg'
+let icon3 = 'https://qu.ax/vQmu.jpg'
+let icon4 = 'https://qu.ax/SHbs.jpg'
+let icon5 = 'https://qu.ax/sVjE.jpg'
+let icon6 = 'https://qu.ax/STrL.jpg'
+let icon7 = 'https://qu.ax/AwKr.jpg'
+let icon8 = 'https://qu.ax/zLSn.jpg'
+
+let icono = [icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8].getRandom()
 
 global.rcanal = {
 contextInfo: {
