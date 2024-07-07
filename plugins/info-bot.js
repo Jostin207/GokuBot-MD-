@@ -10,18 +10,18 @@ conn.reply(m.chat, `🚩 ¡Hola! Soy Luffy, en que puedo ayudarte hoy?\n\n✰ Us
 if (/^que|q$/i.test(m.text)) {
 conn.reply(m.chat, `*so* 🧀`, m, rcanal, )
 }
-/*if (/^sexo$/i.test(m.text)) {
+if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
-}*/
+}
 if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rrocito* 🍚`, m, rcanal, )
 }
-/*if (/^bug$/i.test(m.text)) {
+if (/^bug$/i.test(m.text)) {
 conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
-}*/
-/*if (/^pene$/i.test(m.text)) {
+}
+if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, rcanal, )
-}*/
+}
 return !0;
 };
 export default handler;
