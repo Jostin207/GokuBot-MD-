@@ -6,8 +6,8 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.
 let { premium, level, estrellas, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
-💌 *PERFIL DE USUARIO*
-🤍 *Nombre:* ${username}
+🚩 *PERFIL DE USUARIO*
+☁️ *Nombre:* ${username}
 💥 *Tag:* @${who.replace(/@.+/, '')}
 🌀 *Registrado:* ${registered ? '✅': '❌'}
 
