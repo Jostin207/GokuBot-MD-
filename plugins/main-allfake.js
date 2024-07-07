@@ -87,7 +87,18 @@ global.readMore = more.repeat(850)
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icono, sellerJid: '0@s.whatsapp.net'}}}
+
+/* let icono = [
+'https://qu.ax/repp.jpg', 
+'https://qu.ax/ljre.jpg', 
+'https://qu.ax/vQmu.jpg', 
+'https://qu.ax/SHbs.jpg', 
+'https://qu.ax/sVjE.jpg', 
+'https://qu.ax/STrL.jpg', 
+'https://qu.ax/AwKr.jpg', 
+'https://qu.ax/zLSn.jpg'
+].getRandom() */
 
 let icon1 = 'https://qu.ax/repp.jpg'
 let icon2 = 'https://qu.ax/ljre.jpg'
