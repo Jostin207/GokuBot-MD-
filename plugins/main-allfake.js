@@ -104,13 +104,13 @@ newsletterName: 'Luffy Bot - Channel 🚩',
 externalAdReply: {
 showAdAttribution: true,
 title: packname,
-body: '🚩 ¡El Mejor Bot De WhatsApp! 🐢',
+body: '🚩 ¡El Mejor Bot! 🐢',
 mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icono,
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
-},
-},
+}, 
+}, 
 }
 }
 
