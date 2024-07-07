@@ -1,9 +1,7 @@
-//Creditos: https://github.com/DanixlJs
-
 import fetch from 'node-fetch';
-const handler = async (m, { conn, args, usedPrefix }) => {
+const handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) return conn.reply(m.chat, `💌 El grupo no admite contenido *Nsfw.*\n\nPara activarlo, un *Administrador* debe usar el comando ${usedPrefix}on modohorny`, m, rcanal)
+if (!db.data.chats[m.chat].modohorny && m.isGroup) return conn.reply(m.chat, `🚩 *¡El comando ${command} está deshabilitado en este grupo!*`, m, rcanal)
 await conn.reply(m.chat, '🚩 Ingresa el nombre de la imágen que estas buscando', m, rcanal);
 return;
 }
@@ -19,7 +17,7 @@ sourceUrl: channel }}})
 const response = await fetch(url);
 const data = await response.json();
 if (!data || data.length === 0) {
-await conn.reply(m.chat, `💌 No hubo resultados para *${use}*`, m, rcanal);
+await conn.reply(m.chat, `🚩 No hubo resultados para *${use}*`, m, rcanal);
 return;
 }
 const randomIndex = Math.floor(Math.random() * data.length);
@@ -28,7 +26,7 @@ const urlimg = randomImage.file_url;
 await conn.sendFile(m.chat, urlimg, 'thumbnail.jpg', `*Resultados De:* ${use}`, m, null, rcanal)
 } catch (error) {
 console.error(error);
-await m.reply('💥 Ocurrió un error inesperado.');
+await m.reply('🚩 Ocurrió un error.');
 }};
 handler.help = ['r34 <texto>'];
 handler.command = ['r34', 'rule34'];
