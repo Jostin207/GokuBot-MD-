@@ -89,7 +89,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icono, sellerJid: '0@s.whatsapp.net'}}}
 
-/* let icono = [
+let icono = [
 'https://qu.ax/repp.jpg', 
 'https://qu.ax/ljre.jpg', 
 'https://qu.ax/vQmu.jpg', 
@@ -98,18 +98,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 'https://qu.ax/STrL.jpg', 
 'https://qu.ax/AwKr.jpg', 
 'https://qu.ax/zLSn.jpg'
-].getRandom() */
-
-let icon1 = 'https://qu.ax/repp.jpg'
-let icon2 = 'https://qu.ax/ljre.jpg'
-let icon3 = 'https://qu.ax/vQmu.jpg'
-let icon4 = 'https://qu.ax/SHbs.jpg'
-let icon5 = 'https://qu.ax/sVjE.jpg'
-let icon6 = 'https://qu.ax/STrL.jpg'
-let icon7 = 'https://qu.ax/AwKr.jpg'
-let icon8 = 'https://qu.ax/zLSn.jpg'
-
-global.icono = [icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8].getRandom()
+].getRandom()
 
 global.rcanal = {
 contextInfo: {
