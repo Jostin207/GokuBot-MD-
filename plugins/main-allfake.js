@@ -91,7 +91,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 /* let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg', 'https://qu.ax/SHbs.jpg', 'https://qu.ax/sVjE.jpg', 'https://qu.ax/STrL.jpg', 'https://qu.ax/AwKr.jpg', 'https://qu.ax/zLSn.jpg'].getRandom() */
 
-let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg'].getRandom()
+let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg', 'https://qu.ax/SHbs.jpg', 'https://qu.ax/sVjE.jpg', 'https://qu.ax/STrL.jpg', 'https://qu.ax/AwKr.jpg', 'https://qu.ax/zLSn.jpg'].getRandom()
 
 global.rcanal = {
 contextInfo: {
@@ -99,18 +99,20 @@ isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: "120363263466636910@newsletter",
 serverMessageId: 100,
-newsletterName: 'Luffy Bot - Channel 🚩',
+newsletterName: 'Luffy Bot Channel 🚩',
 },
-externalAdReply: {
-showAdAttribution: true,
-title: packname,
-body: '🚩 ¡El Mejor Bot! 🐢',
-mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icono,
-sourceUrl: redes,
+externalAdReply: { 
+showAdAttribution: true,                                       title: packname,
+body: '🚩 ¡El Mejor Bot De WhatsApp!',
+mediaUrl: null,
+description: null,
+previewType: "PHOTO",
+thumbnailUrl: redes,
+sourceUrl: canal,
 mediaType: 1,
 renderLargerThumbnail: false
-}, 
-}, 
+},
+},
 }
 }
 
