@@ -4,12 +4,12 @@ const handler = async (m, {usedPrefix}) => {
   else who = m.sender;
   const name = conn.getName(who);
   m.reply(`╭━〔  ${global.packname}  〕⬣
-┋💌 *Usuario:* ${name}
+┋🚩 *Usuario:* ${name}
 ┋🌟 *Estrellas*: ${global.db.data.users[who].estrellas} 🌟
 ┋💰 *Experiencia:* ${global.db.data.users[who].exp}
 ╰━━━━━━━━━━━━⬣
 
-╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
+╭━〔  ${packname}  〕⬣
 ┃ _Puedes Comprar Mas 🪙_
 ┃ _Usando Los Siguentes Comandos_
 ┃ *${usedPrefix}buy <cantidad>*
