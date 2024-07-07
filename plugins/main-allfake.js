@@ -109,7 +109,7 @@ let icon6 = 'https://qu.ax/STrL.jpg'
 let icon7 = 'https://qu.ax/AwKr.jpg'
 let icon8 = 'https://qu.ax/zLSn.jpg'
 
-let icono = [icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8].getRandom()
+global.icono = [icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8].getRandom()
 
 global.rcanal = {
 contextInfo: {
