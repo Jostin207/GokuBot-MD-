@@ -35,7 +35,7 @@ const handler = async (m, { conn }) => {
 
     const message = `✅️ *ESTADO DEL SISTEMA*
 
-💭 *Host ⪼* ${hostname}
+🚩 *Host ⪼* ${hostname}
 🏆 *Plataforma ⪼* ${platform}
 💫 *Arquitectura ⪼* ${arch}
 🥷 *RAM Total ⪼* ${formatBytes(totalMem)}
