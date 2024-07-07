@@ -89,7 +89,9 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icono, sellerJid: '0@s.whatsapp.net'}}}
 
-global.rcanal = {
+global.rcanal = fkontak 
+
+/* global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
@@ -103,12 +105,12 @@ body: '🚩 ¡El Mejor Bot De WhatsApp!',
 mediaUrl: null,
 description: null,
 previewType: "PHOTO",
-thumbnailUrl: icons,
+thumbnailUrl: icono,
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
 },
 },
-}}
+} */ }
 
 export default handler
