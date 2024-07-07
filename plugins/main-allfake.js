@@ -91,7 +91,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 /* let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg', 'https://qu.ax/SHbs.jpg', 'https://qu.ax/sVjE.jpg', 'https://qu.ax/STrL.jpg', 'https://qu.ax/AwKr.jpg', 'https://qu.ax/zLSn.jpg'].getRandom() */
 
-let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg', 'https://qu.ax/SHbs.jpg', 'https://qu.ax/sVjE.jpg', 'https://qu.ax/STrL.jpg', 'https://qu.ax/AwKr.jpg', 'https://qu.ax/zLSn.jpg'].getRandom()
+let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg'].getRandom()
 
 global.rcanal = {
 contextInfo: {
