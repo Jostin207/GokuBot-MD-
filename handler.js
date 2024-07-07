@@ -169,7 +169,7 @@ if (!('delete' in chat)) chat.delete = true
 if (!('modohorny' in chat)) chat.modohorny = false                   
 if (!('autosticker' in chat)) chat.autosticker = false      
 if (!('audios' in chat)) chat.audios = false               
-if (!('antiver' in chat)) chat.antiver = true 
+if (!('antiver' in chat)) chat.antiver = false 
 if (!('antiPorn' in chat)) chat.antiPorn = false     
 if (!('antiLink' in chat)) chat.antiLink = true     
 if (!('antiLink2' in chat)) chat.antiLink2 = false
@@ -184,12 +184,12 @@ if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
 if (!('reaction' in chat)) chat.reaction = false  
-if (!('viewonce' in chat)) chat.viewonce = true       
+if (!('viewonce' in chat)) chat.viewonce = false       
 if (!('modoadmin' in chat)) chat.modoadmin = false    
 if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = false
-if (!('autolevelup' in chat))  chat.autolevelup = false
+if (!('autolevelup' in chat))  chat.autolevelup = true
 if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
@@ -201,11 +201,11 @@ sBye: '',
 sPromote: '',
 sDemote: '', 
 sCondition: JSON.stringify([{ grupo: { usuario: [], condicion: [], admin: '' }, prefijos: []}]), 
-delete: true,
+delete: false,
 modohorny: false,
 autosticker: false,
 audios: false,
-antiver: true,
+antiver: false,
 antiPorn: false,
 antiLink: true,
 antiLink2: false,
@@ -220,12 +220,12 @@ antiThreads: false,
 antiTwitch: false,
 antifake: false,
 reaction: false,
-viewonce: true,
+viewonce: false,
 modoadmin: false,
 antitoxic: false, 
 simi: false,
 antiTraba: false,
-autolevelup: false,
+autolevelup: true,
 expired: 0,
 }
 let settings = global.db.data.settings[this.user.jid]
