@@ -9,7 +9,7 @@ const handler = async (m, {usedPrefix}) => {
 ┋💰 *Experiencia:* ${global.db.data.users[who].exp}
 ╰━━━━━━━━━━━━⬣
 
-╭━〔  ${packname}  〕⬣
+╭━〔  ${global.packname}  〕⬣
 ┃ _Puedes Comprar Mas 🪙_
 ┃ _Usando Los Siguentes Comandos_
 ┃ *${usedPrefix}buy <cantidad>*
