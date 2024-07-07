@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 let regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
   //let img = 'https://telegra.ph/file/78d5468b09fa913567731.png'
-  let textbot = '⁖💚꙰  ¡Bot Multi Device! ⁖💚꙰'
+  let textbot = '🚩 ¡Bot Multi Device!'
   if (!args[0]) {
     return conn.reply(m.chat, `🚩 Escribe la URL de un repositorio de GitHub que deseas descargar.`, m, rcanal)
   }
