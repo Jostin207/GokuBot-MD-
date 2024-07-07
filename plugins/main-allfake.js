@@ -89,10 +89,6 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icono, sellerJid: '0@s.whatsapp.net'}}}
 
-/* let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg', 'https://qu.ax/vQmu.jpg', 'https://qu.ax/SHbs.jpg', 'https://qu.ax/sVjE.jpg', 'https://qu.ax/STrL.jpg', 'https://qu.ax/AwKr.jpg', 'https://qu.ax/zLSn.jpg'].getRandom() */
-
-let icono = ['https://qu.ax/repp.jpg', 'https://qu.ax/ljre.jpg'].getRandom()
-
 global.rcanal = {
 contextInfo: {
 isForwarded: true,
@@ -107,7 +103,7 @@ body: '🚩 ¡El Mejor Bot De WhatsApp!',
 mediaUrl: null,
 description: null,
 previewType: "PHOTO",
-thumbnailUrl: icono,
+thumbnailUrl: icons,
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
