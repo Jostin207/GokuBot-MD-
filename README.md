@@ -118,7 +118,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 ### `☄️ AGRADECIMIENTOS`
 <a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="120" height="120" alt="Agradecimientos"/></a>
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
 
 ### `👑 CREADOR`
 <a
