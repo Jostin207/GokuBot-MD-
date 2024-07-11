@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • Ofc.Diego`, {
+say(`Bot dedicado para saray`, {
 font: 'console',
 align: 'center',
 colors: ['yellow']
