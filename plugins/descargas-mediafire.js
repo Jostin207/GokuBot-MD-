@@ -8,7 +8,7 @@ if (!args[0]) return conn.reply(m.chat, '🚩 Ingrese el enlace de un archivo de
 if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🍟 El enlace deve ser de un archivo de Mediafire.', m, rcanal)
 await m.react(rwait)
 try {
-let { title, ext, aploud, size, dl_url } = await mediafire.mediafire(args[0])
+let { title, ext, aploud, size, dl_url } = await mediafiredl(args[0])
 let txt = `乂  *M E D I A F I R E  -  D O W N L O A D*\n\n`
     txt += `✩ *Nombre* : ${title}\n`
     txt += `✩ *Peso* : ${size}\n`
