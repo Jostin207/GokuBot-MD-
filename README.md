@@ -7,7 +7,7 @@
 ***
 
 > [!NOTE]
-> **El problema en termux: `~$ yarn install` ya se solucionó**
+> **El problema en termux: `~$ yarn install` ya se solucionó, ya se puede instalar correctamente.**
 
 ***
 
