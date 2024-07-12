@@ -179,16 +179,6 @@ await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 
 
 m.react(emoji2) 
 
-/* await conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender], contextInfo: {
-mentionedJid: await conn.parseMention(text),
-isForwarded: true,
-forwardingScore: 1, 
-forwardedNewsletterMessageInfo: {
-newsletterJid: '120363263466636910@newsletter',
-newsletterName: packname,
-serverMessageId: -1
-}}}, { quoted: fkontak }) */
-
 await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), fkontak, null, rcanal)
 
   } catch (e) {
