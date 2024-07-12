@@ -35,7 +35,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/51939041500'
-global.namechannel = '✨️ 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
+global.namechannel = '🚩 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
 global.colab1 = '𝗚𝗮𝘁𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 global.colab2 = '𝗦𝗵𝗶𝘇𝘂𝗸𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 
@@ -114,7 +114,7 @@ newsletterName: 'Luffy Bot Channel 🚩',
 },
 externalAdReply: { 
 showAdAttribution: true,                                       title: packname,
-body: '🚩 ¡El Mejor Bot De WhatsApp!',
+body: '🍟 ¡El Mejor Bot De WhatsApp!',
 mediaUrl: null,
 description: null,
 previewType: "PHOTO",
