@@ -7,7 +7,7 @@
 "success_url": "https://github.com/OfcDiego/LuffyBot-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "luffy"],
+"termux", "superbot", "multi-device", "md", "official", "javascript", "luffybot"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
