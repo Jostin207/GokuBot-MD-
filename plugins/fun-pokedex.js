@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text }) => {
 if (!text) return conn.reply(m.chat, '🚩 *¿Que Pokémon quieres buscar?.*', m, rcanal)
-conn.reply(m.chat, `🍟 Buscando ${text}`, m, {
+conn.reply(m.chat, `🍟 *Buscando ${text}*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
