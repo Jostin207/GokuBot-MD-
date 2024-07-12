@@ -125,6 +125,6 @@ href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
 
 > Copyright (c) 2024 
-**[🍟 Super Bot De WhatsApp 🚩](https://github.com/OfcDiego/LuffyBot-MD)**.
+• **[🍟 Super Bot De WhatsApp 🚩](https://github.com/OfcDiego/LuffyBot-MD)**.
 
 **`¡GRACIAS POR PREFERIRNOS!` 🍟**
