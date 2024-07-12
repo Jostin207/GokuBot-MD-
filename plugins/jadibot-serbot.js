@@ -131,7 +131,11 @@ conn.ev.off('creds.update', conn.credsUpdate)
 conn.welcome = global.conn.welcome + ''
 conn.bye = global.conn.bye + ''
 conn.spromote = global.conn.spromote + ''
-conn.sdemote = global.conn.sdemote + ''
+conn.sdemote = global.conn.sdemote + '' 
+conn.sDesc = global.conn.sDesc + '' 
+conn.sSubject = global.conn.sSubject + '' 
+conn.sIcon = global.conn.sIcon + '' 
+conn.Revoke = global.conn.sRevoke + '' 
 conn.handler = handler.handler.bind(conn)
 conn.connectionUpdate = connectionUpdate.bind(conn)
 conn.credsUpdate = saveCreds.bind(conn, true)
