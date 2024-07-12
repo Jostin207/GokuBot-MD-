@@ -107,7 +107,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 - [x] Juego RPG
 - [ ] Personalizar imagen del menú
 - [x] Descarga de música y video De YT
-- [x] Otros
+- [ ] Otros
 
 *** 
 
