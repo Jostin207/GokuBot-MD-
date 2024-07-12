@@ -44,6 +44,10 @@ global.rwait = '⏱️'
 global.done = '✅'
 global.error = '✖️'
 
+//Reacciones, Emogis determinado de LuffyBot
+global.emogi = '🚩'
+global.emogi2 = '🍟'
+
 //sms espera
 global.wait = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 global.waitt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
