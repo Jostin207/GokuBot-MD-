@@ -103,9 +103,12 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 - [x] Bienvenida personalizada
 - [x] Juegos, tictactoe, mate, etc
 - [x] Chatbot (simsimi)
+- [ ] Chatbot (modoia)
 - [x] Crear sticker de image/video/gif/url
 - [x] SubBot (Jadibot)
-- [ ] Juego RPG
+- [ ] Buscador Google
+- [x] Juego RPG
+- [ ] Personalizar imagen del menú
 - [x] Descarga de música y video De YT
 - [x] Otros
 
