@@ -111,16 +111,16 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 *** 
 
-### `🌟 DESARROLLADORES`
+### `🚩 DESARROLLADORES`
 <a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=OfcDiego/LuffyBot-MD" /> 
 </a>
 
-### `☄️ AGRADECIMIENTOS`
+### `✨️ AGRADECIMIENTOS`
 <a
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
 
-### `👑 CREADOR`
+### `🍟 CREADOR`
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
 
