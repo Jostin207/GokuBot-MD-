@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
 if (!text) return conn.reply(m.chat, '🚩 *¿Que Pokémon quieres buscar?.*', m, rcanal)
 conn.reply(m.chat, `🍟 *Buscando ${text}*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: `${json.name}`,
+title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
