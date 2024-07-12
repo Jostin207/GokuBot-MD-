@@ -31,7 +31,7 @@ global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
 global.botname = 'Lᴜғғʏ Bᴏᴛ - MD 🚩'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
 global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
-global.vs = '2.0.2'
+global.vs = '2.0.1'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu.jpg')
