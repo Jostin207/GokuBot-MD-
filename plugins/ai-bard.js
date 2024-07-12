@@ -17,8 +17,8 @@ var res = await apii.json()
 await m.reply(res.result)
 await m.react(done)
 } catch (error) {
-console.error(error)
 await m.react(error)
+console.error(error)
 return conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, rcanal)
 }}
 
