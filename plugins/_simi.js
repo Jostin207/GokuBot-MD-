@@ -2,6 +2,8 @@ import translate from '@vitalets/google-translate-api';
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = (m) => m;
+//glosero simi
+// v: ortografia! 
 
 handler.before = async (m) => {
   if (m.sender === conn.user.jid) return;
