@@ -7,9 +7,9 @@ const text = args.join` `
 if (!text) return conn.reply(m.chat, '🍟 Ingresa lo que deseas buscar en Google.', m, rcanal)
 const url = 'https://google.com/search?q=' + encodeURIComponent(text)
 google({'query': text}).then(res => {
-let teks = `🚩 *Resultado de* : ${text}\n\n`
+let teks = `🍟 *Resultado de* : ${text}\n\n`
 for (let g of res) {
-teks += `🍟 *Titulo ∙* ${g.title}\n🍟 *Info ∙* ${g.snippet}\n🍟 *Url ∙* ${g.link}\n\n`
+teks += `🐢 *Titulo ∙* ${g.title}\n🚩 *Info ∙* ${g.snippet}\n🔗 *Url ∙* ${g.link}\n\n`
 }
 conn.reply(m.chat, teks, m, rcanal)
 })
