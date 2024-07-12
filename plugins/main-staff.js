@@ -1,38 +1,43 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let pp = icons
 let img = 'https://qu.ax/vQmu.jpg'
-let staff = `💥 *EQUIPO DE AYUDANTES*
-🚩 *Bot:* ${global.botname}
+let staff = `🚩 *EQUIPO DE AYUDANTES*
+🍟 *Bot:* ${global.botname}
 ✨️  *Versión:* ${global.vs}
 
 👑 *Propietario:*
 
 • OfcDiego
-☘️ *Rol:* Propietario
-✨️ *Número:* ${creador}
-🏆 *GitHub:* https://github.com/OfcDiego
+🍟 *Rol:* Propietario
+🚩 *Número:* ${creador}
+✨️ *GitHub:* https://github.com/OfcDiego
 
 ⁖❤️꙰  *Colaboradores:*
 
 • ArizzVal
-☘️ *Rol:* Developer
-✨️ *Número:* Wa.me/5215610314499
-🏆 *GitHub:* https://github.com/ArizzVal
+🍟 *Rol:* Developer
+🚩 *Número:* Wa.me/5215610314499
+✨️ *GitHub:* https://github.com/ArizzVal
 
 • elrebelde21
-☘️ *Rol:* Developer
-✨️ *Número:* Wa.me/573147616444
-🏆 *GitHub:* https://github.com/elrebelde21
+🍟 *Rol:* Developer
+🚩 *Número:* Wa.me/573147616444
+✨️ *GitHub:* https://github.com/elrebelde21
 
 • AzamiJs
-☘️ *Rol:* Developer
-✨️ *Número:* Wa.me/5214434703586
-🏆 *GitHub:* https://github.com/AzamiJs
+🍟 *Rol:* Developer
+🚩 *Número:* Wa.me/5214434703586
+✨️ *GitHub:* https://github.com/AzamiJs
 
 • Alba070503
-☘️ *Rol:* Developer
-✨️ *Número:* Wa.me/59169082575
-🏆 *GitHub:* https://github.com/Alba070503`
+🍟 *Rol:* Developer
+🚩 *Número:* Wa.me/59169082575
+✨️ *GitHub:* https://github.com/Alba070503
+
+• Galletita-Luffy
+🍟 *Rol:* Developer
+🚩 *Número:* Wa.me/573218138672
+✨️ *GitHub:* https://github.com/galletita-luffy`
 await conn.sendFile(m.chat, pp, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
@@ -47,7 +52,7 @@ sourceUrl: redes,
 thumbnailUrl: img
 }}
 }, { mentions: m.sender })
-m.react('🌟')
+m.react(emoji)
 
 }
 handler.help = ['staff']
