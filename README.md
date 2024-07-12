@@ -1,8 +1,5 @@
 > 🚀 Versión Actual: 2.0.2
 
-* [`@OfcDiego`](https://github.com/OfcDiego)
-Se retira de LuffyBot, el bot estará actualizandose por: [`@galletita`](https://github.com/galletita-luffy)
-
 ## **`🚩 Luffy Bot - MD`**
 
 ![logo](https://telegra.ph/file/a7a9798496639ce074237.jpg)
@@ -123,9 +120,12 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 <a
 href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
 
-### `👑 CREADOR`
+### `👑 CREADORES`
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
+
+<a
+href="https://github.com/galletita-luffy"><img src="https://github.com/galletita-luffy.png" width="130" height="130" alt="Galletita"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/LuffyBot-MD)**.
 
