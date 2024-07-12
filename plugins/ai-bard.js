@@ -4,6 +4,7 @@ var handler = async (m, { text,  usedPrefix, command }) => {
 
 if (!text) return conn.reply(m.chat, `🍟 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces LuffyBot-MD?`, m, rcanal)
 try {
+await m.react(rwait)
 conn.reply(m.chat, '🚩 Buscando Información...', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
@@ -14,8 +15,10 @@ conn.sendPresenceUpdate('composing', m.chat)
 var apii = await fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
 await m.reply(res.result)
+await m.react(done)
 } catch (error) {
 console.error(error)
+await m.react(error)
 return conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, rcanal)
 }}
 
