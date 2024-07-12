@@ -44,7 +44,7 @@ global.rwait = '⏱️'
 global.done = '✅'
 global.error = '✖️'
 
-//Reacciones, Emogis determinado de LuffyBot
+//Emogis determinado de LuffyBot
 global.emogi = '🚩'
 global.emogi2 = '🍟'
 
