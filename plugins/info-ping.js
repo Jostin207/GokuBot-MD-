@@ -8,7 +8,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          await conn.reply(m.chat, `*Pong* 🏓 ${latensi.toFixed(4)} ms`, m, rcanal);
+          conn.reply(m.chat, `*Pong* 🏓 ${latensi.toFixed(4)} ms`, m, rcanal);
             });
 }
 handler.help = ['ping']
