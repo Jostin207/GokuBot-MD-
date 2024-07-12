@@ -128,6 +128,10 @@ conn.ev.off("messages.upsert", conn.handler)
 conn.ev.off("connection.update", conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
+conn.welcome = global.conn.welcome + ''
+conn.bye = global.conn.bye + ''
+conn.spromote = global.conn.spromote + ''
+conn.sdemote = global.conn.sdemote + ''
 conn.handler = handler.handler.bind(conn)
 conn.connectionUpdate = connectionUpdate.bind(conn)
 conn.credsUpdate = saveCreds.bind(conn, true)
