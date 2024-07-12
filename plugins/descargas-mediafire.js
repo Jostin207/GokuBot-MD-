@@ -23,7 +23,7 @@ await m.react(done)
 await m.react(error)
 }}
 handler.help = ['mediafire']
-handler.tags = ['downloader', 'premium']
+handler.tags = ['descargas']
 handler.command = ['mediafire', 'mdfire', 'mf']
 // handler.premium = true 
 
