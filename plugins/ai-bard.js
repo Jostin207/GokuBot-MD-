@@ -7,6 +7,7 @@ await m.reply('⏱️')
 var apii = await fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
 await conn.reply(m.chat, res.result, m, rcanal)
+await m.react('✅️')
 } catch (error) {
 await m.react('✖️')
 console.error(error)
