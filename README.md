@@ -35,7 +35,7 @@ yarn install && npm install
 npm start
 ```
 
-🍟 **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** 🍟
+🍟 **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`**
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -43,7 +43,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-🚩 **`OBTENER OTRO CODIGO QR`** 🚩
+🚩 **`OBTENER OTRO CODIGO QR`**
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd LuffyBot-MD
@@ -51,12 +51,12 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-🍟 **`LUFFY 24/7 (TERMUX)`** 🍟
+🍟 **`LUFFY 24/7 (TERMUX)`**
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ```
 
-🚩 **`ACTUALIZAR LUFFY`** 🚩
+🚩 **`ACTUALIZAR LUFFY`**
 > Note Comandos para actualizar Luffy - MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/LuffyBot-MD/master/update.sh | bash
