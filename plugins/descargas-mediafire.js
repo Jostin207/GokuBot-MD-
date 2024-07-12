@@ -9,7 +9,7 @@ if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🍟 El enlace dev
 await m.react(rwait)
 try {
 let { title, ext, aploud, size, dl_url } = await mediafiredl(args[0])
-let txt = `乂  *M E D I A F I R E*  乂\n\n`
+let txt = `乂  *¡MEDIAFIRE - DESCARGAS!*  乂\n\n`
     txt += `✩ *Nombre* : ${title}\n`
     txt += `✩ *Peso* : ${size}\n`
     txt += `✩ *Publicado* : ${aploud}\n`
