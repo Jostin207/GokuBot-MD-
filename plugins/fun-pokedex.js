@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text }) => {
-if (!text) else conn.reply(m.chat, 'Por favor, proporciona el nombre de un Pokémon para buscar.', m, rcanal)
+if (!text) conn.reply(m.chat, 'Por favor, proporciona el nombre de un Pokémon para buscar.', m, rcanal)
 const url = `https://some-random-api.com/pokemon/pokedex?pokemon=${encodeURIComponent(text)}`;
 const response = await fetch(url);
 const json = await response.json();
