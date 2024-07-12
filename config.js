@@ -13,8 +13,7 @@ global.confirmCode = ""
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
 ['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['51935499065', '𝗢𝘄𝗻𝗲𝗿 👑', true], 
-['595983799436']]
+['51935499065', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
 global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '59168106005', '525610314499']
@@ -29,10 +28,10 @@ global.wm = '✨◌*̥₊ LᴜғғʏBᴏᴛ-MD ◌❐⚡༉'
 global.titulowm = 'LuffyBot-MD ✨️'
 global.titulowm2 = 'Ofc.Diego'
 global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
-global.botname = 'Lᴜғғʏ Bᴏᴛ - MD 💫'
+global.botname = 'Lᴜғғʏ Bᴏᴛ - MD 🚩'
 global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🌻🐈'
+global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
 global.vs = '2.0.1'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -42,7 +41,7 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Luffy
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk'
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial De Luffy2
 global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
 global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //ShizukaBot Y Luffy
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
