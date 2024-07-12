@@ -7,13 +7,15 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
-global.confirmCode = ""
+//BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
+//Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
+global.botnumber = '' //Ejemplo: +573218138672
+global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
 ['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['51935499065', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
+['573218138672', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
 global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '59168106005', '525610314499']
