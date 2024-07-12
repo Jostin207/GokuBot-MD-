@@ -4,7 +4,7 @@
 
 ![LuffyBot](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
-- > [!NOTE]
+> [!NOTE]
 > **Problema arreglado: `$~ yarn install` en termux**
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
