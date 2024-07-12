@@ -1,8 +1,7 @@
 > 🚀 Versión Actual: 2.0.2
 
 * [`@OfcDiego`](https://github.com/OfcDiego)
-Se retira de LuffyBot, el bot estará actualizandose por: 
-* [`@galletita-luffy`](https://github.com/galletita-luffy)
+Se retira de LuffyBot, el bot estará actualizandose por: [`@galletita-luffy`](https://github.com/galletita-luffy)
 
 ## **`🚩 Luffy Bot - MD`**
 
