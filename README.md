@@ -1,129 +1,82 @@
-> 🚀 Versión Actual: 2.0.1
+Fue un placer crear este bot pero me despido ya no volveré a encender este bot ni a actualizar
 
-## **`💙 Luffy Bot - MD`**
+ <p align="center">
+  <a href="https://github.com/tu-usuario/tu-repositorio">
+    <img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=FF0000&center=false&vCenter=false&lines=Liffy+Bot-MD+🚩;Gracias+por+visitar+este+repositorio.+%F0%9F%8C%B4" height="90px">
+  </a>
+</p>
 
 ![logo](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
-> Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
+# `Luffy Bot-MD 🚩`
 
-[![Click Aquí](https://img.shields.io/badge/Grupo-Luffy-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
+Este repositorio contiene el código fuente del LuffyBot para WhatsApp. Sigue las instrucciones a continuación para instalar y configurar el bot.
 
-> [!WARNING]
-> Este bot no instala en termux por problemas de `$~ yarn`, estaremos arreglando el problema.
+## Requisitos previos
 
-⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
+- Termux instalado en tu dispositivo Android.
+- Conexión a Internet estable.
 
-[`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+## Comandos de instalación
 
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+1. Configura el almacenamiento en Termux:
+    ```bash
+    termux-setup-storage
+    ```
 
-```bash
-termux-setup-storage
+2. Actualiza e instala los paquetes necesarios:
+    ```bash
+    apt update && apt upgrade && pkg update && pkg upgrade && pkg install bash && pkg install libwebp && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget && pkg install imagemagick -y && pkg install yarn
+    ```
+
+3. Clona el repositorio de LuffyBot:
+    ```bash
+    git clone https://github.com/ofcDiego/LuffyBot-MD && cd LuffyBot-MD && yarn && npm install
+   ```
+4. desconprime los archivos
+    ```bash
+    unzip 'LuffyBot-MD.zip'
+    ```
+5. opcional pero recomendable:
+    ```bash
+    rm LuffyBot-MD.zip
+    ```
+6. inicia el bot:
+    ```bash
+    npm start
+    ```
+## Activar en caso de detenerse en Termux
+
+Si después de instalar el bot y Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
+
+1. Abre Termux y navega al directorio del bot:
+    ```bash
+    cd LuffyBot-MD
+    ```
+
+2. Inicia el bot nuevamente:
+    ```bash
+    npm start
+    ```
+
+## Obtener otro código QR en Termux
+
+Para obtener un nuevo código QR, sigue estos pasos:
+
+1. Detén el bot presionando `CTRL` + `Z` en tu teclado y luego presiona `Enter`.
+2. Navega al directorio del bot y elimina la sesión anterior:
+    ```bash
+    cd ~
+    cd LuffyBot-MD
+    rm -rf LuffySession
+    ```
+
+3. Inicia el bot nuevamente:
+    ```sh
+    npm start
+    ```
+# quiero usar los comandos de creador que ago comando para lograr esto
+```sh
+sed -i 's/12345678/Agregate De Owner/g' confif.js
 ```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-git clone https://github.com/OfcDiego/LuffyBot-MD && cd LuffyBot-MD
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
-```
-
-⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd LuffyBot-MD
-> npm start
-```
-
-⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd LuffyBot-MD
-> rm -rf LuffySession
-> npm start
-```
-
-⁖💜꙰  **`LUFFY 24/7 (TERMUX)`** ⁖💜꙰
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-```
-
-⁖🩵꙰  **`ACTUALIZAR LUFFY`** ⁖🩵꙰
-> Note Comandos para actualizar Luffy - MD de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/LuffyBot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
-
-***
-
-#### ☂️ ACTIVA EN HEROKU ☂️
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/LuffyBot-MD)
-
-#### Heroku Buildpack
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-
-
-#### 🟢 ACTIVAR EN CODES SPACES 
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/LuffyBot-MD&ref=main&geo=UsEast)
-
-#### 🤍 ACTIVAR EN RENDER
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%LuffyBot-MD) 
-
-***
-
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
-
-<a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-> No Spam Al Bot!
-
-***
-
-## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
-
-> Bot en creación pronto se agregaran más cosas 
-
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] antidelete, antilink, antispam, etc
-- [x] Bienvenida personalizada
-- [x] Juegos, tictactoe, mate, etc
-- [x] Chatbot (simsimi)
-- [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
-- [ ] Juego RPG
-- [x] Descarga de música y video De YT
-- [x] Otros
-
-*** 
-
-### `🌟 DESARROLLADORES`
-<a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/LuffyBot-MD" /> 
-</a>
-
-### `☄️ AGRADECIMIENTOS`
-<a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
-
-### `👑 CREADOR`
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
-
-> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/LuffyBot-MD)**.
-
-**`¡GRACIAS POR PREFERIRNOS!`  ⁖💜꙰༻**
