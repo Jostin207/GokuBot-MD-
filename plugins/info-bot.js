@@ -13,9 +13,9 @@ conn.reply(m.chat, `*so y arroz* 👌🤌`, m, rcanal, )
 if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
 }
-/* if (/^a$/i.test(m.text)) {
+if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rroz y pollo* 😄👌`, m, rcanal, )
-} */
+}
 if (/^bug$/i.test(m.text)) {
 conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 }
