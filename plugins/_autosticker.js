@@ -16,7 +16,7 @@ let img = await q.download?.()
 if (!img) return
 stiker = await sticker(img, false, packname, author)
 } else if (/video/g.test(mime)) {
-if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await m.reply('᥀·࣭࣪̇˖✨️◗  *El video no debe de durar mas de 7 segundos, intentalo de nuevo.*')
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await m.reply('᥀·࣭࣪̇˖🚩◗  *El video no debe de durar mas de 7 segundos, intentalo de nuevo.*')
 
 let img = await q.download()
 if (!img) return
@@ -26,7 +26,7 @@ if (isUrl(m.text)) stiker = await sticker(false, m.text.split(/\n| /i)[0], packn
 else return
 }
 if (stiker) {
-await conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: '᥀·࣭࣪̇˖🌸◗ 𝗖𝗿𝗲𝗮𝗿 𝗦𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗼𝘀!!!',  mediaType: 2, thumbnail: icons, sourceUrl: redes }}}, { quoted: m })
+await conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: packname, body: '🚩 Stickers - Luffy! ✨️',  mediaType: 2, thumbnail: icons, sourceUrl: redes }}}, { quoted: m })
 //this.sendFile(m.chat, stiker, null, { asSticker: true })
 }}
 return !0
