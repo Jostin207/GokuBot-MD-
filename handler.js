@@ -66,7 +66,7 @@ if (!('premium' in user)) user.premium = false
 if (!('muto' in user)) user.muto = false
 if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
-if (!isNumber(user.estrellas)) user.estrellas = 15         
+if (!isNumber(user.estrellas)) user.estrellas = 10         
 if (!('registered' in user)) user.registered = false
 
 if (!user.registered) {
