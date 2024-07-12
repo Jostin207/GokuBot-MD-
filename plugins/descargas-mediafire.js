@@ -9,15 +9,15 @@ if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🍟 El enlace dev
 await m.react(rwait)
 try {
 let { title, ext, aploud, size, dl_url } = await mediafiredl(args[0])
-let txt = `乂  *M E D I A F I R E  -  D O W N L O A D*\n\n`
+let txt = `乂  *M E D I A F I R E  乂\n\n`
     txt += `✩ *Nombre* : ${title}\n`
     txt += `✩ *Peso* : ${size}\n`
     txt += `✩ *Publicado* : ${aploud}\n`
     txt += `✩ *MimeType* : ${ext}\n\n`
     txt += `*- ↻ El archivo se esta enviando espera un momento, soy lento. . .*`
 let img = await (await fetch('https://i.ibb.co/wLQFn7q/logo-mediafire.jpg')).buffer()
-await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)
-await conn.sendFile(m.chat, dl_url, title, null, m, null, { mimetype: ext, asDocument: true })
+await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, fkontak, rcanal)
+await conn.sendFile(m.chat, dl_url, title, null, m, fkontak, { mimetype: ext, asDocument: true })
 await m.react(done)
 } catch {
 await m.react(error)
