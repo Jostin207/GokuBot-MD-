@@ -5,12 +5,12 @@ var handler = async (m, { text,  usedPrefix, command }) => {
 if (!text) return conn.reply(m.chat, `🍟 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces LuffyBot-MD?`, m, rcanal)
 try {
 await m.react(rwait)
-conn.reply(m.chat, '🚩 Buscando Información...', m, {
+/* conn.reply(m.chat, '🚩 Buscando Información...', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
 previewType: 0, thumbnail: icons,
-sourceUrl: channel }}})
+sourceUrl: channel }}}) */
 conn.sendPresenceUpdate('composing', m.chat)
 var apii = await fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
