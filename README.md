@@ -13,6 +13,9 @@
 > [!WARNING]
 > Este bot no instala en termux por problemas de `$~ yarn`, estaremos arreglando el problema.
 
+> [!NOTE]
+> Estamos arreglando este problema.
+
 ⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
