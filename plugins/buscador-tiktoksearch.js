@@ -13,7 +13,7 @@ usedPrefix: _0x4aa81f,
 command: _0x3f9b74
 }) => {
 if (!_0x2f2134) {
-return conn.reply(m.chat, '🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok', _0x3585f0);
+return conn.reply(m.chat, "🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok", _0x3585f0);
 }
 async function _0x438e4e(_0x2effca) {
 const {
@@ -65,10 +65,10 @@ const _0x33ffca = generateWAMessageFromContent(_0x3585f0.chat, {
 },
 'interactiveMessage': proto.Message.InteractiveMessage.fromObject({
 'body': proto.Message.InteractiveMessage.Body.create({
-'text': '🍟 Resultado de : ' + _0x2f2134
+'text': "🍟 Resultado de : " + _0x2f2134
 }),
 'footer': proto.Message.InteractiveMessage.Footer.create({
-'text': '🚩 Tiktok - Busquedas'
+'text': "🚩 Tiktok - Busquedas"
 }),
 'header': proto.Message.InteractiveMessage.Header.create({
 'hasMediaAttachment': false
