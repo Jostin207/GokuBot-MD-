@@ -13,9 +13,9 @@ let txt = `╭─⬣「 *Aptoide Descargas* 」⬣\n`
     txt += `│  ≡◦ *⚖ Peso ∙* ${size}\n`
     txt += `│  ≡◦ *🕜 Peso ∙* ${update}\n`
     txt += `╰─⬣`
-await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', txt, m, rcanal)
+await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', txt, m, null, rcanal)
 await conn.sendMessage(m.chat, {document: { url: dl_url }, mimetype: 'application/vnd.android.package-archive', fileName: name + '.apk', caption: null }, {quoted: fkontak})
-await m.react(done)
+// await m.react(done)
 } catch {
 }}
 handler.help = ['aptoide <búsqueda>']
