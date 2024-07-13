@@ -69,7 +69,7 @@
 "libphonenumber-js": "^1.10.55",
 "lodash": "^4.17.21",
 "lowdb": "^3.0.0",
-"module-gatadios": "^1.0.6",
+"module-gatadios": "^1.0.9",
 "moment-timezone": "^0.5.41",
 "mongoose": "^7.0.0",
 "node-fetch": "^3.2.0",
