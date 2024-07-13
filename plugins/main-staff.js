@@ -1,4 +1,11 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
+  let category = "video"
+  const db = './media/database/db.json'
+  const db_ = JSON.parse(fs.readFileSync(db))
+  const random = Math.floor(Math.random() * db_.links[category].length)
+  const rlink = db_.links[category][random]
+  const response = await fetch(vid)
+  const gif = await response.buffer()
 let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Bot:* ${global.botname}
 ✨️  *Versión:* ${global.vs}
@@ -36,7 +43,7 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Rol:* Developer
 🚩 *Número:* Wa.me/573218138672
 ✨️ *GitHub:* https://github.com/galletita-luffy`
-await conn.sendFile(m.chat, vid, 'luffy.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, gif, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
