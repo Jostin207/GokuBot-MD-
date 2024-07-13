@@ -23,7 +23,7 @@ https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S
 
 ⁖🧡꙰ COMUNIDAD:
 
-
+https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
