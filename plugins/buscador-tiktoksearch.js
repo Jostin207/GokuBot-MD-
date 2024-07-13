@@ -6,7 +6,7 @@ prepareWAMessageMedia,
 generateWAMessageContent,
 getDevice
 } = (await import("@whiskeysockets/baileys"))["default"];
-let handler = async (_0x3585f0, {
+let handler = async (m, {
 conn: _0x1a6b0c,
 text: _0x2f2134,
 usedPrefix: _0x4aa81f,
@@ -56,7 +56,7 @@ _0x26b601.push({
 'buttons': []
 })});
 }
-const _0x33ffca = generateWAMessageFromContent(_0x3585f0.chat, {
+const _0x33ffca = generateWAMessageFromContent(m.chat, {
 'viewOnceMessage': {
 'message': {
 'messageContextInfo': {
@@ -76,9 +76,9 @@ const _0x33ffca = generateWAMessageFromContent(_0x3585f0.chat, {
 'carouselMessage': proto.Message.InteractiveMessage.CarouselMessage.fromObject({
 'cards': [..._0x26b601]
 })})}}}, {
-'quoted': _0x3585f0
+'quoted': m
 });
-await _0x1a6b0c.relayMessage(_0x3585f0.chat, _0x33ffca.message, {
+await _0x1a6b0c.relayMessage(m.chat, _0x33ffca.message, {
 'messageId': _0x33ffca.key.id
 });
 } catch {
