@@ -1,10 +1,12 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-  let category = "video"
+    let category = "video"
   const db = './media/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
   const random = Math.floor(Math.random() * db_.links[category].length)
   const rlink = db_.links[category][random]
+  global.vid = rlink
   const response = await fetch(vid)
+  const gif = await response.buffer()
   const gif = await response.buffer()
 let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Bot:* ${global.botname}
