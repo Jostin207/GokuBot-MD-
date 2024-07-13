@@ -36,7 +36,7 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Rol:* Developer
 🚩 *Número:* Wa.me/573218138672
 ✨️ *GitHub:* https://github.com/galletita-luffy`
-await conn.sendFile(m.chat, icons, 'luffy.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, vid, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
