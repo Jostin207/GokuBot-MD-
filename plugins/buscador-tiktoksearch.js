@@ -6,14 +6,14 @@ prepareWAMessageMedia,
 generateWAMessageContent,
 getDevice
 } = (await import("@whiskeysockets/baileys"))["default"];
-let handler = async (m, {
+let handler = async (_0x3585f0, {
 conn: _0x1a6b0c,
 text: _0x2f2134,
 usedPrefix: _0x4aa81f,
 command: _0x3f9b74
 }) => {
 if (!_0x2f2134) {
-return conn.reply(m.chat, '🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok' m, rcanal);
+return conn.reply(m.chat, '🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok', _0x3585f0);
 }
 async function _0x438e4e(_0x2effca) {
 const {
@@ -56,7 +56,7 @@ _0x26b601.push({
 'buttons': []
 })});
 }
-const _0x33ffca = generateWAMessageFromContent(m.chat, {
+const _0x33ffca = generateWAMessageFromContent(_0x3585f0.chat, {
 'viewOnceMessage': {
 'message': {
 'messageContextInfo': {
@@ -76,9 +76,9 @@ const _0x33ffca = generateWAMessageFromContent(m.chat, {
 'carouselMessage': proto.Message.InteractiveMessage.CarouselMessage.fromObject({
 'cards': [..._0x26b601]
 })})}}}, {
-'quoted': m
+'quoted': _0x3585f0
 });
-await _0x1a6b0c.relayMessage(m.chat, _0x33ffca.message, {
+await _0x1a6b0c.relayMessage(_0x3585f0.chat, _0x33ffca.message, {
 'messageId': _0x33ffca.key.id
 });
 } catch {
