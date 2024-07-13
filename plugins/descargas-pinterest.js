@@ -11,8 +11,9 @@ let handler = async (_0x10bd40, {
   command: _0x5ad406
 }) => {
   if (!_0x27db11) {
-    return _0x10bd40.reply("🍟 Ingresa el texto de lo que quieres buscar en pinterest");
+    return _0x9c7141.reply(_0x10bd40.chat, "🍟 *¿Que quieres buscar en pinterest?*", _0x10bd40, rcanal);
   }
+    await _0x3585f0.react(rwait);
   async function _0x3f3fc7(_0x5f4723) {
     const {
       imageMessage: _0x14a396
@@ -45,7 +46,7 @@ let handler = async (_0x10bd40, {
         'text': "Imagen -" + (" " + _0x2913ed++)
       }),
       'footer': proto.Message.InteractiveMessage.Footer.fromObject({
-        'text': author
+        'text': textbot
       }),
       'header': proto.Message.InteractiveMessage.Header.fromObject({
         'title': '',
@@ -69,10 +70,10 @@ let handler = async (_0x10bd40, {
         },
         'interactiveMessage': proto.Message.InteractiveMessage.fromObject({
           'body': proto.Message.InteractiveMessage.Body.create({
-            'text': "🍟 Resultado de : " + _0x27db11
+            'text': "🚩 Resultado de : " + _0x27db11
           }),
           'footer': proto.Message.InteractiveMessage.Footer.create({
-            'text': "P i n t e r e s t | Search"
+            'text': "🔎 Pinterest - Busquedas"
           }),
           'header': proto.Message.InteractiveMessage.Header.create({
             'hasMediaAttachment': false
@@ -86,6 +87,7 @@ let handler = async (_0x10bd40, {
   }, {
     'quoted': _0x10bd40
   });
+  await _0x3585f0.react(done);
   await _0x9c7141.relayMessage(_0x10bd40.chat, _0x1ca5c6.message, {
     'messageId': _0x1ca5c6.key.id
   });
@@ -93,5 +95,6 @@ let handler = async (_0x10bd40, {
 handler.help = ["pinterest"];
 handler.tags = ["buscador"];
 handler.estrellas = 1;
+handler.register = true;
 handler.command = /^(pinterest)$/i;
 export default handler;
