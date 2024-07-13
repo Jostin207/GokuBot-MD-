@@ -17,7 +17,13 @@ ${gp4}
 
 *◜🤍 MOONLIGHT TEAM 🤍◞*
 
-⁖🧡꙰ C
+⁖🧡꙰ CANAL:
+
+https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S
+
+⁖🧡꙰ COMUNIDAD:
+
+
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
