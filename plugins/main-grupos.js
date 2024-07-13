@@ -19,11 +19,11 @@ ${gp4}
 
 ⁖🧡꙰ CANAL:
 
-https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S
+${moonlight}
 
 ⁖🧡꙰ COMUNIDAD:
 
-https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj
+${moonligth2}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
