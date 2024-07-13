@@ -10,10 +10,11 @@ let handler = async (_0x3585f0, {
 conn: _0x1a6b0c,
 text: _0x2f2134,
 usedPrefix: _0x4aa81f,
+m,
 command: _0x3f9b74
 }) => {
 if (!_0x2f2134) {
-return conn.reply(m.chat, '🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok' _0x3585f0, rcanal);
+return conn.reply(m.chat, '🍟 Ingresa El Texto De Lo Que Quieres Buscar En Tiktok' m, rcanal);
 }
 async function _0x438e4e(_0x2effca) {
 const {
