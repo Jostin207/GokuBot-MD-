@@ -15,6 +15,10 @@ ${gp3}
 ⁖🧡꙰  ${colab2}
 ${gp4}
 
+*◜🤍 MOONLIGHT TEAM 🤍◞*
+
+⁖🧡꙰ C
+
  *◜🌸 CANAL OFICIAL 🌸◞*
 
 ⁖❤️꙰  ${namechannel}
