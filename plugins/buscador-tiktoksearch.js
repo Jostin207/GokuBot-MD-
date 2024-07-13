@@ -92,6 +92,7 @@ let handler = async (_0x3585f0, {
     }, {
       'quoted': _0x3585f0
     });
+   await _0x3585f0.react(done);
     await _0x1a6b0c.relayMessage(_0x3585f0.chat, _0x33ffca.message, {
       'messageId': _0x33ffca.key.id
     });
