@@ -6,7 +6,7 @@ prepareWAMessageMedia,
 generateWAMessageContent,
 getDevice
 } = (await import("@whiskeysockets/baileys"))["default"];
-let handler = async (m, {
+let handler = async (_0x3585f0, m, {
 conn: _0x1a6b0c,
 text: _0x2f2134,
 usedPrefix: _0x4aa81f,
