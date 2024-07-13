@@ -12,12 +12,12 @@ previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
-let txt = `╭─⬣「 *Aptoide Descargas* 」⬣\n`
-    txt += `│ 🍟 *Nombre ∙* ${data5.name}\n`
-    txt += `│ 🪴 *Package ∙* ${data5.package}\n`
-    txt += `│ ⚖ *Peso ∙* ${data5.size}\n`
-    txt += `│ 🚩 *Actualización ∙* ${data5.lastup}\n`
-    txt += `╰─⬣`
+let txt = `📲 Descargador De Aptoide 📲\n\n`
+    txt += `🍟 *Nombre ∙* ${data5.name}\n`
+    txt += `🪴 *Package ∙* ${data5.package}\n`
+    txt += `⚖ *Peso ∙* ${data5.size}\n`
+    txt += `🚩 *Actualización ∙* ${data5.lastup}`
+
 // let response = `📲 Descargador De Aptoide 📲\n\n🍟 *Nombre:* ${data5.name}\n🚩 *Package:* ${data5.package}\n🎌 *Actualización:* ${data5.lastup}\n📦 *Tamaño:* ${data5.size}`
 await conn.sendFile(m.chat, data5.icon, 'thumbnail.jpg', txt, m, rcanal) 
 await m.react(done)  
