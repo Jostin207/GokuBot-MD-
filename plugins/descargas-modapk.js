@@ -6,7 +6,7 @@ if (!text) return conn.reply(m.chat, '🚩 *Ingrese el nombre de la apk para des
 
 try {
 
-conn.reply(m.chat, '🚩 *Descargando su apk...*', m, {
+conn.reply(m.chat, '🚩 *Descargando su aplicación...*', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
@@ -24,12 +24,12 @@ return await conn.reply(m.chat, '🛑 *El archivo es demaciado pesado*', m, rcan
 }
 await conn.sendMessage(m.chat, {document: {url: data5.dllink}, mimetype: 'application/vnd.android.package-archive', fileName: data5.name + '.apk', caption: null}, {quoted: m})
 } catch {
-return conn.reply(m.chat, '🛑 *Ocurrió un fallo*', m, rcanal )
-}    
-}
+return conn.reply(m.chat, '🛑 *Ocurrió un fallo*', m, rcanal )}}
 
 handler.tags = ['descargas']
 handler.help = ['apkmod']
 handler.command = /^(apkmod|apk|dapk2|aptoide|aptoidedl)$/i
+handler.register = true
+handler.estrellas = 1
 
 export default handler
