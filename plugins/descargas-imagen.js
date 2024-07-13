@@ -10,7 +10,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const res = await googleImage(text);
   const image = await res.getRandom();
   const link = image;
-  conn.sendFile(m.chat, link, 'error.jpg', `*🔎 Resultado De: ${text}*`, m);
+  conn.sendFile(m.chat, link, 'error.jpg', `*🔎 Resultado De: ${text}*`, m, rcanal);
 };
 handler.help = ['gimage <query>', 'imagen <query>'];
 handler.tags = ['buscador', 'tools', 'descargas'];
