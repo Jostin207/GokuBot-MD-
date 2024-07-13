@@ -12,7 +12,7 @@ let tags = {
   'rg': 'Registro 📁',
   'xp': 'Exp 🏷',
   'sticker': 'Stickers 🏞',
-  'anime': 'Animes 🍧'
+  'anime': 'Animes 🍧',
   'database': 'Database ✨️',
   'fix': 'Fixmsgespera 💭',
   'grupo': 'Grupos 👥',
