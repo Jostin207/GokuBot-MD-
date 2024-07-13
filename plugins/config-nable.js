@@ -70,7 +70,7 @@ ${usedPrefix + command} pconly
 ${usedPrefix + command} gconly
 
 • 𝗡𝗼 𝗵𝗮𝗯𝗹𝗮𝗿 𝗮𝗹 𝗯𝗼𝘁 𝗮𝗹 𝗰𝗵𝗮𝘁 𝗽𝗿𝗶𝘃𝗮𝗱𝗼
-*${usedPrefix + command} antiprivado*`.trim();
+${usedPrefix + command} antiprivado`.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
