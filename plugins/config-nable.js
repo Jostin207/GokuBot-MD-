@@ -2,75 +2,34 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-  const optionsFull = `
-• 𝗗𝗮𝗿 𝗯𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗮 𝗮𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼
+const optionsFull = `🍟 *FUNCIÓN PARA GRUPOS*
+
 ${usedPrefix + command} welcome
-
-• 𝗗𝗲𝘁𝗲𝗰𝘁𝗼𝗿 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻
 ${usedPrefix + command} detect
-
-• 𝗥𝗲𝗲𝗻𝘃𝗶𝗮𝗿 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝘀 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗱𝗼𝘀
 ${usedPrefix + command} antidelete
-
-• 𝗕𝗼𝘁 𝗽𝘂𝗯𝗹𝗶𝗰𝗼
-${usedPrefix + command} public
-
-• 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝗲𝗻𝗹𝗮𝗰𝗲𝘀 𝗴𝗿𝘂𝗽𝗮𝗹𝗲𝘀
-${usedPrefix + command} antilink
-
-• 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗲𝗻𝗹𝗮𝗰𝗲𝘀
-${usedPrefix + command} antilink2
-
-• 𝗠𝗼𝗱𝗼 𝗵𝗼𝘁
+{usedPrefix + command} antilink
+{usedPrefix + command} antilink2
 ${usedPrefix + command} modohorny
-
-• 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮
-${usedPrefix + command} status
-
-• 𝗦𝘂𝗯𝗶𝗿 𝗱𝗲 𝗻𝗶𝘃𝗲𝗹 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲
 ${usedPrefix + command} autolevelup
-
-• 𝗖𝗿𝗲𝗮𝗿 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗼𝘀 *(Enviar Imagen)*
 ${usedPrefix + command} autosticker
-
-• 𝗥𝗲𝗮𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗲𝗻 𝗹𝗼𝘀 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝘀
 ${usedPrefix + command} reaction
-
-• 𝗔𝗻𝘁𝗶 𝗧𝗼𝘅𝗶𝗰𝗼𝘀
 ${usedPrefix + command} antitoxic
-
-• 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗿 𝗾𝘂𝗲 𝗲𝗹 𝗯𝗼𝘁 𝗲𝗻𝘃𝗶𝗲 𝗮𝘂𝗱𝗶𝗼𝘀
 ${usedPrefix + command} audios
-
-• 𝗔𝗻𝘁𝗶 𝗻𝘂𝗺𝗲𝗿𝗼𝘀
+${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
 
-• 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗿 𝘀𝗲𝗿 𝘀𝘂𝗯 𝗯𝗼𝘁𝘀
+🍟 *FUNCIÓN PARA MI PROPIETARIO*
+
+${usedPrefix + command} public
+${usedPrefix + command} status
 ${usedPrefix + command} serbot
-
-• 𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝗰𝗶𝗼𝗻𝗲𝘀
 ${usedPrefix + command} restrict
-
-• 𝗟𝗲𝗲𝗿 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗹𝗼𝘀 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝘀
 ${usedPrefix + command} autoread
-
-• 𝗡𝗼 𝗹𝗹𝗮𝗺𝗮𝗿 𝗮𝗹 𝗯𝗼𝘁
 ${usedPrefix + command} antillamar
-
-• 𝗡𝗼 𝗵𝗮𝗰𝗲𝗿 𝘀𝗽𝗮𝗺 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗮𝘁
 ${usedPrefix + command} antispam
-
-• 𝗘𝗹 𝗯𝗼𝘁 𝘀𝗼𝗹𝗼 𝗰𝗼𝗻𝘁𝗲𝘀𝘁𝗮𝗿𝗮 𝗮 𝗹𝗼𝘀 𝗮𝗱𝗺𝗶𝗻𝘀
-${usedPrefix + command} modoadmin
-
-• 𝗘𝗹 𝗯𝗼𝘁 𝘀𝗼𝗹𝗼 𝗿𝗲𝘀𝗽𝗼𝗻𝗱𝗲𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗮𝘁 𝗽𝗿𝗶𝘃𝗮𝗱𝗼
 ${usedPrefix + command} pconly
-
-• 𝗘𝗹 𝗯𝗼𝘁 𝘀𝗼𝗹𝗼 𝗿𝗲𝘀𝗽𝗼𝗻𝗱𝗲𝗿𝗮 𝗲𝗻 𝗰𝗵𝗮𝘁𝘀 𝗴𝗿𝘂𝗽𝗮𝗹𝗲𝘀
 ${usedPrefix + command} gconly
-
-• 𝗡𝗼 𝗵𝗮𝗯𝗹𝗮𝗿 𝗮𝗹 𝗯𝗼𝘁 𝗮𝗹 𝗰𝗵𝗮𝘁 𝗽𝗿𝗶𝘃𝗮𝗱𝗼
-${usedPrefix + command} antiprivado`.trim();
+${usedPrefix + command} antiprivado`
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
@@ -435,10 +394,10 @@ throw false
 global.opts['swonly'] = isEnable
 break
 default:
-if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
+if (!/[01]/.test(command)) return await conn.reply(m.chat, optionsFull, m, rcanal);
 throw false;
 }
-conn.reply(m.chat, `⁖💚꙰  *La Función ${type} Se Ha ${isEnable ? 'Activado' : 'Desactivado'} En Este ${isAll ? 'Bot' : isUser ? '' : 'Chat.'}*`, m, rcanal, )
+conn.reply(m.chat, `🍟  *La Función ${type} Se Ha ${isEnable ? 'Activado' : 'Desactivado'} En Este ${isAll ? 'Bot' : isUser ? '' : 'Chat.'}*`, m, rcanal, )
 
 }
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
