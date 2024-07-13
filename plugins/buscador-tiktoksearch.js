@@ -47,7 +47,7 @@ let handler = async (_0x3585f0, {
           'text': null
         }),
         'footer': proto.Message.InteractiveMessage.Footer.fromObject({
-          'text': author
+          'text': dev
         }),
         'header': proto.Message.InteractiveMessage.Header.fromObject({
           'title': '' + _0x29b70b.title,
@@ -68,10 +68,10 @@ let handler = async (_0x3585f0, {
           },
           'interactiveMessage': proto.Message.InteractiveMessage.fromObject({
             'body': proto.Message.InteractiveMessage.Body.create({
-              'text': "🍟 `Resultado de` : " + _0x2f2134
+              'text': "`🍟 Resultado de` : " + _0x2f2134
             }),
             'footer': proto.Message.InteractiveMessage.Footer.create({
-              'text': "🚩 `Tiktok - Search`"
+              'text': "`🚩 Tiktok - Search`"
             }),
             'header': proto.Message.InteractiveMessage.Header.create({
               'hasMediaAttachment': false
