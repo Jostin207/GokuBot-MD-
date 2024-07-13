@@ -13,15 +13,10 @@ sourceUrl: channel }}})
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
 let txt = `*乂  APTOIDE - DESCARGAS* 乂\n\n`
-    txt += `🍟 *Nombre* : ${data5.name}\n`
-    txt += `🚩 *Package* : ${data5.package}\n`
-    txt += `🪴 *Update* : ${data5.lastup}\n`
-    txt += `⚖ *Peso* :  ${data5.size}`
-/*let txt = `📲 Descargador De Aptoide 📲\n\n`
-    txt += `🍟 *Nombre ∙* ${data5.name}\n`
-    txt += `🪴 *Package ∙* ${data5.package}\n`
-    txt += `⚖ *Peso ∙* ${data5.size}\n`
-    txt += `🚩 *Actualización ∙* ${data5.lastup}`*/
+txt += `🍟 *Nombre* : ${data5.name}\n`
+txt += `🚩 *Package* : ${data5.package}\n`
+txt += `🪴 *Update* : ${data5.lastup}\n`
+txt += `⚖ *Peso* :  ${data5.size}`
 await conn.sendFile(m.chat, data5.icon, 'thumbnail.jpg', txt, m, null, rcanal) 
 await m.react(done)  
 if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 999) {
