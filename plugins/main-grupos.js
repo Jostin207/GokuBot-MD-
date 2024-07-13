@@ -15,20 +15,16 @@ ${gp3}
 🍟 ${colab2}
 ${gp4}
 
-*◜🤍 MOONLIGHT TEAM 🤍◞*
-
-🍭 ${canalmoonlight}
-
-${moonlight}
-
 🍭 ${comunidad}
+${comunidad2}
 
-${moonligth2}
-
- *◜🌸 CANAL OFICIAL 🌸◞*
+ *◜🌸 CANALES OFICIAL 🌸◞*
 
 🍧 ${namechannel}
-${channel}`
+${channel}
+
+🍭 ${namechannel2}
+${channel2}`
 m.react('🤍') 
 
   let category = "video"
