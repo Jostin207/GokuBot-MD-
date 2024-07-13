@@ -6,8 +6,8 @@ import {mediafiredl} from '@bochilteam/scraper'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 if (!args[0]) return conn.reply(m.chat, '🚩 Ingrese el enlace de un archivo de Mediafire.', m, rcanal)
 if (!args[0].match(/mediafire/gi)) return conn.reply(m.chat, '🍟 El enlace deve ser de un archivo de Mediafire.', m, rcanal)
-await m.react(rwait)
 try {
+await m.react(rwait)
 let { title, ext, aploud, size, dl_url } = await mediafiredl(args[0])
 let txt = `乂  *¡MEDIAFIRE - DESCARGAS!*  乂\n\n`
     txt += `✩ *Nombre* : ${title}\n`
@@ -25,6 +25,6 @@ await m.react(error)
 handler.help = ['mediafire']
 handler.tags = ['descargas']
 handler.command = ['mediafire', 'mdfire', 'mf']
-// handler.premium = true 
+handler.premium = false
 
 export default handler
