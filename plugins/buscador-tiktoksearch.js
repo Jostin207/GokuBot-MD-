@@ -45,7 +45,7 @@ _0x26b601.push({
 'text': null
 }),
 'footer': proto.Message.InteractiveMessage.Footer.fromObject({
-'text': dev
+'text': author
 }),
 'header': proto.Message.InteractiveMessage.Header.fromObject({
 'title': '' + _0x29b70b.title,
