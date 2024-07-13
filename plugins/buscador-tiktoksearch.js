@@ -34,8 +34,8 @@ let handler = async (_0x3585f0, {
     }
   }
   try {
-  await m.react(rwait);
-   conn.reply(m.chat, '🚩 *Descargando Su Video...*', m, {
+  await _0x3585f0.react(rwait);
+   _0x1a6b0c.reply(_0x3585f0.chat, '🚩 *Descargando Su Video...*', _0x3585f0, {
    contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
    title: packname,
    body: wm,
