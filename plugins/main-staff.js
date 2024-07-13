@@ -7,7 +7,6 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
-  const gif = await response.buffer()
 let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Bot:* ${global.botname}
 ✨️  *Versión:* ${global.vs}
