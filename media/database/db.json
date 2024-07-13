@@ -1,26 +1,16 @@
 {
-  "links": {
-    "video": [
-      "https://telegra.ph/file/98ff671c710732ab164b4.mp4",
-      "https://telegra.ph/file/442b292175d48a75916f9.mp4",
-      "https://telegra.ph/file/041861c23d72c14fd506d.mp4"
-    ],
-    "imagen": [
-      "https://telegra.ph/file/04fbe506bf7bcff5948d1.jpg",
-    "https://telegra.ph/file/14fba0944fe3790005499.jpg",
-      "https://telegra.ph/file/730579138be8c852689cc.jpg",
-      "https://telegra.ph/file/ed3209d08019d185bf9e9.jpg",
-      "https://telegra.ph/file/8901ecc058b6cc7748e31.jpg",
-     "https://telegra.ph/file/6a960decb31f824a66572.jpg",
-     "https://telegra.ph/file/4fe97e8e0851cff5ac603.jpg",
-     "https://telegra.ph/file/a261b13f5fd8b139fd500.jpg", 
-     "https://telegra.ph/file/49370434868aef6e79717.jpg",
-     "https://telegra.ph/file/1c0da0c707dd5c3cfc401.jpg",
-      "https://telegra.ph/file/2dfee47da5565296e5bec.jpg",
-      "https://telegra.ph/file/5833c9b192ba9ca4a2f33.jpg",
-      "https://telegra.ph/file/3fe787d4439ec1eafd3a6.jpg",
-      "https://telegra.ph/file/40cb423e733fdbf90e24e.jpg",
-      "https://telegra.ph/file/aa2880ccbb9a71fcc8d41.jpg"
-    ]
-  }
-}
+"links": {
+"video": [
+"https://telegra.ph/file/98ff671c710732ab164b4.mp4",
+"https://telegra.ph/file/442b292175d48a75916f9.mp4",
+"https://telegra.ph/file/041861c23d72c14fd506d.mp4"
+],
+"imagen": [
+"https://telegra.ph/file/430a93e2890ddff8a4104.jpg",
+"https://telegra.ph/file/5b660453b97be1c375dd4.jpg",
+"https://telegra.ph/file/53e9f2e86853d0561bb2f.jpg", 
+"https://telegra.ph/file/ff75989d1b89c4e82470d.jpg",
+"https://telegra.ph/file/d947fbec67f91102b417f.jpg",
+"https://telegra.ph/file/b23a74c0a4840d9e52e9d.jpg",
+"https://telegra.ph/file/9d563db9a3f5899980bc5.jpg"
+]}}
