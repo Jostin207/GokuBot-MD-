@@ -20,12 +20,13 @@ ${comunidad2}
 
  *◜🌸 CANALES OFICIAL 🌸◞*
 
-🍧 ${namechannel}
+🍭 ${namechannel}
 ${channel}
 
 🍭 ${namechannel2}
 ${channel2}`
-m.react('🤍') 
+
+m.react(emojis) 
 
   let category = "video"
   const db = './media/database/db.json'
