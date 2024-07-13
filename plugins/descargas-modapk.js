@@ -12,7 +12,7 @@ previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
-let txt = `*乂  A P T O I D E  -  D O W N L O A D*\n\n`
+let txt = `*乂  A P T O I D E  -  D O W N L O A D* 乂\n\n`
     txt += `✩ *Nombre* : ${data5.name}\n`
     txt += `✩ *Package* : ${data5.package}\n`
     txt += `✩ *Update* : ${data5.lastup}\n`
