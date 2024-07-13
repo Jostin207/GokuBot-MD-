@@ -18,7 +18,7 @@ ${usedPrefix + command} audios
 ${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
 
-🍟 *OPCIONES DE PROPIETARIO*
+🍟 *OPCIONES PARA MI PROPIETARIO*
 
 ${usedPrefix + command} public
 ${usedPrefix + command} status
