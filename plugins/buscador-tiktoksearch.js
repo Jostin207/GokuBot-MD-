@@ -68,10 +68,10 @@ let handler = async (_0x3585f0, {
           },
           'interactiveMessage': proto.Message.InteractiveMessage.fromObject({
             'body': proto.Message.InteractiveMessage.Body.create({
-              'text': "🔎 Resultado de : " + _0x2f2134
+              'text': "🚩 Resultado de : " + _0x2f2134
             }),
             'footer': proto.Message.InteractiveMessage.Footer.create({
-              'text': "🚩 Tiktok - Busquedas"
+              'text': "🔎 Tiktok - Busquedas"
             }),
             'header': proto.Message.InteractiveMessage.Header.create({
               'hasMediaAttachment': false
@@ -94,6 +94,7 @@ let handler = async (_0x3585f0, {
 };
 handler.help = ["tiktoksearch <txt>"];
 handler.estrellas = 1;
+handler.register = true;
 handler.tags = ["buscador"];
 handler.command = ["tiktoksearch", "tts", "tiktoks"];
 export default handler;
