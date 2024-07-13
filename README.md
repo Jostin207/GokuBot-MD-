@@ -1,4 +1,4 @@
-> 🚩 Versión Actual: 2.0.1
+> 🚩 Versión Actual: 2.0.2
 
 ## **`🍟 Luffy Bot - MD`**
 
