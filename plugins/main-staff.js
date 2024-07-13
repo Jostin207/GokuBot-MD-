@@ -1,6 +1,4 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let pp = icons
-let img = icono
 let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Bot:* ${global.botname}
 ✨️  *Versión:* ${global.vs}
@@ -38,7 +36,7 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Rol:* Developer
 🚩 *Número:* Wa.me/573218138672
 ✨️ *GitHub:* https://github.com/galletita-luffy`
-await conn.sendFile(m.chat, pp, 'luffy.jpg', staff.trim(), fkontak, true, {
+await conn.sendFile(m.chat, icons, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -46,10 +44,10 @@ externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
 title: `🥷 Developers 👑`,
-body: `💭 Staff Oficial`,
+body: `🚩 Staff Oficial`,
 mediaType: 1,
 sourceUrl: redes,
-thumbnailUrl: img
+thumbnailUrl: icono
 }}
 }, { mentions: m.sender })
 m.react(emoji)
