@@ -49,6 +49,10 @@ global.error = '✖️'
 //Emogis determinado de LuffyBot
 global.emoji = '🚩'
 global.emoji2 = '🍟'
+global.emoji3 = '✨️'
+global.emoji4 = '🍭'
+global.emoji5 = '🐢'
+global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //mensaje en espera
 global.wait = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
