@@ -80,8 +80,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/LuffyBot-MD&ref=main&geo=UsEast)
 
 #### ⚡ ACRIVAR EN REPLIT
-[![blog](https://img.shields.io/badge/Replit-LuffyBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/pQYkq4xv37o)
+[![`CREAR SERVIDOR REPLIT`](https://repl.it/badge/github/OfcDiego/LuffyBot-MD)](https://repl.it/github/OfcDiego/LuffyBot-MD)
 
 #### 🤍 ACTIVAR EN RENDER
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%LuffyBot-MD) 
