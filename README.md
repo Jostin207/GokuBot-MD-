@@ -6,11 +6,6 @@
 
 ***
 
-> [!NOTE]
-> **El problema en termux: `~$ yarn install` ya se solucionó, ya se puede instalar correctamente.**
-
-***
-
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo. 🍟
