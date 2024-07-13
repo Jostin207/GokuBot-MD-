@@ -47,7 +47,6 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de LuffyBot
-//Emojis determinado de luffy es: 🚩 y 🍟
 global.emoji = '🚩'
 global.emoji2 = '🍟'
 global.emoji3 = '✨️'
