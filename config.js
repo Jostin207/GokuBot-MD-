@@ -46,6 +46,8 @@ global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial 
 global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
 global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //ShizukaBot Y Luffy
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+global.moonligth = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //canal MoonLight Team 
+global.moonligth2 = 'https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj'
 global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
 global.md = 'https://github.com/OfcDiego/LuffyBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
