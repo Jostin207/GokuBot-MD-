@@ -38,7 +38,7 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🍟 *Rol:* Developer
 🚩 *Número:* Wa.me/573218138672
 ✨️ *GitHub:* https://github.com/galletita-luffy`
-await conn.sendFile(m.chat, pp, 'luffy.jpg', staff.trim(), fkontak, true, {
+/*await conn.sendFile(m.chat, pp, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
 'isForwarded': false,
@@ -51,7 +51,8 @@ mediaType: 1,
 sourceUrl: redes,
 thumbnailUrl: img
 }}
-}, { mentions: m.sender })
+}, { mentions: m.sender })*/
+await conn.reply(m.chat, staff, m, rcanal)
 m.react(emoji)
 
 }
