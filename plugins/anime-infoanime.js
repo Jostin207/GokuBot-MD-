@@ -22,11 +22,11 @@ let animeingfo = `🍟 Título: ${title_japanese}
 📝 Fondo: ${background}
 💬 Sinopsis: ${synopsis}
  ` 
-conn.sendFile(m.chat, json.data[0].images.jpg.image_url, 'anjime.jpg', `\t\t\t\t\t*メー ANIME INFO ーメ*\n` + animeingfo, fkontak, m)
+conn.sendFile(m.chat, json.data[0].images.jpg.image_url, 'anjime.jpg', 'I N F O - A N I M E\n' + animeingfo, fkontak, m)
 
 } 
-handler.help = ['animeinfo'] 
+handler.help = ['infoanime'] 
 handler.tags = ['anime'] 
-handler.command = /^(animeinfo)$/i 
+handler.command = /^(infoanime|animeinfo)$/i 
 
 export default handler
