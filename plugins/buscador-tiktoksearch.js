@@ -34,6 +34,13 @@ let handler = async (_0x3585f0, {
     }
   }
   try {
+  await m.react(rwait);
+   conn.reply(m.chat, '🚩 *Descargando Su Video...*', m, {
+   contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+   title: packname,
+   body: wm,
+   previewType: 0, thumbnail: icons,
+   sourceUrl: channel }}});
     let _0x26b601 = [];
     let {
       data: _0xda4544
