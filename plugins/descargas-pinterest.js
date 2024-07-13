@@ -13,7 +13,7 @@ let handler = async (_0x10bd40, {
   if (!_0x27db11) {
     return _0x9c7141.reply(_0x10bd40.chat, "🍟 *¿Que quieres buscar en pinterest?*", _0x10bd40, rcanal);
   }
-    await _0x3585f0.react(rwait);
+    await _0x10bd40.react(rwait);
   async function _0x3f3fc7(_0x5f4723) {
     const {
       imageMessage: _0x14a396
@@ -87,7 +87,7 @@ let handler = async (_0x10bd40, {
   }, {
     'quoted': _0x10bd40
   });
-  await _0x3585f0.react(done);
+  await _0x10bd40.react(done);
   await _0x9c7141.relayMessage(_0x10bd40.chat, _0x1ca5c6.message, {
     'messageId': _0x1ca5c6.key.id
   });
