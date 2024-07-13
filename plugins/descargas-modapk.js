@@ -12,7 +12,7 @@ previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
 let searchA = await search(text)
 let data5 = await download(searchA[0].id)
-let response = `☄️ Descargador De Aptoide 📲\n\n🍟 *Nombre:* ${data5.name}\n🚩 *Package:* ${data5.package}\n🎌 *Actualización:* ${data5.lastup}\n☁️ *Tamaño:* ${data5.size}`
+let response = `📲 Descargador De Aptoide 📲\n\n🍟 *Nombre:* ${data5.name}\n🚩 *Package:* ${data5.package}\n🎌 *Actualización:* ${data5.lastup}\n📦 *Tamaño:* ${data5.size}`
 await conn.sendFile(m.chat, data5.icon, 'thumbnail.jpg', response, m, null, rcanal) 
 await m.react(done)  
 if (data5.size.includes('GB') || data5.size.replace(' MB', '') > 999) {
