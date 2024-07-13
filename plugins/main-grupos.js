@@ -1,33 +1,33 @@
 let handler = async (m, { conn, command }) => {
 let colab = `*◜💙 GRUPOS OFICIALES 💙◞*
 
-⁖💚꙰  ${packname} 
+🚩 ${packname} 
 ${gp1}
 
-⁖💚꙰  ${packname} 2
+🚩 ${packname} 2
 ${gp2}
 
  *◜🤍 COLABORACIÓN 🤍◞*
 
-⁖🧡꙰  ${colab1}
+🍟 ${colab1}
 ${gp3}
 
-⁖🧡꙰  ${colab2}
+🍟 ${colab2}
 ${gp4}
 
 *◜🤍 MOONLIGHT TEAM 🤍◞*
 
-⁖🧡꙰ CANAL:
+🍭 ${canalmoonlight}
 
 ${moonlight}
 
-⁖🧡꙰ COMUNIDAD:
+🍭 ${comunidad}
 
 ${moonligth2}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
-⁖❤️꙰  ${namechannel}
+🍧 ${namechannel}
 ${channel}`
 m.react('🤍') 
 
