@@ -7,9 +7,12 @@ const datas = global
 
 if (!text) conn.reply(m.chat, '🍟 Te faltó el texto para hablar con *LuffyBot*', m, rcanal);
 try {
+await m.react(rwait)
 const resSimi = await simitalk(text);
 conn.sendMessage(m.chat, { text: resSimi.resultado.simsimi }, { quoted: m });
+await m.react(done)
 } catch {
+await m.react(error)
 throw '🚩 *Ocurrió un error*';
 }};
 
