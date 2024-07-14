@@ -6,16 +6,6 @@
 
 ---
 
-> [!TIP]
-> Yo **[`galletita-luffy`](https://github.com/galletita-luffy)**, me he retirado de todo relacionado con **[`LuffyBot`](https://github.com/galletita-luffy/LuffyBot-MD)** o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
-
----
-
-> [!WARNING]
-> **[`LuffyBot-MD`](https://github.com/galletita-luffy/LuffyBot-MD)** pasa a quedar en manos de colaboradores, y como principal representante **[`@AzamiJs`](https://github.com/AzamiJs)**.
-
----
-
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo. 🍟
