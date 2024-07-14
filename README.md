@@ -4,7 +4,7 @@
 
 ![LuffyBot](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
-***
+---
 
 > [!TIP]
 > Yo **[`OfcDiego`](https://github.com/OfcDiego)**, me he retirado de todo relacionado con **`LuffyBot`** o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
@@ -14,7 +14,7 @@
 > [!WARNING]
 > **`LuffyBot-MD`** pasa a quedar en manos de colaboradores, y como principal representante **[`@galletita-luffy`](https://github.com/galletita-luffy)**.
 
-***
+---
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
@@ -74,7 +74,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 > Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
 
-***
+---
 
 #### ☂️ ACTIVA EN HEROKU ☂️
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/LuffyBot-MD)
@@ -95,7 +95,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 #### 🤍 ACTIVAR EN RENDER
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%LuffyBot-MD) 
 
-***
+---
 
 ## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
 
@@ -103,7 +103,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 > No Spam Al Bot!
 
-***
+---
 
 ## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
 
@@ -124,7 +124,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 - [x] Descarga de música y video De YT
 - [ ] Otros
 
-*** 
+--- 
 
 ### `🚩 DESARROLLADORES`
 <a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
