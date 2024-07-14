@@ -12,7 +12,7 @@
 ---
 
 > [!WARNING]
-> **[`LuffyBot-MD`] (https://github.com/OfcDiego/LuffyBot-MD)** pasa a quedar en manos de colaboradores, y como principal representante **[`@galletita-luffy`](https://github.com/galletita-luffy)**.
+> **[`LuffyBot-MD`](https://github.com/OfcDiego/LuffyBot-MD)** pasa a quedar en manos de colaboradores, y como principal representante **[`@galletita-luffy`](https://github.com/galletita-luffy)**.
 
 ---
 
