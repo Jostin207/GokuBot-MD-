@@ -39,9 +39,9 @@ global.namechannel = '🚩 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ �
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁'
-global.colaboraciones = '◜🤍 COLABORACIONES 🤍◞'
-global.gruposofc = '◜💙 GRUPOS OFICIALES 💙◞'
-global.canalofc = '◜🌸 CANALES OFICIAL 🌸◞'
+global.colaboraciones = 'COLABORACIONES'
+global.gruposofc = 'GRUPOS OFICIALES'
+global.canalofc = 'CANALES OFICIALES'
 global.colab1 = '𝗚𝗮𝘁𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 global.colab2 = '𝗦𝗵𝗶𝘇𝘂𝗸𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 
