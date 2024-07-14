@@ -16,7 +16,7 @@ ${gp3}
 ${gp4}
 
 🍟 ${namecomu}
-${comunidad}
+${comunidad1}
 
 🍟 ${namecomu2}
 ${comunidad2}
