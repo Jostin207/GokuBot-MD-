@@ -6,7 +6,7 @@
 
 ***
 
-> [!NOTE]
+> [!TIP]
 > Yo **`OfcDiego`**, me he retirado de todo relacionado con **`LuffyBot`** o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
 > **`LuffyBot-MD`** pasa a quedar en manos de colaboradores, y como principal representante **`galletita-luffy`**.
 
