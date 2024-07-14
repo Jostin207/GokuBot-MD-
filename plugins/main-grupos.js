@@ -7,7 +7,7 @@ ${gp1}
 🚩 ${packname} 2
 ${gp2}
 
- *◜🤍 pCOLABORACIONES 🤍◞*
+ *◜🤍 COLABORACIONES 🤍◞*
 
 🍟 ${colab1}
 ${gp3}
