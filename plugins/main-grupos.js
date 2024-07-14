@@ -1,4 +1,5 @@
 let handler = async (m, { conn, command }) => {
+await conn.reply(m.chat, global.wait, m, rcanal)
 let gps = `*◜💙 GRUPOS OFICIALES 💙◞*
 
 🚩 ${packname} 
@@ -31,7 +32,8 @@ ${channel2}`
 
 m.react(emojis) 
 
-conn.reply(m.chat, gps, m, rcanal)}
+//conn.reply(m.chat, gps, m, rcanal)}
+await conn.sendFile(m.chat, imagen1, 'luffy.jpg', gps.trim(), fkontak, null, rcanal)
 
 handler.tags = ['main']
 handler.help = ['grupos']
