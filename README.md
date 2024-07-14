@@ -117,9 +117,10 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 --- 
 
 ### `🚩 DESARROLLADORES`
-<a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/LuffyBot-MD" /> 
-</a>
+<a href="https://github.com/galletita-luffy"><img src="https://github.com/galletita-luffy.png" width="100" height="100" alt="galletita"/></a>
+<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="100" height="100" alt="Alexis"/></a>
+<a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="100" height="100" alt="Mario"/></a>
+<a href="https://github.com/matia-crypto"><img src="https://github.com/matia-crypto.png" width="100" height="100" alt="Matias"/></a>
 
 ### `✨️ AGRADECIMIENTOS`
 <a
