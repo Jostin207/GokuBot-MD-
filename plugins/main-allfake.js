@@ -62,15 +62,14 @@ global.waitttt = '*⏱️ 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' 
-var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' 
-var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
+var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M'  
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@OfcDiego' 
 var github = 'https://github.com/OfcDiego/LuffyBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 let tiktok = 'https://tiktok.com/@theluffybot'
 
-global.redes = [canal, canal2, grupofb, git, youtube, github, facebook, tiktok].getRandom()
+global.redes = [canal, canal2, git, youtube, github, facebook, tiktok].getRandom()
 
 global.canales = [canal, canal2].getRandom()
 
@@ -108,7 +107,27 @@ global.icono = [
 'https://qu.ax/bJZW.jpg'
 ].getRandom()
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363263466636910@newsletter", serverMessageId: 100, newsletterName: 'Luffy Bot Channel 🚩',
-}, externalAdReply: { showAdAttribution: true, title: packname, body: '🍟 ¡Super Bot De WhatsApp!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
+global.rcanal = {
+contextInfo: {
+isForwarded: true,
+forwardedNewsletterMessageInfo: {
+newsletterJid: "120363263466636910@newsletter",
+serverMessageId: 100,
+newsletterName: 'Luffy Bot Channel 🚩',
+},
+externalAdReply: { 
+showAdAttribution: true,
+title: packname,
+body: '🍟 ¡Super Bot De WhatsApp!',
+mediaUrl: null,
+description: null,
+previewType: "PHOTO",
+thumbnailUrl: icono,
+sourceUrl: redes,
+mediaType: 1,
+renderLargerThumbnail: false
+},
+},
+}}
 
 export default handler
