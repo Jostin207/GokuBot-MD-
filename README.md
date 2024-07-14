@@ -1,6 +1,6 @@
 > 🚩 Versión Actual: 2.0.2
 
-## **```🍟 Luffy Bot - MD```**
+## **`🍟 Luffy Bot - MD`**
 
 ![LuffyBot](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
