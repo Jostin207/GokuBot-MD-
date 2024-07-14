@@ -1,30 +1,33 @@
 let handler = async (m, { conn, command }) => {
-let colab = `*◜💙 GRUPOS OFICIALES 💙◞*
+let colab = `*${global.gruposofc}*
 
-🚩 ${packname} 
-${gp1}
+🚩 ${global.packname} 
+${global.gp1}
 
-🚩 ${packname} 2
-${gp2}
+🚩 ${global.packname} 2
+${global.gp2}
 
- *◜🤍 COLABORACIÓN 🤍◞*
+ *${global.colaboraciones}*
 
-🍟 ${colab1}
-${gp3}
+🍟 ${global.colab1}
+${global.gp3}
 
-🍟 ${colab2}
-${gp4}
+🍟 ${global.colab2}
+${global.gp4}
 
-🍭 ${comunidad}
-${comunidad2}
+🍟 ${global.namecomu}
+${global.comunidad}
 
- *◜🌸 CANALES OFICIAL 🌸◞*
+🍟 ${global.namecomu2}
+${global.comunidad2}
 
-🍭 ${namechannel}
-${channel}
+ *${global.canalofc}*
 
-🍭 ${namechannel2}
-${channel2}`
+🍭 ${global.namechannel}
+${global.channel}
+
+🍭 ${global.namechannel2}
+${global.channel2}`
 
 m.react(emojis) 
 
