@@ -3,16 +3,15 @@ import axios from 'axios';
 import fetch from 'node-fetch';
 
 const handler = async (m, {conn, text, command, args, usedPrefix}) => {
-const datas = global
 
 if (!text) conn.reply(m.chat, '🍟 Te faltó el texto para hablar con *LuffyBot*', m, rcanal);
 try {
-// await m.react(rwait)
+await m.react(rwait)
 const resSimi = await simitalk(text);
 conn.sendMessage(m.chat, { text: resSimi.resultado.simsimi }, { quoted: m });
-// await m.react(done)
+await m.react(done)
 } catch {
-// await m.react(error)
+await m.react(error)
 throw '🚩 *Ocurrió un error*';
 }};
 
