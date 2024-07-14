@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command }) => {
-let colab = `*${global.gruposofc}*
+let colab = `*◜💙 ${global.gruposofc} 💙◞*
 
 🚩 ${global.packname} 
 ${global.gp1}
@@ -7,7 +7,7 @@ ${global.gp1}
 🚩 ${global.packname} 2
 ${global.gp2}
 
- *${global.colaboraciones}*
+ *◜🤍 ${global.colaboraciones} 🤍◞*
 
 🍟 ${global.colab1}
 ${global.gp3}
@@ -21,7 +21,7 @@ ${global.comunidad}
 🍟 ${global.namecomu2}
 ${global.comunidad2}
 
- *${global.canalofc}*
+ *◜🌸 ${global.canalofc} 🌸◞*
 
 🍭 ${global.namechannel}
 ${global.channel}
