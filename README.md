@@ -133,11 +133,11 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 ### `✨️ AGRADECIMIENTOS`
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="120" height="120" alt="Agradecimientos"/></a>
 
 ### `🍟 CREADOR`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
+href="https://github.com/galletita-luffy"><img src="https://github.com/galletita-luffy.png" width="130" height="130" alt="galletita"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/LuffyBot-MD)**.
 
