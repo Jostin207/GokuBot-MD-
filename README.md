@@ -6,7 +6,9 @@
 
 ***
 
-> **AVISO**: Yo `OfcDiego`, me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
+> **AVISO**: Yo `OfcDiego`, me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
+
+***
 
 > LuffyBot-MD pasa a quedar en manos de colaboradores, y como principal representante galletita-luffy.
 
