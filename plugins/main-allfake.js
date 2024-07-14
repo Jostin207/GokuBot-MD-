@@ -108,27 +108,7 @@ global.icono = [
 'https://qu.ax/bJZW.jpg'
 ].getRandom()
 
-global.rcanal = {
-contextInfo: {
-isForwarded: true,
-forwardedNewsletterMessageInfo: {
-newsletterJid: "120363263466636910@newsletter",
-serverMessageId: 100,
-newsletterName: 'Luffy Bot Channel 🚩',
-},
-externalAdReply: { 
-showAdAttribution: true,
-title: packname,
-body: '🍟 ¡Super Bot De WhatsApp!',
-mediaUrl: null,
-description: null,
-previewType: "PHOTO",
-thumbnailUrl: icono,
-sourceUrl: redes,
-mediaType: 1,
-renderLargerThumbnail: false
-},
-},
-}}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363263466636910@newsletter", serverMessageId: 100, newsletterName: 'Luffy Bot Channel 🚩',
+}, externalAdReply: { showAdAttribution: true, title: packname, body: '🍟 ¡Super Bot De WhatsApp!', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
 export default handler
