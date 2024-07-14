@@ -7,12 +7,12 @@
 ---
 
 > [!TIP]
-> Yo **[`OfcDiego`](https://github.com/OfcDiego)**, me he retirado de todo relacionado con **[`LuffyBot`](https://github.com/OfcDiego/LuffyBot-MD)** o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
+> Yo **[`galletita-luffy`](https://github.com/galletita-luffy)**, me he retirado de todo relacionado con **[`LuffyBot`](https://github.com/galletita-luffy/LuffyBot-MD)** o temas similares, por lo que en algún momento quedará obsoleto y algunos comandos dejarán de funcionar.
 
 ---
 
 > [!WARNING]
-> **[`LuffyBot-MD`](https://github.com/OfcDiego/LuffyBot-MD)** pasa a quedar en manos de colaboradores, y como principal representante **[`@galletita-luffy`](https://github.com/galletita-luffy)**.
+> **[`LuffyBot-MD`](https://github.com/galletita-luffy/LuffyBot-MD)** pasa a quedar en manos de colaboradores, y como principal representante **[`@AzamiJs`](https://github.com/AzamiJs)**.
 
 ---
 
