@@ -138,7 +138,7 @@ let handler = async (_0x1eb0f9, {
             'image': await _0x34f280.toBuffer(_0x2ba135, {
               'scale': 0x8
             }),
-            'caption': "*👑 LUFFY BOT - MD 👑*\n               *𝐒𝐄𝐑 𝐒𝐔𝐁𝐁𝐎𝐓*\n\n*Escanea este codigo QR para convertirte en un Bot (SubBot), puedes usar otro dispositivo para escanear*\n\n*Pasos para escanear:*\n*1.- Haga click en los 3 puntos ubicados en la esquina superior derecha en el inicio de su WhatsApp*\n*2.- Toca en donde dice WhatsApp web o dispositivos vinculados*\n*3.- Escanee este codigo QR*\n*El codigo QR expira en 60 segundos!!*\n\n*—◉ The Shadow Brokers - TEAM no se hace respondable del uso, numeros, mensajes, multimedias, etcétera enviado, usado o gestionado por ustedes o el Bot*" + _0x49e7f2.toString("utf-8")
+            'caption': '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8")
           }, {
             'quoted': _0x1eb0f9
           });
@@ -356,10 +356,9 @@ let handler = async (_0x1eb0f9, {
     _0x494dff();
   });
 };
-handler.help = ["jadibot", 'serbot', 'getcode', "rentbot"];
+handler.help = ['serbot', 'serbot --code'];
 handler.tags = ['jadibot'];
-handler.command = /^(jadibot|serbot|getcode|rentbot|code)$/i;
-handler['private'] = true;
+handler.command = /^(jadibot|serbot)$/i;
 export default handler;
 const delay = _0x11a708 => new Promise(_0x16bafa => setTimeout(_0x16bafa, _0x11a708));
 function sleep(_0x39e98e) {
