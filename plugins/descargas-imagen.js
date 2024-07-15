@@ -12,8 +12,8 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   const link = image;
   conn.sendFile(m.chat, link, 'error.jpg', `*🔎 Resultado De: ${text}*`, m, null, rcanal);
 };
-handler.help = ['gimage <query>', 'imagen <query>'];
+handler.help = ['imagen <query>'];
 handler.tags = ['buscador', 'tools', 'descargas'];
-handler.command = /^(gimage|image|imagen)$/i;
-handler.register = true
+handler.command = /^(image|imagen)$/i;
+handler.register = true;
 export default handler;
