@@ -31,7 +31,7 @@ ${channel2}`
 
 m.react(emojis) 
 
-await conn.sendFile(m.chat, imagen1, 'luffy.jpg', gps.trim(), fkontak, null, rcanal)
+await conn.sendFile(m.chat, imagen1, 'luffy.jpg', gps, fkontak, null, rcanal)
 
 handler.tags = ['main']
 handler.help = ['grupos']
