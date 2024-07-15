@@ -29,7 +29,7 @@ const handler = async (m, {command, conn}) => {
   }
 
   if (command == 'nsfwbdsm') {
-    const res = (await axios.get(`https://raw.githubusercontent.comshrkbadboy/LuffyBot-MD/master/src/JSON/nsfwbdsm.json`)).data;
+    const res = (await axios.get(`https://raw.githubusercontent.com/shrkbadboy/LuffyBot-MD/master/src/JSON/nsfwbdsm.json`)).data;
     const haha = await res[Math.floor(res.length * Math.random())];
     conn.sendMessage(m.chat, {image: {url: haha}, caption: `_${command}_`.trim()}, {quoted: m});
   }
