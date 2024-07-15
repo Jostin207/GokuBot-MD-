@@ -32,10 +32,10 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 🚩 *Número:* Wa.me/59169082575
 ✨️ *GitHub:* https://github.com/Alba070503
 
-• Galletita-Luffy
+• Darkcobra
 🍟 *Rol:* Developer
 🚩 *Número:* Wa.me/573218138672
-✨️ *GitHub:* https://github.com/galletita-luffy`
+✨️ *GitHub:* https://github.com/darkcobra`
 await conn.sendFile(m.chat, icons, 'luffy.jpg', staff.trim(), fkontak, true, {
 contextInfo: {
 'forwardingScore': 200,
