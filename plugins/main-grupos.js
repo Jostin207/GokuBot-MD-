@@ -29,9 +29,9 @@ ${channel}
 🍭 ${namechannel2}
 ${channel2}`
 
-m.react(emojis) 
+await m.react(emojis) 
 
-await conn.sendFile(m.chat, imagen1, 'luffy.jpg', gps, fkontak, null, rcanal)
+await conn.sendFile(m.chat, imagen2, 'luffy.jpg', gps, m, null, rcanal)
 
 handler.tags = ['main']
 handler.help = ['grupos']
