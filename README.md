@@ -116,9 +116,9 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 --- 
 
-### `🍟 CREADOR`
+### `🍟 EDITOR Y PROPIETARIO DEL BOT`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="400" height="400" alt="Diego"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="300" height="300" alt="Diego"/></a>
 
 ### `🚩 DESARROLLADORES`
 <a href="https://github.com/galletita-luffy"><img src="https://github.com/galletita-luffy.png" width="100" height="100" alt="galletita"/></a>
