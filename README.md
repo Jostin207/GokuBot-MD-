@@ -2,7 +2,7 @@
 
 ## **`🍟 Luffy Bot - MD`**
 
-![LuffyBot](https://telegra.ph/file/ac14b489501b088b43e47.jpg)
+![LuffyBot](https://telegra.ph/file/a7a9798496639ce074237.jpg)
 
 ---
 
