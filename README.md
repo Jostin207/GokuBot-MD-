@@ -116,24 +116,18 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 
 --- 
 
-#### `🍟 EDITOR Y PROPIETARIO DEL BOT`
-<a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="280" height="280" alt="Diego"/></a>
-
 ### `🚩 DESARROLLADORES`
-<a href="https://github.com/galletita-luffy"><img src="https://github.com/galletita-luffy.png" width="100" height="100" alt="galletita"/></a>
-<a href="https://github.com/AzamiJs"><img src="https://github.com/AzamiJs.png" width="100" height="100" alt="Alexis"/></a>
-<a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="100" height="100" alt="Mario"/></a>
-<a href="https://github.com/matias-crypto"><img src="https://github.com/matias-crypto.png" width="100" height="100" alt="Matias"/></a>
-<a href="https://github.com/glytglobal"><img src="https://github.com/glytglobal.png" width="100" height="100" alt="GL YT MX"/></a>
-<a href="https://github.com/Alba070503"><img src="https://github.com/Alba070503.png" width="100" height="100" alt="Alba"/></a>
-<a href="https://github.com/MoonContentCreator"><img src="https://github.com/MoonContentCreator.png" width="100" height="100" alt="Daniel"/></a>
+<a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=OfcDiego/LuffyBot-MD" /> 
+</a>
 
 ### `✨️ AGRADECIMIENTOS`
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="150" height="150" alt="Agradecimientos"/></a>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
 
+### `🍟 CREADOR`
+<a
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/LuffyBot-MD)**.
 
