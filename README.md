@@ -123,6 +123,7 @@ Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo 
 <a href="https://github.com/matias-crypto"><img src="https://github.com/matias-crypto.png" width="100" height="100" alt="Matias"/></a>
 <a href="https://github.com/glytglobal"><img src="https://github.com/glytglobal.png" width="100" height="100" alt="GL YT MX"/></a>
 <a href="https://github.com/Alba070503"><img src="https://github.com/Alba070503.png" width="100" height="100" alt="Alba"/></a>
+<a href="https://github.com/MoonContentCreator"><img src="https://github.com/MoonContentCreator.png" width="100" height="100" alt="Daniel"/></a>
 
 ### `✨️ AGRADECIMIENTOS`
 <a
