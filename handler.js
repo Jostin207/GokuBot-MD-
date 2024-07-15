@@ -730,17 +730,17 @@ console.error(e)
 }}
 
 global.dfail = (type, m, conn) => {
-let msg = {
- rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> OfcDiego.', 
- owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
- mods: '「🤴🏻」 *Esta función solo puede ser usada por mis desarrolladores.*', 
- premium: '「🍧」 *Esta función solo es para usuarios Premium.', 
- group:  '「🐢」 *Esta funcion solo puede ser ejecutada en grupos.*', 
- private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
- admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
- botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
- unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Luffy.666*',
-restrict: '「👑」 *Esta característica esta desactivada.*',
+const msg = {
+rowner: '👑 *¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
+owner: '👑 *¡El Uso Del Comando Solo Lo Puede Usar Mi Creador!*',
+mods: '💖 *¡El Uso Del Comando Solo Lo Puede Usar Mis Moderadores!*',
+premium: '🌺 *¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium!*',
+group: '🤍 *¡Esta Función Solo Se Puede Usar En Grupos!*',
+private: '💥 *¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
+admin: '💫 *¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
+botAdmin: '🤍 *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea Admin!*',
+unreg: '🚩 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Luffy.666',
+restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
