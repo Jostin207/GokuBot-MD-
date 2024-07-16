@@ -1,6 +1,7 @@
 let handler = async (m, { conn, command }) => {
 if (command === 'infinity') {
-let txt = `*INFINITY HOST* 🚩
+let txt = `*INFINITY HOST* 🍟
+
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
 Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad de servicios para poner tus proyectos y que estos estén 24/7 Activos.
 
@@ -13,15 +14,13 @@ Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad d
 - *4GB, 175CPU* = 4dolar
 - *5GB, 200CPU* = 5dolar
 
-💥 *Página:* https://www.infinity-wa.xyz
+🍭 *Dashboard:* https://dash.infinity-wa.com
 
-✨️ *Dashboard:* https://dashboard.infinitywa.xyz
+🚩 *Panel:* https://panel.infinity-wa.com
 
-💫 *Panel:* https://store.panel-infinitywa.store
+🍧 *Discord:* https://discord.com/invite/vgfpe4Nwd8
 
-🚩 *Discord:* https://discord.com/invite/vgfpe4Nwd8
-
-😺 *Grupo:* https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
+🐢 *Grupo:* https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
 
 *¿Qué esperas para Adquirir sus servicios? Únete a esta familia :)*`
 await conn.sendMessage(m.chat, { text: txt,
