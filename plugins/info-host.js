@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command }) => {
 if (command === 'infinity') {
-let txt = `      *INFINITY HOST* 🍟
+let txt = `*INFINITY HOST* 🍟
 
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
 Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad de servicios para poner tus proyectos y que estos estén 24/7 Activos.
@@ -48,13 +48,17 @@ Pues te presento a *FlarexCloud*, un hosting de calidad con servidores dedicados
 
 🟢 \`\`\`Información del Host\`\`\`
 
-💫 *Página:* https://www.flarex.cloud
+💫 *Página:* 
+• https://www.flarex.cloud
 
-💙 *Game Panel:* https://gamepanel.flarex.cloud
+💙 *Game Panel:* 
+• https://gamepanel.flarex.cloud
 
-☁️ *Discord:* https://discord.flarex.cloud
+☁️ *Discord:*
+• https://discord.flarex.cloud
 
-🤍 *Grupo:* https://whatsapp.flarex.cloud
+🤍 *Grupo:*
+• https://whatsapp.flarex.cloud
 
 > *Únete a está comunidad y disfruta de un servicio de calidad :D*`
 await conn.sendMessage(m.chat, { text: txt,
