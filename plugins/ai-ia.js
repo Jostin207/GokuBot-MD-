@@ -13,12 +13,14 @@ conn.sendPresenceUpdate('composing', m.chat);
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/ia2?text=${text}`)
 let res = await gpt.json()
 await conn.reply(m.chat, res.gpt, m, rcanal)
+await m.react(done)
 } catch {
 try {
-await m.react(done)
+//await m.react(done)
 let gpt = await fetch(`https://delirius-api-oficial.vercel.app/api/chatgpt?q=${text}`)
 let res = await gpt.json()
-await conn.reply(m.chat, res.data, m, rcanal) 
+await conn.reply(m.chat, res.data, m, rcanal)
+await m.react(done) 
 } catch{
 }}}
 handler.help = ['chatgpt <texto>', 'ia <texto>']
