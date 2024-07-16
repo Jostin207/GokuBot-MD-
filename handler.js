@@ -358,6 +358,7 @@ __filename
 continue
 }
 if (typeof plugin !== 'function')
+conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
 continue
 if ((usedPrefix = (match[0] || '')[0])) {
 let noPrefix = m.text.replace(usedPrefix, '')
@@ -378,8 +379,9 @@ typeof plugin.command === 'string' ? // String?
 plugin.command === command :
 false
 
-if (!isAccept) conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
+/*if (!isAccept) { conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
 continue
+}*/
 
 m.plugin = name
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
