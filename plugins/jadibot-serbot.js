@@ -11,7 +11,6 @@ import _0x157bec from 'fs';
 import _0x3b5778 from 'pino';
 import 'ws';
 import _0x202133 from 'boxen';
-//import boxen from 'boxen'
 const {
   child,
   spawn,
@@ -135,22 +134,25 @@ let handler = async (_0x1eb0f9, {
           _0x651de9.isInit = false;
         }
         if (_0x2ba135 && !_0x5b7f17) {
-          
-          let caption = '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8")
-
-await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", caption, _0x1eb0f9, null, rcanal)
-
+          _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
+            'image': await _0x34f280.toBuffer(_0x2ba135, {
+              'scale': 0x8
+            }),
+            'caption': '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8")
+          }, {
+            'quoted': _0x1eb0f9
+          });
+        }
         if (_0x2ba135 && _0x5b7f17) {
           let _0x34563e = _0x1eb0f9.sender.split`@`[0x0];
           if (_0x34563e.startsWith('52')) {
             _0x34563e = "521" + _0x34563e.slice(0x2);
           }
           let _0x5cb616 = await _0x651de9.requestPairingCode(_0x34563e);
-          _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-            'text': "*👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 - 𝐌𝐃 👑*\n               *𝐒𝐄𝐑 𝐒𝐔𝐁𝐁𝐎𝐓*\n\n*En breve, Se le enviara un codigo que debera introducir para instalar el bot*\n\n*Pasos a seguir:*\n*1.- Haga click en los 3 puntos ubicados en la esquina superior derecha en el inicio de su WhatsApp*\n*2.- Toca en donde dice WhatsApp web o dispositivos vinculados*\n*3.- De click en donde dice \"Vincular con el numero de telefono\"*\n*4.- Introduzca el codigo*\n*El codigo expira en 60 segundos!!*\n*El codigo solo funciona con el numero solicitado!!*\n\n*—◉ The Shadow Brokers - TEAM no se hace respondable del uso, numeros, mensajes, multimedias, etcétera enviado, usado o gestionado por ustedes o el Bot*" + _0x49e7f2.toString('utf-8')
-          }, {
-            'quoted': _0x1eb0f9
-          });
+          _0x2dae5d.reply(_0x1eb0f9.chat, '🚩 S E R B O T - S U B B O T 🚩\n\n*Usa este Código para convertirte en un Sub Bot*\n\n🍟 Pasos:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Selecciona Vincular con el número de teléfono\n\n`4` : Escriba el Codigo\n\n> *Nota:* Este Código solo funciona en el número que lo solicito.' + _0x49e7f2.toString('utf-8')
+          },
+            _0x1eb0f9, rcanal
+          );
           await delay(0x1388);
           _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
             'text': _0x5cb616
