@@ -1,7 +1,6 @@
 let handler = async (m, { conn, command }) => {
 if (command === 'infinity') {
-let txt = `🥲 No estamos en Infinity-Host 🥲`
-/*let txt = `*INFINITY HOST* 🚩
+let txt = `*INFINITY HOST* 🚩
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
 Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad de servicios para poner tus proyectos y que estos estén 24/7 Activos.
 
@@ -24,7 +23,7 @@ Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad d
 
 😺 *Grupo:* https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
 
-*¿Qué esperas para Adquirir sus servicios? Únete a esta familia :)*`*/
+*¿Qué esperas para Adquirir sus servicios? Únete a esta familia :)*`
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardingScore: 1,
@@ -36,7 +35,7 @@ isForwarded: false,
 "body": `✅ HOSTIN DE CALIDAD ✅`,
 "previewType": "PHOTO",
 "thumbnailUrl": 'https://qu.ax/EQTd.jpg', 
-"sourceUrl": 'https://dashboard.infinitywa.xyz'}}},
+"sourceUrl": 'https://dash.infinity-wa.com'}}},
 { quoted: fkontak})
 }
 if (command === 'flarex') {
@@ -71,7 +70,7 @@ isForwarded: false,
 }
 }
 handler.tags =['main'] 
-handler.help = ['flarex'] 
-handler.command = ['infinty', 'flarex']
+handler.help = ['flarex', 'infinity'] 
+handler.command = ['infinity', 'flarex']
 handler.register = true
 export default handler
