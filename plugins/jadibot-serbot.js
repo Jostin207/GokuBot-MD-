@@ -10,7 +10,7 @@ import _0x34f280 from 'qrcode';
 import _0x157bec from 'fs';
 import _0x3b5778 from 'pino';
 import 'ws';
-//import _0x202133 from 'md5';
+import _0x202133 from '*';
 const {
   child,
   spawn,
@@ -29,7 +29,7 @@ if (global.dataconst instanceof Array) {
 } else {
   global.dataconst = [];
 }
-let handler = async (_0x202133, {
+let handler = async (_0x1eb0f9, {
   conn: _0x2dae5d,
   args: _0x2950a5,
   usedPrefix: _0x15a0f9,
