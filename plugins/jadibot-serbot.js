@@ -65,10 +65,17 @@ let handler = async (_0x7880ea, {
     let _0x9488cf = '' + _0x4547ac.split`@`[0x0];
     let _0x4bf714 = _0x482a9d[0x0] && _0x482a9d[0x0].includes("--code") ? true : !!(_0x482a9d[0x1] && _0x482a9d[0x1].includes('--code'));
     if (_0x4bf714) {
-      _0x482a9d[0x0] = _0x482a9d[0x0].replace("--code", "").trim();
+      _0x482a9d[0x0] = _0x482a9d[0x0].replace("--code", '').trim();
       if (_0x482a9d[0x1]) {
-        _0x482a9d[0x1] = _0x482a9d[0x1].replace("--code", "").trim();
+        // _0x482a9d[0x1] = _0x482a9d[0x1].replace("--code", '').trim();
       }
+/*const mcode = args[0] && args[0].includes('--code') ? true : args[1] && args[1].includes('--code') ? true : false
+
+
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? parentw.user.jid : m.sender
+let id = `${who.split`@`[0]}`
+if (mcode) {
+args[0] = args[0].replace('--code', '').trim()*/
       if (_0x482a9d[0x0] == '') {
         _0x482a9d[0x0] = undefined;
       }
