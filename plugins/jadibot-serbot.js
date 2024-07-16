@@ -190,11 +190,7 @@ _0x2dae5d.reply(_0x1eb0f9.chat, _0x5cb616, _0x1eb0f9, rcanal);
                   });
                 } else {
                   if (_0x10f039 === DisconnectReason.loggedOut) {
-                    _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-                      'text': "*[❗] La sesión actual se cerró, Si desea volver a conectarse tendra que iniciar sesion de nuevo*"
-                    }, {
-                      'quoted': _0x1eb0f9
-                    });
+                    _0x2dae5d.reply(_0x1eb0f9.chat, '「🍟」 La sesión actual se cerró, Si desea volver a conectarse tendra que iniciar sesion de nuevo*', _0x1eb0f9, rcanal);
                     return _0x157bec.rmdirSync("./jadibts/" + _0x4d9844, {
                       'recursive': true
                     });
