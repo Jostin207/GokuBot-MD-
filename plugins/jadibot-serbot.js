@@ -138,6 +138,7 @@ _0x651de9.requestPairingCode(_0x34563e);
           }, {
             'quoted': _0x1eb0f9
           });
+}
         if (_0x2ba135 && _0x5b7f17) {
           let _0x34563e = _0x1eb0f9.sender.split`@`[0x0];
           if (_0x34563e.startsWith('52')) {
@@ -149,6 +150,7 @@ _0x651de9.requestPairingCode(_0x34563e);
           }, {
             'quoted': _0x1eb0f9
           });
+}
           await delay(0x1388);
 _0x2dae5d.reply(_0x1eb0f9.chat, _0x5cb616, _0x1eb0f9, rcanal);
         }
