@@ -10,7 +10,8 @@ import _0x34f280 from 'qrcode';
 import _0x157bec from 'fs';
 import _0x3b5778 from 'pino';
 import 'ws';
-import _0x202133 from '*';
+import _0x202133 from 'boxen';
+//import boxen from 'boxen'
 const {
   child,
   spawn,
