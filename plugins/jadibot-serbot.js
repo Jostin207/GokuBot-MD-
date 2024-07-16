@@ -29,7 +29,7 @@ if (global.dataconst instanceof Array) {
 } else {
   global.dataconst = [];
 }
-let handler = async (_0x1eb0f9, {
+let handler = async (_0x202133, {
   conn: _0x2dae5d,
   args: _0x2950a5,
   usedPrefix: _0x15a0f9,
