@@ -10,7 +10,7 @@ import _0x34f280 from 'qrcode';
 import _0x157bec from 'fs';
 import _0x3b5778 from 'pino';
 import 'ws';
-import _0x202133 from 'md5';
+//import _0x202133 from 'md5';
 const {
   child,
   spawn,
