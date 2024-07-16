@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command }) => {
-if (command === 'infinity') {
+if (command === 'infinity'), (command === 'hosting'), (command === 'host') {
 let txt = `*INFINITY HOST* 🍟
 
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
@@ -43,6 +43,7 @@ isForwarded: false,
 }
 if (command === 'flarex') {
 let txt = `*FLAREX CLOUD* 🚩
+
 *¿Quieres un Host de calidad y con bajos precios?*
 Pues te presento a *FlarexCloud*, un hosting de calidad con servidores dedicados y precios por debajo de 1USD, estos servidores están destinados a ofrecerte un Uptime 24/7 para que puedas alojar tus proyectos y qué estos funcionen de manera eficaz.
 
