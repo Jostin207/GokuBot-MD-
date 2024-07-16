@@ -378,8 +378,7 @@ typeof plugin.command === 'string' ? // String?
 plugin.command === command :
 false
 
-if (!isAccept) {
-if (isAccept) conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
+if (!isAccept) conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
 continue
 }
 m.plugin = name
