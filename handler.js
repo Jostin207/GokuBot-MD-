@@ -358,7 +358,7 @@ __filename
 continue
 }
 if (typeof plugin !== 'function')
-conn.reply(m.chat, `El comando *${command}* no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
+conn.reply(m.chat, `El comando no es valido.\nUse #menu para ver mis comandos `, m, rcanal)
 continue
 if ((usedPrefix = (match[0] || '')[0])) {
 let noPrefix = m.text.replace(usedPrefix, '')
