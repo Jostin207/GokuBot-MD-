@@ -46,7 +46,6 @@ const defaultMenu = {
 *│* ✰ 🍟 *Bot:* Luffy Bot - MD 
 *│* ✰ 🚩 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ 🏆 *Plataforma:* ${platform}
 *│* ✰ ⏱️ *Tiempo Activo:* %muptime
 *│* ✰ 👤 *Usuarios:* %totalreg
 *╰──⬣*
@@ -159,8 +158,6 @@ greeting, level, estrellas, name, weton, week, date, dateIslamic, time, totalreg
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-
-const platform = os.platform();
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
