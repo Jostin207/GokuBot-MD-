@@ -37,7 +37,7 @@ let handler = async (_0x1eb0f9, {
   isOwner: _0x357b09,
   text: _0x4f801a
 }) => {
-  if (!global.db.data.settings[_0x2dae5d.user.jid].modejadibot) {
+  if (!global.db.data.settings[_0x2dae5d.user.jid].jadibotmd) {
     throw "*[❗]  Este comando está inhabilitado por el actual owner / propietario del Bot.*";
   }
   if (_0x2dae5d.user.jid !== global.conn.user.jid) {
