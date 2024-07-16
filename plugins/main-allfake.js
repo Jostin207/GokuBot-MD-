@@ -43,7 +43,7 @@ global.colab1 = '𝗚𝗮𝘁𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁
 global.colab2 = '𝗦𝗵𝗶𝘇𝘂𝗸𝗮𝗕𝗼𝘁 & 𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁'
 
 //Reacciones De Comandos.!
-global.rwait = '⏱️'
+global.rwait = '🕦'
 global.done = '✅'
 global.error = '✖️'
 
