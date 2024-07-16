@@ -1,0 +1,23 @@
+{
+  // ARCHIVO PARA DESCARGAR LAS TAREAS Y EJECUCION DE YARN E INSTALACION PARA CODESANDBOX.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // PARA EJECUCION DEL BOT Y EJECUCION DE COMANDOS FINALES.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    }
+  }
+}
