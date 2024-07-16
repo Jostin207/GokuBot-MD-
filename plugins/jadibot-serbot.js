@@ -51,8 +51,8 @@ let handler = async (_0x1eb0f9, {
     let _0x26e244 = Buffer.from("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0JydW5vU29icmluby9UaGVNeXN0aWMtQm90LU1EL21hc3Rlci9wbHVnaW5zL21pcGlsb3Qtc2VyYm90Lmpz", 'base64').toString("utf-8");
     let _0x4b030f = await fetch(_0x26e244).then(_0x27f44c => _0x27f44c.text())["catch"](_0x5806a0 => console.error("Check your connection"));
     _0x4b030f = _0x4b030f.replace(/\r\n/g, "\n");
-    if (_0x202133(_0x2c5ebf) !== _0x202133(_0x4b030f)) {
-      return _0x2dae5d.reply(_0x1eb0f9.chat, "*[❗] Este comando no esta disponible por el momento, por favor intente mas tarde.*\n\n*—◉ Si el comando aun sigue sin Poder usarse te recomendamos usar el comando:*\n*◉* " + _0x15a0f9 + "update", _0x1eb0f9);
+  /*  if (_0x202133(_0x2c5ebf) !== _0x202133(_0x4b030f)) {
+      return _0x2dae5d.reply(_0x1eb0f9.chat, "*[❗] Este comando no esta disponible por el momento, por favor intente mas tarde.*\n\n*—◉ Si el comando aun sigue sin Poder usarse te recomendamos usar el comando:*\n*◉* " + _0x15a0f9 + "update", _0x1eb0f9);*/
     }
     const _0x49e7f2 = Buffer.from("CkphZGlib3QsIEhlY2hvIHBvciBAQWlkZW5fTm90TG9naWM", "base64");
     async function _0x494dff() {
