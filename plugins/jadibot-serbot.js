@@ -135,7 +135,7 @@ let handler = async (_0x1eb0f9, {
         }
         if (_0x2ba135 && !_0x5b7f17) {
 
-await parentw.sendFile(_0x1eb0f9.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8"), _0x1eb0f9, null, rcanal)
+await _0x2dae5d.sendFile(_0x1eb0f9.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8"), _0x1eb0f9, null, rcanal)
 
 //await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8"), _0x1eb0f9, null, rcanal)
           /*_0x2dae5d.sendMessage(_0x1eb0f9.chat, {
