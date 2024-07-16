@@ -6,10 +6,10 @@ const handler = async (m, {conn, text, command, args, usedPrefix}) => {
 
 if (!text) conn.reply(m.chat, '🍟 Te faltó el texto para hablar con *LuffyBot*', m, rcanal);
 try {
-await m.react(rwait)
+// await m.react(emojis)
 const resSimi = await simitalk(text);
 // conn.sendMessage(m.chat, { text: resSimi.resultado.simsimi }, { quoted: m });
-conn.reply(m.chat, resSimi.resultado.simsimi, m, rcanal)
+conn.reply(m.chat, resSimi.resultado.simsimi, m, rcanal);
 await m.react(emojis)
 } catch {
 throw '🚩 *Ocurrió un error*';
