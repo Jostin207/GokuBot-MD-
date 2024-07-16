@@ -151,7 +151,7 @@ let handler = async (_0x1eb0f9, {
           let _0x5cb616 = await _0x651de9.requestPairingCode(_0x34563e);
           _0x2dae5d.reply(_0x1eb0f9.chat, '🚩 S E R B O T - S U B B O T 🚩\n\n*Usa este Código para convertirte en un Sub Bot*\n\n🍟 Pasos:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Selecciona Vincular con el número de teléfono\n\n`4` : Escriba el Codigo\n\n> *Nota:* Este Código solo funciona en el número que lo solicito.' + _0x49e7f2.toString('utf-8'),
           
-            _0x1eb0f9, null, rcanal
+            _0x1eb0f9, rcanal
           );
           await delay(0x1388);
           _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
