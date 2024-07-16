@@ -1,5 +1,4 @@
 {
-  // ARCHIVO PARA DESCARGAR LAS TAREAS Y EJECUCION DE YARN E INSTALACION PARA CODESANDBOX.
   "setupTasks": [
     {
       "name": "Install Dependencies",
@@ -7,7 +6,6 @@
     }
   ],
 
-  // PARA EJECUCION DEL BOT Y EJECUCION DE COMANDOS FINALES.
   "tasks": {
     "start": {
       "name": "start",
