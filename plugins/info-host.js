@@ -1,5 +1,5 @@
 let handler = async (m, { conn, command }) => {
-if (command === 'infinity'), (command === 'hosting'), (command === 'host') {
+if (command === 'infinity') {
 let txt = `*INFINITY HOST* 🍟
 
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
