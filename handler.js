@@ -65,7 +65,7 @@ if (!('premium' in user)) user.premium = false
 if (!('muto' in user)) user.muto = false
 if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
-if (!isNumber(user.estrellas)) user.estrellas = 10        
+if (!isNumber(user.estrellas)) user.estrellas = 15 
 if (!('registered' in user)) user.registered = false
 
 if (!user.registered) {
@@ -117,7 +117,7 @@ lastduel: 0,
 lastpago: 0,
 lastrob: 0,
 level: 0,
-estrellas: 20,
+estrellas: 15,
 money: 100,
 muto: false,
 premium: false,
