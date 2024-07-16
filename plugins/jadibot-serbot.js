@@ -146,50 +146,29 @@ await _0x2dae5d.sendFile(_0x1eb0f9.chat, await _0x34f280.toBuffer(_0x2ba135, {
             _0x1eb0f9, rcanal
           );
           await delay(0x1388);
-          /*_0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-            'text': _0x5cb616
-          }, {
-            'quoted': _0x1eb0f9
-          });*/
 _0x2dae5d.reply(_0x1eb0f9.chat, _0x5cb616, _0x1eb0f9, rcanal);
         }
         const _0x10f039 = _0x2395fe?.["error"]?.["output"]?.["statusCode"] || _0x2395fe?.["error"]?.['output']?.["payload"]?.['statusCode'];
         if (_0x213f81 === "close") {
           if (_0x651de9.user && dataconst[_0x651de9.user.id.split('@')] == 0x3) {
-            return _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-              'text': "*[❗] Se ha alcanzado el limite de reconexiones, por favor intente mas tarde.*"
-            }, {
-              'quoted': _0x1eb0f9
-            });
+            _0x2dae5d.reply(_0x1eb0f9.chat, '「🚩」 Se ha alcanzado el limite de reconexiones, por favor intente mas tarde.*', _0x1eb0f9, rcanal);
           }
           if (_0x10f039 == 0x195 || _0x10f039 == 0x194) {
             _0x157bec.unlinkSync('./jadibts/' + _0x4d9844 + '/creds.json');
             return _0x494dff();
           }
           if (_0x10f039 === DisconnectReason.badSession) {
-            _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-              'text': "*[❗] La sesión actual es inválida, Tendras que iniciar sesion de nuevo."
-            }, {
-              'quoted': _0x1eb0f9
-            });
+            _0x2dae5d.reply(_0x1eb0f9.chat, '「🍟」 La sesión actual es inválida, Tendras que iniciar sesion de nuevo.', _0x1eb0f9, rcanal);
             _0x157bec.rmdirSync("./jadibts/" + _0x4d9844, {
               'recursive': true
             });
           } else {
             if (_0x10f039 === DisconnectReason.connectionClosed) {
               if (_0x651de9.fstop) {
-                return _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-                  'text': "*[❗] El bot se ha apagado correctamente!!*"
-                }, {
-                  'quoted': _0x1eb0f9
-                });
+                return _0x2dae5d.reply(_0x1eb0f9.chat, '「🍟」 El bot se ha apagado correctamente!!', _0x1eb0f9, rcanal);
               }
               if (!_0x651de9.fstop) {
-                _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-                  'text': "*[❗] La conexión se cerró, se intentara reconectar automáticamente...*\n" + dataconst[_0x651de9.user.id.split('@')] + '/3'
-                }, {
-                  'quoted': _0x1eb0f9
-                });
+                _0x2dae5d.reply(_0x1eb0f9.chat, '「🍟」 La conexión se cerró, se intentara reconectar automáticamente...*\n' + dataconst[_0x651de9.user.id.split('@')] + '/3', _0x1eb0f9, rcanal);
               }
               if (!_0x651de9.fstop) {
                 await _0x4b598e(true)['catch'](console.error);
