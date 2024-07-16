@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command }) => {
 if (command === 'infinity') {
-let txt = `*INFINITY HOST* 🍟
+let txt = `\`\`\`*INFINITY HOST* 🍟\`\`\`
 
 *¿Quieres un hosting para poner tu Bot y no sabes cual usar?*
 Pues te presento a *Infinity Host*, un hosting que te ofrece una gran variedad de servicios para poner tus proyectos y que estos estén 24/7 Activos.
