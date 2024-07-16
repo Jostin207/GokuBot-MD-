@@ -38,10 +38,10 @@ let handler = async (_0x1eb0f9, {
   text: _0x4f801a
 }) => {
   if (!global.db.data.settings[_0x2dae5d.user.jid].jadibotmd) {
-    throw "*[❗]  Este comando está inhabilitado por el actual owner / propietario del Bot.*";
+    _0x2dae5d.reply(_0x1eb0f9.chat, '「🍟」 Este Comando está deshabilitado por mi creador.', _0x1eb0f9, rcanal);
   }
   if (_0x2dae5d.user.jid !== global.conn.user.jid) {
-    return _0x2dae5d.reply(_0x1eb0f9.chat, "*[❗] Este comando solo puede ser usado en un Bot principal!!*\n\n*—◉ Da click aquí para ir:*\n*◉* https://api.whatsapp.com/send/?phone=" + global.conn.user.jid.split`@`[0x0] + "&text=" + (_0x15a0f9 + _0x51b7e8) + "&type=phone_number&app_absent=0", _0x1eb0f9);
+   return _0x2dae5d.reply(_0x1eb0f9.chat, `「💭」Solo puedes usar este comando en el bot principal.\n\n• Wa.me/${global.conn.user.jid.split`@`[0]}?text=${_0x15a0f9 + _0x51b7e8}`, _0x1eb0f9, rcanal)
   }
   const _0x17319f = Buffer.from("Y2QgcGx1Z2lucyA7IG1kNXN1bSBpbmZvLWRvbmFyLmpzIF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz", "base64");
   exec(_0x17319f.toString("utf-8"), async (_0x35a12f, _0x2bbc1f, _0x3f3441) => {
@@ -50,9 +50,6 @@ let handler = async (_0x1eb0f9, {
     let _0x26e244 = Buffer.from("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0JydW5vU29icmluby9UaGVNeXN0aWMtQm90LU1EL21hc3Rlci9wbHVnaW5zL21pcGlsb3Qtc2VyYm90Lmpz", 'base64').toString("utf-8");
     let _0x4b030f = await fetch(_0x26e244).then(_0x27f44c => _0x27f44c.text())["catch"](_0x5806a0 => console.error("Check your connection"));
     _0x4b030f = _0x4b030f.replace(/\r\n/g, "\n");
-  /*  if (_0x202133(_0x2c5ebf) !== _0x202133(_0x4b030f)) {
-      return _0x2dae5d.reply(_0x1eb0f9.chat, "*[❗] Este comando no esta disponible por el momento, por favor intente mas tarde.*\n\n*—◉ Si el comando aun sigue sin Poder usarse te recomendamos usar el comando:*\n*◉* " + _0x15a0f9 + "update", _0x1eb0f9);
-    }*/
     const _0x49e7f2 = Buffer.from("CkphZGlib3QsIEhlY2hvIHBvciBAQWlkZW5fTm90TG9naWM", "base64");
     async function _0x494dff() {
       let _0x25edd9 = _0x1eb0f9.mentionedJid && _0x1eb0f9.mentionedJid[0x0] ? _0x1eb0f9.mentionedJid[0x0] : _0x1eb0f9.fromMe ? _0x2dae5d.user.jid : _0x1eb0f9.sender;
@@ -106,7 +103,7 @@ let handler = async (_0x1eb0f9, {
         'logger': _0x3b5778({
           'level': "silent"
         }),
-        'browser': _0x5b7f17 ? ['Ubuntu', "Chrome", "20.0.04"] : ["TheMystic-Bot-MD", "Safari", "2.0.0"],
+        'browser': _0x5b7f17 ? ['Ubuntu', "Chrome", "20.0.04"] : ["LuffyBot - Sub Bot", "Safari", "2.0.0"],
         'markOnlineOnConnect': true,
         'generateHighQualityLinkPreview': true,
         'getMessage': async _0x5ae0a3 => {
@@ -137,16 +134,6 @@ let handler = async (_0x1eb0f9, {
 
 await _0x2dae5d.sendFile(_0x1eb0f9.chat, await _0x34f280.toBuffer(_0x2ba135, {
 'scale': 0x8 }), "qrcode.png", '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8"), _0x1eb0f9, null, rcanal)
-
-//await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8"), _0x1eb0f9, null, rcanal)
-          /*_0x2dae5d.sendMessage(_0x1eb0f9.chat, {
-            'image': await _0x34f280.toBuffer(_0x2ba135, {
-              'scale': 0x8
-            }),
-            'caption': '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.' + _0x49e7f2.toString("utf-8")
-          }, {
-            'quoted': _0x1eb0f9
-          });*/
         }
         if (_0x2ba135 && _0x5b7f17) {
           let _0x34563e = _0x1eb0f9.sender.split`@`[0x0];
@@ -159,11 +146,12 @@ await _0x2dae5d.sendFile(_0x1eb0f9.chat, await _0x34f280.toBuffer(_0x2ba135, {
             _0x1eb0f9, rcanal
           );
           await delay(0x1388);
-          _0x2dae5d.sendMessage(_0x1eb0f9.chat, {
+          /*_0x2dae5d.sendMessage(_0x1eb0f9.chat, {
             'text': _0x5cb616
           }, {
             'quoted': _0x1eb0f9
-          });
+          });*/
+_0x2dae5d.reply(_0x1eb0f9.chat, _0x5cb616, _0x1eb0f9, rcanal);
         }
         const _0x10f039 = _0x2395fe?.["error"]?.["output"]?.["statusCode"] || _0x2395fe?.["error"]?.['output']?.["payload"]?.['statusCode'];
         if (_0x213f81 === "close") {
