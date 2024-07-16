@@ -6,7 +6,7 @@ if (!text) return conn.reply(m.chat, `🍟 *Ingresa el enlace del Grupo.*\n\nEje
 let [_, code] = text.match(linkRegex) || []
 if (!code) return conn.reply(m.chat, 'Enlace invalido.', m, rcanal)
 let res = await conn.groupAcceptInvite(code)
-conn.reply(m.chat, `🚩 Me uní correctamente al Grupo *${res}*`, m, rcanal)
+conn.reply(m.chat, '✅️ Me uní correctamente al Grupo', m, rcanal)
 }
 handler.help = ['join <link>']
 handler.tags = ['mods']
