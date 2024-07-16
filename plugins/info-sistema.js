@@ -28,7 +28,7 @@ const handler = async (m, { conn }) => {
     const _muptime = process.uptime() * 1000
     const muptime = clockString(_muptime)
     const hostname = os.hostname();
-    const platform = os.platform();
+    global.platform = os.platform();
     const arch = os.arch();
     const nodeUsage = process.memoryUsage();
     const diskSpace = getDiskSpace();
