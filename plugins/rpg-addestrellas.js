@@ -16,7 +16,7 @@ let imt = Math.ceil(poin * impuesto)
 estrellas += imt
 if (estrellas < 1) throw '🚩 Mínimo es *1 ⭐ Estrella*.'
 let users = global.db.data.users
-if (limit > users[m.sender].estrellas) throw 'No tienes suficientes *⭐ Estrellas* para dar.'
+if (estrellas > users[m.sender].estrellas) throw 'No tienes suficientes *⭐ Estrellas* para dar.'
 users[m.sender].estrellas -= estrellas
 users[who].estrellas += poin
 await m.reply(`*${-poin}* ⭐ Estrellas 
@@ -26,7 +26,7 @@ conn.fakeReply(m.chat, `*+${poin}* *⭐ Estrellas.*`, who, m.text)
 }
 handler.help = ['darstars *@user <cantidad>*']
 handler.tags = ['rpg']
-handler.command = ['darcoins', 'darstars', 'darestrellas', 'addestrellas', 'addstarts']
+handler.command = ['darcoins', 'darstars', 'darestrellas', 'addestrellas', 'addstars']
 handler.register = true 
 
 export default handler
