@@ -3,7 +3,7 @@ let cooldowns = {}
 let handler = async (m, { conn }) => {
 let dinero = Math.floor(Math.random() * 5000)
 let tiempo = 5 * 60
-if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
+if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempo * 1000) {
 let tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date.now()) / 1000))
 conn.reply(m.chat, `🍟 Hola ${nombre}, Ya has minado recientemente, espera ⏱ *${tiempo2}* para regresar a la Mina.`, m, rcanal)
 return
