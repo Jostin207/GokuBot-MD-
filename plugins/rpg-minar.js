@@ -8,7 +8,7 @@ let tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date
 conn.reply(m.chat, `🍟 Hola ${nombre}, Ya has minado recientemente, espera ⏱ *${tiempo2}* para regresar a la Mina.`, m, rcanal)
 return
 }
-global.db.data.users[m.sender].exp += hasil
+global.db.data.users[m.sender].exp += dinero
 let minar = `🚩 Genial! minaste *${dinero} 💫 XP.*`
 await m.react('⛏')
 await conn.reply(m.chat, minar, m, rcanal)
