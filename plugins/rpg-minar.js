@@ -4,8 +4,8 @@ let info = `_*🚩 Ohh, Genial Minastes: ${hasil} XP 🌹*_`
 let time = global.db.data.users[m.sender].lastmiming + 600000
 if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `🕒 *Te Toca Esperar ${msToTime(time - new Date())} Para Volver Usar El Comando*`  
 
-// conn.fakeReply(m.chat, info, '0@s.whatsapp.net', packname, 'status@broadcast')   
-conn.reply(m.chat, info, m, rcanal)
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', packname, 'status@broadcast')   
+//conn.reply(m.chat, info, m, rcanal)
 global.db.data.users[m.sender].lastmiming = new Date * 1
 
 }
