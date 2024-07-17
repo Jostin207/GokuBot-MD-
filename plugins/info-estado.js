@@ -28,6 +28,7 @@ await conn.sendFile(m.chat, pp, 'luffy.jpg', luffy, m, null, rcanal)
 handler.help = ['status']
 handler.tags = ['info']
 handler.command = /^(info|estado|status|estate|state|stado|stats)$/i
+handler.register = true
 export default handler
 
 function clockString(ms) {
