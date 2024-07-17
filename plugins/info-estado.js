@@ -23,7 +23,7 @@ luffy += `│ 🍟 *Usuarios Registrados ∙* ${totalreg}\n`
 luffy += `│ 🍭 *Grupos Registrados ∙* ${totalchats}\n`
 luffy += `│ 🕜 *Actividad ∙* ${muptime}\n`
 luffy += `╰─⬣`
-await conn.sendFile(m.chat, pp, 'luffy.jpg', luffy, m, null, rcanal)
+await conn.sendFile(m.chat, pp, 'luffy.jpg', luffy, fkontak, null, rcanal)
 }
 handler.help = ['status']
 handler.tags = ['info']
