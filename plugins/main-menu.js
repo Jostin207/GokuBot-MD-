@@ -46,7 +46,7 @@ const defaultMenu = {
 *│* ✰ 🍟 *Bot:* Luffy Bot - MD 
 *│* ✰ 🚩 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ ⏱️ *Tiempo Activo:* %muptime
+*│* ✰ 🕒 *Tiempo Activo:* %muptime
 *│* ✰ 👤 *Usuarios:* %totalreg
 *╰──⬣*
 
