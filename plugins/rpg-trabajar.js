@@ -5,7 +5,7 @@ let user = global.db.data.users[m.sender]
 let tiempo = 5 * 60
 if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempo * 1000) {
 const tiempo2 = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempo * 1000 - Date.now()) / 1000))
-conn.reply(m.chat, `🚩 Espera ⏱ *${tiempo2}* para volver a Trabajar.`, m, rcanal)
+conn.reply(m.chat, `🚩 Espera ⏱️ *${tiempo2}* para volver a Trabajar.`, m, rcanal)
 return
 }
 let rsl = Math.floor(Math.random() * 5000)
