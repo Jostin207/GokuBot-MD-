@@ -88,7 +88,7 @@ await sleep(5000)
 if (args[0]) {
 return
 }
-await parentw.reply(conn.user.jid, `🚩 *Para volver a vincular un sub Bot use su token`, m, rcanal)
+await parentw.reply(conn.user.jid, `🚩 *Para volver a vincular un sub Bot use su token*`, m, rcanal)
 }
 }
 const timeoutId = setTimeout(() => {
