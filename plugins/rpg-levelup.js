@@ -15,7 +15,7 @@ let name = conn.getName(m.sender)
 let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
 
-let imge = API('fgmods', '/api/maker/rank', {
+let image = API('fgmods', '/api/maker/rank', {
 username: name,
 xp: user.exp - min,
 exp: xp,
