@@ -26,7 +26,7 @@ luffy += `╰─⬣`
 await conn.sendFile(m.chat, pp, 'luffy.jpg', luffy, m, null, rcanal)
 }
 handler.help = ['status']
-handler.tags = ['main']
+handler.tags = ['info']
 handler.command = /^(info|estado|status|estate|state|stado|stats)$/i
 export default handler
 
