@@ -1,30 +1,33 @@
-let handler = async (m, { conn, isPrems}) => {
-let hasil = Math.floor(Math.random() * 1000)
-let info = `_*🚩 Ohh, Genial Minastes: ${hasil} XP 🌹*_`
-let time = global.db.data.users[m.sender].lastmiming + 600000
-if (new Date - global.db.data.users[m.sender].lastmiming < 600000) throw `🕒 *Te Toca Esperar ${msToTime(time - new Date())} Para Volver Usar El Comando*` 
+let cooldowns = {}
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', packname, 'status@broadcast')   
-//conn.reply(m.chat, info, m, rcanal)
-global.db.data.users[m.sender].lastmiming = new Date * 1
+let handler = async (m, { conn }) => {
 
+  let hasil = Math.floor(Math.random() * 5000)
+  let name = conn.getName(m.sender)
+
+  let tiempoEspera = 5 * 60
+  if (cooldowns[m.sender] && Date.now() - cooldowns[m.sender] < tiempoEspera * 1000) {
+    let tiempoRestante = segundosAHMS(Math.ceil((cooldowns[m.sender] + tiempoEspera * 1000 - Date.now()) / 1000))
+    conn.reply(m.chat, `🚩 Hola ${name}, Ya has minado recientemente, espera ⏱ *${tiempoRestante}* para regresar a la Mina.`, m, rcanal)
+    return
+  }
+
+  global.db.data.users[m.sender].exp += hasil
+  let txt = `🚩 Genial! minaste *${hasil} 💫 XP.*`
+  await m.react('⛏')
+  await conn.reply(m.chat, txt, m, rcanal)
+
+  cooldowns[m.sender] = Date.now()
 }
 handler.help = ['minar']
 handler.tags = ['rpg']
 handler.command = ['minar', 'miming', 'mine'] 
-handler.fail = null
-handler.exp = 0
+handler.register = true 
 export default handler
 
-function msToTime(duration) {
-var milliseconds = parseInt((duration % 1000) / 100),
-seconds = Math.floor((duration / 1000) % 60),
-minutes = Math.floor((duration / (1000 * 60)) % 60),
-hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
-
-hours = (hours < 10) ? "0" + hours : hours
-minutes = (minutes < 10) ? "0" + minutes : minutes
-seconds = (seconds < 10) ? "0" + seconds : seconds
-
-return minutes + " m y " + seconds + " s " 
+function segundosAHMS(segundos) {
+  let horas = Math.floor(segundos / 3600)
+  let minutos = Math.floor((segundos % 3600) / 60)
+  let segundosRestantes = segundos % 60
+  return `${minutos} minutos y ${segundosRestantes} segundos`
 }
