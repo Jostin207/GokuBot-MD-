@@ -7,10 +7,10 @@ let name = conn.getName(m.sender)
 let user = global.db.data.users[m.sender]
 if (!canLevelUp(user.level, user.exp, global.multiplier)) {
 let { min, xp, max } = xpRange(user.level, global.multiplier)
-let txt = `*Nombre* ${name}\n\n`
-txt += `🚩 Nivel *${user.level}*\n`
-txt += `XP ${user.exp - min} / ${xp}\n\n`
-txt += `No es suficiente XP *${max - user.exp}* ¡De nuevo! ✨`
+let txt = `🍟 *Nombre* ${name}\n\n`
+txt += `🚩 *Nivel* ${user.level}\n`
+txt += `🍭 *XP* ${user.exp - min} / ${xp}\n\n`
+txt += `🐢 No es suficiente XP *${max - user.exp}* ¡De nuevo! ✨`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)}
 let before = user.level * 1
 while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
