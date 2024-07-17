@@ -10,7 +10,7 @@ return
 }
 global.db.data.users[m.sender].exp += dinero
 let minar = `🚩 Genial! minaste *${dinero} 💫 XP.*`
-await m.react('⛏')
+await m.react('⛏️')
 await conn.reply(m.chat, minar, m, rcanal)
 cooldowns[m.sender] = Date.now()}
 
