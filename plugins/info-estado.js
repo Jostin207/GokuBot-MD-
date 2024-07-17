@@ -1,26 +1,38 @@
-const handler = async (m, {conn}) => {
-    const _muptime = process.uptime() * 1000
-    const muptime = clockString(_muptime)
-    const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
-    const sbot = (conn.user.jid == global.conn.user.jid ? 'Bot Oficial' : 'Sub-Bot');
-m.react('⚙️') 
-    const str = `🚩 *ESTADO DE:* ${global.botname}
-🕒 *Activo:* ${muptime}
-💭 *Tipo:* ${sbot}
-✨️ *Bot Uso:* Publico
-👑 *Creador:* Ofc.Diego`;
-    conn.reply(m.chat, str, m, rcanal, )
-};
-
-handler.help = ['estado'];
-handler.tags = ['info'];
-handler.command = ['status', 'estado'];
-handler.register = true;
-
-export default handler;
+let handler = async (m, { conn, isRowner}) => {
+let _muptime
+let totalreg = Object.keys(global.db.data.users).length
+let totalchats = Object.keys(global.db.data.chats).length
+let pp = 'https://tinyurl.com/ys5umedp'
+if (process.send) {
+process.send('uptime')
+_muptime = await new Promise(resolve => {
+process.once('message', resolve)
+setTimeout(resolve, 1000)
+}) * 1000
+}
+let muptime = clockString(_muptime)
+const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
+const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
+const used = process.memoryUsage()
+let luffy = `╭─⬣「 *Info Bot* 」⬣\n`
+luffy += `│ 🚩 *Creador ∙* OfcDiego\n`
+luffy += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
+luffy += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
+luffy += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
+luffy += `│ 🍟 *Usuarios Registrados ∙* ${totalreg}\n`
+luffy += `│ 🍭 *Grupos Registrados ∙* ${totalchats}\n`
+luffy += `│ 🕜 *Uptime ∙* ${muptime}\n`
+luffy += `╰─⬣`
+await conn.sendFile(m.chat, pp, 'luffy.jpg', luffy, m, null, rcanal)
+}
+handler.help = ['status']
+handler.tags = ['main']
+handler.command = /^(info|estado|status|estate|state|stado|stats)$/i
+export default handler
 
 function clockString(ms) {
-let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+let h = Math.floor(ms / 3600000)
+let m = Math.floor(ms / 60000) % 60
+let s = Math.floor(ms / 1000) % 60
+console.log({ms,h,m,s})
+return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
