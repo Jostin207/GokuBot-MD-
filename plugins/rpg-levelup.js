@@ -1,6 +1,6 @@
 import { canLevelUp, xpRange } from '../lib/levelling.js'
 import { levelup } from '../lib/canvas.js'
-import can from 'boxen'
+import can from 'knights-canvas'
 
 let handler = async (m, { conn }) => {
 
