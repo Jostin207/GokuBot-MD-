@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 var handler = async (m, { text,  usedPrefix, command }) => {
 if (!text) return conn.reply(m.chat, `🍟 *Ingresé una petición*\n\nEjemplo, ${usedPrefix + command} Conoces a LuffyBot-MD?`, m, rcanal)
 try {
-await m.react('⏱️')
+await m.react('🕒')
 conn.sendPresenceUpdate('composing', m.chat)
 var apii = await fetch(`https://aemt.me/bard?text=${text}`)
 var res = await apii.json()
