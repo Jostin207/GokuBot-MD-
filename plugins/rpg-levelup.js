@@ -15,17 +15,7 @@ let name = conn.getName(m.sender)
 let whoPP = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let ppBot = await conn.profilePictureUrl(whoPP, 'image').catch((_) => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
 
-let image = API('fgmods', '/api/maker/rank', {
-username: name,
-xp: user.exp - min,
-exp: xp,
-avatar: pp,
-level: user.level,
-ranklog: 'https://i.ibb.co/7gfnyMw/gold.png',
-background: 'https://i.ibb.co/CsNgBYw/qiyana.jpg'
-}, 'apikey')
-
-/*let image = await new can.can().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/3cb040ecc09693d1c21de.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()*/
+let image = await new can.Rank().setAvatar(ppBot).setUsername(name ? name.replaceAll('\n','') : '-').setBg('https://telegra.ph/file/3cb040ecc09693d1c21de.jpg').setNeedxp(wm).setCurrxp(`${user.exp}`).setLevel(`${user.level}`).setRank('https://i.ibb.co/Wn9cvnv/FABLED.png').toAttachment()*/
 let data = image.toBuffer()
 
 let { role } = global.db.data.users[m.sender]
