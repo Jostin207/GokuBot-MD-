@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let luffy = `╭─⬣「 *Info De Luffy* 」⬣\n
+let luffy = `╭─⬣「 *Info De Luffy* 」⬣\n`
 luffy += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 luffy += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 luffy += `│ 📦 *Total Plugins* : ${totalf}\n`
