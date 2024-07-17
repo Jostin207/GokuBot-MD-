@@ -6,12 +6,14 @@ let user = global.db.data.users[m.sender]
 if (!canLevelUp(user.level, user.exp, global.multiplier)) {
 let { min, xp, max } = xpRange(user.level, global.multiplier)
 
-let txt = `*Nombre* ${name}
+/*let txt = `*Nombre* ${name}
 
 Nivel *${user.level}* 📊
 XP *${user.exp - min} / ${xp}*
 
-No es suficiente XP *${max - user.exp}* ¡De nuevo! ✨`
+No es suficiente XP *${max - user.exp}* ¡De nuevo! ✨`*/
+
+let txt = 'hola^'
 try {
 let imgg = API('fgmods', '/api/maker/rank', {
 username: name,
@@ -32,7 +34,7 @@ while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 if (before !== user.level) {
 user.role = global.rpg.role(user.level).name
 
-let str = `🎊 F E L I C I T A C I O N E S 🎊 
+/*let str = `🎊 F E L I C I T A C I O N E S 🎊 
 
 *${before}* ➔ *${user.level}* [ *${user.role}* ]
 
@@ -41,7 +43,9 @@ let str = `🎊 F E L I C I T A C I O N E S 🎊
 • 📅 Fecha : ${new Date().toLocaleString('id-ID')}
 
 *Nota:* _Cuanto más a menudo interactúes con el bot, mayor será tu nivel_
-`
+`*/
+
+let str = '^hola'
 try {
 let img = API('fgmods', '/api/maker/levelup', { 
 avatar: pp 
