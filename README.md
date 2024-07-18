@@ -1,134 +1,111 @@
-> 🚩 Versión Actual: 2.0.2
+# ` 𝐆𝐎𝐊𝐔𝐁𝐎𝐓-𝐌𝐃 ` 
 
-## **`🍟 Luffy Bot - MD`**
+------------------
 
-![LuffyBot](https://telegra.ph/file/a7a9798496639ce074237.jpg)
+# ![logo](https://telegra.ph/file/891dc302887ed54a2c6d3.jpg)
 
----
+### `◉ 💟 GRUPO DEL BOT 💟`
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
+<a href="https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DEL_BOT_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-> Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo. 🍟
 
-[![Click Aquí](https://img.shields.io/badge/Grupo-Luffy-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
-🍟 **`INSTALACION MANUAL POR TERMUX`**
+ > NO SPAMEAR COMANDOS
 
-[`🚩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+### `◉ 🖍 LETRA DEL BOT 🖍`
+- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
+
+
+### `◉ ⚙️ AJUSTES ⚙️`
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin_207/GokuBot-MD/fork)
+
+  
+### `◉ 💥 ACTIVAR EN KOYEB 💥`
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/HACHEJOTA/Hachiko-Bot-MD&branch=master&name=hachikobot)
+  
+### `◉ 🌌 ACTIVAR EN REPLIT 🌌`
+
+[![Run on Repl.it](https://repl.it/badge/github/HACHEJOTA/Hachiko-Bot-MD)](https://repl.it/github/HACHEJOTA/Hachiko-Bot-MD) 
+  
+### `◉ 🔰 ACTIVAR EN RENDER 🔰`
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FHACHEJOTA%2FHachiko-Bot-MD) 
+
+### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
+- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+```bash
+cd && termux-setup-storage
+```
 
 ```bash
-termux-setup-storage
+apt-get update -y && apt-get upgrade -y
 ```
+
 ```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 ```
+
 ```bash
-git clone https://github.com/OfcDiego/LuffyBot-MD && cd LuffyBot-MD
+git clone https://github.com/Jostin207/GokuBot-MD.git && cd GokuBot-MD
 ```
+
 ```bash
-yarn install && npm install
+yarn install
 ```
+
+```bash
+npm install
+```
+
+```bash
+npm update
+```
+
 ```bash
 npm start
 ```
 
-🍟 **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`**
+### `◉ ✔️ ACTIVAR EN CASO DE DETENERSE EN TERMUX ✔️`
+
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+```bash
+ cd
+```
+```bash
+ cd Goku-termux
+```
+```bash
+ npm start
+```
+
+### `◉ 👽 OBTENER OTRO CODIGO QR EN TERMUX 👽`
+- DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A  Goku-termux $  
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd LuffyBot-MD
+> cd GokuBot-MD
+> rm -rf GokuSession
 > npm start
 ```
 
-🚩 **`OBTENER OTRO CODIGO QR`**
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd LuffyBot-MD
-> rm -rf LuffySession
-> npm start
-```
-
-🍟 **`LUFFY 24/7 (TERMUX)`**
-```bash
-> termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-```
-
-🚩 **`ACTUALIZAR LUFFY`**
-> Note Comandos para actualizar Luffy - MD de forma automática
-```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/OfcDiego/LuffyBot-MD/master/update.sh | bash
-```
-Para que no pierda su progreso en Luffy, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
-
-> Warning Estos comandos solo funcionan para TERMUX, REPLIT, LINUX
-
----
-
-#### ☂️ ACTIVA EN HEROKU ☂️
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OfcDiego/LuffyBot-MD)
-
-#### Heroku Buildpack
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+ ### `◉ 👑 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 👑`
+<a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-#### 🟢 ACTIVAR EN CODES SPACES 
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/LuffyBot-MD&ref=main&geo=UsEast)
-
-#### ⚡ ACRIVAR EN REPLIT
-[![`CREAR SERVIDOR REPLIT`](https://repl.it/badge/github/OfcDiego/LuffyBot-MD)](https://repl.it/github/OfcDiego/LuffyBot-MD)
-
-#### 🤍 ACTIVAR EN RENDER
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2OfcDiego%LuffyBot-MD) 
-
----
-
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ☄️
-
-<a href="https://wa.me/573218138672?text=!menu"><img alt="Bot Oficial ☄️" src="https://img.shields.io/badge/Bot - Oficial-00FFFF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-> No Spam Al Bot!
-
----
-
-## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
-
-> Bot en creación pronto se agregaran más cosas 
-
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] antidelete, antilink, antispam, etc
-- [x] Bienvenida personalizada
-- [x] Juegos, tictactoe, mate, etc
-- [x] Chatbot (simsimi)
-- [ ] Chatbot (modoia)
-- [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
-- [ ] Buscador Google
-- [x] Juego RPG
-- [ ] Personalizar imagen del menú
-- [x] Descarga de música y video De YT
-- [ ] Otros
-
---- 
-
-### `🚩 DESARROLLADORES`
-<a href="https://github.com/OfcDiego/LuffyBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=OfcDiego/LuffyBot-MD" /> 
-</a>
-
-### `✨️ AGRADECIMIENTOS`
+## `✨ DESARROLLADORES`
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Agradecimientos"/></a>
+href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="200" height="200" alt="Jostin"/></a>
 
-### `🍟 CREADOR`
+
+### `💖 AGRADECIMIENTOS`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Bruno"/></a>
 
-> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/LuffyBot-MD)**.
+### `👑 CREADOR` 
+<a
+href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="120" height="120" alt="Jostin"/></a>
 
-**`¡GRACIAS POR PREFERIRNOS!` 🍟**
+`GokuBot - By Jostin`
+
