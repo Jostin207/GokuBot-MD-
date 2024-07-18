@@ -9,30 +9,30 @@ import moment from 'moment-timezone';
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botnumber = '' //Ejemplo: +573218138672
+global.botnumber = '' //Ejemplo: +593939005387
 global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-['573012482597', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
-['573218138672', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
+['593939005387', '👑 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👑', true],
+['593978663361', '𝗢𝘄𝗻𝗲𝗿 👑', true]]
 
 //• ↳𝑺𝑶𝑳𝑶 𝑴𝑶𝑫𝑬𝑹𝑨𝑫𝑶𝑹𝑬𝑺!
-global.mods = ['59169082575', '5492355505090', '51939041500', '51929972576', '5493794297363', '59168106005', '525610314499']
+global.mods = ['50558124470', '51929972576', '5491168758497', '51929972576', '5493794297363', '5492215034412', '595971684874']]
 
 global.suittag = ['573012482597']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packname = '⪛✰ 𝐋𝐮𝐟𝐟𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
-global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = '✨◌*̥₊ LᴜғғʏBᴏᴛ-MD ◌❐⚡༉'
-global.titulowm = 'LuffyBot-MD 🍟'
-global.titulowm2 = 'Ofc.Diego'
-global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
-global.botname = 'Lᴜғғʏ Bᴏᴛ - MD 🚩'
-global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝗟𝘂𝗳𝗳𝘆𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
+global.author = 'ᴏғᴄ.ᴊᴏsᴛɪɴ 👑'
+global.wm = '✨◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐⚡༉'
+global.titulowm = 'GokuBot-MD 🍟'
+global.titulowm2 = 'Ofc.Jostin'
+global.igfg = '𝙾𝙵𝙲.𝙹𝙾𝚂𝚃𝙸𝙽
+global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
+global.dev = '👑 Developed By • ✨ Ofc.Jostin'
+global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
 global.vs = '2.0.2'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -41,18 +41,18 @@ global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Luffy
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial De Luffy2
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Luffy
-global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //ShizukaBot Y Luffy
-global.comunidad1 = 'https://chat.whatsapp.com/CZf260qI6Wy0IMBBP5yO15' //Comunidad luffy
+global.gp1 = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s' //Grupo Oficial DeGoku
+global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial De Goku2 falta
+global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //KiraBot Y Goku falta
+global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //NilouBot Y Goku falta
+global.comunidad1 = 'https://chat.whatsapp.com/KjdhZK4SpUm31errurbEC2' //Comunidad Goku
 global.comunidad2 = 'https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj' //Comunidad de Moonligth
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+global.channel = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //Canal MoonLight Team 
-global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
-global.md = 'https://github.com/OfcDiego/LuffyBot-MD' //Github Oficial
-global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
-global.tiktok = 'https://tiktok.com/@theluffybot' //Cuenta tiktok
+global.yt = 'https://www.youtube.com/@Jostin207Oficialmanito' //Canal De Youtube
+global.md = 'https://github.com/Jostin207/GokuBot-MD' //Github Oficial
+global.fb = 'https://www.facebook.com/Jostin_oficial' //Facebook Del Propietario
+global.tiktok = 'https://tiktok.com/@theGokuBot' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -64,7 +64,7 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nLuffy`;
-global.nomorown = '573012482597';
+global.nomorown = '593939005387';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -217,7 +217,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 LuffyCoins',
+      money: '👾 GokuCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -341,8 +341,8 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 LuffyCoins',
-      tiketcoin: '🎫 Luffy Tickers',
+      money: '👾 JostinCoins',
+      tiketcoin: '🎫 Jostin Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
