@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 import {tiktok} from '@xct007/frieren-scraper';
 import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import {tiktokdl} from '@bochilteam/scraper';
-// let team = '🚩 LuffyBot-MD'
+// let team = '🚩 GokuBot-MD'
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
 //m.react('🕒') 
