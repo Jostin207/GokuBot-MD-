@@ -23,7 +23,7 @@ let tags = {
   'info': 'Información 🐢',
   'nsfw': 'Nsfw 🔞', 
   'owner': 'Creador 👑', 
-  'mods': 'Staff Luffy 🍟',
+  'mods': 'Staff 𝖦𝗈𝗄𝗎 🌹',
   'audio': 'Audios 🔉', 
   'ai': 'Ai 🌹',
   'transformador': 'Convertidores 🚩',
@@ -32,7 +32,7 @@ let tags = {
 const defaultMenu = {
   before: `*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
-“ Hola *%name*, mi nombre es *LuffyBot*, Cómo se encuentra el día de hoy?  ”
+“ Hola *%name*, mi nombre es *𝖦𝗈𝗄𝗎Bot*, Cómo se encuentra el día de hoy?  ”
 
 *╭──⬣「 Info User 」⬣*
 *│* ✰ 💌 *Cliente:* %name
@@ -43,8 +43,8 @@ const defaultMenu = {
 *╰──⬣*
 
 *╭──⬣「 Info Bot 」⬣*
-*│* ✰ 🍟 *Bot:* Luffy Bot - MD 
-*│* ✰ 🚩 *Modo* Público
+*│* ✰ 🌹 *Bot:* 𝖦𝗈𝗄𝗎 Bot - MD 
+*│* ✰ 💖 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
 *│* ✰ 🕒 *Tiempo Activo:* %muptime
 *│* ✰ 👤 *Usuarios:* %totalreg
@@ -150,7 +150,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '🚩 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🚩 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '🌹 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🌹 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -173,7 +173,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🍟 ¡Super Bot De WhatsApp!', sourceUrl: redes, thumbnail: icons }}})
+await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🌹 ¡Super Bot De WhatsApp!', sourceUrl: redes, thumbnail: icons }}})
 
 // await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, rcanal)
 
@@ -182,7 +182,7 @@ m.react(emoji2)
 await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), fkontak, null, rcanal)
 
   } catch (e) {
-    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
+    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error, 𝖼𝗈𝗇𝗍𝖺𝖼𝗍𝖾 𝖺𝗅 𝗈𝗐𝗇𝖾𝗋', m, rcanal, )
     throw e
   }
 }
