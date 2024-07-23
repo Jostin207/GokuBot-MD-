@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: luffybot-md
+    name: gokubot-md
     env: docker
     region: Frankfurt
     plan: free
