@@ -27,7 +27,7 @@ for (const file of files) {
 if (file.includes(uniqid)) {
 await fs.unlink(path.join(sessionPath, file));
 filesDeleted++;
-console.log(`⚠️ Eliminacion YoshiSession (PreKey) que provocan el undefined el chat`)}}}*/
+console.log(`⚠️ Eliminacion GokuSession (PreKey) que provocan el undefined el chat`)}}}*/
 
 if (chat.detect && m.messageStubType == 21) {
 await this.sendMessage(m.chat, { text: `🍬 ${usuario} *Ha cambiado el nombre del grupo*`, mentions: [m.sender], mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id) }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
