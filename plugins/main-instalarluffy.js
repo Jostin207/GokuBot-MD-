@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de LuffyBot*
+let texto = `🚩 *Instalación de GokuBot*
 
 ⬡ Dudas: ${creador}
 ⬡ Tutoríal: *¡Pronto!*
@@ -13,13 +13,13 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/OfcDiego/LuffyBot-MD && cd LuffyBot-MD && yarn install && npm install 
+git clone https://github.com/Jostin207/GokuBot-MD && cd GokuBot-MD && yarn install && npm install 
 
 ls
 
 npm start
 
-_Utilice "comandos" para enviarle los comandos uno por uno 🚩_`
+_Utilice "comandos" para enviarle los comandos uno por uno 💖_`
 
 conn.reply(m.chat, texto, m, rcanal )
 
@@ -49,9 +49,9 @@ conn.sendMessage(m.chat, {image: {url: 'https://telegra.ph/file/35384f70f429a9c4
 }
 
 }
-handler.help = ['instalarluffy']
+handler.help = ['instalargoku']
 handler.tags = ['main']
-handler.command = /^(instalarluffy|instalarbot)/i
+handler.command = /^(instalargoku|instalarbot)/i
 
 export default handler
 
