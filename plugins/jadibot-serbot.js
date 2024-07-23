@@ -21,7 +21,7 @@ return conn.reply(m.chat, `「💭」Solo puedes usar este comando en el bot pri
 }
 async function serbot() {
 let serbotFolder = crypto.randomBytes(10).toString('hex').slice(0, 8)
-let folderSub = `./LuffyJadiBot/${serbotFolder}`
+let folderSub = `./GokuJadiBot/${serbotFolder}`
 if (!fs.existsSync(folderSub)) {
 fs.mkdirSync(folderSub, { recursive: true })
 }
@@ -34,7 +34,7 @@ const { version } = await fetchLatestBaileysVersion()
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Luffy Sub-Bot', 'Edge', '2.0.0'],
+browser: ['Goku Sub-Bot', 'Edge', '2.0.0'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -58,7 +58,7 @@ if (isNewLogin) {
 conn.isInit = true
 }
 if (qr) {
-let txt = '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n🍟 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.'
+let txt = '🚩 S E R B O T - S U B B O T 🚩\n\n*Escanea este QR para ser un Sub Bot*\n\n💖 Pasos para escanear:\n\n`1` : Haga click en los 3 puntos\n\n`2` : Toque dispositivos vinculados\n\n`3` : Escanea este QR\n\n> *Nota:* Este código QR expira en 30 segundos.'
 
 let sendQR = await parentw.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
 setTimeout(() => {
@@ -102,7 +102,7 @@ if (i >= 0) {
 delete global.conns[i]
 global.conns.splice(i, 1)
 }
-fs.rmdirSync(`./LuffyJadiBot/${serbotFolder}`, { recursive: true })
+fs.rmdirSync(`./GokuJadiBot/${serbotFolder}`, { recursive: true })
 }
 }, 30000)
 let handler = await import("../handler.js")
