@@ -2,7 +2,7 @@ import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args }) => {
-let res = await fetch('https://api.github.com/repos/OfcDiego/LuffyBot-MD')
+let res = await fetch('https://api.github.com/repos/𝖩𝗈𝗌𝗍𝗂𝗇207/𝖦𝗈𝗄𝗎Bot-MD')
 let json = await res.json()
 try {
 let txt = `*乂  S C R I P T  -  M A I N  乂*\n\n`
@@ -13,7 +13,7 @@ let txt = `*乂  S C R I P T  -  M A I N  乂*\n\n`
     txt += `✩  *Url* : ${json.html_url}\n`
     txt += `✩  *Forks* : ${json.forks_count}\n`
     txt += `✩  *Stars* : ${json.stargazers_count}\n\n`
-    txt += `> 🍟 *${packname}*`
+    txt += `> 🌹 *${packname}*`
 
 let img = imagen1
 
