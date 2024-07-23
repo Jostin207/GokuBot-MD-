@@ -8,7 +8,7 @@ import fs from 'fs';
 import chalk from 'chalk';
 import ws from 'ws';
 import './plugins/main-allfake.js'
-
+ 
 /**
  * @type {import('@adiwajshing/baileys')}  
  */
