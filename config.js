@@ -24,7 +24,7 @@ global.suittag = ['573012482597']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ 𝐋𝐮𝐟𝐟𝐲 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.packname = '⪛✰ 𝐆𝐨𝐤𝐮 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
 global.author = 'ᴏғᴄ.ᴊᴏsᴛɪɴ 👑'
 global.wm = '✨◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐⚡༉'
 global.titulowm = 'GokuBot-MD 🍟'
@@ -32,7 +32,7 @@ global.titulowm2 = 'Ofc.Jostin'
 global.igfg = '𝙾𝙵𝙲.𝙹𝙾𝚂𝚃𝙸𝙽
 global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
 global.dev = '👑 Developed By • ✨ Ofc.Jostin'
-global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
+global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗢𝗳𝗰.𝗝𝗼𝘀𝘁𝗶𝗻 🚩'
 global.vs = '2.0.2'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -41,10 +41,10 @@ global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s' //Grupo Oficial DeGoku
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial De Goku2 falta
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //KiraBot Y Goku falta
-global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //NilouBot Y Goku falta
+global.gp1 = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s' //Grupo Oficial De Goku
+global.gp2 = 'https://chat.whatsapp.com/KQA5YEnMMhE9PQODSh6I7B' //Grupo Oficial De Goku 2 
+global.gp3 = 'https://chat.whatsapp.com/FOS2BU04peN3cQaiDmLq0j' //KiraBot Y Goku
+global.gp4 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //NilouBot Y Goku 𝗙𝗔𝗟𝗧𝗔
 global.comunidad1 = 'https://chat.whatsapp.com/KjdhZK4SpUm31errurbEC2' //Comunidad Goku
 global.comunidad2 = 'https://chat.whatsapp.com/GpbF3JCTEr2CSj3zLJ1IQj' //Comunidad de Moonligth
 global.channel = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' //Canal Oficial
