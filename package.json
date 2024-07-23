@@ -1,5 +1,5 @@
 {
-"name": "LuffyBot-MD",
+"name": "GokuBot-MD",
 "version": "2.0.2", 
 "description": "Super Bot De WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
 
-"homepage": "https://github.com/OfcDiego/LuffyBot-MD",
+"homepage": "https://github.com/Jostin207/GokuBot-MD",
 "author": {
-"name": "Dɪᴇɢᴏ.Oғᴄ" },
+"name": "Jostin.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/OfcDiego/LuffyBot-MD.git" },
+"url": "git+https://github.com/Jostin207/GokuBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/OfcDiego/LuffyBot-MD/issues" },
+"url": "https://github.com/Jostin207/JostinBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
