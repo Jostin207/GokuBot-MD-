@@ -20,11 +20,6 @@
 ### `◉ ⚙️ AJUSTES ⚙️`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin_207/GokuBot-MD/fork)
 
-  
-### `◉ 🌌 ACTIVAR EN REPLIT 🌌`
-
-[![Run on Repl.it](https://replit.com/@jostinarielbust)](https://replit.com/@jostinarielbust/GokuBot-MD) 
-
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
