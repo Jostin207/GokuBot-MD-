@@ -52,6 +52,10 @@ git clone https://github.com/Jostin207/GokuBot-MD.git && cd GokuBot-MD
 ```
 
 ```bash
+yarn install && npm install
+```
+
+```bash
 npm start
 ```
 
