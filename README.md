@@ -21,17 +21,10 @@
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin_207/GokuBot-MD/fork)
 
   
-### `◉ 💥 ACTIVAR EN KOYEB 💥`
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/HACHEJOTA/Hachiko-Bot-MD&branch=master&name=hachikobot)
-  
 ### `◉ 🌌 ACTIVAR EN REPLIT 🌌`
 
-[![Run on Repl.it](https://repl.it/badge/github/HACHEJOTA/Hachiko-Bot-MD)](https://repl.it/github/HACHEJOTA/Hachiko-Bot-MD) 
-  
-### `◉ 🔰 ACTIVAR EN RENDER 🔰`
+[![Run on Repl.it](https://replit.com/@jostinarielbust)](https://replit.com/@jostinarielbust/GokuBot-MD) 
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FHACHEJOTA%2FHachiko-Bot-MD) 
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
