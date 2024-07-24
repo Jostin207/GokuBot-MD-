@@ -35,7 +35,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/593939005387'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/593978663361'
-global.namechannel = '🚩 𝗟𝘂𝗳𝗳𝘆 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
+global.namechannel = '🚩 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
 global.namechannel2 = '𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁 - 𝗧𝗲𝗮𝗺'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗚𝗼𝗸𝘂𝗕𝗼𝘁'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗠𝗼𝗼𝗻𝗹𝗶𝗴𝗵𝘁'
@@ -68,7 +68,7 @@ var git = 'https://github.com/Jostin207'
 var youtube = 'https://www.youtube.com/@jostin20oficialmanito' 
 var github = 'https://github.com/Jostin207/GokuBot-MD' 
 var facebook = 'https://www.facebook.com/Jostin207oficialmanito' 
-let tiktok = 'https://tiktok.com/@theluffybot'
+let tiktok = 'https://tiktok.com/@thegokubot_md'
 
 global.redes = [canal, canal2, git, youtube, github, facebook, tiktok].getRandom()
 
