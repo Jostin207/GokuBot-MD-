@@ -8,7 +8,7 @@ try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
 
-if (messager.includes('☘️ Ya estoy actualizada.')) messager = '☘️ Ya estoy actualizada a la última versión.'
+if (messager.includes('☘️ Ya estoy actualizado.')) messager = '☘️ Ya estoy actualizado a la última versión.'
 
 if (messager.includes('💫 Actualizando.')) messager = '✨️ Procesando, espere un momento mientras me actualizo.\n\n' + stdout.toString()
 conn.reply(m.chat, messager, m, rcanal,)
@@ -20,7 +20,7 @@ const status = execSync('git status --porcelain')
 
 if (status.length > 0) {
 const conflictedFiles = status.toString().split('\n').filter(line => line.trim() !== '').map(line => {
-if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('YoshiSession/') || line.includes('npm-debug.log')) {
+if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('GokuSession/') || line.includes('npm-debug.log')) {
 return null
 }
 return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
