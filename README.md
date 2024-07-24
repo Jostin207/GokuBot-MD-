@@ -44,10 +44,6 @@ apt-get update -y && apt-get upgrade -y
 ```
 
 ```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-```
-
-```bash
 git clone https://github.com/Jostin207/GokuBot-MD.git && cd GokuBot-MD
 ```
 
