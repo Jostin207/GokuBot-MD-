@@ -1,6 +1,6 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de GokuBot*
+let texto = `💖 *Instalación de GokuBot 🌹*
 
 ⬡ Dudas: ${creador}
 ⬡ Tutoríal: *¡Pronto!*
