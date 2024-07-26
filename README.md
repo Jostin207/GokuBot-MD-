@@ -70,18 +70,15 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-## `✨ DESARROLLADORES`
-<a
-href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="200" height="200" alt="Jostin"/></a>
-
-
 ### `💖 AGRADECIMIENTOS`
 <a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="120" height="120" alt="Bruno"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="100" height="100" alt="Agradecimientos"/></a>
+<a
+href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="Agradecimientos"/></a>
 
 ### `👑 CREADOR` 
 <a
-href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="120" height="120" alt="Jostin"/></a>
+href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="140" height="140" alt="Jostin"/></a>
 
 `GokuBot - By Jostin`
 
