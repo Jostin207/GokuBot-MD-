@@ -7,7 +7,7 @@ await conn.reply(m.chat, '╰⊱🌺⊱ 𝗥𝗘𝗔𝗟𝗜𝗭𝗔𝗗𝗢 ⊱
 }
 handler.help = ['unbanchat'];
 handler.tags = ['mods'];
-handler.command = /$unbanchatbot|desbanearchatbot|desbanchatbot$/i
+handler.command = /$unbanchatbot|desbanearchatbot|activarchatbot$/i
 handler.mods = true 
 //handler.group = true
 
