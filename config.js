@@ -26,14 +26,14 @@ global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packname = '⪛✰ 𝐆𝐨𝐤𝐮 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
-global.author = 'ᴏғᴄ.ᴊᴏsᴛɪɴ 👑'
+global.author = 'ᴊᴏsᴛɪɴ 👑'
 global.wm = '✨◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐⚡༉'
 global.titulowm = 'GokuBot-MD 🍟'
-global.titulowm2 = 'Ofc.Jostin'
-global.igfg = '𝙾𝙵𝙲.𝙹𝙾𝚂𝚃𝙸𝙽'
+global.titulowm2 = 'Jostin'
+global.igfg = '𝙹𝙾𝚂𝚃𝙸𝙽'
 global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
-global.dev = '👑 Developed By • ✨ Ofc.Jostin'
-global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗢𝗳𝗰.𝗝𝗼𝘀𝘁𝗶𝗻 🚩'
+global.dev = '👑 Developed By • ✨ Jostin'
+global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗝𝗼𝘀𝘁𝗶𝗻 🚩'
 global.vs = '2.0.2'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
