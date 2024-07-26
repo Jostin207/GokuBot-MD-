@@ -112,14 +112,14 @@ global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: "120363263466636910@newsletter",
+newsletterJid: "120363220442272685@newsletter",
 serverMessageId: 100,
 newsletterName: 'Goku Bot Channel 🚩',
 },
 externalAdReply: { 
 showAdAttribution: true,
 title: packname,
-body: '🌹 ¡Super Bot De WhatsApp!',
+body: wm,
 mediaUrl: null,
 description: null,
 previewType: "PHOTO",
