@@ -173,16 +173,14 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: '🌹 ¡Super Bot De WhatsApp!', sourceUrl: redes, thumbnail: icons }}})
-
-// await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', m, rcanal)
+await conn.reply(m.chat, '🚀 *¡Cargando El Menú Oficial!...*', m, rcanal)
 
 m.react(emoji2) 
 
-await conn.sendFile(m.chat, imagen1, 'luffy.jpg', text.trim(), fkontak, null, rcanal)
+await conn.sendFile(m.chat, imagen1, 'goku.jpg', text.trim(), m, null, rcanal)
 
   } catch (e) {
-    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error, 𝖼𝗈𝗇𝗍𝖺𝖼𝗍𝖾 𝖺𝗅 𝗈𝗐𝗇𝖾𝗋', m, rcanal, )
+    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error, intente mas tarde.', m, rcanal, )
     throw e
   }
 }
