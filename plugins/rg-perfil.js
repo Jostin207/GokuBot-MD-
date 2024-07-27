@@ -2,7 +2,7 @@ import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
 var handler = async (m, { conn }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'hhttps://telegra.ph/file/1f216df18864dee32788d.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1f216df18864dee32788d.jpg')
 let { premium, level, estrellas, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
