@@ -34,7 +34,7 @@ let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
 • 12 Tokens 💰
 •┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
 ${packname}`
-await conn.sendLuffy(m.chat, '✅️ R E G I S T R A D O ✅️', wm, regbot, imagen1, imagen1, channel, m)
+await conn.sendLuffy(m.chat, '✅️ R E G I S T R A D O ✅️', wm, regbot, imagen1, imagen1, redes, m)
 //await m.reply(`${sn}`)        
 }
 handler.help = ['reg']
