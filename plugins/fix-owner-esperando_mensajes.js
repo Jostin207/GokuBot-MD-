@@ -24,7 +24,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     if (filesDeleted === 0) {
       await conn.sendMessage(m.chat, {text: '_[🌹] No Se Encuentra La Carpeta (Undefined)._'}, {quoted: m});
     } else {
-      await conn.sendMessage(m.chat, {text: `_[🌹] Se Ah Eliminado Los Files De Manera Correcta >${filesDeleted}< Menos Las Credenciales Del Bot._`}, {quoted: m});
+      await conn.sendMessage(m.chat, {text: `_[🌹] Se Ah Eliminado Los Files De Manera Correcta *${filesDeleted}* Menos Las Credenciales Del Bot._`}, {quoted: m});
     }
   } catch (err) {
     console.error('Error al leer la carpeta o los archivos de sesión:', err);
