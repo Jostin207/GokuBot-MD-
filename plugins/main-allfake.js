@@ -99,36 +99,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.icono = [ 
-'https://qu.ax/ljre.jpg', 
-'https://qu.ax/vQmu.jpg',  
-'https://qu.ax/sVjE.jpg', 
-'https://qu.ax/AwKr.jpg', 
-'https://qu.ax/zLSn.jpg',
-'https://qu.ax/bJZW.jpg'
-].getRandom()
-
-global.rcanal = {
-contextInfo: {
-isForwarded: true,
-forwardedNewsletterMessageInfo: {
-newsletterJid: "120363220442272685@newsletter",
-serverMessageId: 100,
-newsletterName: 'Goku Bot Channel 🚩',
-},
-externalAdReply: { 
-showAdAttribution: true,
-title: packname,
-body: wm,
-mediaUrl: null,
-description: null,
-previewType: "PHOTO",
-thumbnailUrl: icono,
-sourceUrl: redes,
-mediaType: 1,
-renderLargerThumbnail: false
-},
-},
-}}
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220442272685@newsletter', newsletterName: "Goku Bot Channel 🌸", serverMessageId: -1 }
+}}, { quoted: m }}
 
 export default handler
