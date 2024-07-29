@@ -57,7 +57,7 @@ handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `_*𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* ${usedPrefix + command} *https://vm.tiktok.com/ZM6UHJYtE /*`;
+  if (!/tiktok/.test(url)) return `_*𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* ${usedPrefix + command} *https://vm.tiktok.com/ZM6UHJYtE*`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
