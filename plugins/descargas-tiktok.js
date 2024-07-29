@@ -7,7 +7,7 @@ import {tiktokdl} from '@bochilteam/scraper';
 const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   if (!text) throw `_*< DESCARGAS - TIKTOK />*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ TɪᴋTᴏᴋ.*\n\n*🌵 Eᴊᴇᴍᴘʟᴏ:* ${usedPrefix + command} *https://vm.tiktok.com/ZM6UHJYtE/*`;
-  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*⚠️ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
+  if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*⚠️ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Vɪᴅᴇᴏ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* ${usedPrefix + command} *https://vm.tiktok.com/ZM6UHJYtE /*`;
   const texto = `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*✨️ 𝘚𝘦 𝘌𝘴𝘵𝘢́ 𝘌𝘯𝘷𝘪𝘢𝘥𝘰 𝘚𝘶 𝘝𝘪𝘥𝘦𝘰 𝘌𝘴𝘱𝘦𝘳𝘦 𝘜𝘯 𝘔𝘰𝘮𝘦𝘯𝘵𝘰...*`;
   // let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
   try {
@@ -57,7 +57,7 @@ handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
 export default handler;
 
 async function tiktokdlF(url) {
-  if (!/tiktok/.test(url)) return `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* _${usedPrefix + command} https://vm.tiktok.com/ZM6UHJYtE /_`;
+  if (!/tiktok/.test(url)) return `_*< 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 - 𝑇𝐼𝐾𝑇𝑂𝐾 />*_\n\n*✨ Iɴɢʀᴇsᴇ Uɴ Eɴʟᴀᴄᴇ Dᴇ Tɪᴋᴛᴏᴋ.*\n\n*🌵 𝐸𝑗𝑒𝑚𝑝𝑙𝑜:* ${usedPrefix + command} *https://vm.tiktok.com/ZM6UHJYtE /*`;
   const gettoken = await axios.get('https://tikdown.org/id');
   const $ = cheerio.load(gettoken.data);
   const token = $('#download-form > input[type=hidden]:nth-child(2)').attr( 'value' );
