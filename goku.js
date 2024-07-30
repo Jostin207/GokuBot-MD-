@@ -80,11 +80,11 @@ global.db.chain = chain(global.db.data);
 loadDatabase();
 
 // Inicialización de conexiones globales
-/*if (global.conns instanceof Array) {
+if (global.conns instanceof Array) {
 console.log('🚩 Conexiones ya inicializadas...');
 } else {
 global.conns = [];
-}*/
+}
 
 /* ------------------------------------------------*/
 
@@ -277,7 +277,7 @@ process.on('uncaughtException', console.error)
 /* Código reconexión de sub-bots fases beta */
 /* Echo por: https://github.com/elrebelde21 */
 
-/*async function connectSubBots() {
+async function connectSubBots() {
 const subBotDirectory = './GokuJadiBot';
 if (!existsSync(subBotDirectory)) {
 console.log('🚩 GokuBot no tiene Sub-Bots vinculados.');
@@ -307,13 +307,13 @@ const mainBotAuthFile = 'GokuSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 Ai Goku se ah conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🚩 GokuBot se ha conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
 console.error(chalk.bold.cyanBright(`🍭 Error al iniciar GokuBot: `, error))
 }
-})();*/
+})();
 
 /* ------------------------------------------------*/
 
