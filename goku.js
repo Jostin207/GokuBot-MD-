@@ -337,37 +337,22 @@ isInit = true
 }
 if (!isInit) {
 conn.ev.off('messages.upsert', conn.handler)
-conn.ev.off('group-participants.update', conn.participantsUpdate)
-conn.ev.off('groups.update', conn.groupsUpdate)
-conn.ev.off('message.delete', conn.onDelete)
-conn.ev.off('call', conn.onCall)
 conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
 
-//Config de los grupos
-conn.welcome = '╔═.✵.════ ✰ ════════╗\n@subject\n╚═══════ ✰ ═════.✵.═╝\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙\n┃ Bienvenido/a 🥳!!\n┃ @user\n┃ _*Lea la descripción del grupo.*_💥\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙'
-conn.bye = '╔═.✵.════ ✰ ════════╗\n- 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 - 𝗠𝗗\n╚═══════ ✰ ═════.✵.═╝\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙\n┃ @user\n┃ 𝙽𝙾 𝙵𝚄𝙴 𝙳𝙸𝙶𝙽𝙾(𝙰) 𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝙰𝚀𝚄𝙸 👋🏻\n✧⃝━━━━━━━━━━━━━━━━✦͙͙͙'
-conn.spromote = '❏ 💭 @user Ahora es admin en este grupo'
-conn.sdemote = '❏ 💭 @user Jodete ya no eres admin'
-conn.sDesc = '❏ 💭 *Se ha modificado la descripción del grupo.*\n\nNueva Descripción: @desc'
-conn.sSubject = '❏ 💭 *Se ha modificado el nombre del grupo.*\nNuevo Nombre: @subject' 
-conn.sIcon = '❏ 💭 *Se ha cambiado la foto del grupo.*' 
-conn.sRevoke = '❏ 💭 *Se ha actualizado el link del grupo.*\nLink Nuevo: @revoke' 
-
 conn.handler = handler.handler.bind(global.conn)
-conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
-conn.groupsUpdate = handler.groupsUpdate.bind(global.conn)
-conn.onDelete = handler.deleteUpdate.bind(global.conn)
-conn.onCall = handler.callUpdate.bind(global.conn)
 conn.connectionUpdate = connectionUpdate.bind(global.conn)
 conn.credsUpdate = saveCreds.bind(global.conn, true)
 
+const currentDateTime = new Date()
+const messageDateTime = new Date(conn.ev)
+if (currentDateTime >= messageDateTime) {
+const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0])
+} else {
+const chats = Object.entries(conn.chats).filter(([jid, chat]) => !jid.endsWith('@g.us') && chat.isChats).map((v) => v[0])}
+
 conn.ev.on('messages.upsert', conn.handler)
-conn.ev.on('group-participants.update', conn.participantsUpdate)
-conn.ev.on('groups.update', conn.groupsUpdate)
-conn.ev.on('message.delete', conn.onDelete)
-conn.ev.on('call', conn.onCall)
 conn.ev.on('connection.update', conn.connectionUpdate)
 conn.ev.on('creds.update', conn.credsUpdate)
 isInit = false
