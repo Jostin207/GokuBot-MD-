@@ -307,7 +307,7 @@ const mainBotAuthFile = 'GokuSession';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🚩 Ai Yaemori conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🚩 Ai Goku se ah conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
