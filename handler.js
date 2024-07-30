@@ -642,10 +642,6 @@ if (responseb[0].status === "404") return
 }}
 
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
-let vn = 'https://qu.ax/cUYg.mp3'
-let or = ['texto', 'audio'];
-let media = or[Math.floor(Math.random() * 2)]
-if (media === 'texto')
 this.sendMessage(id, { text: text, 
 contextInfo:{
 forwardingScore: 9999999,
@@ -655,12 +651,11 @@ mentionedJid:[user],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": apii.data, 
-"title": [wm, ' ' + wm + '😊', '🌟'].getRandom(),
+"title": [wm, packname, botname].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: [md, tiktok].getRandom()}}}, { quoted: fkontak2 }) 
-if (media === 'audio')
-this.sendMessage(id, { audio: { url: vn }, contextInfo:{ mentionedJid:[user], "externalAdReply": { "thumbnail": apii.data, "title": `乂 ＷＥＬＣＯＭＥ 乂`, "body": [wm, ' ' + wm + '😊', '🌟'].getRandom(), "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: [md, tiktok].getRandom()}},  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak2 })
+sourceUrl: redes }}}, { quoted: fkontak2 })
+apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
 
