@@ -1,4 +1,4 @@
-import { igdl } from 'ruhend-scraper'
+import { igdl } from '"ruhend-scraper": "^*"'
 
 const handler = async (m, { text, conn, args, usedPrefix, command }) => {
 if (!args[0]) {
