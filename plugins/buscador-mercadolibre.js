@@ -3,7 +3,7 @@ import cheerio from 'cheerio';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 try {
-if (!text) throw conn.reply(m.chat, `🚩 *Formato incorrecto*\n*Ejemplo:*\n\n${usedPrefix + command}  TV Pantalla plana`, m, rcanal);
+if (!text) throw conn.reply(m.chat, `🚩 *Formato incorrecto*\n*Ejemplo:*\n\n${usedPrefix + command}  TV De 60 Pulgadas`, m, rcanal);
 let res = await mercado(text);
 let libre = '`🚩 M E R C A D O - L I B R E 🚩`\n\n';
 const limit = 15;
