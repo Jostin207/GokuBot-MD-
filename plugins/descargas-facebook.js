@@ -15,10 +15,10 @@ await m.react(rwait)
 res = await igdl(args[0])
 } catch {
 await m.react(error)
-return conn.reply(m.chat, '🚩 *Error al obtener datos. Verifica el enlace.*', m)}
+return conn.reply(m.chat, '🚩 *Error al obtener datos. Verifica el enlace.*', m, fake)}
 let result = res.data
 if (!result || result.length === 0) {
-return conn.reply(m.chat, '🚩 *No se encontraron resultados.*', m)}
+return conn.reply(m.chat, '🚩 *No se encontraron resultados.*', m, fake)}
 let data
 try {
 await m.react(rwait)
