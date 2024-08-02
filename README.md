@@ -18,7 +18,7 @@
 
 
 ### `◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin_207/GokuBot-MD/fork)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
 
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
