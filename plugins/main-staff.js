@@ -34,11 +34,6 @@ let staff = `🚩 *EQUIPO DE AYUDANTES*
 💖 *Número:* Wa.me/50558124470
 ✨️ *GitHub:* https://github.com/EnderJs-CreatorGL
 
-•GABRIEL.OFC
-🌹 *Rol:* Ceo & Developer
-💖 *Número:* Wa.me/59169082575
-✨️ *GitHub:* https://github.com/glytglobal
-
 • Proximamente
 🌹 *Rol:* Developer
 💖 *Número:* PROXIMAMENTE
