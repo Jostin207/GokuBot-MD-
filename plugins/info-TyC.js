@@ -20,6 +20,6 @@ global.terminos = `𝑺𝑴𝑺 𝑫𝑬𝑳 𝑪𝑹𝑬𝑨𝑫𝑶𝑹✨
 ✫ ${global.creador}
 ᯽ Jostin207
 ✫ Correo electronico: 
-thegokubot_md@gmail.com
+thegokubotmd@gmail.com
 
 ✰ ${global.packname}`;
