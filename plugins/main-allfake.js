@@ -67,8 +67,8 @@ var canal2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S'
 var git = 'https://github.com/Jostin207' 
 var youtube = 'https://www.youtube.com/@jostin20oficialmanito' 
 var github = 'https://github.com/Jostin207/GokuBot-MD' 
-var facebook = 'https://www.facebook.com/Jostin207oficialmanito' 
-let tiktok = 'https://tiktok.com/@thegokubot_md'
+var facebook = 'https://www.facebook.com/JostinOfici' 
+let tiktok = 'https://tiktok.com/@thegokubotmd'
 
 global.redes = [canal, canal2, git, youtube, github, facebook, tiktok].getRandom()
 
