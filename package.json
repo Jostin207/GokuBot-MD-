@@ -26,7 +26,7 @@
 "url": "git+https://github.com/Jostin207/GokuBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/Jostin207/JostinBot-MD/issues" },
+"url": "https://github.com/Jostin207/GokuBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
