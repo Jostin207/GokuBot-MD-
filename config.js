@@ -52,7 +52,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' //Canal
 global.channel2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S' //Canal MoonLight Team 
 global.yt = 'https://www.youtube.com/@Jostin207Oficialmanito' //Canal De Youtube
 global.md = 'https://github.com/Jostin207/GokuBot-MD' //Github Oficial
-global.fb = 'https://www.facebook.com/Jostin_oficial' //Facebook Del Propietario
+global.fb = 'https://www.facebook.com/JostinOfici' //Facebook Del Propietario
 global.tiktok = 'https://tiktok.com/@gokubot_md' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
