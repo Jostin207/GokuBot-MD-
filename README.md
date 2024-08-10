@@ -65,6 +65,16 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf GokuSession
 > npm start
 ```
+### 🔵 OLYMPUS-HOST 
+<a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+### Información del Host
+
+- **Dashboard:** [`Aquí`](https://kingsvhost.asifofc.xyz)
+- **Panel:** [`Aquí`](https://host.asifofc.xyz)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+- **Correo:** [`Aquí`](olympussupport@gmail.com.com)
+
+- [x] **Configuración** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://telegra.ph/file/df9e39ea02ef177ac5194.jpg"></details>
 
  ### `◉ 👑 DUDAS SOBRE EL BOT?,CONTACTA AL CREADOR 👑`
 <a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
