@@ -39,5 +39,5 @@ sourceUrl: 'https://host.asifofc.xyz'}}},
 
 handler.help = ['olympus']
 handler.tags = ['main']
-handler.command = ['olympus', 'olympushost']
+handler.command = ['olympus', 'olympushost', 'host']
 export default handler
