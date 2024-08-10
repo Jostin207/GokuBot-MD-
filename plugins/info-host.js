@@ -26,14 +26,14 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🔮 O L Y M P U S 🔮`,
-body: `✅ Hosting de Calidad`,
+title: `🔵 O L Y M P U S - H O S T 🔵`,
+body: `⚜️ Super Hosting 24/7 ⚜️`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/waCu.jpg', 
 sourceUrl: 'https://kingsvhost.asifofc.xyz'}}},
-{ quoted: m})
+{ quoted: fkontak})
 }
 handler.tags =['main'] 
-handler.help = ['olympus', 'host', 'hosting'] 
+handler.help = ['host', 'hosting'] 
 handler.command = ['host', 'olympus', 'olympushost', 'hosting']
 export default handler
