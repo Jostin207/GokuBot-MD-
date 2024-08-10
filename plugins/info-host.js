@@ -123,8 +123,11 @@ renderLargerThumbnail: false,
 title: `🔵 O L Y M P U S - H O S T 🔵`,
 body: `✅ Hosting de Calidad`,
 mediaType: 1,
-sourceUrl: 'https://www.cafirexos.com',
+sourceUrl: 'https://kingsvhost.asifofc.xyz',
 thumbnailUrl:
+sourceUrl: https://host.asifofc.xyz'}}},
+{ quoted: fkontak})
+}}
 handler.help = ['cafirexos', 'flarexcloud', 'olympus']
 handler.tags = ['main']
 handler.command = ['cafirexos', 'flarex', 'flarexcloud', 'olympus']
