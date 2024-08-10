@@ -81,7 +81,51 @@ sourceUrl: 'https://www.flarex.cloud'}}},
 { quoted: fkontak})
 }}
 
-handler.help = ['cafirexos', 'flarexcloud']
+let txt = `⚜️ *O L Y M P U S - H O S T*
+
+*¿Muy lento tu Samsung J1 y necesitas tener activo tu bot 24/7?*
+
+> *Te tenemos la mejor opción para que tengas activo tu bot 24/7, a precios muy accesibles. Es muy barato y todos pueden comprar.*
+
+*PRECIOS*
+
+• 1GB, 100CPU = 1 dólar
+
+• 2GB, 120CPU = 2,50 dólares
+
+• 3GB, 140CPU = 3,50 dólares
+
+• 4GB, 175CPU = 4,50 dólares
+
+• 5GB, 200CPU = 5,50 dólares
+
+🔵 ```Información del Server```
+
+💻 *Página:*
+https://kingsvhost.asifofc.xyz
+
+
+💙 *Canal de WhatsApp:*
+https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J
+
+📱 *Contacto*
+wa.me/593979133620
+> *Únete a está comunidad y disfruta de un servicio de calidad :D*` 
+
+if (command == 'olympus') {
+await conn.sendFile(m.chat, 'https://telegra.ph/file/318faccdf202ee6aab37c.jpg/logos%2Flogo.jpg', 'fantasy.jpg', olympustxt.trim(), fkontak, true, {
+contextInfo: {
+'forwardingScore': 200,
+'isForwarded': false,
+externalAdReply: {
+showAdAttribution: true,
+renderLargerThumbnail: false,
+title: `🔵 O L Y M P U S - H O S T 🔵`,
+body: `✅ Hosting de Calidad`,
+mediaType: 1,
+sourceUrl: 'https://www.cafirexos.com',
+thumbnailUrl:
+handler.help = ['cafirexos', 'flarexcloud', 'olympus']
 handler.tags = ['main']
-handler.command = ['cafirexos', 'flarex', 'flarexcloud']
+handler.command = ['cafirexos', 'flarex', 'flarexcloud', 'olympus']
 export default handler
