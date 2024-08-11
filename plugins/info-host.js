@@ -7,10 +7,10 @@ Pues te presento a *OlympusHost*, un hosting de calidad con servidores dedicados
 🟢 \`\`\`Información del Host\`\`\`
 
 🔮 *Dashboard:* 
-• https://kingsvhost.asifofc.xyz
+• https://dash.olympus-host.xyz
 
 🧃 *Panel:*
-• https://host.asifofc.xyz
+• https://panel.olympus-host.xyz
 
 💥 *Canal:*
 • https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J
@@ -30,7 +30,7 @@ title: `🔵 O L Y M P U S - H O S T 🔵`,
 body: `⚜️ Super Hosting 24/7 ⚜️`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/waCu.jpg', 
-sourceUrl: 'https://kingsvhost.asifofc.xyz'}}},
+sourceUrl: 'https://dash.olympus-host.xyz'}}},
 { quoted: fkontak})
 }
 handler.tags =['main'] 
