@@ -66,13 +66,16 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 ### 🔵 OLYMPUS-HOST 
-<a href="https://kingsvhost.asifofc.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+<a href="https://dash.olympus-host.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
 ### Información del Host
 
-- **Dashboard:** [`Aquí`](https://kingsvhost.asifofc.xyz)
-- **Panel:** [`Aquí`](https://host.asifofc.xyz)
-- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
-- **Correo:** [`Aquí`](olympussupport@gmail.com.com)
+• Dashboard: [`Aquí`](https://dash.olympus-host.xyz)
+
+• Panel: [`Aquí`](https://panel.olympus-host.xyz)
+
+• Canal de WhatsApp: [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+
+• Correo: [`Aquí`](olympushost2@gmail.com.com)
 
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://telegra.ph/file/df9e39ea02ef177ac5194.jpg"></details>
 
