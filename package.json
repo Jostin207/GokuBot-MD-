@@ -47,7 +47,7 @@
 "boxen": "^7.1.1",
 "cfonts": "^3.1.1",
 "chalk": "^5.0.1",
-"cheerio": ""^1.0.0-rc.12",",
+"cheerio": "^1.0.0-rc.12",
 "colors": "1.4.0",
 "countries-and-timezones": "^3.6.0",
 "didyoumean": "^1.2.2",
