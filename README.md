@@ -1,6 +1,6 @@
 ## **`Hola 👋`**
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F629&width=435&lines=GokuBot-MD+%E2%9C%A8%EF%B8%8F;Gracias+Por+Visitar+Este+Repositorio+Espero+Te+Guste+Mucho+Su+Version." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=F7F629&width=435&lines=GokuBot-MD+%E2%9C%A8%EF%B8%8F;Gracias+Por+Visitar+Este+Repositorio;Espero+Te+Guste+Mucho;Deja+Tu+Estrellita+(No+Obligatorio)" alt="Typing SVG" /></a>
 
 
 ------------------
