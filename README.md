@@ -7,7 +7,7 @@
 
 # ![logo](https://telegra.ph/file/891dc302887ed54a2c6d3.jpg)
 
-### `◉ 💟 GRUPO DEL BOT 💟`
+### <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
 <a href="https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DEL_BOT_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
