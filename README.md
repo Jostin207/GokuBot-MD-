@@ -98,4 +98,4 @@ href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino
 <a
 href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="140" height="140" alt="Jostin"/></a>
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=6CFF54&width=435&lines=GokuBot-MD+-+By+Jostin207+" alt="Typing SVG" /></a> 
+<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=6CFF54&center=true&width=435&lines=GokuBot-MD+-+By+Jostin207+" alt="Typing SVG" /></a>
