@@ -59,7 +59,8 @@ npm start
  npm start
 ```
 
-### `◉ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=CCEBF7&width=435&lines=%F0%9F%91%BD+OBTENER+OTRO+CODIGO+QR+EN+TERMUX+%F0%9F%91%BD" alt="Typing SVG" /></a> ◉`
+### ◉ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=CCEBF7&width=435&lines=%F0%9F%91%BD+OBTENER+OTRO+CODIGO+QR+EN+TERMUX+%F0%9F%91%BD" alt="Typing SVG" /></a> ◉
+
 - DETENER EL BOT DANDO CLICK EN EL SIMBOLO CTROL EN TERMUX MAS LA LETRA Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A  Goku-termux $  
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
