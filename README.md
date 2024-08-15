@@ -69,7 +69,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf GokuSession
 > npm start
 ```
-### 🔵 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=0400F7&width=435&lines=OLYMPUS-HOST" alt="Typing SVG" /></a> 
+### <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=1A11F7&width=435&lines=%F0%9F%94%B5+OLYMPUS-HOST+%F0%9F%94%B5" alt="Typing SVG" /></a> 
 <a href="https://dash.olympus-host.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
 ### Información del Host
 
