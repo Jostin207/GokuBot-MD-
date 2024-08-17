@@ -63,12 +63,11 @@ npm start
 
 ###  <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=CCEBF7&width=435&lines=%F0%9F%91%BD+OBTENER+OTRO+CODIGO+QR+EN+TERMUX+%F0%9F%91%BD" alt="Typing SVG" /></a> 
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=5&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=-+DETENER+EL+BOT+DANDO+CLICK+EN+EL+SIMBOLO+CTROL+EN+TERMUX+MAS+LA+LETRA+Z+EN+SU+TECLADO+MOVIL+HASTA+QUE+SALGA+ALGO+EN+VERDE+SIMILAR+A++Goku-termux+%24++" alt="Typing SVG" /></a>
-
-```bash
+<a `href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=5&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=-+DETENER+EL+BOT+DANDO+CLICK+EN+EL+SIMBOLO+CTROL+EN+TERMUX+MAS+LA+LETRA+Z+EN+SU+TECLADO+MOVIL+HASTA+QUE+SALGA+ALGO+EN+VERDE+SIMILAR+A++Goku-termux+%24++" alt="Typing SVG" /></a>`
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFE579&center=true&width=435&lines=ESCRIBE+LOS+SIGUIENTES+COMANDOS+UNO+POR+UNO%3A" alt="Typing SVG" /></a>
 
+```bash
 > cd 
 > cd GokuBot-MD
 > rm -rf GokuSession
