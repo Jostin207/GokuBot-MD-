@@ -31,8 +31,7 @@
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=6532F7&width=435&lines=+%F0%9F%91%BE+ACTIVAR+EN+TERMUX+%F0%9F%91%BE" alt="Typing SVG" /></a> 
 
 ```bash
-<a src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6F717D&multiline=true&repeat=false&width=435&lines=cd+%26%26+termux-setup-storage" alt="Typing SVG" /></a>
-
+cd && termux-setup-storage
 ```
 
 ```bash
