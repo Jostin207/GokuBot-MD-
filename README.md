@@ -27,7 +27,7 @@
 
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=6532F7&width=435&lines=+%F0%9F%91%BE+ACTIVAR+EN+TERMUX+%F0%9F%91%BE" alt="Typing SVG" /></a> 
-- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+
 ```bash
 cd && termux-setup-storage
 ```
@@ -50,7 +50,7 @@ npm start
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=5A5A5A&width=435&lines=%E2%9C%94%EF%B8%8F+ACTIVAR+EN+CASO+DE+DETENERSE+EN+TERMUX+%E2%9C%94%EF%B8%8F" alt="Typing SVG" /></a> 
 
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=-+ESCRIBE+LOS+SIGUIENTES+COMANDOS+UNO+POR+UNO%3A" alt="Typing SVG" /></a>
 ```bash
  cd
 ```
