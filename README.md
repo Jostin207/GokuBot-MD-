@@ -32,7 +32,7 @@
 
 ```bash
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=767676&width=435&lines=cd++&&++termux-setup-storage" alt="Typing SVG" /></a>
+href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=767676&width=435&lines=cd++&&++termux-setup-storage" alt="Typing SVG" /></a>
 
 ```
 
