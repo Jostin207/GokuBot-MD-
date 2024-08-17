@@ -1,4 +1,4 @@
-              ## **`Hola 👋`**
+## **`Hola 👋`**
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=GokuBot-MD+%E2%9C%A8%EF%B8%8F;Gracias+Por+Visitar+Este+Repositorio+;Espero+Te+Guste+Mucho;D%C3%A9janos+Una+Estrella+%F0%9F%8C%9F+(No+Obligatorio)" alt="Typing SVG" /></a>
 
