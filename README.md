@@ -23,7 +23,7 @@
 
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
+<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
 
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=6532F7&width=435&lines=+%F0%9F%91%BE+ACTIVAR+EN+TERMUX+%F0%9F%91%BE" alt="Typing SVG" /></a> 
