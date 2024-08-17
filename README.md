@@ -17,7 +17,7 @@
 
 
 
- <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=556EFF&width=435&lines=%3E+NO+SPAMEAR+COMANDOS" alt="Typing SVG" /></a>
+> <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=556EFF&width=435&lines=NO+SPAMEAR+COMANDOS" alt="Typing SVG" /></a>
 
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=8909F7&width=435&lines=+%F0%9F%96%8D+LETRA+DEL+BOT+%F0%9F%96%8D" alt="Typing SVG" /></a> 
