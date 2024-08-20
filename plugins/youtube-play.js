@@ -1,94 +1,43 @@
-import fetch from "node-fetch"
-import yts from "yt-search"
+import fetch from node-fetch
+import yts from "yt-search";
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) return conn.reply(m.chat, `🚩 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} Como Vincular Un Bot`,  m, rcanal, )
-conn.reply(m.chat, global.wait, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: packname,
-body: wm,
-previewType: 0, thumbnail: icons,
-sourceUrl: channel }}})
-try {
-await m.react(rwait)
-let yt_play = await search(args.join(" "))
-let img = await (await fetch(`${yt_play[0].image}`)).buffer()
+    if (!text) {
+        return conn.reply(m.chat, '*¿Qué quieres que busque GokuBot-MD?*', m);
+    }
 
-let txt = `*乂  Y O U T U B E  -  P L A Y  乂*\n\n`
-       txt += `✩ *𝐓𝐢𝐭𝐮𝐥𝐨:*\n${yt_play[0].title}\n\n`
-       txt += `✩ *𝐃𝐮𝐫𝐚𝐜𝐢𝐨𝐧:*\n${secondString(yt_play[0].duration.seconds)}\n\n`
-       txt += `✩ *𝐏𝐮𝐛𝐥𝐢𝐜𝐚𝐝𝐨 𝐄𝐧:*\n${yt_play[0].ago}\n\n`
-       txt += `✩ *𝐄𝐧𝐥𝐚𝐜𝐞:*\n${'https://youtu.be/' + yt_play[0].videoId}\n\n`
-       txt += `✨️ *Nota:* Para descargar responde a este mensaje con *1* o *2*.\n\n`
-       txt += `*1:* Video\n*2:* Audio`
+    await m.react('⏳');
+    let res = await yts(text);
+    let play = res.videos[0];
 
-/* let txt = `・₊✧★。..・✫・🎸🎧°⋆♡₊˚ 🔮
-> 🌩 τιτυℓο:
-> • ${yt_play[0].title}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🌦 ρυϐℓιϲα∂ο єи: 
-> • ${yt_play[0].ago}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🍭 єиℓαϲє:
-> • ${yt_play[0].url}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🍒 αմԵօɾ:
-> • ${yt_play[0].author.name}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪──ׅ──ׅ──ׅ─ׅ┈ ─๋︩︪─◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🧃 cαɳαℓ:
-> • ${yt_play[0].author.url}
-> ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪───ׅ──ׅ─ׅ─ׅ┈ ─๋︩︪─◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
-> 🍇 ժմɾαcíօ́ղ:
-> • ${secondString(yt_play[0].duration.seconds)}
-・₊✧。..・★🎸🎧°⋆♡₊˚ 🔮
+    if (!play) {
+        throw `Error: Vídeo no encontrado`;
+    }
 
-> Para descargar responde a este mensaje con *1* o *2*.` */
-await conn.sendMessage(m.chat, {
-text: txt,
-contextInfo: { 
-forwardingScore: 9999, 
-isForwarded: true, 
-externalAdReply: {
-title: `${yt_play[0].title}`,
-body: dev,
-thumbnailUrl: img,
-thumbnail: img,
-sourceUrl: `${yt_play[0].url}`,
-mediaType: 1,
-renderLargerThumbnail: true
-}}}, { quoted: fkontak})
-await m.react(done)
-} catch {
-await m.reply(`✘ Ocurrío un error`)}}
+    let { title, thumbnail, ago, timestamp, views, videoId, url } = play;
 
-handler.help = ['play *<búsqueda>*', 'play2 *<busqueda>*']
-handler.tags = ['descargas', 'youtube']
-handler.command = ['play', 'play2']
-handler.register = true
-export default handler
+    let txt = '```𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙳𝚎𝚜𝚌𝚊𝚛𝚐𝚊𝚜```\n';
+    txt += '╭━─━─━─━─≪✠≫─━─━─━─━╮\n';
+    txt += `> *Titulo* : _${title}_\n`;
+    txt += `> *Creado* : _${ago}_\n`;
+    txt += `> *Duración* : _${timestamp}_\n`;
+    txt += `> *Visitas* : _${views.toLocaleString()}_\n`;
+    txt += `> *𝙻𝚒𝚗𝚔* : _https://www.youtube.com/watch?v=${videoId}_\n`;
+    txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
+    txt += '*🧸 GOKUBOT-MD ✨️*';
 
-async function search(query, options = {}) {
-let search = await yts.search({ query, hl: "es", gl: "ES", ...options });
-return search.videos;
-}
+    await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
+        ['audioMP3', `${usedPrefix}ytmp3 ${url}`],
+        ['audioMP3DOC', `${usedPrefix}ytmp3doc ${url}`],
+        ['videoMP4', `${usedPrefix}ytmp4 ${url}`], 
+        ['videoMP4DOC', `${usedPrefix}ytmp4doc ${url}`]
+        ], null, [['Canal', 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e']], m);
 
-function MilesNumber(number) {
-let exp = /(\d)(?=(\d{3})+(?!\d))/g;
-let rep = "$1.";
-let arr = number.toString().split(".");
-arr[0] = arr[0].replace(exp, rep);
-return arr[1] ? arr.join(".") : arr[0];
-}
+    await m.react('✔️');
+};
 
-function secondString(seconds) {
-seconds = Number(seconds);
-var d = Math.floor(seconds / (3600 * 24));
-var h = Math.floor((seconds % (3600 * 24)) / 3600);
-var m = Math.floor((seconds % 3600) / 60);
-var s = Math.floor(seconds % 60);
-var dDisplay = d > 0 ? d + (d == 1 ? ":" : ":") : "";
-var hDisplay = h > 0 ? h + (h == 1 ? ":" : ":") : "";
-var mDisplay = m > 0 ? m + (m == 1 ? ":" : ":") : "";
-var sDisplay = s > 0 ? s + (s == 1 ? "" : "") : "";
-return dDisplay + hDisplay + mDisplay + sDisplay;
-}
+handler.help = ['play', 'play2', 'ytmp3'];
+handler.tags = ['dl'];
+handler.command = ['play',];
+
+export default handler;
