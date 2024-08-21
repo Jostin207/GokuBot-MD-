@@ -3,7 +3,7 @@ import yts from 'yt-search';
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     if (!text) {
-        return conn.reply(m.chat, '*¿Qué quieres que busque GokuBot-MD?*', m);
+        return conn.reply(m.chat, '*¿Qué quieres que busque 𝖾𝗅 𝖻𝗈𝗍 GokuBot-MD?*', m);
     }
 
     await m.react('⏳');
@@ -26,7 +26,7 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
     txt += '*🧸 GOKUBOT-MD ✨️*';
 
-    await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
+    await conn.sendButton(m.chat, txt, '. ', thumbnail, [
         ['audioMP3', `${usedPrefix}ytmp3 ${url}`],
         ['audioMP3DOC', `${usedPrefix}ytmp3doc ${url}`],
         ['videoMP4', `${usedPrefix}ytmp4 ${url}`], 
