@@ -2,9 +2,6 @@
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=GokuBot-MD+%E2%9C%A8%EF%B8%8F;Gracias+Por+Visitar+Este+Repositorio+;Espero+Te+Guste+Mucho;D%C3%A9janos+Una+Estrella+%F0%9F%8C%9F+(No+Obligatorio)" alt="Typing SVG" /></a>
 
-### **`EL BOT QUEDARA EN MANO DE LOS COLABORADORES YA QUE YO (JOSTIN207) ME RETIRO DE LOS BOTS POR UN TIEMPO Y LA VERSIÓN QUEDARÁ OBSOLETA...`**
-
-
 ------------------
 
 ## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+FOTO+DE+GOKUBOT-MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
