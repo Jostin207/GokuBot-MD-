@@ -24,54 +24,6 @@
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
 
-
-### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=6532F7&width=435&lines=+%F0%9F%91%BE+ACTIVAR+EN+TERMUX+%F0%9F%91%BE" alt="Typing SVG" /></a> 
-
-```bash
-cd && termux-setup-storage
-```
-
-```bash
-apt-get update -y && apt-get upgrade -y
-```
-
-```bash
-git clone https://github.com/Jostin207/GokuBot-MD.git && cd GokuBot-MD
-```
-
-```bash
-yarn install && npm install
-```
-
-```bash
-npm start
-```
-
-### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=5A5A5A&width=435&lines=%E2%9C%94%EF%B8%8F+ACTIVAR+EN+CASO+DE+DETENERSE+EN+TERMUX+%E2%9C%94%EF%B8%8F" alt="Typing SVG" /></a> 
-
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=-+ESCRIBE+LOS+SIGUIENTES+COMANDOS+UNO+POR+UNO%3A" alt="Typing SVG" /></a>
-```bash
- cd
-```
-```bash
- cd Goku-termux
-```
-```bash
- npm start
-```
-
-###  <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=CCEBF7&width=435&lines=%F0%9F%91%BD+OBTENER+OTRO+CODIGO+QR+EN+TERMUX+%F0%9F%91%BD" alt="Typing SVG" /></a> 
-
-*<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=5&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=-+DETENER+EL+BOT+DANDO+CLICK+EN+EL+SIMBOLO+CTROL+EN+TERMUX+MAS+LA+LETRA+Z+EN+SU+TECLADO+MOVIL+HASTA+QUE+SALGA+ALGO+EN+VERDE+SIMILAR+A++Goku-termux+%24++" alt="Typing SVG" /></a>*
-
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFE579&center=true&width=435&lines=ESCRIBE+LOS+SIGUIENTES+COMANDOS+UNO+POR+UNO%3A" alt="Typing SVG" /></a>
-
-```bash
-> cd 
-> cd GokuBot-MD
-> rm -rf GokuSession
-> npm start
-```
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=1A11F7&width=435&lines=%F0%9F%94%B5+OLYMPUS-HOST+%F0%9F%94%B5" alt="Typing SVG" /></a> 
 <a href="https://dash.olympus-host.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
 
