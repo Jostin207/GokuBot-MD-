@@ -57,4 +57,14 @@ href="https://github.com/GataNina-Li/GataBot-MD"><img src="https://github.com/Ga
 <a
 href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="140" height="140" alt="Jostin"/></a>
 
+-----------
+
+
+### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=A5FF8A&center=true&width=435&lines=TEAM+DONDE+ESTA+GOKUBOT-MD+%F0%9F%91%87+" alt="Typing SVG" /></a>
+
+[© Powered By Sunlight Team ⚡︎](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z)
+
+[© Powered By SixFin Team ✨️](https://whatsapp.com/channel/0029Vah3kivHbFV2Ky0teP0y)
+
+
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=6CFF54&center=true&width=435&lines=GokuBot-MD+-+By+Jostin207+" alt="Typing SVG" /></a>
