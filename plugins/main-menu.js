@@ -2,67 +2,72 @@ import { promises } from 'fs'
 import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
+}
 
 let tags = {
-  'main': 'Info 📚',
-  'buscador': 'Busquedas 🔎',
-  'fun': 'Juegos 🎮',
-  'jadibot': 'Sub Bots 🤖',
-  'rpg': 'RPG 🌠',
-  'rg': 'Registro 📁',
-  'xp': 'Exp 🏷',
-  'sticker': 'Stickers 🏞',
-  'anime': 'Animes 🍧',
-  'database': 'Database ✨️',
-  'fix': 'Fixmsgespera 💭',
-  'grupo': 'Grupos 👥',
-  'nable': 'On / Off 📴', 
-  'descargas': 'Descargas 📥',
-  'youtube': 'Youtube Play 📥',
-  'tools': 'Herramientas 🔧',
-  'info': 'Información 🐢',
-  'nsfw': 'Nsfw 🔞', 
-  'owner': 'Creador 👑', 
-  'mods': 'Staff 𝖦𝗈𝗄𝗎 🌹',
-  'audio': 'Audios 🔉', 
-  'ai': 'Ai 🌹',
-  'transformador': 'Convertidores 🚩',
+  'main': '🄸🄽🄵🄾×🄱🄾🅃',
+  'buscador': '🄱🅄🅂🄲🄰🄳🄾🅁🄴🅂',
+  'fun': '🄹🅄🄴🄶🄾🅂',
+  'citaboom': '🄲🄸🅃🄰🄱🄾🄾🄼',  
+  'jadibot': '🅂🄴🅁🄱🄾🅃',
+  'rpg': '×🅁×🄿×🄶×',
+  'rg': '🅁🄴🄶🄸🅂🅃🅁🄾',
+  'xp': '×🄴×🅇×🄿×',
+  'sticker': '🅂🅃🄸🄲🄺🄴🅁🅂',
+  'anime': '🄰🄽🄸🄼🄴🅂',
+  'database': '🄳🄰🅃🄰🄱🄰🅂🄴',
+  'fix': '🄵🄸🅇🄼🄴🄽🅂🄰🄹🄴',
+  'grupo': '🄶🅁🅄🄿🄾🅂',
+  'nable': '🄾🄽 / 🄾🄵🄵', 
+  'descargas': '🄳🄴🅂🄲🄰🅁🄶🄰🅂',
+  'youtube': '🅈🄾🅄🅃🅄🄱🄴',
+  'tools': '🄷🄴🅁🅁🄰🄼🄸🄴🄽🅃🄰🅂',
+  'info': '🄸🄽🄵🄾🅁🄼🄰🄲🄸🄾́🄽',
+  'nsfw': '🄽🅂🄵🅆', 
+  'owner': '🄲🅁🄴🄰🄳🄾🅁', 
+  'mods': '🅂🅃🄰🄵🄵 ',
+  'audio': '🄰🅄🄳🄸🄾🅂', 
+  'ai': '×🄰×🄸×',
+  'transformador': '🄲🄾🄽🅅🄴🅁🅃🄸🄳🄾🅁🄴🅂',
 }
 
 const defaultMenu = {
-  before: `*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
+  before: `.........․⁀⸱⁀⸱︵⸌⸃૰⳹․⚡․⳼૰⸂⸍︵⸱⁀⸱⁀․........
+𔓕꯭  ꯭ 𓏲꯭֟፝੭ ꯭⌑(꯭𝐊).꯭𝐔.꯭𝐍.꯭𝐀.꯭𝐈⌑꯭ 𓏲꯭֟፝੭ ꯭  ꯭𔓕
+▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭
 
-“ Hola *%name*, mi nombre es *𝖦𝗈𝗄𝗎Bot*, Cómo se encuentra el día de hoy?  ”
+“ Hola humano, tu eres *%name* y yo soy *Goku-Bot*, %greeting ”
 
-*╭──⬣「 Info User 」⬣*
-*│* ✰ 💌 *Cliente:* %name
-*│* ✰ ⚡️ *Exp:* %exp
-*│* ✰ 🌟 *Estrellas:* %estrellas
-*│* ✰ 🐢 *Nivel:* %level
-*│* ✰ ⚓ *Rango:* %role
-*╰──⬣*
-
-*╭──⬣「 Info Bot 」⬣*
-*│* ✰ 🌹 *Bot:* 𝖦𝗈𝗄𝗎 Bot - MD 
-*│* ✰ 💖 *Modo* Público
-*│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ 🕒 *Tiempo Activo:* %muptime
-*│* ✰ 👤 *Usuarios:* %totalreg
-*╰──⬣*
-
-*╭──⬣「 SubBot / Bot Ofc 」⬣*
-*│* ✰ %botofc 
-*╰──⬣*
+.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍧⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮
+╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ 🄼🄴🄽🅄-🄱🄾🅃໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️
+┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍧⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯
+├ׁ̟̇❍✎ *🄲ʀᴇᴀᴅᴏʀ:* _Jostin207_
+├ׁ̟̇❍✎ *🄼ᴏᴅᴏ:* Público
+├ׁ̟̇❍✎ *🄱ᴀɪʟᴇʏs:* Multi Device
+├ׁ̟̇❍✎ *🅃ɪᴇᴍᴘᴏ 🄰ᴄᴛɪᴠᴏ:* %muptime
+├ׁ̟̇❍✎ *🅄sᴜᴀʀɪᴏs:* %totalreg
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
 %readmore
-*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
+.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮
+╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ 🅄🅂🅄🄰🅁🄸🄾໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️
+┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯
+├ׁ̟̇❍✎ *🄲ʟɪᴇɴᴛᴇ:* %name
+├ׁ̟̇❍✎ *🄴xᴘ:* %exp
+├ׁ̟̇❍✎ *🄴sᴛʀᴇʟʟᴀs:* %estrellas
+├ׁ̟̇❍✎ *🄽ɪᴠᴇʟ:* %level
+├ׁ̟̇❍✎ *🅁ᴀɴɢᴏ:* %role
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
+%readmore
+*─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-  header: '*╭──⬣「 %category 」⬣*',
-  body: '*│* %cmd\n',
-  footer: '*╰──⬣*\n',
-  after: '',
+      header: '.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬☣️◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮\n╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ %category ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️\n┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬☣️◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯',
+  body: '├ׁ̟̇❍✎ %cmd\n',
+  footer: '╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝\n',
+  after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
@@ -150,7 +155,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '🌹 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🌹 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '☣️ 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `☣️ 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -161,7 +166,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/75305bf49469fed532d19.jpg')
 
   let category = "video"
   const db = './media/database/db.json'
@@ -173,14 +178,41 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
   const gif = await response.buffer()
  // const img = imagen1
 
-await conn.reply(m.chat, '🚀 *¡Cargando El Menú Oficial!...*', m, rcanal)
+/*await conn.reply(m.chat, '╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*\n├ ⚘݄𖠵⃕⁖𖥔.Ƈᴀʀɢᴀɴᴅᴏ,  ꪶꪾ❍̵̤̂̂ꫂ\n├Ąɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ❞\n╰ׁ̻─ׅׄ─۪۬─۟─۪─۟─۪۬─۟─۪─۟─۪۬─۟─۪─۟┄۪۬┄۟┄۪┈۟┈۪', m, { contextInfo:{ forwardingScore: 2024, isForwarded: true, externalAdReply: {title: namechannel, body: '𝐃𝐞𝐯 𝐖𝐨𝐫𝐝 𝐓𝐞𝐚𝐦 𝐎𝐟𝐢𝐜𝐢𝐚𝐥', sourceUrl: channel, thumbnail: icons }}})*/
 
-m.react(emoji2) 
+// await conn.reply(m.chat, '🍟 Enviando el menú.....', m, rcanal)
 
-await conn.sendFile(m.chat, imagen1, 'goku.jpg', text.trim(), m, null, rcanal)
+await m.react('✨️') 
+
+//await conn.sendFile(m.chat, imagen1, 'yaemori.jpg', text.trim(), fkontak, null, rcanal)
+
+await conn.sendMessage(
+  m.chat,
+  { video: { url: vid }, caption: text.trim(),
+  contextInfo: {
+    mentionedJid: [m.sender],
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363220442272685@newsletter',
+      newsletterName: '⏤͟͞ू⃪ ፝͜⁞Goku✰⃔࿐ /ᥫᩣᴊᴏsᴛɪɴ207⋆̟',
+      serverMessageId: -1,
+    },
+    forwardingScore: 999,
+    externalAdReply: {
+      title: '⏤͟͞ू⃪ ፝͜⁞Goku✰⃔࿐',
+      body: dev,
+      thumbnailUrl: icono,
+      sourceUrl: redes,
+      mediaType: 1,
+      renderLargerThumbnail: false,
+    },
+  },
+
+  gifPlayback: true, gifAttribution: 0 },
+  { quoted: fkontak })
 
   } catch (e) {
-    conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error, intente mas tarde.', m, rcanal, )
+    conn.reply(m.chat, '*_[❗️] Lo sentimos, el menú tiene un error_*', m, rcanal, )
     throw e
   }
 }
@@ -195,11 +227,10 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 function clockString(ms) {
-  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 
   var ase = new Date();
