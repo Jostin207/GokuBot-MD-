@@ -1,19 +1,64 @@
-import {WAMessageStubType} from '@whiskeysockets/baileys'
-import fetch from 'node-fetch'
+import { WAMessageStubType } from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
 
-export async function before(m, {conn, participants, groupMetadata}) {
-if (!m.messageStubType || !m.isGroup) return !0
-let vn = 'https://qu.ax/cUYg.mp3'
-let img = imagen1
-let chat = global.db.data.chats[m.chat]
+export async function before(m, { conn, participants, groupMetadata }) {
+  if (!m.messageStubType || !m.isGroup) return true;
 
-if (chat.welcome && m.messageStubType == 27) {
-this.sendMessage(m.chat, { audio: { url: vn }, contextInfo:{ mentionedJid:[nombre], "externalAdReply": { "thumbnail": img, "title": `乂 Ｗ Ｅ Ｌ Ｃ Ｏ Ｍ Ｅ 乂`, "body": dev, "previewType": "PHOTO", "thumbnailUrl": null, "showAdAttribution": true,  sourceUrl: [tiktok, yt, md, channel].getRandom()}},  ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: fkontak })}
+  let vn = 'https://qu.ax/cTDa.mp3';
+  let vn2 = 'https://qu.ax/xynz.mp3';
+  let welc = welcome;
+  let adi = adios;
+  let chat = global.db.data.chats[m.chat];
+  const getMentionedJid = () => {
+    return m.messageStubParameters.map(param => `${param}@s.whatsapp.net`);
+  };
 
-if (chat.welcome && m.messageStubType == 28) {
-this.sendMessage(m.chat, { text: `Se fue @${m.messageStubParameters[0].split`@`[0]} nadie lo va ha extrañar 😹`,
-contextInfo:{ forwardedNewsletterMessageInfo: { newsletterJid: '120363220442272685@newsletter', serverMessageId: '', newsletterName: 'Goku Bot Canal 🫂' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[nombre], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 Ａ Ｄ Ｉ Ｏ́ Ｓ 乂', body: `Esperemos que no vuelva -_-`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": img, "sourceUrl": `${redes}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+  let who = m.messageStubParameters[0] + '@s.whatsapp.net';
+  let user = global.db.data.users[who];
 
-if (chat.welcome && m.messageStubType == 32) {
-this.sendMessage(m.chat, { text: `Se fue @${m.messageStubParameters[0].split`@`[0]} nadie lo va ha extrañar 😹`,
-contextInfo:{ forwardedNewsletterMessageInfo: { newsletterJid: '120363220442272685@newsletter', serverMessageId: '', newsletterName: 'Goku Bot Canal. 🫂' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[nombre], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 Ａ Ｄ Ｉ Ｏ́ Ｓ 乂', body: `Esperemos que no vuelva -_-`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": img, "sourceUrl": `${redes}`}}}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}}
+  let userName = user ? user.name : await conn.getName(who);
+
+  if (chat.welcome && m.messageStubType === 27) {
+    this.sendMessage(m.chat, {
+      audio: { url: vn },
+      contextInfo: {
+        mentionedJid: getMentionedJid(),
+        "externalAdReply": {
+          "thumbnail": welc,
+          "title": "  ͟͞ Ｗ Ｅ Ｌ Ｃ Ｏ Ｍ Ｅ ͟͞  ",
+          "body": `${userName}!`,
+          "previewType": "PHOTO",
+          "thumbnailUrl": null,
+          "showAdAttribution": true,
+          sourceUrl: [yt, md, channel].sort(() => 0.5 - Math.random())[0]
+        }
+      },
+      ptt: true,
+      mimetype: 'audio/mpeg',
+      fileName: 'welcome.mp3'
+    }, { quoted: fkontak });
+  }
+
+  if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
+    this.sendMessage(m.chat, {
+      audio: { url: vn2 },
+      contextInfo: {
+        mentionedJid: getMentionedJid(),
+        "externalAdReply": {
+        "thumbnail": adi,
+        "title": '  ͟͞ Ａ Ｄ Ｉ Ｏ Ｓ ͟͞  ',
+        "body": `${userName}, se despide.`,
+        "previewType": "PHOTO",
+          "showAdAttribution": true,
+          "containsAutoReply": true,
+         "thumbnailUrl": null,
+          "showAdAttribution": true,
+          "sourceUrl": redes
+        }
+      },
+      ptt: true,
+      mimetype: 'audio/mpeg',
+      fileName: 'bye.mp3'
+    }, { quoted: fkontak });
+  }
+}
