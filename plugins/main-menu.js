@@ -28,37 +28,33 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `© Menu Oficial De GokuBot-MD ✨️
+  before: `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ *INFORMACIÓN USER* ✧
-┃│
-┃│「🥷」 𝐂𝐥𝐢𝐞𝐧𝐭𝐞: \`\`\`%name\`\`\`
-┃│「💫」 𝐄𝐱𝐩: \`\`\`%exp\`\`\`
-┃│「🌟」 𝐄𝐬𝐭𝐫𝐞𝐥𝐥𝐚𝐬: \`\`\`%estrellas\`\`\`
-┃│「🌫」 𝐍𝐢𝐯𝐞𝐥: \`\`\`%level\`\`\`
-┃│「☁️」 𝐑𝐚𝐧𝐠𝐨: \`\`\`%role\`\`\`
-┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
+“ Hola *%name* soy *GokuBot-MD*, %greeting ”
 
-┏━━━━━━━━━━━━━━━━━━━⫸
-┃╭──────────────────╸
-┃│ ✧ *INFORMACIÓN* ✧
-┃│  
-┃│「👑」 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: ⏤͟͟͞͞Jostin207
-┃│「🪴」 𝐌𝐨𝐝𝐨: \`\`\`Publico\`\`\`
-┃│「📚」 𝐋𝐢𝐛𝐫𝐞𝐫𝐢𝐚: \`\`\`Baileys\`\`\`
-┃│「🕒」 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝: \`\`\`%muptime\`\`\`
-┃│「👤」 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬: \`\`\`%totalreg\`\`\`
-┃╰──────────────────╸
-┗━━━━━━━━━━━━━━━━━━━⫸
+┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
+┃⋄ 🍟 *Bot:* GokuBot - MD 
+┃⋄ 🍂 *Modo* Público
+┃⋄ ✨️ *Baileys:* Multi Device
+┃⋄ ⌛️ *Tiempo Activo:* %muptime
+┃⋄ 🫂 *Usuarios:* %totalreg
+┗━━◘
+%readmore
+┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
+┃⋄ 🚩 *Cliente:* %name
+┃⋄ 💠 *Exp:* %exp
+┃⋄ 🌟 *Estrellas:* %estrellas
+┃⋄ 🐢 *Nivel:* %level
+┃⋄ ⚓ *Rango:* %role
+┗━━◘
+%readmore
+*─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-    header: '┏━━━━━━━━━━━━━━━━━━━⫸\n┃ *✧ %category ✧*\n┃╭──────────────────╸',
-  body: '┃│ %cmd',
-  footer: '┃╰──────────────────╸\n┗━━━━━━━━━━━━━━━━━━━⫸\n',
+    header: '*┏━⊜「 %category 」*',
+  body: '*┃›* %cmd',
+  footer: '*┗━⬣*\n',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -156,9 +152,9 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-await m.react('✅️') 
+await m.react('✨️') 
 
-await conn.sendMessage(m.chat, {text: text, contextInfo: { forwardingScore: 999, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterName: '© GokuBot-MD - Channel 🌱', newsletterJid: "120363220442272685@newsletter", }, externalAdReply: { title: '© GokuBot - MD 🧸', body: dev, thumbnailUrl: 'https://telegra.ph/file/c385941c7c5d1d72f7e48.jpg', sourceUrl: redeshost, mediaType: 1, renderLargerThumbnail: true }}}, {quoted: fkontak})
+conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: dev, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: m})
 
   } catch (e) {
     conn.reply(m.chat, '❌️ Lo sentimos, el menú tiene un error', m, rcanal, )
