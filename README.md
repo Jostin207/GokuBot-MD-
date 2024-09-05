@@ -39,7 +39,7 @@
 [`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Correo%3A" alt="Typing SVG" /></a> 
-[`Aquí`](olympushost2@gmail.com.com)
+[`Aquí`](olympushost2@gmail.com)
 
 **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=-+%5Bx%5D+Configuraci%C3%B3n" alt="Typing SVG" /></a>** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://telegra.ph/file/df9e39ea02ef177ac5194.jpg"></details>
 
