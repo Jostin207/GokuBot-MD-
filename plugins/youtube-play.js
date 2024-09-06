@@ -26,13 +26,6 @@ let handler = async (m, { conn, command, args, text, usedPrefix }) => {
     txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
     txt += '*🧸 GOKUBOT-MD ✨️*';
 
-    await conn.sendButton(m.chat, txt, '. ', thumbnail, [
-        ['audioMP3', `${usedPrefix}ytmp3 ${url}`],
-        ['audioMP3DOC', `${usedPrefix}ytmp3doc ${url}`],
-        ['videoMP4', `${usedPrefix}ytmp4 ${url}`], 
-        ['videoMP4DOC', `${usedPrefix}ytmp4doc ${url}`]
-        ], null, [['Canal', 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e']], m);
-
     await m.react('✔️');
 };
 
