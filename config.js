@@ -139,6 +139,7 @@ global.APIKeys = {
 };
 
 /** ************************/
+global.isBaileysFail = true
 global.cheerio = cheerio;
 global.fs = fs;
 global.fetch = fetch;
