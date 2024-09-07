@@ -45,7 +45,7 @@ isForwarded: true,
 title: `✨️ 𝐂O𝐑𝐈𝐍𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 ✨️`,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/551d3d544d7bc607fd337.jpg', 
+thumbnailUrl: 'https://qu.ax/XSHk.jpg', 
 sourceUrl: redeshost}}},
 { quoted: fkontak})
 } 
