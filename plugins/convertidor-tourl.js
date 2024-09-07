@@ -1,3 +1,5 @@
+// Credito: @Jostin (Ladron de codigo)
+
 import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
