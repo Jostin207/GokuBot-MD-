@@ -28,7 +28,7 @@ let handler = async (m) => {
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, fkontak, rcanal)
 await m.react(done)
 } catch {
-await conn.reply(m.chat, '❗️ Ocurrió un error', m, fake)
+await conn.reply(m.chat, '❗️ Ocurrió un error', m, rcanal)
 await m.react(error)
 }}
 handler.help = ['tourl']
