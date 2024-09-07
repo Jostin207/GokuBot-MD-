@@ -24,24 +24,24 @@
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
 
-### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=1A11F7&width=435&lines=%F0%9F%94%B5+OLYMPUS-HOST+%F0%9F%94%B5" alt="Typing SVG" /></a> 
-<a href="https://dash.olympus-host.xyz"><img src="https://qu.ax/waCu.jpg" height="125px"></a>
+### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=1A11F7&width=435&lines=%F0%9F%94%B5+CorinPlus-Host+%F0%9F%94%B5" alt="Typing SVG" /></a> 
+<a href="https://dash.corinplus.com/"><img src="https://qu.ax/XSHk.jpg" height="125px"></a>
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=0026FF&width=435&lines=Informaci%C3%B3n+del+Host" alt="Typing SVG" /></a>
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Dashboard%3A" alt="Typing SVG" /></a> 
-[`Aquí`](https://dash.olympus-host.xyz)
+[`Aquí`](https://dash.corinplus.com/)
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Panel%3A" alt="Typing SVG" /></a> 
-[`Aquí`](https://panel.olympus-host.xyz)
+[`Aquí`](https://ctrl.corinplus.com/)
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Canal+de+WhatsApp%3A" alt="Typing SVG" /></a> 
-[`Aquí`](https://whatsapp.com/channel/0029ValCkNT2ER6gHWFRQ71J)
+[`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Correo%3A" alt="Typing SVG" /></a> 
-[`Aquí`](olympushost2@gmail.com)
+<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Discord%3A" alt="Typing SVG" /></a> 
+[`Aquí`](https://discord.com/invite/T7ksHu7mkz)
 
-**<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=-+%5Bx%5D+Configuraci%C3%B3n" alt="Typing SVG" /></a>** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://telegra.ph/file/df9e39ea02ef177ac5194.jpg"></details>
+**<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=-+%5Bx%5D+Configuraci%C3%B3n" alt="Typing SVG" /></a>** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://qu.ax/Cohs.jpg"></details>
 
  ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFCE00&width=435&lines=%F0%9F%91%91+DUDAS+SOBRE+EL+BOT%3F%2CCONTACTA+AL+CREADOR+%F0%9F%91%91" alt="Typing SVG" /></a> 
 <a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN-CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
