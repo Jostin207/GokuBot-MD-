@@ -7,7 +7,7 @@
 "success_url": "https://github.com/Jostin207/GokuBot-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "luffy"],
+"cloudahell", "super-whatsappbot", "multi_device", "botsito-md", "officialgit", "javascript", "mini", "ai", "diegoofc", "dev-diego"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
