@@ -119,7 +119,7 @@ return conn.reply(m.chat, '🌟 *Inténtelo de nuevo*', m, rcanal, )}
 }
 handler.help = ['play3', 'play4']
 handler.tags = ['descargas']
-handler.command = /^(playdoc|playdoc2|play3|play4)$/i
+handler.command = ['playdoc', 'playdoc2', 'play3', 'play4']
 
 //handler.estrellas = 1
 handler.register = true
