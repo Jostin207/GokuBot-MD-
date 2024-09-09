@@ -15,6 +15,8 @@ import { xpRange } from '../lib/levelling.js'
 youtube: 'https://youtube.com/@Jostin207oficialmanito'
 };*/
 
+conn.reply(m.chat,'📚 Espere Un Momento, Ya Le Mando El Menú', m, rcanal)
+
 let tags = {
   'main': '🄸🄽🄵🄾×🄱🄾🅃',
   'buscador': '🄱🅄🅂🄲🄰🄳🄾🅁🄴🅂',
