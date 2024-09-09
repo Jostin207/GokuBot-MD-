@@ -24,12 +24,10 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
 
+### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&background=FF000000&width=435&lines=%F0%9F%96%87%EF%B8%8F+Hostings+Donde+Esta+GokuBot-MD+%E2%9C%A8" alt="Typing SVG" /></a>
+
 ### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F2F700&background=FF000000&width=435&lines=%E2%98%81%EF%B8%8F+CorinPlus+Host+%E2%98%81%EF%B8%8F" alt="Typing SVG" /></a>
 <a href="https://dash.corinplus.com/"><img src="https://qu.ax/XSHk.jpg" height="125px"></a>
-
-###
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F70000&background=FF000000&width=435&lines=%F0%9F%96%87%EF%B8%8F+Hostings+Donde+Esta+GokuBot-MD+%E2%9C%A8" alt="Typing SVG" /></a>
-
 
 ### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F3F729&background=FF000000&width=435&lines=%F0%9F%8C%88+Informaci%C3%B3n+Del+Host+%E2%9C%A8" alt="Typing SVG" /></a>
 
