@@ -3,58 +3,81 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
+/*let icono = '🔰';*/
+
+/*let fkontak = {
+  id: '593939005387@s.whatsapp.net',
+  name: 'JOSTIN' //jajajaaj
+};*/
+
+
+/*let redes = {
+youtube: 'https://youtube.com/@Jostin207oficialmanito'
+};*/
+
 let tags = {
-  'main': 'INFO 📚',
-  'buscador': 'BUSQUEDAS 🔎',
-  'fun': 'JUEGOS 🎮',
-  'serbot': 'SUB BOTS 🤖',
-  'rpg': 'RPG 🌠',
-  'rg': 'REGISTRO 📁',
-  'xp': 'EXP 🏷',
-  'sticker': 'STICKERS 🏞',
-  'anime': 'ANIMES 🍧',
-  'database': 'DATABASE ✨️',
-  'fix': 'FIXMSGESPERA 💭',
-  'grupo': 'GRUPOS 👥',
-  'nable': 'ON / OFF 📴', 
-  'descargas': 'DESCARGAS 📥',
-  'tools': 'HERRAMIENTAS 🔧',
-  'info': 'INFORMACIÓN 🐢',
-  'nsfw': 'NSFW 🔞', 
-  'owner': 'CREADOR 👑', 
-  'audio': 'AUDIOS 🔉', 
-  'ai': 'AI 🌹',
-  'transformador': 'CONVERTIDORES 🚩',
+  'main': '🄸🄽🄵🄾×🄱🄾🅃',
+  'buscador': '🄱🅄🅂🄲🄰🄳🄾🅁🄴🅂',
+  'fun': '🄹🅄🄴🄶🄾🅂',
+  'citaboom': '🄲🄸🅃🄰🄱🄾🄾🄼',  
+  'jadibot': '🅂🄴🅁🄱🄾🅃',
+  'rpg': '×🅁×🄿×🄶×',
+  'rg': '🅁🄴🄶🄸🅂🅃🅁🄾',
+  'xp': '×🄴×🅇×🄿×',
+  'sticker': '🅂🅃🄸🄲🄺🄴🅁🅂',
+  'anime': '🄰🄽🄸🄼🄴🅂',
+  'database': '🄳🄰🅃🄰🄱🄰🅂🄴',
+  'fix': '🄵🄸🅇🄼🄴🄽🅂🄰🄹🄴',
+  'grupo': '🄶🅁🅄🄿🄾🅂',
+  'nable': '🄾🄽 / 🄾🄵🄵', 
+  'descargas': '🄳🄴🅂🄲🄰🅁🄶🄰🅂',
+  'youtube': '🅈🄾🅄🅃🅄🄱🄴',
+  'tools': '🄷🄴🅁🅁🄰🄼🄸🄴🄽🅃🄰🅂',
+  'info': '🄸🄽🄵🄾🅁🄼🄰🄲🄸🄾́🄽',
+  'nsfw': '🄽🅂🄵🅆', 
+  'owner': '🄲🅁🄴🄰🄳🄾🅁', 
+  'mods': '🅂🅃🄰🄵🄵 🄽🄴🄶🅄🄽🄸🄽',
+  'audio': '🄰🅄🄳🄸🄾🅂', 
+  'ai': '×🄰×🄸×',
+  'transformador': '🄲🄾🄽🅅🄴🅁🅃🄸🄳🄾🅁🄴🅂',
 }
 
 const defaultMenu = {
-  before: `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
+  before: `.........․⁀⸱⁀⸱︵⸌⸃૰⳹⚡⳼૰⸂⸍︵⸱⁀⸱⁀․........
+𔓕꯭  ꯭ 𓏲꯭֟፝੭ ꯭⌑𝐊𝐈⌑꯭ 𓏲꯭֟፝੭ ꯭  ꯭𔓕
+▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭͞▬͞▭
 
-“ Hola *%name* soy *GokuBot-MD*, %greeting ”
+“ Hola humano, tu eres *%name* y yo soy *GokuBot-MD*, %greeting ”
 
-┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
-┃⋄ 🍟 *Bot:* GokuBot - MD 
-┃⋄ 🍂 *Modo* Público
-┃⋄ ✨️ *Baileys:* Multi Device
-┃⋄ ⌛️ *Tiempo Activo:* %muptime
-┃⋄ 🫂 *Usuarios:* %totalreg
-┗━━◘
+.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍧⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮
+╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ 🄼🄴🄽🅄-🄱🄾🅃໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️
+┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍧⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯
+├ׁ̟̇❍✎ *🄲ʀᴇᴀᴅᴏʀ:* _Jostin207_
+├ׁ̟̇❍✎ *🄼ᴏᴅᴏ:* Público
+├ׁ̟̇❍✎ *🄱ᴀɪʟᴇʏs:* Multi Device
+├ׁ̟̇❍✎ *🅃ɪᴇᴍᴘᴏ 🄰ᴄᴛɪᴠᴏ:* %muptime
+├ׁ̟̇❍✎ *🅄sᴜᴀʀɪᴏs:* %totalreg
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
 %readmore
-┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
-┃⋄ 🚩 *Cliente:* %name
-┃⋄ 💠 *Exp:* %exp
-┃⋄ 🌟 *Estrellas:* %estrellas
-┃⋄ 🐢 *Nivel:* %level
-┃⋄ ⚓ *Rango:* %role
-┗━━◘
+.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮
+╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ 🅄🅂🅄🄰🅁🄸🄾໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️
+┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍨⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯
+├ׁ̟̇❍✎ *🄲ʟɪᴇɴᴛᴇ:* %name
+├ׁ̟̇❍✎ *🄴xᴘ:* %exp
+├ׁ̟̇❍✎ *🄴sᴛʀᴇʟʟᴀs:* %estrellas
+├ׁ̟̇❍✎ *🄽ɪᴠᴇʟ:* %level
+├ׁ̟̇❍✎ *🅁ᴀɴɢᴏ:* %role
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
+
 %readmore
 *─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ─*
 
 \t*L I S T A  -  D E  -  C O M A N D O S* 
 `.trimStart(),
-    header: '*┏━⊜「 %category 」*',
-  body: '*┃›* %cmd',
-  footer: '*┗━⬣*\n',
+      header: '.    ╭─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬⚡◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╮\n╭╼☁️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ %category ໑⃪࣭۪ٜ݊݊݊݊𑁍ꥈ࣪⬪☁️\n┃֪࣪  ╰─ׅ─ׅ┈ ─๋︩︪─☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬⚡◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸─ׅ─ׅ┈ ─๋︩︪─╯',
+  body: '├ׁ̟̇❍✎ %cmd\n',
+  footer: '╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝\n',
   after: `> ${dev}`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -143,7 +166,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '🚩 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🚩 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '✨ 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `✨ 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -152,18 +175,31 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-await m.react('✨️') 
+const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: dev, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": global.channel, "sourceUrl": global.channel}}}, {quoted: m})
+const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QUmk.jpg')
+await m.react('🕚') 
+await m.react('✅️') 
+  let category = "video"
+  const db = './media/database/db.json'
+  const db_ = JSON.parse(fs.readFileSync(db))
+  const random = Math.floor(Math.random() * db_.links[category].length)
+  const rlink = db_.links[category][random]
+  global.vid = rlink
+  const response = await fetch(vid)
+  const gif = await response.buffer()
+ // const img = imagen1
+
+await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
 
   } catch (e) {
-    conn.reply(m.chat, '❌️ Lo sentimos, el menú tiene un error', m, rcanal, )
+    conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
     throw e
   }
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú', 'menuall', 'allmenú', 'allmenu', 'menucompleto'] 
+handler.command = ['menu', 'menú', 'menuall', 'allmenú', 'allmenu', 'menucompleto'] 
 handler.register = true
 
 export default handler
