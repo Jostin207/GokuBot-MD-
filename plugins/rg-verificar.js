@@ -11,7 +11,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   if (user.registered === true) throw `*『✰』Ya estás registrado, para volver a registrarte, usa el comando: #unreg*`
 
-  if (!Reg.test(text)) return m.reply(`❌ Formato incorrecto.\n\nUso Correcto del comando: *!reg nombre .edad*\nEjemplo : !reg Jostin207 .18*`)
+  if (!Reg.test(text)) return m.reply(`❌ Formato incorrecto.\n\nUso Correcto del comando: *!reg nombre .edad*\n*Ejemplo* : !reg *Jostin207* .18\n\nNo Pongas Los "*" Porque No Funcionará El Registro.`)
 
   if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
   if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
