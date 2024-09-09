@@ -3,7 +3,6 @@ let staff = `🌹 *EQUIPO DE AYUDANTES*
 
 🌱 *Bot:* ${botname}
 🍟 *Versión:* ${vs}
-🪴 *Libreria:* ${libreria + baileys}
 
 👑 *Propietario:*
 
