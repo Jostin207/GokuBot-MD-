@@ -199,8 +199,8 @@ await m.react(done)
 await conn.sendMini(m.chat, packname, wm, text.trim(), icons, icons, redes, null)
 
   } catch {
-    conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
-await m.react(error)
+ await m.react(error)  
+ conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
    // throw e
   }
 }
