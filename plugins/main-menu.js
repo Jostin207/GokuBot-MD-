@@ -198,7 +198,7 @@ await m.react('✅️')
 
 //await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
 
-await conn.sendMini(m.chat, packname, wm, text.trim(), img, img, redes, null)
+await conn.sendMini(m.chat, packname, wm, text.trim(), img, img, redes, m)
 
   } catch (e) {
     conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
