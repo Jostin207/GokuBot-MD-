@@ -45,8 +45,7 @@ isForwarded: true,
 title: `✨️ 𝐂O𝐑𝐈𝐍𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 ✨️`,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/XSHk.jpg', 
-sourceUrl: redeshost}}},
+thumbnailUrl: 'https://qu.ax/XSHk.jpg',
 { quoted: fkontak})
 } 
 handler.tags = ['main'] 
