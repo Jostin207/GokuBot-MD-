@@ -49,7 +49,7 @@ title: `🥷 Developers 👑`,
 body: `🌹 Staff Oficial`,
 mediaType: 1,
 sourceUrl: redes,
-thumbnailUrl: icono
+thumbnailUrl: icons
 }}
 }, { mentions: m.sender })
 m.react(emoji)
