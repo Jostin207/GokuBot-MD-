@@ -46,6 +46,6 @@ function formatBytes(bytes) {
 }
 
 async function shortUrl(url) {
-        let res = await fetch(`https://tinyurl.com/api-create.php?url=https//qu.ax/`)
+        let res = await fetch(`https://tinyurl.com/api-create.php?url=https://qu.ax/`)
         return await res.text()
 }
