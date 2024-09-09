@@ -24,7 +24,7 @@ await m.react(error)
 }}
 handler.help = ['mediafire']
 handler.tags = ['descargas']
-handler.command = ['mediafire', 'mdf', 'mf']
+handler.command = ['mediafire', 'mdfire', 'mf']
 handler.premium = false
 
 export default handler
