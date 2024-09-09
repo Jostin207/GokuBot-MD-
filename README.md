@@ -4,9 +4,9 @@
 
 ------------------
 
-## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+FOTO+DE+GOKUBOT-MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
+## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=%F0%9F%A7%B8+VIDEO+DE+GOKUBOT-MD+%E2%9C%A8%EF%B8%8F" alt="Typing SVG" /></a>**
 
-# ![logo](https://telegra.ph/file/75305bf49469fed532d19.jpg)
+https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
