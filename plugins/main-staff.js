@@ -28,7 +28,7 @@ title: `🥷 Developers 👑`,
 body: `🚩 Staff Oficial`,
 mediaType: 1,
 sourceUrl: redes,
-thumbnailUrl: icono
+//thumbnailUrl: icono
 }}
 }, { mentions: m.sender })
 await m.react(emoji)
