@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
-<a href="https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DEL_BOT_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DE_GokuBot_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 
 
