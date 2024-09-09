@@ -1,6 +1,4 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-
-/*let icono = '🔰';*/
 let staff = `🌹 *EQUIPO DE AYUDANTES*
 
 🌱 *Bot:* ${botname}
@@ -34,6 +32,8 @@ thumbnailUrl: icono
 }}
 }, { mentions: m.sender })
 await m.react(emoji)
+
+/*let icono = '🔰';*/
 
 }
 handler.help = ['staff']
