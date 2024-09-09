@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=-+%5Bx%5D+Configuraci%C3%B3n" alt="Typing SVG" /></a>** <details><summary>**Ajustes del Servidor - GokuBot**</summary><img src="https://qu.ax/Cohs.jpg"></details>
 
  ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFCE00&width=435&lines=%F0%9F%91%91+DUDAS+SOBRE+EL+BOT%3F%2CCONTACTA+AL+CREADOR+%F0%9F%91%91" alt="Typing SVG" /></a> 
-<a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN-CREADOR_De_GokuBot_~MD-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN_CREADOR-De_GokuBot_~MD-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=FF0099&width=435&lines=%F0%9F%92%96+AGRADECIMIENTOS+" alt="Typing SVG" /></a> 
