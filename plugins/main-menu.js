@@ -15,7 +15,15 @@ import { xpRange } from '../lib/levelling.js'
 youtube: 'https://youtube.com/@Jostin207oficialmanito'
 };*/
 
-conn.reply(m.chat, '📚 Ya Le Envio El Menú, Deme Un Segundo.', m, rcanal)
+await conn.reply(m.chat, '*📚 Ya Le Envio EL Menú, Deme Un Segundo.*', null, { 
+contextInfo: { 
+forwardingScore: 2022, 
+isForwarded: true, 
+externalAdReply: {
+title: null, 
+body: null, 
+sourceUrl: '', 
+thumbnail: null }}})
 
 let tags = {
   'main': '🄸🄽🄵🄾×🄱🄾🅃',
