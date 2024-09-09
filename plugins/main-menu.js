@@ -15,16 +15,6 @@ import { xpRange } from '../lib/levelling.js'
 youtube: 'https://youtube.com/@Jostin207oficialmanito'
 };*/
 
-await conn.reply(m.chat, '*📚 Ya Le Envio EL Menú, Deme Un Segundo.*', null, { 
-contextInfo: { 
-forwardingScore: 2022, 
-isForwarded: true, 
-externalAdReply: {
-title: null, 
-body: null, 
-sourceUrl: '', 
-thumbnail: null }}})
-
 let tags = {
   'main': '🄸🄽🄵🄾×🄱🄾🅃',
   'buscador': '🄱🅄🅂🄲🄰🄳🄾🅁🄴🅂',
@@ -188,8 +178,17 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
 const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QUmk.jpg')
+await conn.reply(m.chat, '*📚 Ya Le Envio EL Menú, Deme Un Segundo.*', null, { 
+contextInfo: { 
+forwardingScore: 2022, 
+isForwarded: true, 
+externalAdReply: {
+title: null, 
+body: null, 
+sourceUrl: '', 
+thumbnail: null }}})
 await m.react('✅️') 
-  let category = "video"
+  let category = "imagen"
   const db = './media/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
   const random = Math.floor(Math.random() * db_.links[category].length)
