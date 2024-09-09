@@ -47,7 +47,7 @@ body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/XSHk.jpg', 
 /*sourceUrl: redeshost}}},*/
-/*let redeshost = `https://dash.corinplus.com`*/ // segun yo es esto
+/* let redeshost = `https://dash.corinplus.com` */
 { quoted: fkontak})
 } 
 handler.tags = ['main'] 
