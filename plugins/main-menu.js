@@ -169,7 +169,7 @@ totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
 greeting, level, estrellas, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
-readmore: readMore
+readmore: readMore nk
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
