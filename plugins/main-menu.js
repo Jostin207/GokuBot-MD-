@@ -185,7 +185,7 @@ title: null,
 body: null, 
 sourceUrl: redes, 
 thumbnail: icons }}})
-await m.react('✅️') 
+await m.react(done) 
   let category = "imagen"
   const db = './media/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
@@ -200,6 +200,7 @@ await conn.sendMini(m.chat, packname, wm, text.trim(), icons, icons, redes, null
 
   } catch {
     conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
+await m.react(error)
    // throw e
   }
 }
