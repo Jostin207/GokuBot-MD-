@@ -46,8 +46,10 @@ title: `✨️ 𝐂O𝐑𝐈𝐍𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 ✨️`,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/XSHk.jpg', 
-/*sourceUrl: redeshost}}},
-let redeshost = `https://dash.corinplus.com` */
+sourceUrl: redeshost}}},
+
+let redeshost = 'https://dash.corinplus.com'
+
 { quoted: fkontak})
 } 
 handler.tags = ['main'] 
