@@ -177,16 +177,16 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
-const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QUmk.jpg')
-await conn.reply(m.chat, '*📚 Ya Le Envio EL Menú, Deme Un Segundo.*', null, { 
-contextInfo: { 
+await conn.reply(m.chat, '*📚 Ya Le Envio El Menú, Deme Un Segundo.*', 
+null, { 
+contextInfo:{ 
 forwardingScore: 2022, 
 isForwarded: true, 
 externalAdReply: {
 title: null, 
 body: null, 
-sourceUrl: '', 
-thumbnail: null }}})
+sourceUrl: null, 
+thumbnail: icons }}})
 await m.react('✅️') 
   let category = "imagen"
   const db = './media/database/db.json'
