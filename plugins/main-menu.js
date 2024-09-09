@@ -198,7 +198,9 @@ await m.react('✅️')
 
 //await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
 
-conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: '© Powered By Sunlight Team ⚡︎', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": redes, "sourceUrl": redes}}}, {quoted: null});
+//conn.sendMessage(m.chat, {text: text.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": packname, body: '© Powered By Sunlight Team ⚡︎', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen1, "mediaUrl": redes, "sourceUrl": redes}}}, {quoted: null});
+
+await conn.sendMini(m.chat, packname, wm, text.trim(), icons, icons, redes, fkontak)
 
   } catch {
     conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
