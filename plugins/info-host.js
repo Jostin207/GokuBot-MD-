@@ -46,6 +46,7 @@ title: `✨️ 𝐂O𝐑𝐈𝐍𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 ✨️`,
 body: `¡El plus que necesitas!_`,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://qu.ax/XSHk.jpg',
+sourceUrl: redeshost}}},
 { quoted: fkontak})
 } 
 handler.tags = ['main'] 
