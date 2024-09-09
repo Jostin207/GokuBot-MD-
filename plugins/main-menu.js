@@ -183,7 +183,7 @@ isForwarded: true,
 externalAdReply: {
 title: null, 
 body: null, 
-sourceUrl: redes, 
+sourceUrl: rcanal, 
 thumbnail: icons }}})
 await m.react(done) 
   let category = "imagen"
