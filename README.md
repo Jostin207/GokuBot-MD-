@@ -23,7 +23,19 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
+---
 
+## <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+ENLACES+UTILES+" alt="Typing SVG" /></a>
+
+| APP | TIPO | ENLACE |
+|------|-------------|-------|
+| WhatsApp | Canal GokuBot | [¡Click aquí!](https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e) |
+| WhatsApp | Canal SixFin | [¡Click aquí!](https://whatsapp.com/channel/0029Vah3kivHbFV2Ky0teP0y) |
+| WhatsApp | Grupo GokuBot | [¡Click aquí!](https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw) |
+| WhatsApp | Grupo SixFin | [¡Click aquí!](https://chat.whatsapp.com/K0rTI0UA1O12w72A1CsQSH) |
+| WhatsApp | Canal CorinPlus | [¡Click aquí!](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g) |
+
+---
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F770EE&background=FF000000&repeat=false&width=435&lines=%F0%9F%96%87%EF%B8%8F+Hostings+Donde+Esta+GokuBot-MD+%E2%9C%A8" alt="Typing SVG" /></a>
 
 ### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F2F700&background=FF000000&width=435&lines=%E2%98%81%EF%B8%8F+CorinPlus+Host+%E2%98%81%EF%B8%8F" alt="Typing SVG" /></a>
