@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 
-let incono = `⛱️` //NO SE XD
+/*let icono = '🔰';*/
 let staff = `🌹 *EQUIPO DE AYUDANTES*
 
 🌱 *Bot:* ${botname}
