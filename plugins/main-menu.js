@@ -174,8 +174,8 @@ readmore: readMore
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-
-await conn.reply(m.chat, '*📚 Ya Le Envio El Menú, Deme Un Segundo.*', 
+await m.react(done)
+await conn.reply(m.chat, '*📚 Espere Un Segundo, Ya Le Envio El Menú.*', 
 null, { 
 contextInfo:{ 
 forwardingScore: 2022, 
@@ -183,9 +183,8 @@ isForwarded: true,
 externalAdReply: {
 title: null, 
 body: null, 
-sourceUrl: rcanal, 
-thumbnail: icons }}})
-await m.react(done) 
+sourceUrl: redes, 
+thumbnail: icons }}}) 
   let category = "imagen"
   const db = './media/database/db.json'
   const db_ = JSON.parse(fs.readFileSync(db))
@@ -199,7 +198,9 @@ await m.react(done)
 await conn.sendMini(m.chat, packname, wm, text.trim(), icons, icons, redes, null)
 
   } catch {
+
  await m.react(error)  
+
  conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
    // throw e
   }
