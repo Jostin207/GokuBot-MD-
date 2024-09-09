@@ -9,9 +9,10 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
 
-  if (user.registered === true) throw `*『✰』Ya estás registrado, para volver a registrarte, usa el comando: #unreg*`
+  if (user.registered === true) throw `*『✦』Ya estás registrado, para volver a registrarte, usa el comando: #unreg*`
+  if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
 
-  if (!Reg.test(text)) return m.reply(`❌ Formato incorrecto.\n\nUso Correcto del comando: *!reg nombre .edad*\n*Ejemplo* : !reg *Jostin207* .18\n\nNo Pongas Los "*" Porque No Funcionará El Registro.`)
+  let [_, name, splitter, age] = text.match(Reg)
 
   if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
   if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
@@ -19,8 +20,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   age = parseInt(age)
 
-  if (age > 999) throw '*『😏』<¡Viejo/a Sabroso/a!_*'
-  if (age < 5) throw '*_¿Donde Están Tus Papás?_*😂'
+  if (age > 999) throw '*『😏』¡Viejo/a Sabroso/a!*'
+  if (age < 5) throw '*¿𝐃𝐨𝐧𝐝𝐞 𝐞𝐬𝐭𝐚𝐧 𝐭𝐮𝐬 𝐩𝐚𝐩á𝐬?*😂'
 
   user.name = name.trim()
   user.age = age
@@ -32,14 +33,14 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   global.db.data.users[m.sender].joincount += 5
 
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
-  m.react('✅️') 
+  m.react('📩') 
 
   let regbot = `╭══• ೋ•✧๑♡๑✧•ೋ •══╮
 *¡𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙾 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙴𝚇𝙸𝚃𝙾𝚂𝙾!*
 ╰══• ೋ•✧๑♡๑✧•ೋ •══╯
 ║_-~-__-~-__-~-__-~-__-~-__-~-__-~-__-~-__-~-__-~-__
 ║
-║ ֪ ׂ⛓️ ׁ ֪ 𝐍𝐨𝐦𝐛𝐫𝐞: ${name}
+║ ֪ ׂ⛓️ ̶ ׁ ֪ 𝐍𝐨𝐦𝐛𝐫𝐞: ${name}
 ║ ֪ ׁ🌫️  𝇌 𝐄𝐝𝐚𝐝: ${age} *Años*
 ║
 ║ *𝙶𝚛𝚊𝚌𝚒𝚜 𝚙𝚘𝚛 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚛𝚝𝚎* 
@@ -47,10 +48,10 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 ║
 ║
 ║ ✨ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-║• 15 Estrellas 🌟
-║• 5 GokuCoins 🪙
-║• 245 Experiencia 💸
-║• 12 Tokens 💰
+║• *15* _`Estrellas`_ 🌟
+║• *5* _`GokuCoins`_ 🪙
+║• *245* _`Experiencia`_ 💸
+║• *12* _`Tokens`_ 💰
 ╚══✦「✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰」`
 
   conn.sendMessage(m.chat, {
@@ -59,7 +60,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
       externalAdReply: {
         title: '⊱『✅𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥✅』⊰',
         body: wm, 
-        thumbnailUrl: 'https://qu.ax/QRWf.jpg', 
+        thumbnailUrl: 'https://qu.ax/voav.jpg', 
         sourceUrl: canales,
         mediaType: 1,
         showAdAttribution: true,
