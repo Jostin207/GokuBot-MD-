@@ -194,11 +194,11 @@ await m.react('✅️')
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
- const img = imagen1
+// const img = imagen1
 
 //await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
 
-await conn.sendMini(m.chat, packname, wm, text.trim(), img, img, redes, m)
+await conn.sendMini(m.chat, packname, wm, text, imagen1, imagen1, redes, m)
 
   } catch {
     conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
