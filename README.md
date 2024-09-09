@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 ---
 
-## <details><summary> Configuración Del Servidor De GokuBot-MD /></a> </summary><img src="https://qu.ax/Cohs.jpg"></details>
+## **`<details><summary> Configuración Del Servidor De GokuBot-MD </summary><img src="https://qu.ax/Cohs.jpg"></details>`**
 
 ---------
 
