@@ -48,11 +48,13 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 ║
 ║
 ║ ✨ 𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-║• *15* _`Estrellas`_ 🌟
-║• *5* _`GokuCoins`_ 🪙
-║• *245* _`Experiencia`_ 💸
-║• *12* _`Tokens`_ 💰
+║• *15* _Estrellas_ 🌟
+║• *5* _GokuCoins_ 🪙
+║• *245* _Experiencia_ 💸
+║• *12* _Tokens_ 💰
 ╚══✦「✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰」`
+
+/* let name = 'ɢᴏᴋᴜʙᴏᴛ-ᴍᴅ' */ //xD
 
   conn.sendMessage(m.chat, {
     text: regbot,
