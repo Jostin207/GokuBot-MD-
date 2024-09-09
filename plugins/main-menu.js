@@ -43,7 +43,7 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `© 𝐌𝐞𝐧𝐮 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐞 𝐆𝐨𝐤𝐮𝐁𝐨𝐭-𝐌𝐃
+  before: `💖 𝐌𝐞𝐧𝐮 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐞 𝐆𝐨𝐤𝐮𝐁𝐨𝐭-𝐌𝐃
 
 “ Hola humano, tu eres *%name* y yo soy *GokuBot-MD*, %greeting ”
 
@@ -194,9 +194,11 @@ await m.react('✅️')
   global.vid = rlink
   const response = await fetch(vid)
   const gif = await response.buffer()
- // const img = imagen1
+ const img = imagen1
 
-await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
+//await conn.sendFile(m.chat, imagen1, 'bot.jpg', text.trim(), fkontak)
+
+await conn.sendMini(m.chat, packname, wm, texr.trim(), imf, img, redes, fkontak)
 
   } catch (e) {
     conn.reply(m.chat, '❗ Lo sentimos, el menú tiene un error', m, rcanal, )
