@@ -15,7 +15,7 @@ import { xpRange } from '../lib/levelling.js'
 youtube: 'https://youtube.com/@Jostin207oficialmanito'
 };*/
 
-conn.reply(m.chat, '📚 Ya Le Envio El Menú, Deme Unos Segundos.', m, rcanal)
+conn.reply(m.chat, '📚 Ya Le Envio El Menú, Deme Un Segundo.', m, rcanal)
 
 let tags = {
   'main': '🄸🄽🄵🄾×🄱🄾🅃',
