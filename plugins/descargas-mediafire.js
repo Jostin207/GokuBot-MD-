@@ -13,7 +13,7 @@ conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: 'El Bot Más Insano de WhatsApp', previewType: 0, thumbnail: null, sourceUrl: md}}})
 await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
-await conn.reply(m.chat, `*_Error, Intente Nurvamente_*`)
+await conn.reply(m.chat, `*_Error, Intente Nuevamente_*`)
 console.log(e)
 handler.limit = false      
 }}
