@@ -43,7 +43,7 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `© 𝐌𝐞𝐧𝐮 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐞 𝐆𝐨𝐤𝐮𝐁𝐨𝐭-𝐌𝐃`
+  before: `© 𝐌𝐞𝐧𝐮 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐃𝐞 𝐆𝐨𝐤𝐮𝐁𝐨𝐭-𝐌𝐃
 
 “ Hola humano, tu eres *%name* y yo soy *GokuBot-MD*, %greeting ”
 
