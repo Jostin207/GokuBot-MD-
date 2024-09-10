@@ -8,7 +8,7 @@ if (/^bot$/i.test(m.text)) {
 conn.reply(m.chat, `🚩 ¡Hola! Soy Goku, en que puedo ayudarte hoy?\n\n✰ Usa *!menu* para ver mis comandos.`, m, rcanal, )
 }
 if (/^que|q$/i.test(m.text)) {
-conn.reply(m.chat, `*sorpresa* 🎁`, m, rcanal, )
+conn.reply(m.chat, `*so-rpresa* 🎁`, m, rcanal, )
 }
 if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
