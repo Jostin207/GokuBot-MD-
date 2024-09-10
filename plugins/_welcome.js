@@ -18,6 +18,8 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
   let userName = user ? user.name : await conn.getName(who);
 
+/*  let welcome = '𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨 𝐏𝐮𝐭𝐨'*/
+
   if (chat.welcome && m.messageStubType === 27) {
     this.sendMessage(m.chat, {
       audio: { url: vn },
