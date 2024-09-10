@@ -19,6 +19,12 @@ conn.reply(m.chat, `*rroz* 🍚`, m, rcanal, )
 if (/^bug$/i.test(m.text)) {
 conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 }
+if (/^te$/i.test(m.text)) {
+conn.reply(m.chat, `*tas* 🍈🍈`, m, rcanal, )
+}
+if (/^cu$/i.test(m.text)) {
+conn.reply(m.chat, `*los* 🍑🍑`, m, rcanal, )
+}
 if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, rcanal, )
 }
