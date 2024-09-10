@@ -1,11 +1,38 @@
-import { WAMessageStubType } from '@whiskeysockets/baileys';
+import {WAMessageStubType} from '@whiskeysockets/baileys'
+import fetch from 'node-fetch'
+
+export async function before(m, {conn, participants, groupMetadata}) {
+  if (!m.messageStubType || !m.isGroup) return !0;
+    let pp = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => welcome)
+    let pp2 = await conn.profilePictureUrl(m.messageStubParameters[0], 'image').catch(_ => adios)
+  let img = await (await fetch(`${pp}`)).buffer()
+  let img2 = await (await fetch(`${pp2}`)).buffer()
+
+  let chat = global.db.data.chats[m.chat]
+
+  if (chat.welcome && m.messageStubType == 27) {
+    let wel = ` ┌─★ GokuBot-MD ✨️ \n │「 𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 😆 」\n └┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🧸  𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼/𝗮\n   │🧸  ${groupMetadata.subject}\n   └───────────────┈ ⳹`
+await conn.sendMini(m.chat, packname, dev, wel, img, img, channel, fkontak)
+  }
+
+  if (chat.welcome && m.messageStubType == 28) {
+   let bye = ` ┌─★ GokuBot-MD ✨️ \n │「 𝗔𝗗𝗜𝗢𝗦 🌪️ 」\n └┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🧸  𝗦𝗲 𝗳𝘂𝗲\n   │🧸 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`
+await conn.sendMini(m.chat, packname, dev, bye, img2, img2, channel, fkontak)
+  }
+
+  if (chat.welcome && m.messageStubType == 32) {
+    let kick = ` ┌─★ 𝙼𝚒𝚗𝚊𝚝𝚘𝙱𝚘𝚝-𝙼𝙳 ✨️\n │「 𝗔𝗗𝗜𝗢𝗦 🌪️ 」\n └┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🧸  𝗦𝗲 𝗳𝘂𝗲\n   │🧸 𝗡𝘂𝗻𝗰𝗮 𝘁𝗲 𝗾𝘂𝗶𝘀𝗶𝗺𝗼𝘀 𝗮𝗾𝘂𝗶\n   └───────────────┈ ⳹`
+await conn.sendMini(m.chat, packname, dev, kick, img2, img2, channel, fkontak)
+}}
+
+/*import { WAMessageStubType } from '@whiskeysockets/baileys';
 import fetch from 'node-fetch';
 
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.messageStubType || !m.isGroup) return true;
 
-  let vn = 'https://qu.ax/ZAXV.mp3';
-  let vn2 = 'https://qu.ax/Qrus.mp3';
+  let vn = 'https://qu.ax/cUYg.mp3';
+  let vn2 = 'https://qu.ax/cTDa.mp3';
   let welc = welcome;
   let adi = adios;
   let chat = global.db.data.chats[m.chat];
@@ -18,8 +45,6 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
   let userName = user ? user.name : await conn.getName(who);
 
-/*  let welcome = '𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨 𝐏𝐮𝐭𝐨'*/
-
   if (chat.welcome && m.messageStubType === 27) {
     this.sendMessage(m.chat, {
       audio: { url: vn },
@@ -30,11 +55,9 @@ export async function before(m, { conn, participants, groupMetadata }) {
           "title": "  ͟͞ Ｗ Ｅ Ｌ Ｃ Ｏ Ｍ Ｅ ͟͞  ",
           "body": `${userName}!`,
           "previewType": "PHOTO",
+          "thumbnailUrl": null,
           "showAdAttribution": true,
-          "containsAutoReply": true,
-         "thumbnailUrl": null,
-          "showAdAttribution": true,
-          "sourceUrl": redes
+          sourceUrl: [yt, md, channel].sort(() => 0.5 - Math.random())[0]
         }
       },
       ptt: true,
@@ -49,20 +72,16 @@ export async function before(m, { conn, participants, groupMetadata }) {
       contextInfo: {
         mentionedJid: getMentionedJid(),
         "externalAdReply": {
-        "thumbnail": adi,
-        "title": '  ͟͞ Ａ Ｄ Ｉ Ｏ Ｓ ͟͞  ',
-        "body": `${userName}, se despide.`,
-        "previewType": "PHOTO",
           "showAdAttribution": true,
           "containsAutoReply": true,
-         "thumbnailUrl": null,
-          "showAdAttribution": true,
+          "title": '  ͟͞ Ａ Ｄ Ｉ Ｏ́ Ｓ ͟͞  ',
+          body: `${userName}, se despide.`,
+          "previewType": "PHOTO",
+          "thumbnailUrl": '',
+          "thumbnail": adi,
           "sourceUrl": redes
         }
-      },
-      ptt: true,
-      mimetype: 'audio/mpeg',
-      fileName: 'bye.mp3'
+      }
     }, { quoted: fkontak });
   }
-}
+}*/
