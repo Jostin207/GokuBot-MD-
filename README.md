@@ -15,6 +15,16 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
+## **`🔗 Enlaces útiles`**
+
+| APP | TIPO | ENLACE |
+|------|-------------|-------|
+| WhatsApp | Canal Minato | [¡Click aquí!](https://whatsapp.com/channel/0029Vags6SZAzNbnd4YM9e0p) |
+| WhatsApp | Canal Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z) |
+| WhatsApp | Grupo Minato | [¡Click aquí!](https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw) |
+| WhatsApp | Gp SixFin | [¡Click aquí!](https://chat.whatsapp.com/K0rTI0UA1O12w72A1CsQSH) |
+| WhatsApp | Asistente (no funciona) | [¡Click aquí!](wa.me/593939005387) |
+
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
 <a href="https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DE_GokuBot_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
@@ -67,16 +77,6 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-## **`🔗 Enlaces útiles`**
-
-| APP | TIPO | ENLACE |
-|------|-------------|-------|
-| WhatsApp | Canal Minato | [¡Click aquí!](https://whatsapp.com/channel/0029Vags6SZAzNbnd4YM9e0p) |
-| WhatsApp | Canal Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z) |
-| WhatsApp | Grupo Minato | [¡Click aquí!](https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw) |
-| WhatsApp | Gp SixFin | [¡Click aquí!](https://chat.whatsapp.com/K0rTI0UA1O12w72A1CsQSH) |
-| WhatsApp | Asistente (no funciona) | [¡Click aquí!](wa.me/593939005387) |
 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Canal+de+WhatsApp%3A" alt="Typing SVG" /></a> 
 [`Aquí`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
