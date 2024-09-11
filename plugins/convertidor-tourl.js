@@ -5,13 +5,13 @@ import fetch from 'node-fetch'
 let handler = async (m) => {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
-  if (!mime) return conn.reply(m.chat, '☁️ Responde a una *Imagen* o *Vídeo.*', m, rcanal)
+  if (!mime) return conn.reply(m.chat, '✨️ Responde a una *Imagen* o *Vídeo.*', m, rcanal)
   await m.react(rwait)
   try {
-  conn.reply(m.chat, '☁️ Convirtiendo la imagen en url...', m, {
+  conn.reply(m.chat, global.wait, m, {
   contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
   title: packname,
-  body: dev,
+  body: wm,
   previewType: 0, thumbnail: icons,
   sourceUrl: channel }}})
   let media = await q.download()
@@ -23,12 +23,11 @@ let handler = async (m) => {
       txt += `*» Acortado* : ${await shortUrl(link)}\n`
       txt += `*» Tamaño* : ${formatBytes(media.length)}\n`
       txt += `*» Expiración* : ${isTele ? 'No expira' : 'Desconocido'}\n\n`
-      txt += `> *${dev}*`
+      txt += ` *${dev}*`
 
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, fkontak, rcanal)
 await m.react(done)
 } catch {
-await conn.reply(m.chat, '❗ Ocurrió un error', m, rcanal)
 await m.react(error)
 }}
 handler.help = ['tourl']
@@ -46,6 +45,6 @@ function formatBytes(bytes) {
 }
 
 async function shortUrl(url) {
-        let res = await fetch(`https://tinyurl.com/api-create.php?url=https://qu.ax/`)
+        let res = await fetch(`https://tinyurl.com/api-create.php?url=${url}`)
         return await res.text()
 }
