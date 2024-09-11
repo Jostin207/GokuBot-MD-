@@ -1,6 +1,12 @@
 ## **<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=EFFF00&center=true&repeat=false&width=435&lines=HOLA+%F0%9F%91%8B+" alt="Typing SVG" /></a>**
 
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=4000&pause=1000&color=FFFB00&center=true&width=435&lines=GokuBot-MD+%E2%9C%A8%EF%B8%8F;Gracias+Por+Visitar+Este+Repositorio+;Espero+Te+Guste+Mucho;D%C3%A9janos+Una+Estrella+%F0%9F%8C%9F+(No+Obligatorio)" alt="Typing SVG" /></a>
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -9,18 +15,26 @@
 
 https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
 <a href="https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_DE_GokuBot_-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
-
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 > <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=556EFF&width=435&lines=NO+SPAMEAR+COMANDOS" alt="Typing SVG" /></a>
 
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=8909F7&width=435&lines=+%F0%9F%96%8D+LETRA+DEL+BOT+%F0%9F%96%8D" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=556EFF&width=435&lines=-+PAGINA+USADA+PARA+LA+LETRA+%F0%9F%94%A0" alt="Typing SVG" /></a> [Aqui](https://smiley.cool/es/weirdmaker.php)
 
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=E2E1F7&width=435&lines=%E2%9A%99%EF%B8%8F+AJUSTES+%E2%9A%99%EF%B8%8F" alt="Typing SVG" /></a> 
 <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=C88EFF&width=435&lines=CLONA+EL+REPOSITORIO+" alt="Typing SVG" /></a> [Aqui](https://github.com/Jostin207/GokuBot-MD/fork)
