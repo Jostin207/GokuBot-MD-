@@ -15,7 +15,7 @@ let vn = 'https://qu.ax/xynz.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })} 
 
-if (m.text.match(/(cafirexos|cafipene|superiority|superiorityhost|akirahost|akira|azurahost|azura)/gi)) {    
+if (m.text.match(/(Cafirexos|Cafipene|Superiority|Superiorityhost|Akirahost|Akira|Azurahost|Azura)/gi)) {    
 let vn = 'https://qu.ax/fSzt.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: fkontak })} 
