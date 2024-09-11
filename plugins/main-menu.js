@@ -184,18 +184,11 @@ title: null,
 body: null, 
 sourceUrl: redes, 
 thumbnail: icons }}}) 
-   m.react('✅')
-  let category = "imagen"
-  const db = './media/database/db.json'
-  const db_ = JSON.parse(fs.readFileSync(db))
-  const random = Math.floor(Math.random() * db_.links[category].length)
-  const rlink = db_.links[category][random]
-  global.vid = rlink
-  const response = await fetch(vid)
-  const gif = await response.buffer()
-// const img = imagen1
+m.react('✅')
+    let pp = 'https://telegra.ph/file/4c3e4b782c82511b3874d.mp4'
+    let pp2 = 'https://telegra.ph/file/d8c5e18ab0cfc10511f63.mp4'
 
-await conn.sendMini(m.chat, packname, wm, text.trim(), icons, icons, redes, null)
+conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
 
   } catch (e) {
   m.react(error)
