@@ -185,8 +185,8 @@ body: null,
 sourceUrl: redes, 
 thumbnail: icons }}}) 
 m.react('✅')
-    let pp = 'https://telegra.ph/file/4c3e4b782c82511b3874d.mp4'
-    let pp2 = 'https://telegra.ph/file/d8c5e18ab0cfc10511f63.mp4'
+    let pp = 'https://qu.ax/LJkx.mp4'
+    let pp2 = 'https://qu.ax/jWsz.mp4'
 
 conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
 
