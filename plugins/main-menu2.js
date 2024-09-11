@@ -154,6 +154,11 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ∘ _Ig de la minita_
 ∘ _Gaspi frase_
 ∘ _Vamos!!_
+∘ _cafipene | cafirexos_
+∘ _Azura | AzuraHost_
+∘ _Akira | AkiraHost_
+∘ _Superiority | SuperiorityHost_
+∘ _Tk | TkHost_
 ∘ _Se pudrio_
 ∘ _Gol!_`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
