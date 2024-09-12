@@ -14,6 +14,7 @@ if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`☁️ *�
 let img = await q.download?.()
 
 if (!img) return conn.reply(m.chat, `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`, m, rcanal)
+   await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)
 
 let out
 try {
