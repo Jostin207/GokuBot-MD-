@@ -55,12 +55,6 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F2F700&background=FF000000&width=435&lines=%E2%98%81%EF%B8%8F+CorinPlus+Host+%E2%98%81%EF%B8%8F" alt="Typing SVG" /></a>
-<a href="https://dash.corinplus.com/"><img src="https://qu.ax/XSHk.jpg" height="125px"></a>
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
 ### **`Superiority Pro Hosting 🤖`**
 <a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
 
@@ -73,6 +67,13 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
+### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F2F700&background=FF000000&width=435&lines=%E2%98%81%EF%B8%8F+CorinPlus+Host+%E2%98%81%EF%B8%8F" alt="Typing SVG" /></a>
+<a href="https://dash.corinplus.com/"><img src="https://qu.ax/XSHk.jpg" height="125px"></a>
+
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+
 
 ### <a  href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F3F729&background=FF000000&width=435&lines=%F0%9F%8C%88+Informaci%C3%B3n+Del+Host+%E2%9C%A8" alt="Typing SVG" /></a>
 
