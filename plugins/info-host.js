@@ -32,7 +32,7 @@ No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojam
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363220442272685@newsletter', 
+newsletterJid: '120363333975360263@newsletter', 
 serverMessageId: '', 
 newsletterName: 'SuperiorityPro-Host ☁️' }, 
 forwardingScore: 9999999,
