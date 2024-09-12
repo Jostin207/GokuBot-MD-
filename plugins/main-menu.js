@@ -185,8 +185,8 @@ body: null,
 sourceUrl: redes, 
 thumbnail: icons }}}) 
 m.react('✅')
-    let pp = 'https://qu.ax/feNR.mp4'
-    let pp2 = 'https://qu.ax/hEtV.mp4'
+    let pp = 'https://qu.ax/DMoL.mp4'
+    let pp2 = 'https://qu.ax/dYK.mp4'
 
 conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
 
