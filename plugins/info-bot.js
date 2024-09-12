@@ -22,9 +22,6 @@ conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 if (/^superiority|superiorityhost$/i.test(m.text)) {
 conn.reply(m.chat, `*Es Un Hosting Bueno* 😄`, m, rcanal, )
 }
-if (/^contexto?|contexto$/i.test(m.text)) {
-conn.reply(m.chat, `*Te La Comes Sin Pretextos* 🤣`, m, rcanal, )
-}
 if (/^pene$/i.test(m.text)) {
 conn.reply(m.chat, `*comes* 😹`, m, rcanal, )
 }
