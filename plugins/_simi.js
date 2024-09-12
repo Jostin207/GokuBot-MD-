@@ -1,4 +1,4 @@
-import translate from '@vitalets/google-translate-api';
+/*import translate from '@vitalets/google-translate-api';
 import axios from 'axios';
 import fetch from 'node-fetch';
 const handler = (m) => m;
@@ -37,4 +37,4 @@ async function simitalk(ask, apikeyyy = "iJ6FxuA9vxlvz5cKQCt3", language = "es")
             return { status: false, resultado: { msg: "Todas las API's fallarón. Inténtalo de nuevo más tarde.", error: error2.message }};
         }
     }
-}
+}*/
