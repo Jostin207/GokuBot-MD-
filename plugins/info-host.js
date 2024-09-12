@@ -47,11 +47,6 @@ thumbnailUrl: 'https://qu.ax/TiBm.jpg',
 sourceUrl: 'https://dash.superiority.pro'}}},
 { quoted: fkontak})
 }
-handler.tags = ['main'] 
-handler.help = ['host', 'hosting'] 
-handler.command = ['host', 'superiority', 'superioritypro', 'hosting']
-export default handler
-
 let handler = async (m, { conn, command, usedPrefix }) => {
 let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
 
@@ -105,5 +100,5 @@ sourceUrl: 'https://dash.corinplus.com'}}},
 } 
 handler.tags = ['main'] 
 handler.help = ['host', 'hosting'] 
-handler.command = ['host', 'corin', 'corinplus', 'hosting']
+handler.command = ['host', 'corin', 'corinplus', 'superiority', 'superioritypro', 'hosting']
 export default handler
