@@ -14,7 +14,6 @@ if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`☁️ *�
 let img = await q.download?.()
 
 if (!img) return conn.reply(m.chat, `⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*`, m, rcanal)
-   await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)
 
 let out
 try {
@@ -43,8 +42,6 @@ if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextI
 
 else return conn.reply(m.chat, '⚠️ *_La conversión ha fallado, intenta enviar primero imagen/video/gif y luego responde con el comando._*', m, rcanal)
 
-   await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)
-
 
 }}
 handler.help = ['stiker <img>', 'sticker <url>']
@@ -52,8 +49,6 @@ handler.tags = ['sticker']
 handler.command = ['s', 'sticker', 'stiker']
 
 export default handler
-
-   await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)
 
 const isUrl = (text) => {
 return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))}
