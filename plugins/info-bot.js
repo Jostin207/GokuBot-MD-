@@ -12,6 +12,8 @@ conn.reply(m.chat, `*so-rpresa* 🎁`, m, rcanal, )
 }
 if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
+if (/^superiority$/i.test(m.text)) {
+conn.reply(m.chat, `*Es EL Host Donde Estoy Alojado* 😄`, m, rcanal, )
 }
 if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rroz* 🍚`, m, rcanal, )
