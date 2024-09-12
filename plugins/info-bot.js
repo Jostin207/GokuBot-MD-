@@ -12,8 +12,6 @@ conn.reply(m.chat, `*so-rpresa* 🎁`, m, rcanal, )
 }
 if (/^sexo$/i.test(m.text)) {
 conn.reply(m.chat, `*pervertido* 🫣`, m, rcanal, )
-if (/^Superiority$/i.test(m.text)) {
-conn.reply(m.chat, `*Es EL Host Donde Estoy Alojado* 😄`, m, rcanal, )
 }
 if (/^a$/i.test(m.text)) {
 conn.reply(m.chat, `*rroz* 🍚`, m, rcanal, )
@@ -22,7 +20,7 @@ if (/^bug$/i.test(m.text)) {
 conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 }
 if (/^te$/i.test(m.text)) {
-conn.reply(m.chat, `*tas* 🍈🍈`, m, rcanal, )
+conn.reply(m.chat, `*Es Un Hosting* 😄`, m, rcanal, )
 }
 if (/^cu$/i.test(m.text)) {
 conn.reply(m.chat, `*los* 🍑🍑`, m, rcanal, )
