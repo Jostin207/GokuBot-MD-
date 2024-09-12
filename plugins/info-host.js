@@ -17,7 +17,7 @@ https://dash.superiority.pro
 https://panel.superiority.pro
 
 🧸 *Comunidad de WhatsApp:*
-hhttps://chat.whatsapp.com/HZprUWDGFKdCm7QBNXQQRQ
+https://chat.whatsapp.com/HZprUWDGFKdCm7QBNXQQRQ
 
 ✨ *Grupo General Superiority (Whatsapp)*
 https://chat.whatsapp.com/Feg4luP8CgHFFrbD65Wj7B
