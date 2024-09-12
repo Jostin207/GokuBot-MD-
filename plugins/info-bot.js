@@ -19,7 +19,7 @@ conn.reply(m.chat, `*rroz* 🍚`, m, rcanal, )
 if (/^bug$/i.test(m.text)) {
 conn.reply(m.chat, `*tu mamá we* 😹`, m, rcanal, )
 }
-if (/^te$/i.test(m.text)) {
+if (/^superhost$/i.test(m.text)) {
 conn.reply(m.chat, `*Es Un Hosting* 😄`, m, rcanal, )
 }
 if (/^cu$/i.test(m.text)) {
