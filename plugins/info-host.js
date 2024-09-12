@@ -26,7 +26,7 @@ https://chat.whatsapp.com/Feg4luP8CgHFFrbD65Wj7B
 https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b
 
 🗣📲 *Contacto:*
-• wa.me/51 918 425 805
+• wa.me/51918425805
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
 await conn.sendMessage(m.chat, { text: txt,
