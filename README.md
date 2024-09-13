@@ -68,17 +68,6 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-<a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=FF0000&width=435&lines=%E2%80%A2+Discord%3A" alt="Typing SVG" /></a> 
-[`Aquí`](https://discord.com/invite/T7ksHu7mkz)
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-**<details><summary> Configuración Del Servidor De GokuBot-MD </summary><img src="https://qu.ax/Cohs.jpg"></details>**
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
  ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFCE00&width=435&lines=%F0%9F%91%91+DUDAS+SOBRE+EL+BOT%3F%2CCONTACTA+AL+CREADOR+%F0%9F%91%91" alt="Typing SVG" /></a> 
 <a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN_CREADOR-De_GokuBot_~MD-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
