@@ -1,42 +1,76 @@
-import yts from 'yt-search';
+import fetch from "node-fetch"
+import yts from "yt-search"
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-    if (!text) {
-        return conn.reply(m.chat, '*Que quieres que busque Goku?*', m);
-    }
+if (!text) return conn.reply(m.chat, `🚩 *Ingrese el nombre de un video de YouTube*\n\nEjemplo, !${command} Distancia - Kimberly Contreraxx`,  m, rcanal, )
 
-    await m.react('🕧');
-    let res = await yts(text);
-    let play = res.videos[0];
+conn.reply(m.chat, global.wait, m, {
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
+title: packname,
+body: dev,
+previewType: 0, thumbnail: icons,
+sourceUrl: channel }}})
 
-    if (!play) {
-        throw `Error: Vídeo no encontrado`;
-    }
+try {
+await m.react(rwait)
+let yt_play = await search(args.join(" "))
+let img = await (await fetch(`${yt_play[0].image}`)).buffer()
 
-    let { title, thumbnail, ago, timestamp, views, videoId, url } = play;
+let txt = `*乂  Y O U T U B E  -  P L A Y  乂*\n\n`
+    txt += `🚩 *Titulo:*\n${yt_play[0].title}\n\n`
+    txt += `📅 *Publicado:*\n${yt_play[0].ago}\n\n`
+    txt += `🕜 *Duración:*\n${secondString(yt_play[0].duration.seconds)}\n\n`
+    txt += `📎 *Url:*\n${'https://youtu.be/' + yt_play[0].videoId}\n\n`
+    txt += `✨️ *Nota:* Para descargar responde a este mensaje con *1* o *2*.\n\n`
+    txt += `*1:* Video\n*2:* Audio`
 
-    let txt = '```𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙳𝚎𝚜𝚌𝚊𝚛𝚐𝚊𝚜```\n';
-    txt += '╭━─━─━─━─≪✠≫─━─━─━─━╮\n';
-    txt += `> *𝚃𝚒𝚝𝚞𝚕𝚘* : _${title}_\n`;
-    txt += `> *𝙲𝚛𝚎𝚊𝚍𝚘* : _${ago}_\n`;
-    txt += `> *𝙳𝚞𝚛𝚊𝚌𝚒𝚘𝚗* : _${timestamp}_\n`;
-    txt += `> *𝚅𝚒𝚜𝚒𝚝𝚊𝚜* : _${views.toLocaleString()}_\n`;
-    txt += `> *𝙻𝚒𝚗𝚔* : _https://www.youtube.com/watch?v=${videoId}_\n`;
-    txt += '┗─══──━══─| ✠ |─══━─═──┛ \n';
-    txt += 'Goku';
+await conn.sendMessage(m.chat, {
+text: txt,
+contextInfo: { 
+forwardingScore: 9999, 
+isForwarded: true, 
+externalAdReply: {
+title: `${yt_play[0].title}`,
+body: dev,
+thumbnailUrl: img,
+thumbnail: img,
+sourceUrl: `${yt_play[0].url}`,
+mediaType: 1,
+renderLargerThumbnail: true
+}}}, { quoted: fkontak})
+await m.react(done)
+} catch {
+await m.react(error)
+await m.reply(`✘ Ocurrío un error`)}}
 
-    await conn.sendButton2(m.chat, txt, '. ', thumbnail, [
-        ['MP3', `${usedPrefix}ytmp3 ${url}`],
-        ['MP3DOC', `${usedPrefix}ytmp3doc ${url}`],
-        ['MP4', `${usedPrefix}ytmp4 ${url}`], 
-        ['MP4DOC', `${usedPrefix}ytmp4doc ${url}`]
-        ], null, [['Canal', 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e']], m);
+handler.help = ['play', 'play2']
+handler.tags = ['descargas']
+handler.command = ['play', 'play2']
+handler.register = true
+export default handler
 
-    await m.react('✅');
-};
+async function search(query, options = {}) {
+let search = await yts.search({ query, hl: "es", gl: "ES", ...options });
+return search.videos;
+}
 
-handler.help = ['play'];
-handler.tags = ['downloader'] 
-handler.command = ['play',];
+function MilesNumber(number) {
+let exp = /(\d)(?=(\d{3})+(?!\d))/g;
+let rep = "$1.";
+let arr = number.toString().split(".");
+arr[0] = arr[0].replace(exp, rep);
+return arr[1] ? arr.join(".") : arr[0];
+}
 
-export default handler;
+function secondString(seconds) {
+seconds = Number(seconds);
+var d = Math.floor(seconds / (3600 * 24));
+var h = Math.floor((seconds % (3600 * 24)) / 3600);
+var m = Math.floor((seconds % 3600) / 60);
+var s = Math.floor(seconds % 60);
+var dDisplay = d > 0 ? d + (d == 1 ? ":" : ":") : "";
+var hDisplay = h > 0 ? h + (h == 1 ? ":" : ":") : "";
+var mDisplay = m > 0 ? m + (m == 1 ? ":" : ":") : "";
+var sDisplay = s > 0 ? s + (s == 1 ? "" : "") : "";
+return dDisplay + hDisplay + mDisplay + sDisplay;
+}
