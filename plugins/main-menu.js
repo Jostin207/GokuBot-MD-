@@ -185,11 +185,12 @@ body: null,
 sourceUrl: redes, 
 thumbnail: icons }}}) 
 m.react('✅')
-    let pp = 'https://qu.ax/DMoL.mp4'
-    let pp2 = 'https://qu.ax/dYK.mp4'
+    const videosmenu = [
+'https://qu.ax/DMoL.mp4',
+'https://qu.ax/dYk.mp4'
+]
 
-//conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
-await conn.sendFile(m.chat, { video: [pp, pp2].getRandom()
+conn.sendMessage(m.chat, { video: { url: videosmenu.getRandom() }, mentions: [m.sender] }, { quoted: null })
 
   } catch (e) {
   m.react(error)
