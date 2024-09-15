@@ -188,7 +188,8 @@ m.react('✅')
     let pp = 'https://qu.ax/DMoL.mp4'
     let pp2 = 'https://qu.ax/dYK.mp4'
 
-conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
+//conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
+await conn.sendFile(m.chat, { video: [pp, pp2].getRandom()
 
   } catch (e) {
   m.react(error)
