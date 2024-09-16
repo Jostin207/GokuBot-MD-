@@ -23,7 +23,7 @@ _*METODOS DE PAGO:*_
 
 * Mercado pago argentino, Alias: matias.381.mp
 
-🍁 ```Información del Host-Akira```
+_*🍁 Información del Host-Akira*_
 
 ━━━━━━━━》❈《 ━━━━━━━
 
