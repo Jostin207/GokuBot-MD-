@@ -76,7 +76,7 @@ isForwarded: true,
 title: `✨ 𝐀𝐊𝐈𝐑𝐀-𝐇𝐎𝐒𝐓 🍂`,
 body: `¡¡¡Que Esperas Para Probrarlo!!!`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/PUGF.jpg',
+thumbnailUrl: 'https://f.uguu.se/EdMCjMNO.jpg',
 sourceUrl: 'https://dash.akira-host.store'}}},
 { quoted: fkontak})
 }
