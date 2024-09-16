@@ -26,15 +26,15 @@ global.suittag = ['593939005387']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ 𝐆𝐨𝐤𝐮 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.packname = '➳✰ 𝐆𝐨𝐤𝐮 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
 global.author = 'ᴊᴏsᴛɪɴ 👑'
-global.wm = '✨◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐⚡༉'
-global.titulowm = 'GokuBot-MD 🍟'
+global.wm = '🌻◌*̥₊ ɢᴏᴋᴜBᴏᴛ-MD ◌❐🌻༉'
+global.titulowm = 'GokuBot-MD ✨'
 global.titulowm2 = 'Jostin'
 global.igfg = '𝙹𝙾𝚂𝚃𝙸𝙽'
 global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
 global.dev = '© Powered By Sunlight Team ⚡︎'
-global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗝𝗼𝘀𝘁𝗶𝗻 🚩'
+global.textbot = '𝐆𝐨𝐤𝐮𝐁𝐨𝐭 𝐁𝐲 : _Jostin207_ 🌹'
 global.vs = '2.0.2'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
