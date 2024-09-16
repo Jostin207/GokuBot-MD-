@@ -143,8 +143,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%isdiamond/g, menu.diamond ? '(ⓓ)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Ⓟ)' : '')
+                .replace(/%isdiamond/g, menu.diamond ? '(V)' : '')
+                .replace(/%isPremium/g, menu.premium ? '(P)' : '')
                 .trim()
             }).join('\n')
           }),
@@ -188,7 +188,7 @@ m.react('✅')
     let pp = 'https://qu.ax/DMoL.mp4'
     let pp2 = 'https://qu.ax/dYK.mp4'
 
-conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
+conn.sendMessage(m.chat, { video: { url: [pp, pp2].getRandom() }, caption: text.trim(), mentions: [m.sender] }, { quoted: null })
 
   } catch (e) {
   m.react(error)
