@@ -33,7 +33,7 @@ global.titulowm = 'GokuBot-MD 🍟'
 global.titulowm2 = 'Jostin'
 global.igfg = '𝙹𝙾𝚂𝚃𝙸𝙽'
 global.botname = 'ɢᴏᴋᴜ Bᴏᴛ - MD 🚩'
-global.dev = '👑 Developed By • ✨ Jostin'
+global.dev = '© Powered By Sunlight Team ⚡︎'
 global.textbot = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 : 𝗝𝗼𝘀𝘁𝗶𝗻 🚩'
 global.vs = '2.0.2'
 
