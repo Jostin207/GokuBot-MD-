@@ -82,5 +82,5 @@ sourceUrl: 'https://dash.akira-host.store'}}},
 }
 handler.tags = ['main'] 
 handler.help = ['host', 'hosting'] 
-handler.command = ['host', 'akira', 'akirahost', 'hosting']
+handler.command = ['host', 'akirah', 'akirahost', 'hosting']
 export default handler
