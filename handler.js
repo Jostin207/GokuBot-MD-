@@ -182,11 +182,11 @@ if (!('antiDiscord' in chat)) chat.antiDiscord = false
 if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true  
+if (!('reaction' in chat)) chat.reaction = false  
 if (!('viewonce' in chat)) chat.viewonce = false       
-if (!('modoadmin' in chat)) chat.modoadmin = true    
+if (!('modoadmin' in chat)) chat.modoadmin =  false   
 if (!('antitoxic' in chat)) chat.antitoxic = false
-if (!('simi' in chat)) chat.simi = true
+if (!('simi' in chat)) chat.simi = false
 if (!('antiTraba' in chat)) chat.antiTraba = false
 if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
@@ -218,11 +218,11 @@ antiDiscord: false,
 antiThreads: false,
 antiTwitch: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: false,
-modoadmin: true,
+modoadmin: false,
 antitoxic: false, 
-simi: true,
+simi: false,
 antiTraba: false,
 autolevelup: false,
 expired: 0,
@@ -231,7 +231,7 @@ let settings = global.db.data.settings[this.user.jid]
 if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
 if (settings) {
 if (!('self' in settings)) settings.self = false
-if (!('autoread' in settings)) settings.autoread = true
+if (!('autoread' in settings)) settings.autoread = false
 if (!('autoread2' in settings)) settings.autoread2 = false
 if (!('restrict' in settings)) settings.restrict = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
@@ -242,7 +242,7 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = false
 if (!('autobio' in settings)) settings.autobio = true
 } else global.db.data.settings[this.user.jid] = {
 self: false,
-autoread: true,
+autoread: false,
 autoread2: false,
 restrict: false,
 antiPrivate: false,
