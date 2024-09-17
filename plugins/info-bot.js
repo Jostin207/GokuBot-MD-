@@ -10,7 +10,7 @@ conn.reply(m.chat, `✨ ¡Hola! Soy ɢᴏᴋᴜ-ʙᴏᴛ, en que puedo ayudarte 
 }
 
 if (/^akira|akirahost$/i.test(m.text)) {
-conn.reply(m.chat, `*Es El Mejor Hosting Que Me Patrocina.* 🌹`, m, rcanal, )
+conn.reply(m.chat, `*_Hola, Ese Hosting Es Muy Bueno y ahí es donde estoy alojado actualmente. Buscas algun servidor con precios bajos? Te presento a Akira Hosting un hosting confiable y de buena calidad, por aqui te dejo la pagina. ( https://dash.akira-host.store ) Gracias por utilizar GokuBot-MD_* 🌹`, m, rcanal, )
 }
 
 return !0
