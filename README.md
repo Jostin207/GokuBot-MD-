@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 | WhatsApp | Canal Sunlight | [¡Click aquí!](https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z) |
 | WhatsApp | Grupo GokuBot-MD | [¡Click aquí!](https://chat.whatsapp.com/Gd85w1s6tKh5Nw4p490xBw) |
 | WhatsApp | Gp SixFin | [¡Click aquí!](https://chat.whatsapp.com/K0rTI0UA1O12w72A1CsQSH) |
-| WhatsApp | Canal CorinPlus Host | [¡Click aquí!](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g) |
+| WhatsApp | Canal Akira Host | [¡Click aquí!](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s) |
 
 ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&duration=4000&pause=1000&color=DFF700&width=435&lines=%F0%9F%92%96+GRUPO+DEL+BOT+%F0%9F%92%96" alt="Typing SVG" /></a>
 
@@ -50,20 +50,20 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F770EE&background=FF000000&repeat=false&width=435&lines=%F0%9F%96%87%EF%B8%8F+Hostings+Donde+Esta+GokuBot-MD+%E2%9C%A8" alt="Typing SVG" /></a>
+### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F770EE&background=FF000000&repeat=false&width=435&lines=%F0%9F%96%87%EF%B8%8F+Hosting+Donde+Esta+GokuBot-MD+%E2%9C%A8" alt="Typing SVG" /></a>
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-### **`Superiority Pro Hosting 🤖`**
-<a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
+### **`Akira Host 🌹`**
+<a href="https://dash.akira-host.store"><img src="https://qu.ax/PUGF.jpg" height="125px"></a>
 
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-- **Dashboard:** [`Aquí`](https://store.azuraultra-host.pro)
-- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
-- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
+- **Dashboard:** [`Aquí`](https://dash.akira-host.store)
+- **Akira - Community:** [`Aquí`](https://chat.whatsapp.com/HjYvHMNz0s1EwBl8sHs2Bj)
+- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s)
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
