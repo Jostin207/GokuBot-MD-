@@ -7,9 +7,9 @@ if (/^bot$/i.test(m.text) && !chat.isBanned) {
     
 m.reply('☁️ *Estoy aquí para ayudarte*', m)}
 
-if (/^akira$/i.test(m.text) && !chat.isBanned) {
-    
-m.reply(' *Es El Mejor Hostin* 🙈🌹', m, rcanal)}
+if (/^akira|akirahost$/i.test(m.text)) {
+conn.reply(m.chat, `*Es El Mejor Hosting Que Me Patrocina.* 🙈🌹`, m, rcanal, )
+}
 
 return !0
 
