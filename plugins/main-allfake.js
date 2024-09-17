@@ -99,7 +99,7 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220442272685@newsletter', newsletterName: "👋 Hola, _*Goku Channel*_", serverMessageId: -1 }
+global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363220442272685@newsletter', newsletterName: "✨ 𝑮𝒐𝒌𝒖𝑩𝒐𝒕-𝑴𝑫 𝑵𝒆𝒘 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🌹/ 𝐒𝐢𝐠𝐮𝐞𝐧𝐨𝐬, 𝐍𝐨𝐬 𝐀𝐲𝐮𝐝𝐚𝐫𝐢𝐚.", serverMessageId: -1 }
 }}, { quoted: m }}
 
 export default handler
