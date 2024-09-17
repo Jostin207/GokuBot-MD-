@@ -3,7 +3,7 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
-/*let icono = '🔰';*/
+/* let icono = '🔰'; */
 
 /*let fkontak = {
   id: '593939005387@s.whatsapp.net',
