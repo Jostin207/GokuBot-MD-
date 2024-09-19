@@ -15,6 +15,9 @@ ${gp3}
 💖 ${colab2}
 ${gp4}
 
+💖 ${colab3}
+${gp5}
+
 💖 ${namecomu}
 ${comunidad1}
 
