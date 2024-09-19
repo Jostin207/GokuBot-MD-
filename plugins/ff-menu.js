@@ -36,7 +36,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 Significados:
 » *HH:MM (Hora:Minutos)*
 » *CP (Codigo de pais)*
-» *PARA LA HORA (Mx, Co, Ec, Cl y Ag)* 
+» *PARA LA HORA (Mx, Co, Cl y Ag)* 
 » *CR (Color de ropa)*
 
 ✎ Ejemplo: .
