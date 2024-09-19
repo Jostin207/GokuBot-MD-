@@ -53,7 +53,7 @@ if (psmap == '') return conn.reply(m.chat, `😿 No se ha encontrado usuarios pa
           
          *Escuadra 2*
     
-    👑 ┇ ${user(user2)}
+    👑 ┇ ${user(user1)}
     `.trim();
 
 m.reply(message, null, {mentions: [user0, user1]})   
