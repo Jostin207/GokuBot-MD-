@@ -36,6 +36,7 @@ if (psmap == '') return conn.reply(m.chat, `😿 No se ha encontrado usuarios pa
     const diferenciasHorarias = {
         MX: 0, // México tiene la misma hora
         CO: 1, // Colombia tiene una hora más
+        EC: 1, // Ecuador Tiene La misma hora que Colombia y Perú 
         CL: 2, // Chile tiene dos horas más
         AG: 3  // Argentina tiene tres horas más
     };
