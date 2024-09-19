@@ -24,16 +24,18 @@ const devofc = [
 // Agrega más waifus aquí...
 ]
 
-try {
-
 // Función para obtener una waifu aleatoria
 function obtenerWaifuAleatoria() {
 const indiceAleatorio = Math.floor(Math.random() * devofc.length)
 return devofc[indiceAleatorio]}
 
+try {
+await m.react(rwait)
+
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
 await conn.sendFile(m.chat, devofc.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${devofc.name}\n\n💸 *Valor:*\n◇ ${devofc.value}`, fkontak, null, rcanal)}
+await m.react(done)
 
 // Ejecuta la función para obtener y mostrar una waifu aleatoria
 const waifuAleatoria = obtenerWaifuAleatoria();
