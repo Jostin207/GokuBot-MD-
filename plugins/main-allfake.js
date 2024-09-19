@@ -63,7 +63,7 @@ global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VaJL0xn0LKZL7FtiRs1e' 
-var canal2 = 'https://whatsapp.com/channel/0029Vablj8M05MUnustq3q1S'  
+var canal2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z'  
 var git = 'https://github.com/Jostin207' 
 var youtube = 'https://www.youtube.com/@jostin20oficialmanito' 
 var github = 'https://github.com/Jostin207/GokuBot-MD' 
