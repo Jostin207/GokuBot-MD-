@@ -1,6 +1,7 @@
 var handler = async (m, { text,  usedPrefix, command }) => {
 
 // Función para obtener una waifu aleatoria
+function obtenerWaifuAleatoria() {
 const waifu = JSON.parse(fs.readFileSync(`./src/JSON2/rollwaifus.json`))
 const json = waifu[Math.floor(Math.random() * waifu.length)]
 
