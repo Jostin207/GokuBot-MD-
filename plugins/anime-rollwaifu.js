@@ -1,7 +1,7 @@
 var handler = async (m, { text,  usedPrefix, command }) => {
 
-//rollwaifus
-const waifus = [
+//rollwaifu
+const waifu = [
     { "name": "Noise", "url": "https://telegra.ph/file/ba34a437231411448f6e9.jpg", "value": "5678" },
     { "name": "Akira", "url": "https://telegra.ph/file/475522696fc7d8d1d857a.jpg", "value": "2345" },
     { "name": "Kotori", "url": "https://telegra.ph/file/176ab21ebdca4b4eb962e.jpg", "value": "6789" },
@@ -21,12 +21,12 @@ const waifus = [
 
 // Función para obtener una waifu aleatoria
 function obtenerWaifuAleatoria() {
-const indiceAleatorio = Math.floor(Math.random() * waifus.length)
-return waifus[indiceAleatorio]}
+const indiceAleatorio = Math.floor(Math.random() * waifu.length)
+return waifu[indiceAleatorio]}
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
-await conn.sendFile(m.chat, imga.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${imga.name}\n\n💸 *Valor:*\n◇ ${imga.value}`, fkontak, null, rcanal)}
+await conn.sendFile(m.chat, waifu.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${waifu.name}\n\n💸 *Valor:*\n◇ ${waifu.value}`, fkontak, null, rcanal)}
 
 // Ejecuta la función para obtener y mostrar una waifu aleatoria
 const waifuAleatoria = obtenerWaifuAleatoria();
