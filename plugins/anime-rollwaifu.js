@@ -3,7 +3,7 @@ var handler = async (m, { text,  usedPrefix, command }) => {
 // Función para obtener una waifu aleatoria
 
 function obtenerWaifuAleatoria() {
-const imga = JSON.parse(fs.readFileSync(`./src/JSON2/rollwaifu.json`))
+const imga = JSON.parse(fs.readFileSync(`./src/JSON2/rollwaifu.js`))
 const indiceAleatorio = Math.floor(Math.random() * imga.length)
 return imga[indiceAleatorio]}
 
