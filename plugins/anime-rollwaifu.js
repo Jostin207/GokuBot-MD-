@@ -25,7 +25,7 @@ if (!res.ok) return conn.reply(m.chat, '🚩 Error al obtener la información de
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
-await conn.sendFile(m.chat, devofc.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${devofc.name}\n\n💸 *Valor:*\n◇ ${devofc.value}`, fkontak, null, rcanal)}
+  conn.sendMessage(m.chat, {image: devofc.url}, {quoted: fkontak})}
 await m.react(done)
 
 // Ejecuta la función para obtener y mostrar una waifu aleatoria
@@ -40,3 +40,5 @@ handler.command = ['rw', 'rollwaifu']
 handler.help = ['rw']
 handler.tags = ['anime']
 export default handler
+
+global.text = `🚩 *Nombre:*\n◇ ${devofc.name}\n\n💸 *Valor:*\n◇ ${devofc.value}`
