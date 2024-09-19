@@ -3,11 +3,10 @@ var handler = async (m, { text,  usedPrefix, command }) => {
 // Función para obtener una waifu aleatoria
 
 function obtenerWaifuAleatoria() {
-const imga = JSON.parse(fs.readFileSync(`./src/JSON2/rollwaifus.json`))
 const indiceAleatorio = Math.floor(Math.random() * imga.length)
 return imga[indiceAleatorio]}
 
-global. waifu = [
+global.imga = [
     { "name": "Toki", "url": "https://telegra.ph/file/bd271fbbdae84fa26f04f.jpg", "value": 1234 },
     { "name": "Noise", "url": "https://telegra.ph/file/ba34a437231411448f6e9.jpg", "value": 5678 },
     { "name": "Akira", "url": "https://telegra.ph/file/475522696fc7d8d1d857a.jpg", "value": 2345 },
@@ -734,7 +733,7 @@ global. waifu = [
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
-conn.reply(m.chat, `${imga.name}`, m, rcanal)}
+conn.reply(m.chat, `🚩 *Nombre:*\n◇ ${imga.name}\n\n💸 *Valor:*\n◇ ${imga.value}`, m, rcanal)}
 
 // Ejecuta la función para obtener y mostrar una waifu aleatoria
 const waifuAleatoria = obtenerWaifuAleatoria();
