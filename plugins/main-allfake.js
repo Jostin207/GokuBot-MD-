@@ -35,12 +35,13 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/593939005387'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/593978663361'
-global.namechannel = '🚩 𝗚𝗼𝗸𝘂 𝗕𝗼𝘁 - 𝗠𝗗​᭄ ᎪΝႮΝᏟᏆϴՏ'
-global.namechannel2 = '𝗦𝘂𝗻𝗹𝗶𝗴𝗵𝘁 𝗧𝗲𝗮𝗺'
+global.namechannel = '𝗚𝗼𝗸𝘂𝗕𝗼𝘁 𝗖𝗵𝗮𝗻𝗻𝗲𝗹'
+global.namechannel2 = '𝗦𝘂𝗻𝗹𝗶𝗴𝗵𝘁 𝗧𝗲𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗚𝗼𝗸𝘂𝗕𝗼𝘁'
 global.namecomu2 = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗦𝘂𝗻𝗹𝗶𝗴𝗵𝘁'
 global.colab1 = '𝗞𝗶𝗿𝗮𝗕𝗼𝘁 & 𝗚𝗼𝗸𝘂𝗕𝗼𝘁'
 global.colab2 = '𝗡𝗶𝗹𝗼𝘂 & 𝗚𝗼𝗸𝘂𝗕𝗼𝘁'
+global.colab3 = '𝗚𝗿𝘂𝗽𝗼 𝗦𝘂𝗻𝗹𝗶𝗴𝗵𝘁 𝗧𝗲𝗮𝗺'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
