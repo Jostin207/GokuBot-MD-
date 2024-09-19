@@ -1,3 +1,5 @@
+var handler = async (m, { text,  usedPrefix, command }) => {
+
 global.waifu = [
     { "name": "Toki", "url": "https://telegra.ph/file/bd271fbbdae84fa26f04f.jpg", "value": 1234 },
     { "name": "Noise", "url": "https://telegra.ph/file/ba34a437231411448f6e9.jpg", "value": 5678 },
@@ -721,4 +723,4 @@ global.waifu = [
         { "name": "Una Escoba :v", "url": "https://qu.ax/NPvm.jpg", "value": 3 },
         { "name": "Mark Zuckerberg", "url": "https://qu.ax/kuwh.jpg", "value": 5000 },
         { "name": "Antony Starr", "url": "https://qu.ax/DDit.jpg", "value": 10000 },
-]
+]}
