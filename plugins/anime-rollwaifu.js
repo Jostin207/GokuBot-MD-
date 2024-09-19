@@ -32,7 +32,7 @@ return devofc[indiceAleatorio]}
 try {
 await m.react(rwait)
 
-if (!res.ok) return conn.reply(m.chat, '🚩 Error al buscar la waifu.', m, fake)
+if (!res.ok) return conn.reply(m.chat, '🚩 Error al obtener la información de la waifu.', m, fake)
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
@@ -43,7 +43,8 @@ await m.react(done)
 const waifuAleatoria = obtenerWaifuAleatoria();
 mostrarWaifu(waifuAleatoria)
 
-} catch {
+} catch (e) {
+console.log(e)
 await m.react(error)
 await conn.reply(m.chat, ' 🚩 Ocurrió un error', m fake)}}
 
