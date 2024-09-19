@@ -32,8 +32,7 @@ await m.react(done)
 const waifuAleatoria = obtenerWaifuAleatoria();
 mostrarWaifu(waifuAleatoria)
 
-} catch (e) {
-console.log(e)
+} catch {
 await m.react(error)
 await conn.reply(m.chat, ' 🚩 Ocurrió un error', m fake)}}
 
