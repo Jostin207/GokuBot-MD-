@@ -3,7 +3,7 @@
 - おDiego.xyz (@Dev-Diego)
 */
 
-var handler = async (m, { text,  usedPrefix, command }) => {
+var handler = async (m, { conn, text,  usedPrefix, command }) => {
 
 //rollwaifu
 const devofc = [
@@ -31,6 +31,8 @@ return devofc[indiceAleatorio]}
 
 try {
 await m.react(rwait)
+
+if (!res.ok) return conn.reply(m.chat, '🚩 Error al buscar la waifu.', m, fake)
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
