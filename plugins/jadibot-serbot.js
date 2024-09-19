@@ -151,7 +151,7 @@ serbot()
 }
 handler.help = ["serbot"]
 handler.tags = ["jadibot"]
-handler.command = ["serbot", "jadibot", "qr", "botclone"]
+handler.command = ["serbot", "subbot gokusito", "jadibot", "qr", "botclone"]
 // handler.register = true
 export default handler
 function sleep(ms) {
