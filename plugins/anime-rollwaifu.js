@@ -31,7 +31,7 @@ return devofc[indiceAleatorio]}
 
 // Función para mostrar la waifu obtenida
 function mostrarWaifu(waifu) {
-await conn.sendFile(m.chat, devofc.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${devofc.name}\n\n💸 *Valor:*\n◇ ${devofc.value}`, fkontak, null, rcanal)
+await conn.sendFile(m.chat, devofc.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${devofc.name}\n\n💸 *Valor:*\n◇ ${devofc.value}`, fkontak, m, rcanal)}
 
 // Ejecuta la función para obtener y mostrar una waifu aleatoria
 const waifuAleatoria = obtenerWaifuAleatoria();
