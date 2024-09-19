@@ -39,7 +39,7 @@ await conn.sendFile(m.chat, devofc.url, 'thumbnail.jpg', `🚩 *Nombre:*\n◇ ${
 const waifuAleatoria = obtenerWaifuAleatoria();
 mostrarWaifu(waifuAleatoria)
 
-} cath {
+} catch {
 await m.react(error)
 await conn.reply(m.chat, ' 🚩 Ocurrió un error', m fake)}}
 
