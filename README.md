@@ -65,8 +65,6 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 - **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
 - **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
 
-</details>
-------------------
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
