@@ -55,16 +55,18 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-### **`Akira Host 🌹`**
-<a href="https://dash.akira-host.store"><img src="https://qu.ax/PUGF.jpg" height="125px"></a>
+### **`Superiority Pro Hosting 🤖`**
+<a href="https://dash.superiority.pro/login"><img src="https://qu.ax/TiBm.jpg" height="125px"></a>
 
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-- **Dashboard:** [`Aquí`](https://dash.akira-host.store)
-- **Akira - Community:** [`Aquí`](https://chat.whatsapp.com/HjYvHMNz0s1EwBl8sHs2Bj)
-- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s)
+- **Dashboard:** [`Aquí`](https://store.azuraultra-host.pro)
+- **Grupo - Soporte:** [`Aquí`](https://chat.whatsapp.com/LbjpDV0KmZ48iHFSy6n1Gz)
+- **Canal - Oficial:** [`Aquí`](https://whatsapp.com/channel/0029VaoRzN0KmCPMFNe3TD1b)
 
+</details>
+------------------
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
