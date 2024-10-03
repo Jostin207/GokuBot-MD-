@@ -71,7 +71,7 @@ href="https://github.com/GataNina-Li/GataBot-MD"><img src="https://github.com/Ga
 href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="140" height="140" alt="Jostin"/></a>
 
 
-🗣️🗿 [@Jostin207](https://github.com/Jostin207) 
+🗣️🗿☝️[@Jostin207](https://github.com/Jostin207) 
 
 
 <!-- RAINBOW LINE BOT -->
