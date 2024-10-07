@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/93e3c259-6220-497e-b575-505ed708bc44
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
  ### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=4000&pause=1000&color=FFCE00&width=435&lines=%F0%9F%91%91+DUDAS+SOBRE+EL+BOT%3F%2CCONTACTA+AL+CREADOR+%F0%9F%91%91" alt="Typing SVG" /></a> 
-<a href="http://wa.me/593939005387?text=Holaaaa+una+pregunta...+tu+eres+el+verdadero+Creador+de+GokuBot-MD?" target="blank"><img src="https://img.shields.io/badge/JOSTIN_CREADOR-De_GokuBot_~MD-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/593939005387?text=Holaaaa+una+pregunta...+tu+eres+el+Creador+de+GokuBot-MD?" target="blank"><img src="https://img.shields.io/badge/JOSTIN_CREADOR-De_GokuBot_~MD-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -78,7 +78,7 @@ href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 
-### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=A5FF8A&center=true&width=435&lines=TEAM+DONDE+ESTA+GOKUBOT-MD+%F0%9F%91%87+" alt="Typing SVG" /></a>
+### <a href="https://github.com/Jostin207"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=1000&color=A5FF8A&center=true&width=435&lines=TEAMS+DONDE+ESTA+GOKUBOT-MD+%F0%9F%91%87+" alt="Typing SVG" /></a>
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
