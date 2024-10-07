@@ -5,7 +5,7 @@ const exec = promisify(_exec).bind(cp);
 const handler = async (m, {conn, isROwner, usedPrefix, command, text}) => {
   const ar = Object.keys(plugins);
   const ar1 = ar.map((v) => v.replace('.js', ''));
-  if (!text) throw `*Ingrese el nombre de algun archivo/plugin que existe en el bot, por ejemplo:*\n\n${usedPrefix + command}* info-estado\n\n*Lista de plugins:*\n*•»* ${ar1.map((v) => ' ' + v).join`\n*•»*`}`;
+  if (!text) throw `*Ingrese el nombre de algun archivo/plugin que existe en el bot, por ejemplo:*\n\n*${usedPrefix + command}* info-estado\n\n*Lista de plugins:*\n*•»* ${ar1.map((v) => ' ' + v).join`\n*•»*`}`;
   if (!ar1.includes(text)) return m.reply(`*No existe ningun archivo/plugin llamado: "${text}", ingrese uno que exista. por ejemplo:\n\n*•»* ${ar1.map((v) => ' ' + v).join`\n*•»*`}`);
   let o;
   try {
