@@ -1,6 +1,6 @@
 const handler = async (m, {conn, participants, usedPrefix, command}) => {
   if (!global.db.data.settings[conn.user.jid].restrict) throw '*Las restrinciones no estan activas.*';
-  const kicktext = `Mensiona a la persona para eliminarlo del grupo.`;
+  const kicktext = `*_Debes mensionar a la persona o responder a su mensaje para eliminarlo del grupo 🗣️._*`;
   if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, {mentions: conn.parseMention(kicktext)});
   if (m.mentionedJid.includes(conn.user.jid)) return;
   const user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
