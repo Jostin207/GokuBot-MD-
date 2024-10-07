@@ -666,6 +666,8 @@ break
 case 'promote':
 case 'daradmin':
 case 'darpoder':
+case 'darpower':
+case 'robargp':
 text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
 case 'demote':
 case 'quitarpoder':
