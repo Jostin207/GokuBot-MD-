@@ -31,7 +31,7 @@ ${usedPrefix + command} pconly
 ${usedPrefix + command} gconly
 ${usedPrefix + command} antiprivado`
 
-const isEnable = /true|enable|(turn)?on|1/i.test(command);
+const isEnable = /true|ac|activar|enable|(turn)?on|1/i.test(command);
 const chat = global.db.data.chats[m.chat];
 const user = global.db.data.users[m.sender];
 const bot = global.db.data.settings[conn.user.jid] || {};
