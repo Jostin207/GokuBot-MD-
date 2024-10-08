@@ -146,7 +146,7 @@ serbot();
 };
 handler.help = ['code'];
 handler.tags = ['jadibot'];
-handler.command = ['code', 'ser-gokusito', 'code-gokusito'];
+handler.command = ['code', 'ser-gokubot', 'code-goku'];
 // handler.register = true;
 export default handler;
 function sleep(ms) {
