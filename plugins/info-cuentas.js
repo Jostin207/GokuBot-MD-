@@ -1,54 +1,22 @@
-var handler = async (m, { conn, command }) => {
-
-if (command == 'cuentas' || command == 'cuentasoficiales' || command == 'cuentasof') {
-let str = `𝖡𝗂𝖾𝗇𝗏𝖾𝗇ido/a 𝖠 𝖫𝖺𝗌 𝖢𝗎𝖾𝗇𝗍𝖺𝗌 𝖮𝖿𝗂𝖼𝗂𝖺𝗅𝖾𝗌 🗿
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Github Del Bot* 🌟
-
+let media = [imagen1, imagen2, imagen3].getRandom()
+let handler = async (m, { conn, command }) => {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let str = `*[ CUENTAS OFICIALES ]*
+--------------------
+🗃️ *GITHUB*
 *${md}*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Canal Oficial De GokuBot-MD* 🌻
+--------------------
+💌 *INSTAGRAM*
+*${ig}*
+--------------------
+🚀 *YOUTUBE*
+*${yt}*
+--------------------`
 
- *${channel}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Grupo Oficial De GokuBot-MD* 👑
+await conn.sendFile(m.chat, media, 'Menu1.jpg', str, m, rcanal)}
 
- *${gp1}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Youtube Del Creador* 🗣️
-
-${yt}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*Instagram Del Creador* 🌩
-
-${ig}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
-
-await conn.sendMessage(m.chat, { text: str, contextInfo: { externalAdReply: { title: '', body: wm, thumbnail: imagen2, sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
-}
-
-if (command == 'grupos') {
-let text = `🔗 *Grupo oficial*
-
-> *GokuBot-MD II*
-
-${gp1}
-
-👑 *Canal Oficial*
-
-> *GokuBot-MD*
-
-${channel}`
-
-conn.reply(m.chat, text, m, rcanal)
-}
-
-}
-handler.help = ['cuentasoficiales', 'cuentasofc', 'cuentas', 'grupos']
-handler.tags = ['info']
-handler.command = /^cuentasoficiales|cuentasofc|ctasofc|gpofc$/i
-
+handler.tags = ['main']
+handler.command = /^cuentasoficiales|cuentasofc|cuentas$/i
+handler.exp = 35
 handler.register = true
-
 export default handler
