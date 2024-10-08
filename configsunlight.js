@@ -55,6 +55,7 @@ global.channel2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z' //Cana
 global.yt = 'https://www.youtube.com/@Jostin207Oficialmanito' //Canal De Youtube
 global.md = 'https://github.com/Jostin207/GokuBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/JostinOfici' //Facebook Del Propietario
+global.ig = 'https://www.instagram.com/jostin207ofc'
 global.tiktok = 'https://tiktok.com/@gokubot_md' //Cuenta tiktok
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
