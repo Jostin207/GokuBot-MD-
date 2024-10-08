@@ -17,7 +17,7 @@ let str = `*CUENTAS OFICIALES DE GOKUBOT-MD*
 
 --------------------
 
-🚀 *YOUTUBE Del Propietario*
+🚀 *Youtube Del Propietario*
 
 *${yt}*
 
