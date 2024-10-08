@@ -6,7 +6,7 @@ const handler = async (m, {conn, participants, usedPrefix, command}) => {
   const user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
   const owr = m.chat.split`-`[0];
   await conn.groupParticipantsUpdate(m.chat, [user], 'remove');
-conn.reply('593939005387@s.whatsapp.net', `🗿 Un Admin Acabó De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, rcanal, );
+//conn.reply('593939005387@s.whatsapp.net', `🗿 Un Admin Acabó De Eliminar Un Usuario En El Grupo:\n> ${groupMetadata.subject}.`, m, rcanal, );
 };
 };
 handler.command = /^(kick2|echar2|hechar2|sacar2)$/i;
