@@ -1,10 +1,10 @@
 {
 "name": "GokuBot-MD",
 "website": "https://github.com/Jostin207",
-"description": "Super Bot De WhatsApp",
-"repository": "https://github.com/Jostin207/GokuBot-MD",
+"description": "Mejor Bot De WhatsApp",
+"repository": "https://github.com/Jostin207/GokuBot-MD-",
 "logo": "https://telegra.ph/file/1f216df18864dee32788d.jpg",
-"success_url": "https://github.com/Jostin207/GokuBot-MD",
+"success_url": "https://github.com/Jostin207/GokuBot-MD-",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
 "cloudshell", "super-whatsappbot", "multi_device", "botsito-md", "basebot", "mini", "ai"],
