@@ -88,7 +88,7 @@ href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-[© Powered By SixFin Team ✨️](https://whatsapp.com/channel/0029Vah3kivHbFV2Ky0teP0y)
+[SixFin Team ✨️](https://whatsapp.com/channel/0029Vah3kivHbFV2Ky0teP0y)
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
