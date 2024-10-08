@@ -17,6 +17,8 @@ ${usedPrefix + command} antitoxic
 ${usedPrefix + command} audios
 ${usedPrefix + command} modoadmin
 ${usedPrefix + command} antifake
+${usedPrefix + command} antitrabas
+${usedPrefix + command} antiarabes
 
 🍟 *OPCIONES PARA MI PROPIETARIO*
 
@@ -376,6 +378,12 @@ throw false
 }}
 chat.antiTraba = isEnable
 break
+case 'antiarabes':
+if (m.isGroup) {
+if (!(isAdmin || isROwner || isOwner)) {
+global.dfail('admin', m, conn); 
+throw false
+}}
 case 'simi': case 'chatbot':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
