@@ -5,21 +5,33 @@ let str = `*CUENTAS OFICIALES DE GOKUBOT-MD*
 
 --------------------
 
-🗃️ *GITHUB*
+🗃️ *GitHub Del Bot*
 
 *${md}*
 
 --------------------
 
-💌 *INSTAGRAM*
+💌 *Instagram Del Propietario*
 
 *${ig}*
 
 --------------------
 
-🚀 *YOUTUBE*
+🚀 *YOUTUBE Del Propietario*
 
 *${yt}*
+
+--------------------
+
+🗣️ *Grupo OFC De GokuBot-MD*
+
+*${gp1}*
+
+--------------------
+
+👻 *TikTok Del Bot*
+
+*${tiktok}*
 
 --------------------`
 
