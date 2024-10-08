@@ -7,7 +7,7 @@ import cfonts from 'cfonts';
 import { createInterface } from 'readline';
 import yargs from 'yargs';
 import chalk from 'chalk';
-console.log('\n✰ Iniciando GokuBot ✰');
+console.log('\n✰ Iniciando Ha GokuBot ✰');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
@@ -16,12 +16,12 @@ const rl = createInterface(process.stdin, process.stdout);
 say('Goku\nBot-MD', {
 font: 'block',
 align: 'center',
-colors: ['white']
+colors: ['red']
 });
 say(`Multi Device`, {
 font: 'chrome',
 align: 'center',
-colors: ['red']
+colors: ['White']
 });
 say(`Developed By • Jostin207`, {
 font: 'console',
