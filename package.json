@@ -15,16 +15,16 @@
 "qr": "node index.js qr",
 "code": "node index.js code" },
 
-"homepage": "https://github.com/Jostin207/GokuBot-MD",
+"homepage": "https://github.com/Jostin207/GokuBot-MD-",
 "author": {
 "name": "Jostin.Oғᴄ" },
 
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Jostin207/GokuBot-MD.git" },
+"url": "git+https://github.com/Jostin207/GokuBot-MD-.git" },
 
 "bugs": {
-"url": "https://github.com/Jostin207/GokuBot-MD/issues" },
+"url": "https://github.com/Jostin207/GokuBot-MD-/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@adiwajshing/keyed-db": "^0.2.4",
