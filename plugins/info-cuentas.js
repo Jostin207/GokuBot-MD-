@@ -23,7 +23,7 @@ let str = `*CUENTAS OFICIALES DE GOKUBOT-MD*
 
 --------------------`
 
-await conn.sendFile(m.chat, imagen3, 'luffy.jpg', gps, fkontak, null, rcanal)}
+await conn.sendFile(m.chat, imagen3, 'luffy.jpg', str, fkontak, null, rcanal)}
 
 handler.tags = ['main']
 handler.command = /^cuentasoficiales|cuentasofc|cuentas$/i
