@@ -1,86 +1,70 @@
-let handler = async (m, { conn, command, usedPrefix }) => {
-let txt = `━━━━━━━━》❈《 ━━━━━━━
+let handler = async (m, { conn, usedPrefix, command, text }) => {
 
-_Precios servidores Javascript:_
+let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
 
-* 1gb ram, 1,5gb almacenamiento, 95% CPU = $1,34 / mes
-* 1,5gb ram, 2gb almacenamiento 115% CPU = $2,39 / mes
-* 2gb de ram, 2,5gb almacenamiento, 125% CPU = $3,12 / mes
+¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
 
-━━━━━━━━》❈《 ━━━━━━━
+🖥️ *Totalmente compatible con GokuBot-MD:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de GokuBot-MD y Sky Ultra Plus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
 
-_*¡¡ATENCIÓN!!*_
+🟢 \`\`\`Información del Host\`\`\`
 
-_Los precios de los servidores ya vienen con comisión incluida_
+💻 *Página:*
 
-━━━━━━━━》❈《 ━━━━━━━
+https://dash.skyultraplus.com
 
-_*METODOS DE PAGO:*_
+*🟢 Dashboard:*
 
-* Yape Perú, Número: +51913776697
+https://dash.skyultraplus.com
 
-* Paypal, Link: https://www.paypal.me/KurodaC
+⚙️ *Panel*
 
-* Mercado pago argentino, Alias: matias.381.mp
+https://panel.skyultraplus.com
 
-_*🍁 Información del Host-Akira*_
+💥 *Comunidad de WhatsApp:*
 
-━━━━━━━━》❈《 ━━━━━━━
+https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW
 
-👑 *Página OFC de Akira-Host:*
+*🟣 Discord:*
 
-https://dash.akira-host.store
+https://discord.gg/zvKgtc2RBc
 
-━━━━━━━━》❈《 ━━━━━━━
+🧡 *Canal de WhatsApp:*
 
-*💯 Panel OFC De Akira-Host:*
+https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
 
-https://panel.akira-host.store
+🗣📲 *Contacto:*
 
-━━━━━━━━》❈《 ━━━━━━━
+• wa.me/5214531287294
 
-❤️‍🩹 *Comunidad de Akira-Host WhatsApp:*
+• wa.me/15167096032
 
-https://chat.whatsapp.com/HjYvHMNz0s1EwBl8sHs2Bj
+• wa.me/573147616444
 
-━━━━━━━━》❈《 ━━━━━━━
-
-🧡 *Canal de Akira-Host WhatsApp:*
-
-https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s
-
-━━━━━━━━》❈《 ━━━━━━━
-
-🗣 _*CREADORES:*_
-
-_Daniel:_
-
-* Wa.me/+51913776697
-
-_Matías:_
-
-* Wa.me/+5492215034412
+• https://www.facebook.com/elrebelde21
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
+
 await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363318492622729@newsletter', 
+newsletterJid: '120363301598733462@newsletter', 
 serverMessageId: '', 
-newsletterName: 'Akira-Host 🫂' }, 
+newsletterName: 'Sky-Ultra-Plus ☁️' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `✨ 𝐀𝐊𝐈𝐑𝐀-𝐇𝐎𝐒𝐓 🍂`,
-body: `¡¡¡Que Esperas Para Probrarlo!!!`,
+title: `🤖 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
+body: `¡El plus que necesitas!`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://f.uguu.se/EdMCjMNO.jpg',
-sourceUrl: 'https://dash.akira-host.store'}}},
+thumbnailUrl: 'https://qu.ax/wXciz.jpg', 
+sourceUrl: redeshost}}},
 { quoted: fkontak})
 }
-handler.tags = ['main'] 
-handler.help = ['host', 'hosting'] 
-handler.command = ['host', 'akirah', 'akirahost', 'hosting']
+
+handler.help = ['skyplus']
+handler.tags = ['main']
+handler.command = ['skyplus', 'skyultra', 'skyultraplus', 'ultraplus', 'hosting', 'host']
+
 export default handler
