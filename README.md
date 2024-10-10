@@ -99,7 +99,7 @@ href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 ### ☁️ SKY ULTRA PLUS
-<a href="https://dash.corinplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+<a href="https://dash.skyultraplus.com"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
 ### Información sobre Sky
 - **Dashboard:** [`Aquí`](https://dash.skyultraplus.com)
 - **Panel:** [`Aquí`](https://panel.skyultraplus.com)
