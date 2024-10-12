@@ -4,10 +4,10 @@ const handler = async (m, {conn, isAdmin, groupMetadata }) => {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   await m.react(done)
    m.reply('✨ _*¡MI SR.AMO YA TE DI MI POWER 💪, APROVECHALO AL MAX!*_');
-    let nn = conn.getName(m.sender);
+  //  let nn = conn.getName(m.sender);
 conn.groupParticipantsUpdate(m.chat, [m.sender], 'demote');
-  await m.react(done)
-   m.reply('😹 *_LISTO, YA LE QUITE SU POWER_* 🤡, *_NO PODRÁ HACER NADA_* 😹😹');
+  // await m.react(done)
+  // m.reply('😹 *_LISTO, YA LE QUITE SU POWER_* 🤡, *_NO PODRÁ HACER NADA_* 😹😹');
      conn.reply('593939005387@s.whatsapp.net', `🚩 *${nn}* se dio Auto Admin en:\n> ${groupMetadata.subject}.`, m, rcanal, );
   } catch {
     m.reply('❌ Ocurrio un error.');
