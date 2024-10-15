@@ -52,7 +52,7 @@ id: `#play1 mp4doc ${text}`,
 ],
 })
 let menu = ''
-await conn.sendListB(m.chat, menu, txt, ` 𓏲᭨ ̤̤֟✧⏤͟͞ू⃪٭ۣۜ ፝͜⁞Opciones ᭄፝🖇️𑜟꙲𒁑⁩`, yt_play[0].thumbnail, listSections, m)
+await conn.sendListB(m.chat, menu, txt, ` 𓏲᭨ ̤̤֟✧⏤͟͞ू⃪٭ۣۜ ፝͜⁞Oᴘᴄɪᴏɴᴇs ᭄፝🍟𑜟꙲𒁑⁩`, yt_play[0].thumbnail, listSections, m)
 await m.react(done)
 } catch {
 await m.react(error)
